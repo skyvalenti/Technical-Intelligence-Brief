@@ -1,3 +1,18 @@
+<div align="center">
+  <img 
+    src="./docs/assets/Sky_Technical_Intelligence_Brief.png" 
+    alt="SKY Technical Intelligence Brief Telemetry Dashboard" 
+    style="border-radius: 8px; border: 1px solid #30363D; box-shadow: 0 8px 24px rgba(0,0,0,0.6); max-width: 100%;"
+  />
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active_Telemetry-00E676?style=flat-square&logo=statuspage&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cadence-3x_Daily-00B4D8?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-FFAA00?style=flat-square" />
+  <img src="https://img.shields.io/badge/Deployment-GitHub_Pages-58A6FF?style=flat-square&logo=githubpages&logoColor=white" />
+</p>
+
 # SKY TECHNICAL INTELLIGENCE BRIEF (SKY-TIB)
 
 An automated, high-density technical intelligence telemetry portal tracking 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
