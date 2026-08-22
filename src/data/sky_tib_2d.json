@@ -1,5 +1,5 @@
 {
-  "dispatch_id": "SKY-TIB-2D-2026-08-22-0700Z",
+  "dispatch_id": "SKY-TIB-2D-2026-08-2026-08-22-2312Z",
   "cadence": "Daily Intelligence Run",
   "status": "Active",
   "sector": "VECTOR PIPELINES / GREASE PENCIL / CONCEPT ART / ROTOSCOPING",
@@ -30,16 +30,28 @@
       "vector": "Grease Pencil v3 Geometry Nodes + Vector Streaming",
       "synthesis": "Blender 4.3+ Grease Pencil rewrite shifts 2D stroke primitives to generic curves and point attributes, enabling procedural deformers and real-time SVG geometry node evaluation directly in production viewports.",
       "links": [
-        {"title": "Blender GPv3 Architecture", "url": "https://developer.blender.org/docs/features/grease_pencil_v3/"},
-        {"title": "ASWF OpenTimelineIO", "url": "https://opentimeline.io"}
+        {
+          "title": "Blender GPv3 Architecture",
+          "url": "https://developer.blender.org/docs/features/grease_pencil_v3/"
+        },
+        {
+          "title": "ASWF OpenTimelineIO",
+          "url": "https://opentimeline.io"
+        }
       ]
     },
     {
       "vector": "Neural Rotoscoping + Bezier Auto-Fitting",
       "synthesis": "Segment-Anything (SAM 2) video mask propagation bridges directly with auto-bezier curve fitting engines, reducing per-frame hand rotoscoping hours on animated live-action plates by up to 70%.",
       "links": [
-        {"title": "Meta SAM 2 Video", "url": "https://ai.meta.com/sam2/"},
-        {"title": "OpenRV Playback Specs", "url": "https://www.aswf.io/projects/openrv/"}
+        {
+          "title": "Meta SAM 2 Video",
+          "url": "https://ai.meta.com/sam2/"
+        },
+        {
+          "title": "OpenRV Playback Specs",
+          "url": "https://www.aswf.io/projects/openrv/"
+        }
       ]
     }
   ],
@@ -49,33 +61,67 @@
       "title": "Grease Pencil v3 Standardizes on ASWF OpenUSD Curves",
       "severity": "SEV-1",
       "detail": "Major animation studios establish a cross-DCC vector exchange standard converting Grease Pencil stroke layers into USD BasisCurves and stroke attributes.",
-      "link": {"label": "Blender Developers Report", "url": "https://developer.blender.org"}
+      "link": {
+        "label": "Blender Developers Report",
+        "url": "https://developer.blender.org"
+      }
     },
     {
       "tag": "ROTOSCOPING / INBETWEENING",
       "title": "Vectorized Line Art Inbetweening Reaches 60fps Production Parity",
       "severity": "OPP-1",
       "detail": "Diffusion-guided topological morphing preserves stroke thickness and color boundary anchors without line boiling or flickering across complex head turns.",
-      "link": {"label": "SIGGRAPH 2026 Pre-print", "url": "https://arxiv.org/abs/2405.00000"}
+      "link": {
+        "label": "SIGGRAPH 2026 Pre-print",
+        "url": "https://arxiv.org/abs/2405.00000"
+      }
     }
   ],
   "impact_matrix": [
-    {"sector": "Feature 2D Animation", "vector": "OpenUSD BasisCurves export for Toon Boom & TVPaint.", "rating": "SEV-1", "consequence": "Enables multi-studio pipeline interoperability on feature-length hand-drawn projects.", "source_url": "https://openusd.org"},
-    {"sector": "Anime & Cel Pipelines", "vector": "Automated clean-up & color fill acceleration.", "rating": "OPP-1", "consequence": "Reduces manual cel painting turnaround from 3 days to under 4 hours per sequence.", "source_url": "https://cacani.com"},
-    {"sector": "Editorial & Storyboarding", "vector": "OpenTimelineIO 2D exposure sheet synchronized playback.", "rating": "OPP-2", "consequence": "Maintains instant non-destructive animatic re-timing between storyboard and 3D layout.", "source_url": "https://opentimeline.io"},
-    {"sector": "Webtoon & Digital Comics", "vector": "Dynamic responsive multi-resolution vector rasterization.", "rating": "SEV-2", "consequence": "Eliminates raster compression artifacts on ultra-high-density mobile displays.", "source_url": "https://w3.org/Graphics/SVG/"}
+    {
+      "sector": "Feature 2D Animation",
+      "vector": "OpenUSD BasisCurves export for Toon Boom & TVPaint.",
+      "rating": "SEV-1",
+      "consequence": "Enables multi-studio pipeline interoperability on feature-length hand-drawn projects.",
+      "source_url": "https://openusd.org"
+    },
+    {
+      "sector": "Anime & Cel Pipelines",
+      "vector": "Automated clean-up & color fill acceleration.",
+      "rating": "OPP-1",
+      "consequence": "Reduces manual cel painting turnaround from 3 days to under 4 hours per sequence.",
+      "source_url": "https://cacani.com"
+    },
+    {
+      "sector": "Editorial & Storyboarding",
+      "vector": "OpenTimelineIO 2D exposure sheet synchronized playback.",
+      "rating": "OPP-2",
+      "consequence": "Maintains instant non-destructive animatic re-timing between storyboard and 3D layout.",
+      "source_url": "https://opentimeline.io"
+    },
+    {
+      "sector": "Webtoon & Digital Comics",
+      "vector": "Dynamic responsive multi-resolution vector rasterization.",
+      "rating": "SEV-2",
+      "consequence": "Eliminates raster compression artifacts on ultra-high-density mobile displays.",
+      "source_url": "https://w3.org/Graphics/SVG/"
+    }
   ],
   "research_telemetry": [
     {
       "domain": "VECTOR MORPHING / ARXIV",
       "title": "TopoMorph: Topological Invariant Vector Line Inbetweening",
       "severity": "OPP-1",
-      "specs": {"vram": "8-12GB", "license": "BSD-3-Clause", "interop": "SVG, OpenUSD, JSON"},
+      "specs": {
+        "vram": "8-12GB",
+        "license": "BSD-3-Clause",
+        "interop": "SVG, OpenUSD, JSON"
+      },
       "lineage": [
         "[2022] Deep Animation Inbetweening via Optical Flow Field Warping",
-        "└── [2024] Transformer-based Stroke Correspondence & Anchor Matching",
-        "    └── [2025] Differentiable Raster-to-Vector Bezier Optimization",
-        "        └── [ACTIVE] TopoMorph: Preserving Character Rig Topology at 60fps"
+        "\u2514\u2500\u2500 [2024] Transformer-based Stroke Correspondence & Anchor Matching",
+        "    \u2514\u2500\u2500 [2025] Differentiable Raster-to-Vector Bezier Optimization",
+        "        \u2514\u2500\u2500 [ACTIVE] TopoMorph: Preserving Character Rig Topology at 60fps"
       ],
       "url": "https://arxiv.org/abs/2406.12000"
     }
@@ -85,24 +131,69 @@
       "domain": "DCC VECTOR STANDARDS / ASWF",
       "entity": "OpenVector Core Specification v1.0",
       "rating": "SEV-2",
-      "specs": {"license": "Apache-2.0", "interop": "OpenUSD 24.11, OpenColorIO 2.4"},
+      "specs": {
+        "license": "Apache-2.0",
+        "interop": "OpenUSD 24.11, OpenColorIO 2.4"
+      },
       "governance": "Academy Software Foundation (ASWF) 2D Working Group",
       "url": "https://github.com/AcademySoftwareFoundation"
     }
   ],
   "compute_matrix": [
-    {"platform": "RunPod Serverless PyTorch", "allocation": "RTX 4090 Vectorization Endpoint", "tte": "On-Demand Hourly", "threshold": "Batch convert 2D raster scanned sketches to SVG under 15ms/frame.", "url": "https://runpod.io"},
-    {"platform": "AWS Nimble / Thinkbox Deadline", "allocation": "2D Ink & Paint Batch Queue", "tte": "T-Minus 60d Reserved", "threshold": "Strict per-scene licensing concurrency throttle.", "url": "https://aws.amazon.com/nimble-studio/"},
-    {"platform": "Paperspace Gradient", "allocation": "SAM 2 Video Rotoscoping Sandbox", "tte": "T-Minus 180d", "threshold": "Cap disk utilization on cached frame sequence caches.", "url": "https://paperspace.com"}
+    {
+      "platform": "RunPod Serverless PyTorch",
+      "allocation": "RTX 4090 Vectorization Endpoint",
+      "tte": "On-Demand Hourly",
+      "threshold": "Batch convert 2D raster scanned sketches to SVG under 15ms/frame.",
+      "url": "https://runpod.io"
+    },
+    {
+      "platform": "AWS Nimble / Thinkbox Deadline",
+      "allocation": "2D Ink & Paint Batch Queue",
+      "tte": "T-Minus 60d Reserved",
+      "threshold": "Strict per-scene licensing concurrency throttle.",
+      "url": "https://aws.amazon.com/nimble-studio/"
+    },
+    {
+      "platform": "Paperspace Gradient",
+      "allocation": "SAM 2 Video Rotoscoping Sandbox",
+      "tte": "T-Minus 180d",
+      "threshold": "Cap disk utilization on cached frame sequence caches.",
+      "url": "https://paperspace.com"
+    }
   ],
   "grants_talent": [
-    {"title": "Blender Foundation Development Fund", "rating": "OPP-1", "detail": "€30,000 grant for Grease Pencil to USD Hydra renderer delegate.", "url": "https://fund.blender.org"},
-    {"title": "Cartoon Saloon", "rating": "ROLE", "detail": "Lead 2D/3D Technical Director (OpenUSD & Cel Shading Integration).", "url": "https://www.cartoonsaloon.ie/careers/"},
-    {"title": "Titmouse Animation", "rating": "ROLE", "detail": "Senior Pipeline Engineer (Toon Boom Harmony Python Automation).", "url": "https://titmouse.net/careers/"}
+    {
+      "title": "Blender Foundation Development Fund",
+      "rating": "OPP-1",
+      "detail": "\u20ac30,000 grant for Grease Pencil to USD Hydra renderer delegate.",
+      "url": "https://fund.blender.org"
+    },
+    {
+      "title": "Cartoon Saloon",
+      "rating": "ROLE",
+      "detail": "Lead 2D/3D Technical Director (OpenUSD & Cel Shading Integration).",
+      "url": "https://www.cartoonsaloon.ie/careers/"
+    },
+    {
+      "title": "Titmouse Animation",
+      "rating": "ROLE",
+      "detail": "Senior Pipeline Engineer (Toon Boom Harmony Python Automation).",
+      "url": "https://titmouse.net/careers/"
+    }
   ],
   "talking_points": [
-    {"audience": "Executive Leadership", "script": "Adopting OpenUSD for 2D curve data removes single-vendor animation software lock-in and bridges 2D/3D hybrid workflows seamlessly."},
-    {"audience": "Finance & Operations", "script": "Automated SAM 2-assisted rotoscoping workflows cut visual cleanup outsourced labor cost by 48%."},
-    {"audience": "Pipeline Staff", "script": "Migrate internal asset validation hooks to Grease Pencil v3 attribute format before upgrading production suites to Blender 4.4."}
+    {
+      "audience": "Executive Leadership",
+      "script": "Adopting OpenUSD for 2D curve data removes single-vendor animation software lock-in and bridges 2D/3D hybrid workflows seamlessly."
+    },
+    {
+      "audience": "Finance & Operations",
+      "script": "Automated SAM 2-assisted rotoscoping workflows cut visual cleanup outsourced labor cost by 48%."
+    },
+    {
+      "audience": "Pipeline Staff",
+      "script": "Migrate internal asset validation hooks to Grease Pencil v3 attribute format before upgrading production suites to Blender 4.4."
+    }
   ]
 }

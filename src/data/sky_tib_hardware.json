@@ -1,5 +1,5 @@
 {
-  "dispatch_id": "SKY-TIB-HW-2026-08-22-0700Z",
+  "dispatch_id": "SKY-TIB-HW-2026-08-2026-08-22-2312Z",
   "cadence": "Daily Intelligence Run",
   "status": "Active",
   "sector": "RENDER FARMS / WORKSTATION GPUS / HYPERCONVERGED STORAGE / LED VOLUME PROCESSORS",
@@ -30,16 +30,28 @@
       "vector": "Brompton Tessera SX40 + ST 2110 IP Video Fabric",
       "synthesis": "Virtual Production LED volume processing transitions from legacy 12G-SDI baseband to uncompressed SMPTE ST 2110-20 over 100GbE fiber, eliminating video signal matrix routers across stage stages.",
       "links": [
-        {"title": "Brompton Technology ST 2110", "url": "https://www.bromptontech.com"},
-        {"title": "SMPTE ST 2110 Standards", "url": "https://www.smpte.org"}
+        {
+          "title": "Brompton Technology ST 2110",
+          "url": "https://www.bromptontech.com"
+        },
+        {
+          "title": "SMPTE ST 2110 Standards",
+          "url": "https://www.smpte.org"
+        }
       ]
     },
     {
       "vector": "NVIDIA Blackwell RTX PRO + Liquid-Cooled Density",
       "synthesis": "Next-gen dual-slot workstation GPUs push single-node TDP to 600W, mandating rackmount liquid cooling loops across tier-1 boutique VFX on-prem server rooms.",
       "links": [
-        {"title": "NVIDIA Pro Viz Hardware", "url": "https://www.nvidia.com/design-visualization/"},
-        {"title": "Open Compute Project (OCP)", "url": "https://www.opencompute.org"}
+        {
+          "title": "NVIDIA Pro Viz Hardware",
+          "url": "https://www.nvidia.com/design-visualization/"
+        },
+        {
+          "title": "Open Compute Project (OCP)",
+          "url": "https://www.opencompute.org"
+        }
       ]
     }
   ],
@@ -49,33 +61,67 @@
       "title": "Megapixel VR Helios Unveils 8K 12-bit Genlock LED Pipeline",
       "severity": "SEV-1",
       "detail": "New flagship LED processor architecture processes full 8K 12-bit 4:4:4 color pipelines with sub-frame 0.5ms latency for camera-tracked in-camera visual effects (ICVFX).",
-      "link": {"label": "Megapixel VR Press Release", "url": "https://megapixelvr.com"}
+      "link": {
+        "label": "Megapixel VR Press Release",
+        "url": "https://megapixelvr.com"
+      }
     },
     {
       "tag": "STORAGE / NVME-OF",
       "title": "VAST Data Universal Storage Reaches 100GB/s Parallel EXR Streaming",
       "severity": "OPP-1",
       "detail": "Disaggregated Shared-Everything (DASE) flash architectures deliver line-rate playback for uncompressed 8K DPX/EXR multi-seat flame finishing suites simultaneously.",
-      "link": {"label": "VAST Data VFX Benchmark", "url": "https://vastdata.com"}
+      "link": {
+        "label": "VAST Data VFX Benchmark",
+        "url": "https://vastdata.com"
+      }
     }
   ],
   "impact_matrix": [
-    {"sector": "Virtual Production Stages", "vector": "SMPTE ST 2110 uncompressed network LED video feeds.", "rating": "SEV-1", "consequence": "Replaces bulky SDI cabling with lightweight, scalable multi-channel 100GbE fiber.", "source_url": "https://smpte.org"},
-    {"sector": "On-Prem Render Farms", "vector": "Hybrid CPU/GPU headless render node density optimization.", "rating": "OPP-1", "consequence": "Doubles compute throughput per rack unit while decreasing per-node power consumption by 18%.", "source_url": "https://supermicro.com"},
-    {"sector": "Workstations & DCC Desktops", "vector": "PCIe 5.0 M.2 thermal throttling during sustained texture bake.", "rating": "SEV-2", "consequence": "Requires active heatsink ducting to prevent workstation stall during complex simulation caching.", "source_url": "https://pugetsystems.com"},
-    {"sector": "Color Grading & Finishing", "vector": "Thunderbolt 5 & 100GbE direct client-attached storage.", "rating": "OPP-2", "consequence": "Enables realtime scrubbing of RAW camera files without prior proxy rendering passes.", "source_url": "https://blackmagicdesign.com"}
+    {
+      "sector": "Virtual Production Stages",
+      "vector": "SMPTE ST 2110 uncompressed network LED video feeds.",
+      "rating": "SEV-1",
+      "consequence": "Replaces bulky SDI cabling with lightweight, scalable multi-channel 100GbE fiber.",
+      "source_url": "https://smpte.org"
+    },
+    {
+      "sector": "On-Prem Render Farms",
+      "vector": "Hybrid CPU/GPU headless render node density optimization.",
+      "rating": "OPP-1",
+      "consequence": "Doubles compute throughput per rack unit while decreasing per-node power consumption by 18%.",
+      "source_url": "https://supermicro.com"
+    },
+    {
+      "sector": "Workstations & DCC Desktops",
+      "vector": "PCIe 5.0 M.2 thermal throttling during sustained texture bake.",
+      "rating": "SEV-2",
+      "consequence": "Requires active heatsink ducting to prevent workstation stall during complex simulation caching.",
+      "source_url": "https://pugetsystems.com"
+    },
+    {
+      "sector": "Color Grading & Finishing",
+      "vector": "Thunderbolt 5 & 100GbE direct client-attached storage.",
+      "rating": "OPP-2",
+      "consequence": "Enables realtime scrubbing of RAW camera files without prior proxy rendering passes.",
+      "source_url": "https://blackmagicdesign.com"
+    }
   ],
   "research_telemetry": [
     {
       "domain": "DISPLAY HARDWARE / SMPTE",
       "title": "ST 2110-20 In-Camera VFX Synchronization & Latency Profile",
       "severity": "SEV-1",
-      "specs": {"bandwidth": "48 Gbps uncompressed", "latency": "< 0.5 frames", "sync": "PTP IEEE 1588"},
+      "specs": {
+        "bandwidth": "48 Gbps uncompressed",
+        "latency": "< 0.5 frames",
+        "sync": "PTP IEEE 1588"
+      },
       "lineage": [
         "[2018] 12G-SDI Single-Link Digital Video (4K60p 10-bit Limit)",
-        "└── [2021] SMPTE ST 2110-20 Uncompressed IP Video Transport",
-        "    └── [2023] NMOS IS-04/IS-05 Dynamic Device Discovery & Connection Management",
-        "        └── [ACTIVE] ST 2110-22 Constant Bitrate Sub-Frame Processing for LED Volumes"
+        "\u2514\u2500\u2500 [2021] SMPTE ST 2110-20 Uncompressed IP Video Transport",
+        "    \u2514\u2500\u2500 [2023] NMOS IS-04/IS-05 Dynamic Device Discovery & Connection Management",
+        "        \u2514\u2500\u2500 [ACTIVE] ST 2110-22 Constant Bitrate Sub-Frame Processing for LED Volumes"
       ],
       "url": "https://www.smpte.org/standards"
     }
@@ -85,24 +131,69 @@
       "domain": "SYSTEM ARCHITECTURE / OPEN SOURCE",
       "entity": "Open-Source OpenCompute (OCP) 48V Modular Server Spec",
       "rating": "OPP-1",
-      "specs": {"power_efficiency": "97.5%", "form_factor": "21-inch Open Rack v3"},
+      "specs": {
+        "power_efficiency": "97.5%",
+        "form_factor": "21-inch Open Rack v3"
+      },
       "governance": "Open Compute Project Foundation",
       "url": "https://www.opencompute.org"
     }
   ],
   "compute_matrix": [
-    {"platform": "On-Premises Supermicro Cluster", "allocation": "64x Dual AMD EPYC 9654 + 8x RTX 6000 Ada Nodes", "tte": "5-Year Capital Lifecycle", "threshold": "Monitor rack thermal limits; throttle if ambient exceeds 32°C.", "url": "https://supermicro.com"},
-    {"platform": "Qumulo / TrueNAS Enterprise", "allocation": "2 PB NVMe-oF High-Speed Playback Pool", "tte": "Continuous Active Sync", "threshold": "Alert if aggregate read latency exceeds 1.2 milliseconds.", "url": "https://qumulo.com"},
-    {"platform": "Equinix Metal Bare-Metal PoP", "allocation": "Burst Render Capacity (128 Nodes)", "tte": "30-Day Project Lease", "threshold": "De-provision instances automatically when render queue drains.", "url": "https://metal.equinix.com"}
+    {
+      "platform": "On-Premises Supermicro Cluster",
+      "allocation": "64x Dual AMD EPYC 9654 + 8x RTX 6000 Ada Nodes",
+      "tte": "5-Year Capital Lifecycle",
+      "threshold": "Monitor rack thermal limits; throttle if ambient exceeds 32\u00b0C.",
+      "url": "https://supermicro.com"
+    },
+    {
+      "platform": "Qumulo / TrueNAS Enterprise",
+      "allocation": "2 PB NVMe-oF High-Speed Playback Pool",
+      "tte": "Continuous Active Sync",
+      "threshold": "Alert if aggregate read latency exceeds 1.2 milliseconds.",
+      "url": "https://qumulo.com"
+    },
+    {
+      "platform": "Equinix Metal Bare-Metal PoP",
+      "allocation": "Burst Render Capacity (128 Nodes)",
+      "tte": "30-Day Project Lease",
+      "threshold": "De-provision instances automatically when render queue drains.",
+      "url": "https://metal.equinix.com"
+    }
   ],
   "grants_talent": [
-    {"title": "SMPTE Student & Education Hardware Grant", "rating": "OPP-1", "detail": "$25,000 lab equipment grant for ST 2110 broadcast and virtual production test rigs.", "url": "https://www.smpte.org/grants"},
-    {"title": "Framestore", "rating": "ROLE", "detail": "Principal Infrastructure Architect (High-Density Render Farms & NVMe Storage).", "url": "https://www.framestore.com/careers"},
-    {"title": "Pixar Animation Studios", "rating": "ROLE", "detail": "Lead Systems Engineer (Renderfarm Cluster Orchestration & Linux Kernel Tuning).", "url": "https://www.pixar.com/careers"}
+    {
+      "title": "SMPTE Student & Education Hardware Grant",
+      "rating": "OPP-1",
+      "detail": "$25,000 lab equipment grant for ST 2110 broadcast and virtual production test rigs.",
+      "url": "https://www.smpte.org/grants"
+    },
+    {
+      "title": "Framestore",
+      "rating": "ROLE",
+      "detail": "Principal Infrastructure Architect (High-Density Render Farms & NVMe Storage).",
+      "url": "https://www.framestore.com/careers"
+    },
+    {
+      "title": "Pixar Animation Studios",
+      "rating": "ROLE",
+      "detail": "Lead Systems Engineer (Renderfarm Cluster Orchestration & Linux Kernel Tuning).",
+      "url": "https://www.pixar.com/careers"
+    }
   ],
   "talking_points": [
-    {"audience": "Executive Leadership", "script": "Migrating stage infrastructure to SMPTE ST 2110 IP video future-proofs studios for multi-camera 8K in-camera VFX without costly recabling."},
-    {"audience": "Finance & Operations", "script": "Investing in high-density liquid-cooled render nodes cuts facility power and HVAC electricity bills by 24%."},
-    {"audience": "Pipeline Staff", "script": "Configure PTP IEEE 1588 grandmaster clocks across all network switches to prevent micro-stutter on camera sync feeds."}
+    {
+      "audience": "Executive Leadership",
+      "script": "Migrating stage infrastructure to SMPTE ST 2110 IP video future-proofs studios for multi-camera 8K in-camera VFX without costly recabling."
+    },
+    {
+      "audience": "Finance & Operations",
+      "script": "Investing in high-density liquid-cooled render nodes cuts facility power and HVAC electricity bills by 24%."
+    },
+    {
+      "audience": "Pipeline Staff",
+      "script": "Configure PTP IEEE 1588 grandmaster clocks across all network switches to prevent micro-stutter on camera sync feeds."
+    }
   ]
 }
