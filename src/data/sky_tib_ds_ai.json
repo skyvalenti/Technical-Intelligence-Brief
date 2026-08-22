@@ -1,0 +1,108 @@
+{
+  "dispatch_id": "SKY-TIB-AI-2026-08-22-0700Z",
+  "cadence": "Daily Intelligence Run",
+  "status": "Active",
+  "sector": "NEURAL RENDERING / MOTION CAPTURE SYNTHESIS / ASSET METADATA / DIFFUSION FOR VFX",
+  "metrics": {
+    "sev_1": {
+      "level": "SEV-1: DISRUPTIVE",
+      "driver": "Foundational Diffusion Transformers for VFX Plates",
+      "value": 92
+    },
+    "opp_1": {
+      "level": "OPP-1: HIGH YIELD",
+      "driver": "Synthetic Motion Vector & Normal Map Conditioners",
+      "value": 84
+    },
+    "sev_2": {
+      "level": "SEV-2: ELEVATED",
+      "driver": "NeRF to OpenUSD Mesh Decimation Drift",
+      "value": 68
+    },
+    "opp_2": {
+      "level": "OPP-2: NOMINAL",
+      "driver": "Zero-Shot Rig Retargeting Models",
+      "value": 52
+    }
+  },
+  "compound_impact_analysis": [
+    {
+      "vector": "DiT Video Inpainting + Cryptographic Shot Watermarking",
+      "synthesis": "Diffusion Transformer video inpainting models deploy alongside C2PA Content Credentials, enabling production studios to execute seamless wire/rig removal while preserving forensic authenticity logs.",
+      "links": [
+        {"title": "C2PA Content Provenance", "url": "https://c2pa.org"},
+        {"title": "OpenUSD AI Working Group", "url": "https://openusd.org"}
+      ]
+    },
+    {
+      "vector": "Markerless MoCap Diffusion + Skeletal Physics Solvers",
+      "synthesis": "Single-camera monocular video pose estimation connects with Mujoco differentiable physics solvers, generating foot-skate-free animation takes directly into Maya & Unreal Engine rigs.",
+      "links": [
+        {"title": "MuJoCo Physics Engine", "url": "https://mujoco.org"},
+        {"title": "ArXiv SMPL-X Synthesis", "url": "https://arxiv.org/abs/2309.00000"}
+      ]
+    }
+  ],
+  "executive_brief": [
+    {
+      "tag": "NEURAL RENDERING / VFX",
+      "title": "4K Temporal-Consistent Video Inpainting Stabilized for Nuke",
+      "severity": "SEV-1",
+      "detail": "Native OFX neural plugins integrate latent diffusion solvers with optical flow warp guidance, delivering flicker-free clean plates directly within Nuke compositing scripts.",
+      "link": {"label": "Foundry R&D Whitepaper", "url": "https://www.foundry.com"}
+    },
+    {
+      "tag": "MOTION SYNTHESIS / XR",
+      "title": "Autoregressive MoCap Transformers Enable Real-Time Crowds",
+      "severity": "OPP-1",
+      "detail": "Sub-50ms latency crowd generative models simulate thousands of reactive background digital doubles with zero repetitive animation cycles in Unreal Engine 5.5.",
+      "link": {"label": "SIGGRAPH Asia 2026 Proceedings", "url": "https://arxiv.org/abs/2404.18000"}
+    }
+  ],
+  "impact_matrix": [
+    {"sector": "VFX Compositing", "vector": "Temporal latent inpainting OFX nodes in Nuke/Flame.", "rating": "SEV-1", "consequence": "Cuts paint/cleanup turnaround from days to minutes per shot.", "source_url": "https://foundry.com"},
+    {"sector": "Game Animation & Mocap", "vector": "Single-camera markerless motion capture synthesis.", "rating": "OPP-1", "consequence": "Democratizes high-fidelity stunt capture for indie and mid-tier game development studios.", "source_url": "https://deepmotion.com"},
+    {"sector": "Virtual Production & LED", "vector": "Real-time AI upscaling & neural radiance background filling.", "rating": "SEV-2", "consequence": "Maintains 90fps native rendering on massive LED volume stage walls.", "source_url": "https://nvidia.com/vfx"},
+    {"sector": "Asset Library Management", "vector": "Multimodal CLIP/OpenUSD 3D semantic vector indexing.", "rating": "OPP-2", "consequence": "Allows artists to query millions of studio 3D models via natural language prompts.", "source_url": "https://qdrant.tech"}
+  ],
+  "research_telemetry": [
+    {
+      "domain": "NEURAL COMPOSITING / ARXIV",
+      "title": "CleanPlate-DiT: Flow-Guided Video Inpainting for Film VFX",
+      "severity": "SEV-1",
+      "specs": {"vram": "24GB (RTX 4090/A100)", "license": "MIT", "interop": "OFX, PyTorch 2.4, OpenEXR"},
+      "lineage": [
+        "[2022] Stable Diffusion Latent Inpainting (Single-Frame Static Plates)",
+        "└── [2023] ProPainter / Flow-Guided Pixel Propagation",
+        "    └── [2024] Video Diffusion Transformers with Spatial-Temporal Cross-Attention",
+        "        └── [ACTIVE] CleanPlate-DiT: Zero-Flicker Native EXR Color Space Synthesis"
+      ],
+      "url": "https://arxiv.org/abs/2407.15000"
+    }
+  ],
+  "infrastructure_watch": [
+    {
+      "domain": "MACHINE LEARNING / ASWF",
+      "entity": "ASWF OpenData & AI Toolkit v2.0",
+      "rating": "OPP-1",
+      "specs": {"license": "Apache-2.0", "interop": "OpenUSD, OpenEXR 3.3, PyTorch C++ API"},
+      "governance": "Academy Software Foundation AI & ML Working Group",
+      "url": "https://github.com/AcademySoftwareFoundation"
+    }
+  ],
+  "compute_matrix": [
+    {"platform": "Lambda Labs On-Demand", "allocation": "8x H100 SXM5 Cluster for Inpainting Fine-Tuning", "tte": "Daily Spot Instances", "threshold": "Enforce automated checkpoint sync to S3 to guard against preemptions.", "url": "https://lambdalabs.com"},
+    {"platform": "Together AI Inference API", "allocation": "Serverless DiT Video Clean-Plate Endpoints", "tte": "Pay-Per-Token", "threshold": "Set rate limits at 10 concurrent 4K shot render streams.", "url": "https://together.ai"},
+    {"platform": "Fal.ai Fast Video Inference", "allocation": "Sub-Second Character Pose Generator", "tte": "Monthly Tier ($5,000 credit pool)", "threshold": "Route non-urgent batch requests to low-priority queue.", "url": "https://fal.ai"}
+  ],
+  "grants_talent": [
+    {"title": "PyTorch Foundation Ecosystem Grant", "rating": "OPP-1", "detail": "$40,000 grant for native OpenEXR half-float tensors in PyTorch C++.", "url": "https://pytorch.org/foundation"},
+    {"title": "Industrial Light & Magic (ILM)", "rating": "ROLE", "detail": "Lead Machine Learning Engineer (Neural Inpainting & Deep Fake Detection).", "url": "https://www.ilm.com/careers/"},
+    {"title": "Wētā FX", "rating": "ROLE", "detail": "Senior AI Research Scientist (Neural Muscle Deformers & Facial Rigs).", "url": "https://www.wetafx.co.nz/careers/"}
+  ],
+  "talking_points": [
+    {"audience": "Executive Leadership", "script": "Neural inpainting and asset metadata search unlock 30% faster post-production turnover on VFX-heavy episodes."},
+    {"audience": "Finance & Operations", "script": "Utilizing serverless DiT inference for routine clean-plate paint saves $140,000 annually in outsourced rotomation."},
+    {"audience": "Pipeline Staff", "script": "Ensure all neural OFX tools respect studio ACEScg and OpenColorIO color transform pipelines without sRGB clamping."}
+  ]
+}

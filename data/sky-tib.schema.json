@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sky.intel/schemas/sky-tib-report.json",
+  "title": "SkyTechnicalIntelligenceBrief",
+  "description": "Schema for SKY Technical Intelligence Briefs in 3D Platforms, Computer Graphics Pipelines, Scientific Computing, and Academic Research.",
+  "type": "object",
+  "required": [
+    "dispatch_id",
+    "cadence",
+    "status",
+    "sector",
+    "metrics",
+    "executive_brief",
+    "impact_matrix",
+    "compute_matrix",
+    "grants_talent"
+  ],
+  "properties": {
+    "dispatch_id": { "type": "string" },
+    "cadence": { "type": "string" },
+    "status": { "type": "string" },
+    "sector": { "type": "string" },
+    "metrics": {
+      "type": "object",
+      "required": ["sev_1", "opp_1", "sev_2", "opp_2"],
+      "properties": {
+        "sev_1": { "type": "number" },
+        "opp_1": { "type": "number" },
+        "sev_2": { "type": "number" },
+        "opp_2": { "type": "number" }
+      }
+    },
+    "executive_brief": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["tag", "title", "severity", "detail"],
+        "properties": {
+          "tag": { "type": "string" },
+          "title": { "type": "string" },
+          "severity": { "type": "string" },
+          "detail": { "type": "string" }
+        }
+      }
+    },
+    "impact_matrix": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sector", "vector", "rating", "consequence"],
+        "properties": {
+          "sector": { "type": "string" },
+          "vector": { "type": "string" },
+          "rating": { "type": "string" },
+          "consequence": { "type": "string" }
+        }
+      }
+    },
+    "compute_matrix": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["platform", "allocation", "tte", "threshold"],
+        "properties": {
+          "platform": { "type": "string" },
+          "allocation": { "type": "string" },
+          "tte": { "type": "string" },
+          "threshold": { "type": "string" }
+        }
+      }
+    },
+    "grants_talent": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "rating", "detail"],
+        "properties": {
+          "title": { "type": "string" },
+          "rating": { "type": "string" },
+          "detail": { "type": "string" }
+        }
+      }
+    }
+  }
+}

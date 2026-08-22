@@ -1,0 +1,28 @@
+{
+  "domains": {
+    "3d_graphics": {
+      "id": "3d_graphics",
+      "label": "3D PLATFORMS & PIPELINES",
+      "sector": "3D ENGINES / DCC / VIRTUAL PRODUCTION / SCIENTIFIC COMPUTING",
+      "data_file": "sky_tib_3d.json"
+    },
+    "2d_animation": {
+      "id": "2d_animation",
+      "label": "2D ART & ANIMATION",
+      "sector": "VECTOR PIPELINES / GREASE PENCIL / CONCEPT ART / ROTOSCOPING",
+      "data_file": "sky_tib_2d.json"
+    },
+    "data_science_ai": {
+      "id": "data_science_ai",
+      "label": "DATA SCIENCE & ENTERTAINMENT AI",
+      "sector": "NEURAL RENDERING / MOTION CAPTURE SYNTHESIS / ASSET METADATA / DIFFUSION FOR VFX",
+      "data_file": "sky_tib_ds_ai.json"
+    },
+    "hardware_infra": {
+      "id": "hardware_infra",
+      "label": "HARDWARE & ON-PREM INFRASTRUCTURE",
+      "sector": "RENDER FARMS / WORKSTATION GPUS / HYPERCONVERGED STORAGE / LED VOLUME PROCESSORS",
+      "data_file": "sky_tib_hardware.json"
+    }
+  }
+}

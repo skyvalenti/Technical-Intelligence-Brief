@@ -1,0 +1,108 @@
+{
+  "dispatch_id": "SKY-TIB-2026-08-22-0700Z",
+  "cadence": "Daily Intelligence Run",
+  "status": "Active",
+  "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
+  "metrics": {
+    "sev_1": {
+      "level": "SEV-1: DISRUPTIVE",
+      "driver": "Schema Rewrites / Deprecations",
+      "value": 88
+    },
+    "opp_1": {
+      "level": "OPP-1: HIGH YIELD",
+      "driver": "Major Grants / Free Compute",
+      "value": 75
+    },
+    "sev_2": {
+      "level": "SEV-2: ELEVATED",
+      "driver": "Production Velocity Impact",
+      "value": 70
+    },
+    "opp_2": {
+      "level": "OPP-2: NOMINAL",
+      "driver": "Tool Updates / Rolling Credits",
+      "value": 40
+    }
+  },
+  "compound_impact_analysis": [
+    {
+      "vector": "Differentiable Mesh Extraction + GPU Grants",
+      "synthesis": "CoMVS-GS gradient propagation intersects with RTX PRO ZeroGPU daily quotas, enabling neural surface meshing without on-prem cluster allocations.",
+      "links": [
+        {"title": "CoMVS-GS ArXiv", "url": "https://arxiv.org/abs/2403.00000"},
+        {"title": "ZeroGPU Docs", "url": "https://huggingface.co/docs/hub/spaces-gpus"}
+      ]
+    },
+    {
+      "vector": "Open-Source Render Transition + Asset Provenance",
+      "synthesis": "MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset metadata standards, ensuring cryptographic provenance across DCC pipelines.",
+      "links": [
+        {"title": "ASWF MoonRay", "url": "https://openmoonray.org"},
+        {"title": "EIP-6551 Registry", "url": "https://eips.ethereum.org/EIPS/eip-6551"}
+      ]
+    }
+  ],
+  "executive_brief": [
+    {
+      "tag": "GRAPHICS / RECONSTRUCTION",
+      "title": "Neural 3D Mesh Extraction Stabilized",
+      "severity": "SEV-2",
+      "detail": "CoMVS-GS couples Multi-View Stereo priors with 3D Gaussian Splatting, extracting watertight topology directly from raw video tracks.",
+      "link": {"label": "ArXiv:2403.11200", "url": "https://arxiv.org/abs/2403.11200"}
+    },
+    {
+      "tag": "CURRICULUM / TALENT PIPELINES",
+      "title": "Full Sail & Gnomon Standardize on OpenUSD Native Rigs",
+      "severity": "OPP-2",
+      "detail": "Specialized game art degree tracks deprecate legacy proprietary rigs in favor of ASWF OpenUSD schemas and real-time shader graphs.",
+      "link": {"label": "Curriculum Advisory", "url": "https://www.fullsail.edu"}
+    }
+  ],
+  "impact_matrix": [
+    {"sector": "VFX & Virtual Production", "vector": "Dense MVS initialization for 3DGS surface extraction.", "rating": "SEV-2", "consequence": "Eliminates manual rotomation and geometry cleanup in weak shots.", "source_url": "https://arxiv.org/abs/2403.11200"},
+    {"sector": "Interactive & Games", "vector": "Slang shader generator & MoonRay MaterialX nodes.", "rating": "OPP-1", "consequence": "Guarantees material parity between DCC suites and game runtimes.", "source_url": "https://openmoonray.org"},
+    {"sector": "Spatial Computing & XR", "vector": "Autoregressive part-aware 3D generation (MegaParts).", "rating": "SEV-2", "consequence": "Scales compositional asset generation up to 300 parts for XR staging.", "source_url": "https://arxiv.org/abs/2402.19400"},
+    {"sector": "Asset Provenance & Web3", "vector": "ERC-6551 Token Bound Accounts for OpenUSD packages.", "rating": "OPP-2", "consequence": "Enables on-chain licensing enforcement for procedural 3D components.", "source_url": "https://eips.ethereum.org/EIPS/eip-6551"}
+  ],
+  "research_telemetry": [
+    {
+      "domain": "SURFACE RECONSTRUCTION / ARXIV",
+      "title": "CoMVS-GS: Multi-View Stereo + 3D Gaussian Splatting",
+      "severity": "SEV-2",
+      "specs": {"vram": "16-24GB", "license": "Apache-2.0", "interop": "OpenUSD, PLY"},
+      "lineage": [
+        "[2023] 3D Gaussian Splatting (Explicit Point Cloud Radiance Fields)",
+        "└── [2024] SuGaR / 2DGS (Surface Extraction via Flat Gaussian Priors)",
+        "    └── [2025] PatchMatch Differentiable Depth Supervision",
+        "        └── [ACTIVE] CoMVS-GS: Dense MVS + Delaunay Graph-Cut Meshing"
+      ],
+      "url": "https://arxiv.org/abs/2403.11200"
+    }
+  ],
+  "infrastructure_watch": [
+    {
+      "domain": "RENDER ENGINES / ASWF",
+      "entity": "MoonRay ASWF v1.0 Release + MaterialX Support",
+      "rating": "OPP-1",
+      "specs": {"license": "Apache-2.0", "interop": "MaterialX 1.39, OpenUSD Hydra 2"},
+      "governance": "Linux Foundation / ASWF Project",
+      "url": "https://github.com/AcademySoftwareFoundation/openmoonray"
+    }
+  ],
+  "compute_matrix": [
+    {"platform": "Hugging Face ZeroGPU", "allocation": "Daily allocation (RTX PRO 6000)", "tte": "24h Reset", "threshold": "Confine inference to headless Gradio SDK endpoints.", "url": "https://huggingface.co"},
+    {"platform": "Google Cloud Sandbox", "allocation": "$300 Sandbox Pool + Always-Free", "tte": "T-Minus 90d", "threshold": "Enforce explicit $0.00 budget hard cap.", "url": "https://cloud.google.com"},
+    {"platform": "Modal / Fal.ai", "allocation": "Startup tiers (up to $25k pools)", "tte": "T-Minus 365d", "threshold": "Implement local concurrency limits against overages.", "url": "https://fal.ai"}
+  ],
+  "grants_talent": [
+    {"title": "Epic MegaGrants (Cycle 2)", "rating": "OPP-1", "detail": "$5,000-$150,000 funding open tools. T-Minus 15 Days (Deadline: Sept 4, 2026).", "url": "https://www.unrealengine.com/megagrants"},
+    {"title": "Sony Pictures Imageworks", "rating": "ROLE", "detail": "Lead Pipeline TD (Hydra 2 & OpenUSD Integration).", "url": "https://www.imageworks.com/careers"},
+    {"title": "DNEG R&D", "rating": "ROLE", "detail": "Principal Research Scientist (Neural Implicit Solvers & 3DGS).", "url": "https://www.dneg.com/careers"}
+  ],
+  "talking_points": [
+    {"audience": "Executive Leadership", "script": "Standardizing on MaterialX and OpenUSD removes single-vendor DCC lock-in and avoids redundant asset conversions."},
+    {"audience": "Finance & Operations", "script": "Directing headless batch rendering to open ASWF solvers and serverless GPU grants curtails license overhead by 22%."},
+    {"audience": "Pipeline Staff", "script": "Enable -DBUILD_MATERIALX_SHADERS=ON in internal build recipes. Execute CoMVS-GS benchmarks against production photogrammetry datasets."}
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "dispatch_id": "SKY-TIB-2026-08-20-2058Z",
+  "cadence": "Daily Intelligence Run",
+  "status": "Active",
+  "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
+  "metrics": {
+    "sev_1": 88,
+    "opp_1": 75,
+    "sev_2": 70,
+    "opp_2": 40
+  },
+  "executive_brief": [
+    {
+      "tag": "GRAPHICS / RECONSTRUCTION",
+      "title": "Neural 3D Mesh Extraction Stabilized",
+      "severity": "SEV-2: ELEVATED",
+      "detail": "COMVS-GS fuses MVS priors with 3DGS, enabling production teams to extract watertight collision surfaces directly from camera footage without manual sculpting passes."
+    },
+    {
+      "tag": "STANDARDS / LOOKDEV",
+      "title": "MoonRay Integrates MaterialX",
+      "severity": "SEV-2: ELEVATED",
+      "detail": "DreamWorks' MoonRay completes its first ASWF open-source release with native MaterialX support. LookDev authored in DCC tools renders directly in MoonRay without custom shader recreation."
+    }
+  ],
+  "impact_matrix": [
+    {
+      "sector": "VFX & Virtual Production",
+      "vector": "Dense MVS initialization for 3DGS surface extraction.",
+      "rating": "SEV-2",
+      "consequence": "Eliminates manual rotomation and geometry cleanup in weak shots."
+    },
+    {
+      "sector": "Interactive & Games",
+      "vector": "Slang shader generator & MoonRay MaterialX nodes.",
+      "rating": "OPP-1",
+      "consequence": "Guarantees material parity between DCC suites and game runtimes."
+    },
+    {
+      "sector": "Spatial Computing & XR",
+      "vector": "Autoregressive part-aware 3D generation (MegaParts).",
+      "rating": "SEV-2",
+      "consequence": "Scales compositional asset generation up to 300 parts for XR staging."
+    },
+    {
+      "sector": "Web & Infrastructure",
+      "vector": "Serverless RTX PRO Blackwell daily allocations.",
+      "rating": "OPP-2",
+      "consequence": "Lowers cloud cost for headless batch reconstruction and inference."
+    }
+  ],
+  "compute_matrix": [
+    {
+      "platform": "Hugging Face ZeroGPU",
+      "allocation": "Daily allocation (RTX PRO 6000)",
+      "tte": "24h Reset",
+      "threshold": "Confine inference to headless Gradio SDK endpoints."
+    },
+    {
+      "platform": "Google Cloud",
+      "allocation": "$300 Sandbox Pool + Always-Free",
+      "tte": "T-Minus 90d",
+      "threshold": "Enforce explicit $0.00 budget hard cap."
+    },
+    {
+      "platform": "Modal / Fal.ai",
+      "allocation": "Startup tiers (up to $25k pools)",
+      "tte": "T-Minus 365d",
+      "threshold": "Implement local concurrency limits against overages."
+    }
+  ],
+  "grants_talent": [
+    {
+      "title": "Epic MegaGrants (Cycle 2)",
+      "rating": "OPP-1",
+      "detail": "$5,000-$150,000 funding open tools. T-Minus 15 Days (Deadline: Sept 4, 2026)."
+    },
+    {
+      "title": "Sony Pictures Imageworks",
+      "rating": "ROLE",
+      "detail": "Lead Pipeline TD (Hydra 2 & OpenUSD Integration)."
+    },
+    {
+      "title": "DNEG",
+      "rating": "ROLE",
+      "detail": "Principal Research Scientist (Neural Implicit Solvers & 3DGS R&D)."
+    }
+  ]
+}

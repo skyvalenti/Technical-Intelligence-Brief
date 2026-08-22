@@ -1,0 +1,22 @@
+{
+  "short_name": "SKY TECH BRIEF",
+  "name": "Sky Technical Intelligence Brief",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#070A0F",
+  "theme_color": "#070A0F",
+  "display": "standalone"
+}

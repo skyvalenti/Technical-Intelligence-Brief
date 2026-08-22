@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-telemetry-cyan: #00f0ff;
+    --color-telemetry-emerald: #00ff66;
+    --color-telemetry-amber: #ffb000;
+    --color-telemetry-crimson: #ff2a5f;
+    --color-telemetry-bg: #030712;
+    --color-telemetry-panel: #080d1a;
+    --color-telemetry-border: #152238;
+  }
+
+  body {
+    font-family: 'JetBrains Mono', 'Share Tech Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    background-color: #030712;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Monospace Tactical Grid Background */
+.bg-tactical-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 240, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 240, 255, 0.04) 1px, transparent 1px);
+}
+
+.bg-tactical-dots {
+  background-size: 20px 20px;
+  background-image: radial-gradient(rgba(0, 240, 255, 0.12) 1px, transparent 1px);
+}
+
+/* Scanline Overlay */
+.scanlines {
+  position: relative;
+}
+.scanlines::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
+  background-size: 100% 4px;
+  z-index: 40;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* Neon Glow Utilities */
+.glow-cyan {
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.25);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.25);
+}
+
+.glow-amber {
+  box-shadow: 0 0 15px rgba(255, 176, 0, 0.25);
+}
+
+.glow-crimson {
+  box-shadow: 0 0 15px rgba(255, 42, 95, 0.35);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.6);
+}
+
+.text-glow-emerald {
+  text-shadow: 0 0 8px rgba(0, 255, 102, 0.6);
+}
+
+.text-glow-amber {
+  text-shadow: 0 0 8px rgba(255, 176, 0, 0.6);
+}
+
+.text-glow-crimson {
+  text-shadow: 0 0 8px rgba(255, 42, 95, 0.7);
+}
+
+/* Custom Scrollbar for High-Density Monospace Logs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #040711;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f0ff;
+}
+
+/* Corner bracket accents for HUD boxes */
+.hud-corner-tl {
+  position: relative;
+}
+.hud-corner-tl::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #00f0ff;
+  border-left: 2px solid #00f0ff;
+  pointer-events: none;
+}
+.hud-corner-tl::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #00f0ff;
+  border-right: 2px solid #00f0ff;
+  pointer-events: none;
+}
+
+@keyframes radar-sweep {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-radar {
+  animation: radar-sweep 4s linear infinite;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
