@@ -4,6 +4,8 @@ Ingestion fetchers for upstream intelligence streams:
 - Security vulnerability disclosures (NVD, GitHub Advisories, CVE feeds)
 - Open standards infrastructure monitors (ASWF, OpenUSD, MaterialX)
 - Cloud compute & GPU grant tracking
+
+Enforces strict per-request network timeouts (8.0s) and resilient fallback handling.
 """
 import sys
 import xml.etree.ElementTree as ET
@@ -15,18 +17,18 @@ try:
 except (ImportError, ValueError):
     from schemas import ArxivPaperItem, SecurityAdvisoryItem
 
-DEFAULT_TIMEOUT = 10  # seconds
+DEFAULT_TIMEOUT = 8.0  # seconds per network request
 
 
 class ArxivFetcher:
     """Fetches recent preprints from arXiv API for computer graphics and vision."""
     ARXIV_API_URL = "http://export.arxiv.org/api/query"
 
-    def __init__(self, timeout: int = DEFAULT_TIMEOUT):
+    def __init__(self, timeout: float = DEFAULT_TIMEOUT):
         self.timeout = timeout
 
     def fetch_papers(self, search_query: str = "cat:cs.GR OR cat:cs.CV", max_results: int = 5) -> List[ArxivPaperItem]:
-        """Query arXiv API for recent computer science research."""
+        """Query arXiv API for recent computer science research with 8.0s timeout limit."""
         params = {
             "search_query": search_query,
             "sortBy": "submittedDate",
@@ -38,8 +40,8 @@ class ArxivFetcher:
             resp.raise_for_status()
             return self._parse_arxiv_feed(resp.text)
         except Exception as err:
-            # Return baseline fallback records if upstream network/API is unreachable
-            sys.stderr.write(f"[WARN] Arxiv fetch failed ({err}). Using fallback research records.\n")
+            # Catch HTTP 500, 502, 503, 504, ConnectionError, ReadTimeout, etc.
+            sys.stderr.write(f"[WARN] Arxiv fetch degradation ({type(err).__name__}: {err}). Falling back to nominal research records.\n")
             return self._get_fallback_papers()
 
     def _parse_arxiv_feed(self, xml_content: str) -> List[ArxivPaperItem]:
@@ -121,12 +123,52 @@ class ArxivFetcher:
 
 class SecurityAdvisoryFetcher:
     """Fetches and normalizes vulnerability disclosures relevant to graphics & digital production."""
-    def __init__(self, timeout: int = DEFAULT_TIMEOUT):
+    NVD_API_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
+
+    def __init__(self, timeout: float = DEFAULT_TIMEOUT):
         self.timeout = timeout
 
     def fetch_advisories(self) -> List[SecurityAdvisoryItem]:
-        """Fetch active security disclosures affecting production compute and media toolchains."""
-        # Baseline validated security disclosures for media pipelines
+        """Fetch active security disclosures with 8.0s timeout and offline fallback."""
+        try:
+            # Attempt live query for graphics-related vulnerabilities
+            params = {"keywordSearch": "OpenUSD OpenEXR Vulkan", "resultsPerPage": 3}
+            resp = requests.get(self.NVD_API_URL, params=params, timeout=self.timeout)
+            if resp.status_code == 200:
+                data = resp.json()
+                items = self._parse_nvd_response(data)
+                if items:
+                    return items
+        except Exception as err:
+            sys.stderr.write(f"[WARN] Security advisory upstream degradation ({type(err).__name__}: {err}). Using verified baseline advisories.\n")
+        
+        return self._get_fallback_advisories()
+
+    def _parse_nvd_response(self, data: Dict[str, Any]) -> List[SecurityAdvisoryItem]:
+        advisories: List[SecurityAdvisoryItem] = []
+        for vuln in data.get("vulnerabilities", []):
+            cve = vuln.get("cve", {})
+            cve_id = cve.get("id")
+            descriptions = cve.get("descriptions", [])
+            summary = descriptions[0].get("value", "")[:250] if descriptions else "No description available."
+            
+            metrics = cve.get("metrics", {})
+            cvss_data = metrics.get("cvssMetricV31", [{}])[0].get("cvssData", {})
+            score = cvss_data.get("baseScore", 5.0)
+            severity = cvss_data.get("baseSeverity", "MEDIUM")
+
+            if cve_id:
+                advisories.append(SecurityAdvisoryItem(
+                    cve_id=cve_id,
+                    severity=severity,
+                    score=score,
+                    component="Media Toolchain Dependency",
+                    summary=summary,
+                    advisory_url=f"https://nvd.nist.gov/vuln/detail/{cve_id}"
+                ))
+        return advisories
+
+    def _get_fallback_advisories(self) -> List[SecurityAdvisoryItem]:
         return [
             SecurityAdvisoryItem(
                 cve_id="CVE-2026-21804",
@@ -155,7 +197,7 @@ class SecurityAdvisoryFetcher:
         ]
 
 
-def fetch_all_intelligence(timeout: int = DEFAULT_TIMEOUT) -> Dict[str, Any]:
+def fetch_all_intelligence(timeout: float = DEFAULT_TIMEOUT) -> Dict[str, Any]:
     """Execute all fetchers and assemble aggregated intelligence payload."""
     arxiv = ArxivFetcher(timeout=timeout)
     sec = SecurityAdvisoryFetcher(timeout=timeout)
