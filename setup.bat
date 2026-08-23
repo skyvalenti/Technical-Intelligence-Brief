@@ -22,12 +22,12 @@ echo.
 
 echo [2/3] Installing Dependencies...
 call npm install
-!PYTHON_CMD! -m pip install Pillow requests
+!PYTHON_CMD! -m pip install -r requirements.txt
 echo Dependencies: OK
 echo.
 
 echo [3/3] Ingesting Initial Telemetry Data...
-!PYTHON_CMD! scripts/fetch_sky_tib.py
+!PYTHON_CMD! src/pipeline.py
 echo Ingestion: OK
 echo.
 

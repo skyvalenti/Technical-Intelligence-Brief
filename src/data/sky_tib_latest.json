@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-08-23 09:26 UTC",
+  "generated_at": "2026-08-23 09:49 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -124,9 +124,9 @@
       },
       "lineage": [
         "[2023] 3D Gaussian Splatting (Explicit Point Cloud Radiance Fields)",
-        "\u2514\u2500\u2500 [2024] SuGaR / 2DGS (Surface Extraction via Flat Gaussian Priors)",
-        "    \u2514\u2500\u2500 [2025] PatchMatch Differentiable Depth Supervision",
-        "        \u2514\u2500\u2500 [ACTIVE] CoMVS-GS: Dense MVS + Delaunay Graph-Cut Meshing"
+        "└── [2024] SuGaR / 2DGS (Surface Extraction via Flat Gaussian Priors)",
+        "    └── [2025] PatchMatch Differentiable Depth Supervision",
+        "        └── [ACTIVE] CoMVS-GS: Dense MVS + Delaunay Graph-Cut Meshing"
       ],
       "url": "https://arxiv.org/abs/2403.11200"
     }
