@@ -2,6 +2,14 @@
 
 An automated, high-density technical intelligence telemetry portal tracking 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
 
+<div align="center">
+  <img 
+    src="./docs/assets/Sky_Technical_Intelligence_Brief.png" 
+    alt="SKY Technical Intelligence Brief Telemetry Dashboard" 
+    style="border-radius: 8px; border: 1px solid #30363D; box-shadow: 0 8px 24px rgba(0,0,0,0.6); max-width: 100%;"
+  />
+</div>
+
 <p align="center">
   <!-- Pings workflow status directly at skyvalenti/sky-tech-brief/deploy.yml -->
   <a href="https://github.com/skyvalenti/sky-tech-brief/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/actions/workflow/status/skyvalenti/sky-tech-brief/deploy.yml?label=Automated%20Feeds&logo=githubactions&logoColor=white&style=flat-square" alt="Automated Feeds Status" /></a>
@@ -11,14 +19,6 @@ An automated, high-density technical intelligence telemetry portal tracking 3D p
   <img src="https://img.shields.io/badge/License-MIT-FFAA00?style=flat-square" />
   <a href="https://skyvalenti.github.io/sky-tech-brief/"><img src="https://img.shields.io/badge/Deployment-GitHub_Pages-58A6FF?style=flat-square&logo=githubpages&logoColor=white" /></a>
 </p>
-
-<div align="center">
-  <img 
-    src="./docs/assets/Sky_Technical_Intelligence_Brief.png" 
-    alt="SKY Technical Intelligence Brief Telemetry Dashboard" 
-    style="border-radius: 8px; border: 1px solid #30363D; box-shadow: 0 8px 24px rgba(0,0,0,0.6); max-width: 100%;"
-  />
-</div>
 
 <p align="center">
   <em>Once implemented, the local development server will open automatically. The dashboard interface can then be tested by utilizing the vertical dropdown to verify that dynamic, client-side loading of different telemetry payloads (e.g., the Data Science & Entertainment AI vertical) functions as designed.</em>
