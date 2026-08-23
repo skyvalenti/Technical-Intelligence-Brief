@@ -57,7 +57,13 @@ SKY-TIB operates on an asynchronous static decoupled architecture:
 * Node.js 20+
 * Python 3.10+ with `Pillow` and `requests`
 
-### Local Execution
+### One-Click Onboarding (Windows)
+After cloning, run `setup.bat`:
+```cmd
+setup.bat
+```
+
+### Manual Setup & Execution
 ```bash
 # Clone the repository
 git clone https://github.com/skyvalenti/sky-tech-brief.git
