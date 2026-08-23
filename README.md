@@ -1,5 +1,16 @@
-<!-- README.md Banner -->
-# SKY TECHNICAL INTELLIGENCE BRIEF
+# SKY TECHNICAL INTELLIGENCE BRIEF (SKY-TIB)
+
+An automated, high-density technical intelligence telemetry portal tracking 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
+
+<p align="center">
+  <!-- Pings workflow status directly at skyvalenti/sky-tech-brief/deploy.yml -->
+  <a href="https://github.com/skyvalenti/sky-tech-brief/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/actions/workflow/status/skyvalenti/sky-tech-brief/deploy.yml?label=Automated%20Feeds&logo=githubactions&logoColor=white&style=flat-square" alt="Automated Feeds Status" /></a>
+  <img src="https://img.shields.io/github/last-commit/skyvalenti/sky-tech-brief?style=flat-square&label=Last%20Telemetry%20Sync&logo=github&logoColor=white" alt="Last Telemetry Sync" />
+  <img src="https://img.shields.io/badge/Status-Active_Telemetry-00E676?style=flat-square&logo=statuspage&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cadence-3x_Daily-00B4D8?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-FFAA00?style=flat-square" />
+  <a href="https://skyvalenti.github.io/sky-tech-brief/"><img src="https://img.shields.io/badge/Deployment-GitHub_Pages-58A6FF?style=flat-square&logo=githubpages&logoColor=white" /></a>
+</p>
 
 <div align="center">
   <img 
@@ -10,22 +21,8 @@
 </div>
 
 <p align="center">
-  <!-- Pings workflow status directly at skyvalenti/sky-tech-brief/deploy.yml -->
-  <a href="https://github.com/skyvalenti/sky-tech-brief/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/actions/workflow/status/skyvalenti/sky-tech-brief/deploy.yml?label=Telemetry%20Pipeline&logo=githubactions&logoColor=white&style=flat-square" alt="Telemetry Pipeline Status" /></a>
-  
-  <!-- (Existing dynamic commit badge and static badge suite continue below...) -->
-  <img src="https://img.shields.io/github/last-commit/skyvalenti/sky-tech-brief?style=flat-square&label=Last%20Telemetry%20Sync&logo=github&logoColor=white" alt="Last Telemetry Sync" />
+  <em>Once implemented, the local development server will open automatically. The dashboard interface can then be tested by utilizing the vertical dropdown to verify that dynamic, client-side loading of different telemetry payloads (e.g., the Data Science & Entertainment AI vertical) functions as designed.</em>
 </p>
-
-<!-- (Rest of your static badges...) -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active_Telemetry-00E676?style=flat-square&logo=statuspage&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cadence-3x_Daily-00B4D8?style=flat-square" />
-  <img src="https://img.shields.io/badge/License-MIT-FFAA00?style=flat-square" />
-  <img src="https://img.shields.io/badge/Deployment-GitHub_Pages-58A6FF?style=flat-square&logo=githubpages&logoColor=white" />
-</p>
-
-An automated, high-density technical intelligence telemetry portal tracking 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
 
 ---
 
