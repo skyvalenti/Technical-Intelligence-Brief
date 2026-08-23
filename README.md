@@ -1,6 +1,8 @@
 <!-- README.md Banner -->
 # SKY TECHNICAL INTELLIGENCE BRIEF (SKY-TIB)
 
+An automated, high-density technical intelligence telemetry portal tracking 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
+
 <div align="center">
   <img 
     src="./docs/assets/Sky_Technical_Intelligence_Brief.png" 
@@ -19,7 +21,9 @@
   <img src="https://img.shields.io/badge/License-MIT-FFAA00?style=flat-square" alt="License" />
 </p>
 
-An automated, high-density technical intelligence telemetry portal tracking 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
+<p align="center">
+  <em>Automated Data Acquisition Sequence. Once implemented, the local development server will open automatically. The dashboard interface can then be tested by utilizing the vertical dropdown to verify that dynamic, client-side loading of different telemetry payloads (e.g., the Data Science & Entertainment AI vertical) functions as designed.</em>
+</p>
 
 ---
 
