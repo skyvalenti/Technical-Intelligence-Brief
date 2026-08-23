@@ -1,28 +1,28 @@
 {
-  "dispatch_id": "SKY-TIB-HW-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-23-0052Z",
-  "cadence": "Daily Intelligence Run",
-  "status": "Active",
+  "dispatch_id": "SKY-TIB-HW-2026-08-23-0055Z",
+  "cadence": "Daily Intelligence Run (3x UTC)",
+  "status": "Active / Nominal Baseline",
   "sector": "RENDER FARMS / WORKSTATION GPUS / HYPERCONVERGED STORAGE / LED VOLUME PROCESSORS",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: DISRUPTIVE",
-      "driver": "PCIe 5.0 Workstation Thermal & Power Envelope Caps",
+      "driver": "SMPTE ST 2110 uncompressed network LED video feeds.",
       "value": 85
     },
     "opp_1": {
       "level": "OPP-1: HIGH YIELD",
-      "driver": "SMPTE ST 2110-20 Uncompressed IP Video on NICs",
-      "value": 80
+      "driver": "ST 2110 IP Video Standardization",
+      "value": 76
     },
     "sev_2": {
-      "level": "SEV-2: ELEVATED",
-      "driver": "NVMe-oF High-Density Storage Latency Spikes",
-      "value": 72
+      "level": "SEV-2: NOMINAL",
+      "driver": "Storage SAN Latency Baseline",
+      "value": 25
     },
     "opp_2": {
       "level": "OPP-2: NOMINAL",
-      "driver": "Direct-to-GPU Video Ingestion for LED Walls",
-      "value": 48
+      "driver": "Firmware & Driver Patch Stream",
+      "value": 54
     }
   },
   "compound_impact_analysis": [

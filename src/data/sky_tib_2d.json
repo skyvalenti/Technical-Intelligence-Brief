@@ -1,28 +1,28 @@
 {
-  "dispatch_id": "SKY-TIB-2D-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-23-0052Z",
-  "cadence": "Daily Intelligence Run",
-  "status": "Active",
+  "dispatch_id": "SKY-TIB-2D-2026-08-23-0055Z",
+  "cadence": "Daily Intelligence Run (3x UTC)",
+  "status": "Active / Nominal Baseline",
   "sector": "VECTOR PIPELINES / GREASE PENCIL / CONCEPT ART / ROTOSCOPING",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: DISRUPTIVE",
-      "driver": "Grease Pencil v3 Data Model Migration",
-      "value": 82
+      "driver": "OpenUSD BasisCurves export for Toon Boom & TVPaint.",
+      "value": 85
     },
     "opp_1": {
       "level": "OPP-1: HIGH YIELD",
-      "driver": "OpenVector & SVG Native Hydra Renderers",
-      "value": 78
+      "driver": "Real-time Rigging Tooling",
+      "value": 70
     },
     "sev_2": {
-      "level": "SEV-2: ELEVATED",
-      "driver": "Automated Keyframe Inbetweening & Vectorization",
-      "value": 65
+      "level": "SEV-2: NOMINAL",
+      "driver": "Animation Pipeline Velocity",
+      "value": 22
     },
     "opp_2": {
       "level": "OPP-2: NOMINAL",
-      "driver": "OpenTimelineIO 2D Exposure Sheet Bridge",
-      "value": 45
+      "driver": "OpenTimelineIO Bridge Cadence",
+      "value": 55
     }
   },
   "compound_impact_analysis": [

@@ -1,13 +1,13 @@
 {
-  "dispatch_id": "SKY-TIB-2026-08-20-2058Z",
-  "cadence": "Daily Intelligence Run",
-  "status": "Active",
+  "dispatch_id": "SKY-TIB-2026-08-23-0055Z",
+  "cadence": "Daily Intelligence Run (3x UTC)",
+  "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
   "metrics": {
-    "sev_1": 88,
+    "sev_1": 14,
     "opp_1": 75,
-    "sev_2": 70,
-    "opp_2": 40
+    "sev_2": 24,
+    "opp_2": 60
   },
   "executive_brief": [
     {

@@ -1,28 +1,28 @@
 {
-  "dispatch_id": "SKY-TIB-3D-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-23-0052Z",
-  "cadence": "Daily Intelligence Run",
-  "status": "Active",
+  "dispatch_id": "SKY-TIB-3D-2026-08-23-0055Z",
+  "cadence": "Daily Intelligence Run (3x UTC)",
+  "status": "Active / Nominal Baseline",
   "sector": "3D ENGINES / DCC / VIRTUAL PRODUCTION / SCIENTIFIC COMPUTING",
   "metrics": {
     "sev_1": {
-      "level": "SEV-1: DISRUPTIVE",
-      "driver": "Schema Rewrites / Deprecations",
-      "value": 88
+      "level": "SEV-1: NOMINAL",
+      "driver": "USD/Hydra Schema Stability",
+      "value": 14
     },
     "opp_1": {
       "level": "OPP-1: HIGH YIELD",
-      "driver": "Major Grants / Free Compute",
+      "driver": "Active Developer GPU Grants",
       "value": 75
     },
     "sev_2": {
-      "level": "SEV-2: ELEVATED",
-      "driver": "Production Velocity Impact",
-      "value": 70
+      "level": "SEV-2: NOMINAL",
+      "driver": "Render Pipeline Velocity",
+      "value": 24
     },
     "opp_2": {
       "level": "OPP-2: NOMINAL",
-      "driver": "Tool Updates / Rolling Credits",
-      "value": 40
+      "driver": "ASWF Open-Source Releases",
+      "value": 62
     }
   },
   "compound_impact_analysis": [

@@ -1,28 +1,28 @@
 {
-  "dispatch_id": "SKY-TIB-AI-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-2026-08-23-0052Z",
-  "cadence": "Daily Intelligence Run",
-  "status": "Active",
+  "dispatch_id": "SKY-TIB-AI-2026-08-23-0055Z",
+  "cadence": "Daily Intelligence Run (3x UTC)",
+  "status": "Active / Nominal Baseline",
   "sector": "NEURAL RENDERING / MOTION CAPTURE SYNTHESIS / ASSET METADATA / DIFFUSION FOR VFX",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: DISRUPTIVE",
-      "driver": "Foundational Diffusion Transformers for VFX Plates",
-      "value": 92
+      "driver": "Temporal latent inpainting OFX nodes in Nuke/Flame.",
+      "value": 85
     },
     "opp_1": {
       "level": "OPP-1: HIGH YIELD",
-      "driver": "Synthetic Motion Vector & Normal Map Conditioners",
-      "value": 84
+      "driver": "Open Weights & ZeroGPU Pools",
+      "value": 82
     },
     "sev_2": {
-      "level": "SEV-2: ELEVATED",
-      "driver": "NeRF to OpenUSD Mesh Decimation Drift",
-      "value": 68
+      "level": "SEV-2: NOMINAL",
+      "driver": "Inference Latency Monitoring",
+      "value": 28
     },
     "opp_2": {
       "level": "OPP-2: NOMINAL",
-      "driver": "Zero-Shot Rig Retargeting Models",
-      "value": 52
+      "driver": "Neural Solver Benchmark Updates",
+      "value": 60
     }
   },
   "compound_impact_analysis": [
