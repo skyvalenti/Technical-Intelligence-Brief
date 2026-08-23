@@ -43,7 +43,35 @@ SKY-TIB operates on an asynchronous static decoupled architecture:
 
 ---
 
-## 3. Production Use Cases
+## 3. Interface & Telemetry Views
+
+### 1. Multi-Domain Vertical Routing
+Switch between discrete entertainment pipeline sectors using the top-level selector:
+
+<div align="center">
+  <img 
+    src="./docs/assets/Verticals.png" 
+    alt="Domain Vertical Selection" 
+    style="border-radius: 6px; border: 1px solid #30363D; max-width: 60%;"
+  />
+</div>
+
+---
+
+### 2. Sector Telemetry & Engineering Desks
+The secondary view provides deep operational analysis across academic literature, infrastructure commits, and compute quotas:
+
+<div align="center">
+  <img 
+    src="./docs/assets/Sector_Telemetry.png" 
+    alt="Technical Telemetry & Sectors View" 
+    style="border-radius: 8px; border: 1px solid #30363D; box-shadow: 0 8px 24px rgba(0,0,0,0.6); max-width: 100%;"
+  />
+</div>
+
+---
+
+## 4. Production Use Cases
 
 * **Pipeline Technical Directors (TDs)**: Monitor breaking schema rewrites, Hydra render delegate updates, and upstream DCC commit branches.
 * **R&D Engineers & Research Scientists**: Track state-of-the-art reconstructive algorithms (3DGS, neural implicit solvers) with verified open code/weights.
@@ -51,7 +79,7 @@ SKY-TIB operates on an asynchronous static decoupled architecture:
 
 ---
 
-## 4. Local Development & Deployment
+## 5. Local Development & Deployment
 
 ### Prerequisites
 * Node.js 20+
