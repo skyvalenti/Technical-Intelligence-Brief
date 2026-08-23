@@ -83,35 +83,67 @@ The secondary view provides deep operational analysis across academic literature
 
 ---
 
-## 5. Local Development & Deployment
+## 5. Deployment & Execution Modes
 
-### Prerequisites
-* Node.js 20+
-* Python 3.10+ with `Pillow` and `requests`
+### Mode 1: Zero-Install Desktop App (PWA / Taskbar Mode)
+For non-developers and production consumption without keeping terminal processes running in the foreground.
 
-### One-Click Onboarding (Windows)
-After cloning, run `setup.bat`:
-```cmd
+#### Why Use App Mode?
+* **Zero Overhead**: Does not consume local compute, memory, or open ports via local build servers.
+* **Automated Data Feed**: Reads telemetry synced directly from the 3x daily ingestion pipeline on GitHub Actions.
+* **Isolated Window**: Operates in an uncluttered, borderless window with native Windows Start Menu and Taskbar integration.
+
+#### Browser Setup Instructions
+* **Google Chrome**:
+  1. Navigate to the live deployment: `https://skyvalenti.github.io/Technical-Intelligence-Brief/`
+  2. Click the **Install** icon in the address bar, or open **Menu (⋮)** -> **Cast, save, and share** -> **Install page as app...**
+  3. Once open, right-click the icon on the Windows Taskbar and select **Pin to taskbar**.
+* **Microsoft Edge**:
+  1. Open the deployment URL.
+  2. Click **Menu (⋯)** -> **Apps** -> **Install this site as an app**.
+  3. Check **Pin to taskbar** and **Pin to Start** in the post-install prompt.
+* **Mozilla Firefox**:
+  1. Firefox does not offer standard native desktop PWA installation by default.
+  2. Open the URL and drag the padlock icon from the address bar to your Windows Desktop to generate a dedicated desktop launcher.
+  3. Alternatively, install the open-source extension [Progressive Web Apps for Firefox](https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/) to run isolated web instances.
+
+---
+
+### Mode 2: Local Developer Setup
+
+#### Prerequisites
+* **Node.js**: v20.x or higher ([Download Node.js](https://nodejs.org/)) (Verify with `node -v`)
+* **Python**: v3.11+ ([Download Python](https://www.python.org/downloads/windows/)) (Verify via launcher with `py --version`, or fallback `python --version` depending on PATH)
+* **Pip**: Installed via Python launcher (`py -m pip install --upgrade pip` or `python -m pip install --upgrade pip`)
+
+#### Quickstart Automation
+Clone the repository and run the setup script:
+```bash
+git clone https://github.com/skyvalenti/Technical-Intelligence-Brief.git
+cd Technical-Intelligence-Brief
 setup.bat
 ```
 
-### Manual Setup & Execution
+#### Manual Developer Workflow
 ```bash
-# Clone the repository
-git clone https://github.com/skyvalenti/Technical-Intelligence-Brief.git
-cd Technical-Intelligence-Brief
-
 # Install dependencies
 npm install
-pip install Pillow requests
+py -m pip install Pillow requests
 
-# Fetch latest telemetry and start the local server
-python scripts/fetch_sky_tib.py
+# Fetch latest telemetry and start local server
+py scripts/fetch_sky_tib.py
 npm run dev
 ```
 
 ### Building for Production
-
 ```bash
 npm run build
 ```
+
+---
+
+## Technical Reference & Learning Topics
+
+* **Standards Bodies**: [Academy Software Foundation (ASWF)](https://www.aswf.io/) | [OpenUSD Documentation](https://openusd.org/) | [MaterialX Specification](https://materialx.org/)
+* **Toolchain Architecture**: [Vite Build Tool](https://vite.dev/) | [React Documentation](https://react.dev/) | [Tailwind CSS Engine](https://tailwindcss.com/)
+* **CI/CD Telemetry Automation**: [GitHub Actions Workflow Documentation](https://docs.github.com/en/actions)
