@@ -13,6 +13,7 @@
   <a href="https://github.com/skyvalenti/Technical-Intelligence-Brief/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/actions/workflow/status/skyvalenti/Technical-Intelligence-Brief/deploy.yml?branch=main&label=Automated%20Feeds&logo=githubactions&logoColor=white&style=flat-square" alt="Automated Feeds" /></a>
   <a href="https://skyvalenti.github.io/Technical-Intelligence-Brief/"><img src="https://img.shields.io/badge/Deployment-GitHub_Pages-58A6FF?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages Deployment" /></a>
   <img src="https://img.shields.io/badge/Sync%20Cadence-3x%20Daily-00B4D8?style=flat-square" alt="Sync Cadence" />
+  <br />
   <img src="https://img.shields.io/badge/Architecture-Static%20Decoupled-00E676?style=flat-square" alt="Architecture" />
   <img src="https://img.shields.io/github/last-commit/skyvalenti/Technical-Intelligence-Brief?style=flat-square&label=Last%20Telemetry%20Sync&logo=github&logoColor=white" alt="Last Telemetry Sync" />
   <img src="https://img.shields.io/badge/License-MIT-FFAA00?style=flat-square" alt="License" />
