@@ -6,13 +6,21 @@
   />
 </div>
 
+<!-- CORRECTED DYNAMIC BADGES (Fixing placeholder errors) -->
 <p align="center">
-  <a href="https://github.com/skyvalenti/sky-tech-brief/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/actions/workflow/status/skyvalenti/sky-tech-brief/deploy.yml?branch=main&label=Telemetry%20Pipeline&logo=githubactions&logoColor=white&style=flat-square" alt="Telemetry Pipeline Status" /></a>
-  <a href="https://skyvalenti.github.io/sky-tech-brief/"><img src="https://img.shields.io/badge/Deployment-GitHub_Pages-58A6FF?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages Deployment" /></a>
-  <img src="https://img.shields.io/badge/Sync%20Cadence-3x%20Daily-00B4D8?style=flat-square" alt="Sync Cadence" />
-  <img src="https://img.shields.io/badge/Architecture-Static%20Decoupled-00E676?style=flat-square" alt="Architecture" />
-  <img src="https://img.shields.io/github/last-commit/skyvalenti/sky-tech-brief?style=flat-square&label=Last%20Telemetry%20Sync&logo=github&logoColor=white" alt="Last Telemetry Sync" />
-  <img src="https://img.shields.io/badge/License-MIT-FFAA00?style=flat-square" alt="License" />
+  <!-- Pings workflow status directly at skyvalenti/sky-tech-brief/deploy.yml -->
+  <img src="https://img.shields.io/github/actions/workflow/status/skyvalenti/sky-tech-brief/deploy.yml?label=Pipeline%20Status&style=flat-square&logo=githubactions&logoColor=white" alt="Telemetry Pipeline Status" />
+  
+  <!-- Pings last commit timestamp at skyvalenti/sky-tech-brief -->
+  <img src="https://img.shields.io/github/last-commit/skyvalenti/sky-tech-brief?label=Last%20Sync&style=flat-square&color=white&logo=github&logoColor=white" alt="Last Telemetry Sync" />
+</p>
+
+<!-- (Rest of your static badges...) -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active_Telemetry-00E676?style=flat-square&logo=statuspage&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cadence-3x_Daily-00B4D8?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-FFAA00?style=flat-square" />
+  <img src="https://img.shields.io/badge/Deployment-GitHub_Pages-58A6FF?style=flat-square&logo=githubpages&logoColor=white" />
 </p>
 
 # SKY TECHNICAL INTELLIGENCE BRIEF (SKY-TIB)
