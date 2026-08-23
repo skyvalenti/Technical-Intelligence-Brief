@@ -1,3 +1,6 @@
+<!-- README.md Banner -->
+# SKY TECHNICAL INTELLIGENCE BRIEF
+
 <div align="center">
   <img 
     src="./docs/assets/Sky_Technical_Intelligence_Brief.png" 
@@ -6,13 +9,12 @@
   />
 </div>
 
-<!-- CORRECTED DYNAMIC BADGES (Fixing placeholder errors) -->
 <p align="center">
   <!-- Pings workflow status directly at skyvalenti/sky-tech-brief/deploy.yml -->
-  <img src="https://img.shields.io/github/actions/workflow/status/skyvalenti/sky-tech-brief/deploy.yml?label=Pipeline%20Status&style=flat-square&logo=githubactions&logoColor=white" alt="Telemetry Pipeline Status" />
+  <a href="https://github.com/skyvalenti/sky-tech-brief/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/actions/workflow/status/skyvalenti/sky-tech-brief/deploy.yml?label=Telemetry%20Pipeline&logo=githubactions&logoColor=white&style=flat-square" alt="Telemetry Pipeline Status" /></a>
   
-  <!-- Pings last commit timestamp at skyvalenti/sky-tech-brief -->
-  <img src="https://img.shields.io/github/last-commit/skyvalenti/sky-tech-brief?label=Last%20Sync&style=flat-square&color=white&logo=github&logoColor=white" alt="Last Telemetry Sync" />
+  <!-- (Existing dynamic commit badge and static badge suite continue below...) -->
+  <img src="https://img.shields.io/github/last-commit/skyvalenti/sky-tech-brief?style=flat-square&label=Last%20Telemetry%20Sync&logo=github&logoColor=white" alt="Last Telemetry Sync" />
 </p>
 
 <!-- (Rest of your static badges...) -->
@@ -22,8 +24,6 @@
   <img src="https://img.shields.io/badge/License-MIT-FFAA00?style=flat-square" />
   <img src="https://img.shields.io/badge/Deployment-GitHub_Pages-58A6FF?style=flat-square&logo=githubpages&logoColor=white" />
 </p>
-
-# SKY TECHNICAL INTELLIGENCE BRIEF (SKY-TIB)
 
 An automated, high-density technical intelligence telemetry portal tracking 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
 
