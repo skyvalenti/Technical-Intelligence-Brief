@@ -1,0 +1,136 @@
+<!-- Automated Telemetry Compilation -->
+# SKY TECHNICAL INTELLIGENCE BRIEF (SKY-TIB)
+
+An automated, schema-validated intelligence ingestion engine tracking 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
+
+<div align="center">
+  <img 
+    src="./assets/Sky_Technical_Intelligence_Brief.png" 
+    alt="SKY Technical Intelligence Brief Telemetry Dashboard" 
+    style="border-radius: 8px; border: 1px solid #30363D; box-shadow: 0 8px 24px rgba(0,0,0,0.6); max-width: 100%;"
+  />
+</div>
+
+<p align="center">
+  <a href="https://github.com/skyvalenti/Technical-Intelligence-Brief/actions/workflows/ingest.yml"><img src="https://img.shields.io/github/actions/workflow/status/skyvalenti/Technical-Intelligence-Brief/ingest.yml?branch=main&label=Pipeline%20Validation&logo=githubactions&logoColor=white&style=flat-square" alt="Pipeline Validation" /></a>
+  <img src="https://img.shields.io/github/last-commit/skyvalenti/Technical-Intelligence-Brief?style=flat-square&label=Last%20Ingestion%20Sync&logo=github&logoColor=white" alt="Last Ingestion Sync" />
+  <br />
+  <a href="https://skyvalenti.github.io/Technical-Intelligence-Brief/"><img src="https://img.shields.io/badge/Deployment-GitHub_Pages-58A6FF?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages Deployment" /></a>
+  <img src="https://img.shields.io/badge/Cadence-{{ report.cadence }}-00B4D8?style=flat-square" alt="Cadence" />
+  <img src="https://img.shields.io/badge/Schema-Pydantic%20Validated-00E676?style=flat-square" alt="Schema" />
+  <img src="https://img.shields.io/badge/License-MIT-FFAA00?style=flat-square" alt="License" />
+</p>
+
+> **Dispatch ID**: `{{ report.dispatch_id }}`  
+> **Sector**: `{{ report.sector }}`  
+> **Generated Timestamp**: `{{ report.generated_at }}`  
+> **Validation Status**: `{{ report.status }}`
+
+---
+
+## 1. Metric Telemetry & Operational Baselines
+
+| Metric Track | Score | Baseline Status | Contextual Primary Driver |
+| :--- | :---: | :--- | :--- |
+| **SEV-1 Disruptive** | `{{ report.metrics.sev_1.value }}%` | `{{ report.metrics.sev_1.level }}` | {{ report.metrics.sev_1.driver }} |
+| **OPP-1 High Yield** | `{{ report.metrics.opp_1.value }}%` | `{{ report.metrics.opp_1.level }}` | {{ report.metrics.opp_1.driver }} |
+| **SEV-2 Elevated** | `{{ report.metrics.sev_2.value }}%` | `{{ report.metrics.sev_2.level }}` | {{ report.metrics.sev_2.driver }} |
+| **OPP-2 Nominal** | `{{ report.metrics.opp_2.value }}%` | `{{ report.metrics.opp_2.level }}` | {{ report.metrics.opp_2.driver }} |
+
+---
+
+## 2. Compound Impact Analysis
+
+{% for item in report.compound_impact_analysis %}
+### Vector: {{ item.vector }}
+{{ item.synthesis }}
+
+{% if item.links %}
+**Relevant Telemetry Sources:**
+{% for link in item.links %}
+* [{{ link.title or link.label or "Upstream Reference" }}]({{ link.url }})
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+---
+
+## 3. Executive Intelligence Summary
+
+{% for item in report.executive_brief %}
+* **[{{ item.tag }}] {{ item.title }}** (`{{ item.severity }}`)  
+  {{ item.detail }}
+{% endfor %}
+
+---
+
+## 4. Cross-Industry Impact Matrix
+
+| Sector | Vector / Disruption | Rating | Operational Consequence |
+| :--- | :--- | :---: | :--- |
+{% for row in report.impact_matrix %}
+| **{{ row.sector }}** | {{ row.vector }} | `{{ row.rating }}` | {{ row.consequence }} |
+{% endfor %}
+
+---
+
+## 5. Academic Research & Open Lineages
+
+{% for paper in report.arxiv_research %}
+### 📄 {{ paper.title }}
+* **arXiv ID**: [`{{ paper.arxiv_id }}`]({{ paper.url }}) | **Categories**: `{{ paper.categories | join(', ') }}`
+* **Authors**: {{ paper.authors | join(', ') }}
+* **Abstract**: {{ paper.summary }}
+
+{% endfor %}
+
+{% for item in report.research_telemetry %}
+### 🔬 {{ item.title }} (`{{ item.severity }}`)
+* **Domain**: `{{ item.domain }}` | [Documentation Link]({{ item.url }})
+* **Lineage**: `{{ item.lineage | join(' ──> ') }}`
+* **Specs**:
+{% for k, v in item.specs.items() %}
+  * **{{ k }}**: {{ v }}
+{% endfor %}
+
+{% endfor %}
+
+---
+
+## 6. Security Vulnerability Disclosures (CVE / NVD)
+
+| Advisory ID | Severity | CVSS | Affected Component | Summary |
+| :--- | :---: | :---: | :--- | :--- |
+{% for sec in report.security_advisories %}
+| [**{{ sec.cve_id }}**]({{ sec.advisory_url }}) | `{{ sec.severity }}` | `{{ sec.score or "N/A" }}` | `{{ sec.component }}` | {{ sec.summary }} |
+{% endfor %}
+
+---
+
+## 7. Open Source Infrastructure & Commit Watch
+
+| Entity | Domain | Status | Governance | Specification Highlights |
+| :--- | :--- | :---: | :--- | :--- |
+{% for watch in report.infrastructure_watch %}
+| [**{{ watch.entity }}**]({{ watch.url }}) | {{ watch.domain }} | `{{ watch.rating }}` | {{ watch.governance }} | {% for k, v in watch.specs.items() %}`{{ k }}`: {{ v }}{% if not loop.last %} • {% endif %}{% endfor %} |
+{% endfor %}
+
+---
+
+## 8. Compute Matrix & Quota Arbitrage
+
+| Platform | Quota Allocation | Time-to-Exhaustion (TTE) | Actionable Cost Threshold |
+| :--- | :--- | :--- | :--- |
+{% for compute in report.compute_matrix %}
+| [**{{ compute.platform }}**]({{ compute.url }}) | `{{ compute.allocation }}` | `{{ compute.tte }}` | {{ compute.threshold }} |
+{% endfor %}
+
+---
+
+## 9. Operational Directives & Briefing Scripts
+
+{% for point in report.talking_points %}
+### 🎙️ {{ point.audience }}
+> {{ point.script }}
+
+{% endfor %}

@@ -1,7 +1,7 @@
 <!-- README.md Banner -->
 # SKY TECHNICAL INTELLIGENCE BRIEF (SKY-TIB)
 
-An automated, high-density technical intelligence telemetry portal tracking 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
+An automated, schema-validated intelligence ingestion engine that extracts, deduplicates, and compiles weekly technical updates across computer science research and security vulnerability disclosures. High-density visibility focused on 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
 
 <div align="center">
   <img 
@@ -151,3 +151,48 @@ npm run build
 * **Standards Bodies**: [Academy Software Foundation (ASWF)](https://www.aswf.io/) | [OpenUSD Documentation](https://openusd.org/) | [MaterialX Specification](https://materialx.org/)
 * **Toolchain Architecture**: [Vite Build Tool](https://vite.dev/) | [React Documentation](https://react.dev/) | [Tailwind CSS Engine](https://tailwindcss.com/)
 * **CI/CD Telemetry Automation**: [GitHub Actions Workflow Documentation](https://docs.github.com/en/actions)
+
+---
+
+## Under the Hood: Intelligence Ingestion Pipeline
+
+### Architecture Overview
+
+```text
+[Upstream Feeds: arXiv / NVD]
+│
+▼
+[src/fetchers.py] ──> [src/schemas.py (Pydantic Validation)]
+│
+▼
+[src/deduplicate.py (Vector Cosine Filter)]
+│
+▼
+[Jinja2 Template Engine] ──> docs/index.md & data/latest.json
+```
+
+### Engineering Highlights
+
+* **Deterministic Validation:** All ingested records are strictly parsed through Pydantic data schemas before storage.
+* **Semantic Deduplication:** Incoming entries are matched against historical embeddings using vector similarity to eliminate duplicate reporting.
+* **Zero-Cost Automation:** Runs entirely on scheduled GitHub Actions (cron) with flat-file JSON persistence and GitHub Pages deployment.
+* **Test Coverage:** Full `pytest` integration asserting network timeout handling, schema integrity, and parser edge cases.
+
+### Local Execution
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/skyvalenti/Technical-Intelligence-Brief.git
+   cd Technical-Intelligence-Brief
+   pip install -r requirements.txt
+   pytest tests/
+   python src/pipeline.py
+   ```
+
+### Repository Structure
+
+* **`src/`**: Core Python extraction, validation, and rendering logic.
+* **`templates/`**: Base dashboard layouts and markdown structure.
+* **`data/`**: Timestamped archives and latest machine-readable JSON outputs.
+* **`docs/`**: Rendered dashboard files served via GitHub Pages.
+* **`.github/workflows/`**: CI/CD automation schedules.
