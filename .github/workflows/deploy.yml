@@ -2,12 +2,10 @@ name: Deploy Dashboard & Refresh Telemetry
 
 on:
   schedule:
-    # Runs at 06:00, 14:00, 22:00 UTC daily
-    - cron: '0 6,14,22 * * *'
-  push:
-    branches:
-      - main
+    - cron: '0 6,14,22 * * *' # 3x Daily
   workflow_dispatch:
+  push:
+    branches: [ main ]
 
 permissions:
   contents: write
@@ -25,29 +23,32 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install Python Dependencies
         run: |
-          pip install Pillow requests
+          python -m pip install --upgrade pip
+          pip install requests Pillow
 
-      - name: Execute News Fetch Ingestion
+      - name: Execute Telemetry Ingestion
         run: |
           python scripts/fetch_sky_tib.py
 
-      - name: Commit and Push Updated Payloads
+      - name: Commit Updated Telemetry Payloads
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add src/data/*.json
-          git diff-index --quiet HEAD || git commit -m "chore: auto-update telemetry data [skip ci]"
-          git push origin main || echo "No changes to commit"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update telemetry data [skip ci]" && git push)
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -58,13 +59,13 @@ jobs:
       - name: Install Web Dependencies
         run: npm ci
 
-      - name: Build Dashboard
+      - name: Build Static Dashboard
         run: npm run build
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
-      - name: Upload Artifact
+      - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
