@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-08-23 22:22 UTC`  
+> **Generated Timestamp**: `2026-08-24 07:00 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 4DAnyone: Create Anyone in 4D from a Casual Monocular Video
-* **arXiv ID**: [`2608.20335v1`](https://arxiv.org/abs/2608.20335v1) | **Categories**: `cs.CV`
-* **Authors**: Yudong Jin, Tao Xie, Qihang Zhang, Zehong Shen
-* **Abstract**: We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view vide...
+### 📄 OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs
+* **arXiv ID**: [`2608.21360v1`](https://arxiv.org/abs/2608.21360v1) | **Categories**: `cs.CV`
+* **Authors**: Xianyun Sun, Chaoyou Fu, Zhengye Zhang, Feiyang Duan
+* **Abstract**: Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environments and guide users to achieve specific goals. Unlike traditional passive video understanding, interactive assistants should actively combine visual states, us...
 
 
-### 📄 WithEveryone: Unified Planning and Identity Grounding for Group Image Generation
-* **arXiv ID**: [`2608.20336v1`](https://arxiv.org/abs/2608.20336v1) | **Categories**: `cs.CV`
-* **Authors**: Hengyuan Xu, Qixun Wang, Yiji Cheng, Miles Yang
-* **Abstract**: Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several...
+### 📄 Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation
+* **arXiv ID**: [`2608.21332v1`](https://arxiv.org/abs/2608.21332v1) | **Categories**: `cs.AI, cs.CV, cs.RO`
+* **Authors**: David P. Stonko
+* **Abstract**: Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in the loss (e.g., a branching penalty that treats a r...
 
 
-### 📄 Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models
-* **arXiv ID**: [`2608.20334v1`](https://arxiv.org/abs/2608.20334v1) | **Categories**: `cs.CV`
-* **Authors**: Taihang Hu, Zhao Wang, Zuan Gao, Tao Liu
-* **Abstract**: We present Swift-Image, a compact unified model for text-to-image generation, single-image editing, and multi-image editing. Our goal is to explore how far a relatively small visual generator can be pushed through systematic training engineering under a constrained computational budget. Swift-Image ...
+### 📄 Re$^3$Cap: Retrieval-Guided Refinement for Image Captioning Enhancement via Reinforcement Learning
+* **arXiv ID**: [`2608.21305v1`](https://arxiv.org/abs/2608.21305v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Haonan Jia, Shichao Dong, Zenghui Sun, Jiawen Zheng
+* **Abstract**: Reinforcement Learning (RL) has demonstrated significant gains in image captioning, yet it is still limited in encouraging Large Vision-Language Models (LVLMs) to explore novel reasoning strategies. This limitation leads to a performance gap between RL and Supervised Fine-Tuning (SFT). In this paper...
 
 
-### 📄 G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation
-* **arXiv ID**: [`2608.20331v1`](https://arxiv.org/abs/2608.20331v1) | **Categories**: `cs.CL, cs.AI, cs.CV`
-* **Authors**: Shiao Xie, Siyu Chen, Jianwei Lv, Bo Yuan
-* **Abstract**: Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these...
+### 📄 When Adaptation Hurts: Connecting Representational Drift to OOD Failures in MedSAM Fine-Tuning
+* **arXiv ID**: [`2608.21300v1`](https://arxiv.org/abs/2608.21300v1) | **Categories**: `cs.CV`
+* **Authors**: Marko Haralović, Sounic Akkaraju, Carlo Baretta, Vasil Zapryanov
+* **Abstract**: Foundation models for medical image segmentation, like prompt-based MedSAM, generalize well across domains and modalities, often in zero or few-shot setups. However, their performance depends on the quality of prompts and the adaptation of the models to custom datasets. This work systematically exam...
 
 
-### 📄 Inter-X++: A Comprehensive Benchmark for Multimodal Human-Human Interaction Analysis
-* **arXiv ID**: [`2608.20312v1`](https://arxiv.org/abs/2608.20312v1) | **Categories**: `cs.CV`
-* **Authors**: Liang Xu, Chengqun Yang, Zili Lin, Xintao Lv
-* **Abstract**: The capability to perceive and synthesize human-human interactions is fundamental to developing intelligent digital human systems. However, existing datasets and modeling approaches are fundamentally constrained by low-fidelity kinematics, the omission of dexterous hand gestures and a severe lack of...
+### 📄 VT-MUSE: Multimodal Unified Sequential Visuotactile Representation Learning for Manipulation
+* **arXiv ID**: [`2608.21290v1`](https://arxiv.org/abs/2608.21290v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Congsheng Xu, Qiaochu Yang, Fangyuan Shi, Yifan Han
+* **Abstract**: We propose VT-MUSE, a Multimodal Unified SEquential representation learning framework for visuotactilemanipulation. Existing approaches often encode visual and tactile observations independently before fusion, limiting their ability to capture fine-grained cross-modal dependencies. Moreover, most me...
 
 
 
