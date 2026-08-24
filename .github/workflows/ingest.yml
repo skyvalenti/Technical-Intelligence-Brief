@@ -44,7 +44,7 @@ jobs:
 
       - name: Execute Automated Pytest Suite
         run: |
-          pytest tests/ -v
+          python -m pytest tests/ -v
 
       - name: Run Intelligence Ingestion Pipeline
         run: |
