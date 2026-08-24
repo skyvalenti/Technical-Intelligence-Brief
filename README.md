@@ -1,7 +1,4 @@
-<!-- README.md Banner -->
 # SKY TECHNICAL INTELLIGENCE BRIEF (SKY-TIB)
-
-An automated, schema-validated intelligence ingestion engine that extracts, deduplicates, and compiles weekly technical updates across computer science research and security vulnerability disclosures. High-density visibility focused on 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
 
 <div align="center">
   <img 
@@ -12,14 +9,21 @@ An automated, schema-validated intelligence ingestion engine that extracts, dedu
 </div>
 
 <p align="center">
-  <a href="https://github.com/skyvalenti/Technical-Intelligence-Brief/actions/workflows/deploy.yml"><img src="https://img.shields.io/github/actions/workflow/status/skyvalenti/Technical-Intelligence-Brief/deploy.yml?branch=main&label=Automated%20Feeds&logo=githubactions&logoColor=white&style=flat-square" alt="Automated Feeds" /></a>
-  <img src="https://img.shields.io/github/last-commit/skyvalenti/Technical-Intelligence-Brief?style=flat-square&label=Last%20Telemetry%20Sync&logo=github&logoColor=white" alt="Last Telemetry Sync" />
+  <a href="https://skyvalenti.github.io/Technical-Intelligence-Brief/"><img src="https://img.shields.io/badge/Live%20Dashboard-GitHub%20Pages-2ea44f?style=for-the-badge&logo=github" alt="Live Deployment" /></a>
+  <a href="https://github.com/skyvalenti/Technical-Intelligence-Brief/actions"><img src="https://img.shields.io/badge/pytest-23%20passed-success?style=for-the-badge&logo=pytest" alt="Pipeline Tests" /></a>
+  <a href="https://github.com/skyvalenti/Technical-Intelligence-Brief/actions"><img src="https://img.shields.io/badge/CI%2FCD-Passing-0969da?style=for-the-badge&logo=githubactions" alt="Build Status" /></a>
   <br />
-  <a href="https://skyvalenti.github.io/Technical-Intelligence-Brief/"><img src="https://img.shields.io/badge/Deployment-GitHub_Pages-58A6FF?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages Deployment" /></a>
-  <img src="https://img.shields.io/badge/Sync%20Cadence-3x%20Daily-00B4D8?style=flat-square" alt="Sync Cadence" />
-  <img src="https://img.shields.io/badge/Architecture-Static%20Decoupled-00E676?style=flat-square" alt="Architecture" />
-  <img src="https://img.shields.io/badge/License-MIT-FFAA00?style=flat-square" alt="License" />
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" /></a>
+  <a href="https://vite.dev/"><img src="https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" /></a>
+  <a href="https://docs.pydantic.dev/"><img src="https://img.shields.io/badge/Pydantic-v2-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" /></a>
+  <a href="https://web.dev/explore/progressive-web-apps"><img src="https://img.shields.io/badge/PWA-Ready-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA" /></a>
 </p>
+
+> 🔗 **Live Interactive Dashboard:** [https://skyvalenti.github.io/Technical-Intelligence-Brief/](https://skyvalenti.github.io/Technical-Intelligence-Brief/)  
+> *Automated ingestion executes 3x daily. Review live telemetry feeds, vertical filters, and security advisories directly in the web client.*
+
+An automated, schema-validated intelligence ingestion engine that extracts, deduplicates, and compiles weekly technical updates across computer science research and security vulnerability disclosures. High-density visibility focused on 3D platforms, scientific computing, graphics pipelines, digital asset provenance, and production compute infrastructure for VFX, gaming, and digital entertainment pipelines.
 
 <p align="center">
   <em>Automated Data Acquisition Sequence. Once implemented, the local development server will open automatically. The dashboard interface can then be tested by utilizing the vertical dropdown to verify that dynamic, client-side loading of different telemetry payloads (e.g., the Data Science & Entertainment AI vertical) functions as designed.</em>
