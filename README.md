@@ -6,20 +6,26 @@ An automated, schema-validated intelligence ingestion engine that extracts, dedu
   <img src="docs/assets/Sky_Technical_Intelligence_Brief.png" alt="Sky Technical Intelligence Brief Banner" width="100%">
 </p>
 
-<!-- Operational Badges -->
-[![Live Deployment](https://img.shields.io/badge/Live%20Dashboard-GitHub%20Pages-2ea44f?style=for-the-badge&logo=github)](https://skyvalenti.github.io/Technical-Intelligence-Brief/)
-[![Pipeline Tests](https://img.shields.io/badge/pytest-23%20passed-success?style=for-the-badge&logo=pytest)](https://github.com/skyvalenti/Technical-Intelligence-Brief/actions)
-[![Build Status](https://img.shields.io/badge/CI%2FCD-Passing-0969da?style=for-the-badge&logo=githubactions)](https://github.com/skyvalenti/Technical-Intelligence-Brief/actions)
+<p align="center">
+  <!-- Operational Status Badges -->
+  <a href="https://skyvalenti.github.io/Technical-Intelligence-Brief/"><img src="https://img.shields.io/badge/Live%20Dashboard-GitHub%20Pages-2ea44f?style=for-the-badge&logo=github" alt="Live Dashboard"></a>
+  <a href="https://github.com/skyvalenti/Technical-Intelligence-Brief/actions"><img src="https://img.shields.io/badge/pytest-23%20passed-success?style=for-the-badge&logo=pytest" alt="pytest"></a>
+  <a href="https://github.com/skyvalenti/Technical-Intelligence-Brief/actions"><img src="https://img.shields.io/badge/CI%2FCD-Passing-0969da?style=for-the-badge&logo=githubactions" alt="CI/CD"></a>
+</p>
 
-<!-- Stack Badges -->
-[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-5+-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
-[![Pydantic](https://img.shields.io/badge/Pydantic-V2-E92063?style=flat-square&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
-[![PWA Ready](https://img.shields.io/badge/PWA-Enabled-5A0FC8?style=flat-square&logo=pwa&logoColor=white)](#mode-1-zero-install-desktop-app-pwa--taskbar-mode)
+<p align="center">
+  <!-- Stack Badges -->
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"></a>
+  <a href="https://vitejs.dev"><img src="https://img.shields.io/badge/Vite-5+-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"></a>
+  <a href="https://docs.pydantic.dev/"><img src="https://img.shields.io/badge/Pydantic-V2-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic"></a>
+  <a href="#mode-1-zero-install-desktop-app-pwa--taskbar-mode"><img src="https://img.shields.io/badge/PWA-Enabled-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA"></a>
+</p>
 
-> 🔗 **Live Interactive Dashboard:** [https://skyvalenti.github.io/Technical-Intelligence-Brief/](https://skyvalenti.github.io/Technical-Intelligence-Brief/)  
-> *Review live telemetry feeds, domain-specific vertical filters, and vulnerability advisories directly in the web client.*
+<p align="center">
+  🔗 <strong>Live Interactive Dashboard:</strong> <a href="https://skyvalenti.github.io/Technical-Intelligence-Brief/">https://skyvalenti.github.io/Technical-Intelligence-Brief/</a><br>
+  <em>Review live telemetry feeds, domain-specific vertical filters, and vulnerability advisories directly in the web client.</em>
+</p>
 
 ---
 
