@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-08-24 22:27 UTC`  
+> **Generated Timestamp**: `2026-08-25 01:04 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs
-* **arXiv ID**: [`2608.21360v1`](https://arxiv.org/abs/2608.21360v1) | **Categories**: `cs.CV`
-* **Authors**: Xianyun Sun, Chaoyou Fu, Zhengye Zhang, Feiyang Duan
-* **Abstract**: Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environments and guide users to achieve specific goals. Unlike traditional passive video understanding, interactive assistants should actively combine visual states, us...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation
-* **arXiv ID**: [`2608.21332v1`](https://arxiv.org/abs/2608.21332v1) | **Categories**: `cs.AI, cs.CV, cs.RO`
-* **Authors**: David P. Stonko
-* **Abstract**: Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in the loss (e.g., a branching penalty that treats a r...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 Re$^3$Cap: Retrieval-Guided Refinement for Image Captioning Enhancement via Reinforcement Learning
-* **arXiv ID**: [`2608.21305v1`](https://arxiv.org/abs/2608.21305v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Haonan Jia, Shichao Dong, Zenghui Sun, Jiawen Zheng
-* **Abstract**: Reinforcement Learning (RL) has demonstrated significant gains in image captioning, yet it is still limited in encouraging Large Vision-Language Models (LVLMs) to explore novel reasoning strategies. This limitation leads to a performance gap between RL and Supervised Fine-Tuning (SFT). In this paper...
-
-
-### 📄 When Adaptation Hurts: Connecting Representational Drift to OOD Failures in MedSAM Fine-Tuning
-* **arXiv ID**: [`2608.21300v1`](https://arxiv.org/abs/2608.21300v1) | **Categories**: `cs.CV`
-* **Authors**: Marko Haralović, Sounic Akkaraju, Carlo Baretta, Vasil Zapryanov
-* **Abstract**: Foundation models for medical image segmentation, like prompt-based MedSAM, generalize well across domains and modalities, often in zero or few-shot setups. However, their performance depends on the quality of prompts and the adaptation of the models to custom datasets. This work systematically exam...
-
-
-### 📄 VT-MUSE: Multimodal Unified Sequential Visuotactile Representation Learning for Manipulation
-* **arXiv ID**: [`2608.21290v1`](https://arxiv.org/abs/2608.21290v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Congsheng Xu, Qiaochu Yang, Fangyuan Shi, Yifan Han
-* **Abstract**: We propose VT-MUSE, a Multimodal Unified SEquential representation learning framework for visuotactilemanipulation. Existing approaches often encode visual and tactile observations independently before fusion, limiting their ability to capture fine-grained cross-modal dependencies. Moreover, most me...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 

@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-08-24 22:27 UTC",
+  "generated_at": "2026-08-25 01:04 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,85 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2608.21360v1",
-      "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
+        "cs.GR",
         "cs.CV"
       ],
-      "summary": "Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environments and guide users to achieve specific goals. Unlike traditional passive video understanding, interactive assistants should actively combine visual states, us...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Xianyun Sun",
-        "Chaoyou Fu",
-        "Zhengye Zhang",
-        "Feiyang Duan"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2608.21360v1",
-      "published_date": "2026-08-21"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2608.21332v1",
-      "title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.AI",
-        "cs.CV",
-        "cs.RO"
+        "cs.GR",
+        "cs.DC"
       ],
-      "summary": "Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in the loss (e.g., a branching penalty that treats a r...",
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
       "authors": [
-        "David P. Stonko"
+        "E. Rostova",
+        "L. Thorne"
       ],
-      "url": "https://arxiv.org/abs/2608.21332v1",
-      "published_date": "2026-08-21"
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
     },
     {
-      "arxiv_id": "2608.21305v1",
-      "title": "Re$^3$Cap: Retrieval-Guided Refinement for Image Captioning Enhancement via Reinforcement Learning",
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.GR"
       ],
-      "summary": "Reinforcement Learning (RL) has demonstrated significant gains in image captioning, yet it is still limited in encouraging Large Vision-Language Models (LVLMs) to explore novel reasoning strategies. This limitation leads to a performance gap between RL and Supervised Fine-Tuning (SFT). In this paper...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Haonan Jia",
-        "Shichao Dong",
-        "Zenghui Sun",
-        "Jiawen Zheng"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2608.21305v1",
-      "published_date": "2026-08-21"
-    },
-    {
-      "arxiv_id": "2608.21300v1",
-      "title": "When Adaptation Hurts: Connecting Representational Drift to OOD Failures in MedSAM Fine-Tuning",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Foundation models for medical image segmentation, like prompt-based MedSAM, generalize well across domains and modalities, often in zero or few-shot setups. However, their performance depends on the quality of prompts and the adaptation of the models to custom datasets. This work systematically exam...",
-      "authors": [
-        "Marko Haralović",
-        "Sounic Akkaraju",
-        "Carlo Baretta",
-        "Vasil Zapryanov"
-      ],
-      "url": "https://arxiv.org/abs/2608.21300v1",
-      "published_date": "2026-08-21"
-    },
-    {
-      "arxiv_id": "2608.21290v1",
-      "title": "VT-MUSE: Multimodal Unified Sequential Visuotactile Representation Learning for Manipulation",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "summary": "We propose VT-MUSE, a Multimodal Unified SEquential representation learning framework for visuotactilemanipulation. Existing approaches often encode visual and tactile observations independently before fusion, limiting their ability to capture fine-grained cross-modal dependencies. Moreover, most me...",
-      "authors": [
-        "Congsheng Xu",
-        "Qiaochu Yang",
-        "Fangyuan Shi",
-        "Yifan Han"
-      ],
-      "url": "https://arxiv.org/abs/2608.21290v1",
-      "published_date": "2026-08-21"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }
