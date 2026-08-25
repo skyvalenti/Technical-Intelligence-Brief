@@ -179,8 +179,27 @@ npm run build
 
 ---
 
+## 7. Project Genesis & Architecture Evolution
+
+### From Static Reports to Continuous Telemetry
+The project originated from an operational bottleneck: technical stakeholders required immediate visibility into cutting-edge graphics research and security advisories, but existing industry briefs relied on static, manually compiled PDF distributions. 
+
+Static documents introduced significant operational friction:
+* **Rapid Information Decay:** Security vulnerabilities and pre-print releases lost actionable value within days of export.
+* **High Maintenance Overhead:** Manual synthesis demanded recurring labor to aggregate disparate academic and security trackers.
+* **Unstructured Consumption:** Critical CVE scores and compute quotas remained buried in dense narrative paragraphs.
+
+### The Automated Pipeline Pivot
+To resolve these constraints, the manual workflow was replaced with an autonomous, zero-cost data engine:
+1. **Autonomous Scheduled Extraction:** Replaced manual sweeps with automated Python workers running across academic indexes, CVE disclosures, and ASWF repositories on an 8-hour schedule.
+2. **Deterministic Quality Gates:** Introduced strict Pydantic validation boundaries and vector cosine deduplication to guarantee data hygiene.
+3. **Decoupled Static Delivery:** Replaced the static PDF format with a terminal-styled React/Vite interface hosted on GitHub Pages, providing interactive domain filtering without recurring infrastructure costs.
+
+---
+
 ## Technical Reference & Learning Topics
 
 * **Standards Bodies:** [Academy Software Foundation (ASWF)](https://www.aswf.io/) | [OpenUSD Documentation](https://openusd.org/) | [MaterialX Specification](https://materialx.org/)
 * **Toolchain Architecture:** [Vite Build Tool](https://vite.dev/) | [React Documentation](https://react.dev/) | [Tailwind CSS Engine](https://tailwindcss.com/)
 * **CI/CD Telemetry Automation:** [GitHub Actions Workflow Documentation](https://docs.github.com/en/actions)
+
