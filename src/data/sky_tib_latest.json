@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-08-25 01:04 UTC",
+  "generated_at": "2026-08-25 06:49 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,49 +229,83 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2502.14890",
-      "title": "Continuous Normalization in Neural Radiance Relighting",
+      "arxiv_id": "2608.23563v1",
+      "title": "EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings",
       "categories": [
-        "cs.GR",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "Road traffic injuries remain a major challenge in low- and middle-income countries, where proactive road safety auditing is limited by incomplete crash records, shortages of qualified auditors, and the high cost of large-scale field inspections. To address this problem, we propose Expert-Grounded Di...",
+      "authors": [
+        "Md Thamed Bin Zaman Chowdhury",
+        "Moazzem Hossain"
+      ],
+      "url": "https://arxiv.org/abs/2608.23563v1",
+      "published_date": "2026-08-24"
+    },
+    {
+      "arxiv_id": "2608.23549v1",
+      "title": "FixAnything: 3D-Consistent Rendering Refinement via Video Generative Priors",
+      "categories": [
         "cs.CV"
       ],
-      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
+      "summary": "Rendering views using 3D scene representations such as Gaussian Splatting (3DGS), Neural Radiance Fields (NeRF), meshes, or even point clouds produces artifacts when input views are sparse or target views lie far from the input. Recent work mitigates these artifacts using diffusion-based generative ...",
       "authors": [
-        "V. Chen",
-        "K. Sunder",
-        "A. Mercier"
+        "Khiem Vuong",
+        "Deva Ramanan",
+        "Srinivasa Narasimhan"
       ],
-      "url": "https://arxiv.org/abs/2502.14890",
-      "published_date": "2026-02-18"
+      "url": "https://arxiv.org/abs/2608.23549v1",
+      "published_date": "2026-08-24"
     },
     {
-      "arxiv_id": "2502.09102",
-      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
+      "arxiv_id": "2608.23531v1",
+      "title": "Predicting Multiple Clinical Outcomes Related to Functional Recovery and Social Isolation Among Older Adults After Lower-Limb Fracture or Hip Replacement",
       "categories": [
-        "cs.GR",
-        "cs.DC"
+        "cs.CV",
+        "cs.LG"
       ],
-      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
+      "summary": "Older adults recovering after lower-limb fracture or hip replacement may experience complex recovery trajectories. Most of the time, these clinical aspects are studied in isolation, masking their joint impact on recovery. This study used the MAISON-LLF dataset, which contains multimodal sensor and c...",
       "authors": [
-        "E. Rostova",
-        "L. Thorne"
+        "Santosh Ray",
+        "Pratik K. Mishra",
+        "Ali Abedi",
+        "Charlene H. Chu"
       ],
-      "url": "https://arxiv.org/abs/2502.09102",
-      "published_date": "2026-02-15"
+      "url": "https://arxiv.org/abs/2608.23531v1",
+      "published_date": "2026-08-24"
     },
     {
-      "arxiv_id": "2501.19230",
-      "title": "Deterministic MaterialX Shader Translation in WebGPU",
+      "arxiv_id": "2608.23518v1",
+      "title": "Investigating Relational Reasoning in VLMs",
       "categories": [
-        "cs.GR"
+        "cs.CV"
       ],
-      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
+      "summary": "Vision-Language Models (VLMs) achieve strong performance in visual reasoning tasks, but it remains unclear whether they understand visual relations, or simply employ shortcuts such as language cues or priors. To investigate this, we use the Qwen3-VL-4B (Bai et al., 2025), a modern VLM, to decode how...",
       "authors": [
-        "M. Tanaka",
-        "J. Doe"
+        "Adhithya Laxman Ravi Shankar Geetha",
+        "Aulia Kharis Rakhmasari",
+        "Haleema Ramzan",
+        "Xander Yap"
       ],
-      "url": "https://arxiv.org/abs/2501.19230",
-      "published_date": "2026-01-28"
+      "url": "https://arxiv.org/abs/2608.23518v1",
+      "published_date": "2026-08-24"
+    },
+    {
+      "arxiv_id": "2608.23503v1",
+      "title": "Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing methods struggle to capture these context-conditioned actions, frequently relying on isolated skeletal geometry, discarding raw query details ...",
+      "authors": [
+        "Thanh-Khoi Nguyen",
+        "Thanh-Nhan Vo",
+        "Trong-Thuan Nguyen",
+        "Minh-Triet Tran"
+      ],
+      "url": "https://arxiv.org/abs/2608.23503v1",
+      "published_date": "2026-08-24"
     }
   ]
 }

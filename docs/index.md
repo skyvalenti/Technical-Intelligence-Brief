@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-08-25 01:04 UTC`  
+> **Generated Timestamp**: `2026-08-25 06:49 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings
+* **arXiv ID**: [`2608.23563v1`](https://arxiv.org/abs/2608.23563v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Md Thamed Bin Zaman Chowdhury, Moazzem Hossain
+* **Abstract**: Road traffic injuries remain a major challenge in low- and middle-income countries, where proactive road safety auditing is limited by incomplete crash records, shortages of qualified auditors, and the high cost of large-scale field inspections. To address this problem, we propose Expert-Grounded Di...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 FixAnything: 3D-Consistent Rendering Refinement via Video Generative Priors
+* **arXiv ID**: [`2608.23549v1`](https://arxiv.org/abs/2608.23549v1) | **Categories**: `cs.CV`
+* **Authors**: Khiem Vuong, Deva Ramanan, Srinivasa Narasimhan
+* **Abstract**: Rendering views using 3D scene representations such as Gaussian Splatting (3DGS), Neural Radiance Fields (NeRF), meshes, or even point clouds produces artifacts when input views are sparse or target views lie far from the input. Recent work mitigates these artifacts using diffusion-based generative ...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 Predicting Multiple Clinical Outcomes Related to Functional Recovery and Social Isolation Among Older Adults After Lower-Limb Fracture or Hip Replacement
+* **arXiv ID**: [`2608.23531v1`](https://arxiv.org/abs/2608.23531v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Santosh Ray, Pratik K. Mishra, Ali Abedi, Charlene H. Chu
+* **Abstract**: Older adults recovering after lower-limb fracture or hip replacement may experience complex recovery trajectories. Most of the time, these clinical aspects are studied in isolation, masking their joint impact on recovery. This study used the MAISON-LLF dataset, which contains multimodal sensor and c...
+
+
+### 📄 Investigating Relational Reasoning in VLMs
+* **arXiv ID**: [`2608.23518v1`](https://arxiv.org/abs/2608.23518v1) | **Categories**: `cs.CV`
+* **Authors**: Adhithya Laxman Ravi Shankar Geetha, Aulia Kharis Rakhmasari, Haleema Ramzan, Xander Yap
+* **Abstract**: Vision-Language Models (VLMs) achieve strong performance in visual reasoning tasks, but it remains unclear whether they understand visual relations, or simply employ shortcuts such as language cues or priors. To investigate this, we use the Qwen3-VL-4B (Bai et al., 2025), a modern VLM, to decode how...
+
+
+### 📄 Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search
+* **arXiv ID**: [`2608.23503v1`](https://arxiv.org/abs/2608.23503v1) | **Categories**: `cs.CV`
+* **Authors**: Thanh-Khoi Nguyen, Thanh-Nhan Vo, Trong-Thuan Nguyen, Minh-Triet Tran
+* **Abstract**: Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing methods struggle to capture these context-conditioned actions, frequently relying on isolated skeletal geometry, discarding raw query details ...
 
 
 
