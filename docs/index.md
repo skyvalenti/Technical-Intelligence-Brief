@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-08-25 22:28 UTC`  
+> **Generated Timestamp**: `2026-08-26 06:51 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings
-* **arXiv ID**: [`2608.23563v1`](https://arxiv.org/abs/2608.23563v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Md Thamed Bin Zaman Chowdhury, Moazzem Hossain
-* **Abstract**: Road traffic injuries remain a major challenge in low- and middle-income countries, where proactive road safety auditing is limited by incomplete crash records, shortages of qualified auditors, and the high cost of large-scale field inspections. To address this problem, we propose Expert-Grounded Di...
+### 📄 Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning
+* **arXiv ID**: [`2608.24885v1`](https://arxiv.org/abs/2608.24885v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Sixiang Chen, Jiaming Liu, Jixian Wu, Yichen Guo
+* **Abstract**: Action-conditioned world models are increasingly used as learned simulators for policy evaluation and improvement, yet their effectiveness rests on an unverified assumption: generated futures faithfully reflect arbitrary valid actions. Existing benchmarks are typically confined to expert demonstrati...
 
 
-### 📄 FixAnything: 3D-Consistent Rendering Refinement via Video Generative Priors
-* **arXiv ID**: [`2608.23549v1`](https://arxiv.org/abs/2608.23549v1) | **Categories**: `cs.CV`
-* **Authors**: Khiem Vuong, Deva Ramanan, Srinivasa Narasimhan
-* **Abstract**: Rendering views using 3D scene representations such as Gaussian Splatting (3DGS), Neural Radiance Fields (NeRF), meshes, or even point clouds produces artifacts when input views are sparse or target views lie far from the input. Recent work mitigates these artifacts using diffusion-based generative ...
+### 📄 From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms
+* **arXiv ID**: [`2608.24877v1`](https://arxiv.org/abs/2608.24877v1) | **Categories**: `cs.CV`
+* **Authors**: Jiangning Zhang, Haojun Chen, Yong Liu
+* **Abstract**: Smart glasses are evolving from capture and display accessories into first-person intelligence platforms that connect human perception, persistent context, and digital or physical action. Their on-body viewpoint aligns with the wearer's vision, audition, motion, and hand-object interaction, but must...
 
 
-### 📄 Predicting Multiple Clinical Outcomes Related to Functional Recovery and Social Isolation Among Older Adults After Lower-Limb Fracture or Hip Replacement
-* **arXiv ID**: [`2608.23531v1`](https://arxiv.org/abs/2608.23531v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Santosh Ray, Pratik K. Mishra, Ali Abedi, Charlene H. Chu
-* **Abstract**: Older adults recovering after lower-limb fracture or hip replacement may experience complex recovery trajectories. Most of the time, these clinical aspects are studied in isolation, masking their joint impact on recovery. This study used the MAISON-LLF dataset, which contains multimodal sensor and c...
+### 📄 LeFlow: Generative Latent Flow Planning for World Models
+* **arXiv ID**: [`2608.24855v1`](https://arxiv.org/abs/2608.24855v1) | **Categories**: `cs.CV`
+* **Authors**: Hsiang-Wei Huang, Jianxu Shangguan, Junbin Lu, Jenq-Neng Hwang
+* **Abstract**: Latent world models are inherently strong encoders that transform image pixel to latent embedding, yet existing world models still rely on online trajectory optimization for action planning: for every state-goal pair, an iterative optimizer is run from scratch to search for optimal action sequences,...
 
 
-### 📄 Investigating Relational Reasoning in VLMs
-* **arXiv ID**: [`2608.23518v1`](https://arxiv.org/abs/2608.23518v1) | **Categories**: `cs.CV`
-* **Authors**: Adhithya Laxman Ravi Shankar Geetha, Aulia Kharis Rakhmasari, Haleema Ramzan, Xander Yap
-* **Abstract**: Vision-Language Models (VLMs) achieve strong performance in visual reasoning tasks, but it remains unclear whether they understand visual relations, or simply employ shortcuts such as language cues or priors. To investigate this, we use the Qwen3-VL-4B (Bai et al., 2025), a modern VLM, to decode how...
+### 📄 LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training
+* **arXiv ID**: [`2608.24845v1`](https://arxiv.org/abs/2608.24845v1) | **Categories**: `cs.CV, cs.AI, cs.LG`
+* **Authors**: Andreas Hochlehnert, Marianna Nezhurina, Mehdi Cherti, Andrej Radonjic
+* **Abstract**: We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl. From these, we download 80M videos with a total duration of 10 million hours. The dataset is designed for multimodal pre-training across the vi...
 
 
-### 📄 Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search
-* **arXiv ID**: [`2608.23503v1`](https://arxiv.org/abs/2608.23503v1) | **Categories**: `cs.CV`
-* **Authors**: Thanh-Khoi Nguyen, Thanh-Nhan Vo, Trong-Thuan Nguyen, Minh-Triet Tran
-* **Abstract**: Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing methods struggle to capture these context-conditioned actions, frequently relying on isolated skeletal geometry, discarding raw query details ...
+### 📄 EMFE: A lightweight, explainable machine learning framework for malaria cell classification
+* **arXiv ID**: [`2608.24793v1`](https://arxiv.org/abs/2608.24793v1) | **Categories**: `cs.CV`
+* **Authors**: Md Abdullah Al Kafi, Walayat Hussain, Mousumi Karmakar, Sumit Kumar Banshal
+* **Abstract**: Automated malaria diagnosis from stained blood-smear microscopy is dominated by deep convolutional neural networks that are accurate but computationally expensive, poorly interpretable, and rarely validated with patient-level rigor. We present EMFE (Efficient Mathematical Feature Extraction), a five...
 
 
 
