@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-08-26 14:45 UTC",
+  "generated_at": "2026-08-27 02:59 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,86 +229,94 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2608.24885v1",
-      "title": "Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning",
+      "arxiv_id": "2608.26105v1",
+      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.MM",
+        "cs.RO"
+      ],
+      "summary": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack o...",
+      "authors": [
+        "Junxiang Xu",
+        "Ruisi Wang",
+        "Fanyi Pu",
+        "Maijunxian Wang"
+      ],
+      "url": "https://arxiv.org/abs/2608.26105v1",
+      "published_date": "2026-08-26"
+    },
+    {
+      "arxiv_id": "2608.26103v1",
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
       "categories": [
         "cs.RO",
         "cs.CV"
       ],
-      "summary": "Action-conditioned world models are increasingly used as learned simulators for policy evaluation and improvement, yet their effectiveness rests on an unverified assumption: generated futures faithfully reflect arbitrary valid actions. Existing benchmarks are typically confined to expert demonstrati...",
+      "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in...",
       "authors": [
-        "Sixiang Chen",
-        "Jiaming Liu",
-        "Jixian Wu",
-        "Yichen Guo"
+        "Jiaming Zhou",
+        "Qihang Zhang",
+        "Gangwei Xu",
+        "Cunxin Fan"
       ],
-      "url": "https://arxiv.org/abs/2608.24885v1",
-      "published_date": "2026-08-25"
+      "url": "https://arxiv.org/abs/2608.26103v1",
+      "published_date": "2026-08-26"
     },
     {
-      "arxiv_id": "2608.24877v1",
-      "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
+      "arxiv_id": "2608.26101v1",
+      "title": "RefVideo-6M: A Reliable Reference-Based Dataset for Instructional Video Editing",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Smart glasses are evolving from capture and display accessories into first-person intelligence platforms that connect human perception, persistent context, and digital or physical action. Their on-body viewpoint aligns with the wearer's vision, audition, motion, and hand-object interaction, but must...",
+      "summary": "Recent advances in video editing have been largely driven by large-scale instruction-based datasets. However, existing datasets still suffer from two critical limitations. First, target videos are commonly produced by automatic editing models, which may introduce visible artifacts and unreliable sup...",
       "authors": [
-        "Jiangning Zhang",
-        "Haojun Chen",
-        "Yong Liu"
+        "Bojia Zi",
+        "Xiaoyan Yang",
+        "Yu Zhou",
+        "Ruijie Sun"
       ],
-      "url": "https://arxiv.org/abs/2608.24877v1",
-      "published_date": "2026-08-25"
+      "url": "https://arxiv.org/abs/2608.26101v1",
+      "published_date": "2026-08-26"
     },
     {
-      "arxiv_id": "2608.24855v1",
-      "title": "LeFlow: Generative Latent Flow Planning for World Models",
+      "arxiv_id": "2608.26095v1",
+      "title": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.AI"
       ],
-      "summary": "Latent world models are inherently strong encoders that transform image pixel to latent embedding, yet existing world models still rely on online trajectory optimization for action planning: for every state-goal pair, an iterative optimizer is run from scratch to search for optimal action sequences,...",
+      "summary": "In this paper, we explore a novel task of Multimodal Unsupervised Continual Post-Training (MU-CPT), enabling deployed MLLMs to continually evolve from streaming unlabeled data. Existing unsupervised post-training methods for MLLMs typically optimize target tokens uniformly, overlooking their heterog...",
       "authors": [
-        "Hsiang-Wei Huang",
-        "Jianxu Shangguan",
-        "Junbin Lu",
-        "Jenq-Neng Hwang"
+        "Kaichen Li",
+        "Zhilin Zhu",
+        "Jianhao Huang",
+        "Zhengqin Lai"
       ],
-      "url": "https://arxiv.org/abs/2608.24855v1",
-      "published_date": "2026-08-25"
+      "url": "https://arxiv.org/abs/2608.26095v1",
+      "published_date": "2026-08-26"
     },
     {
-      "arxiv_id": "2608.24845v1",
-      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+      "arxiv_id": "2608.26094v1",
+      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
       "categories": [
         "cs.CV",
         "cs.AI",
+        "cs.ET",
+        "cs.HC",
         "cs.LG"
       ],
-      "summary": "We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl. From these, we download 80M videos with a total duration of 10 million hours. The dataset is designed for multimodal pre-training across the vi...",
+      "summary": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback....",
       "authors": [
-        "Andreas Hochlehnert",
-        "Marianna Nezhurina",
-        "Mehdi Cherti",
-        "Andrej Radonjic"
+        "Hao Yin",
+        "Paritosh Parmar",
+        "Lijun Gu",
+        "Lin Xu"
       ],
-      "url": "https://arxiv.org/abs/2608.24845v1",
-      "published_date": "2026-08-25"
-    },
-    {
-      "arxiv_id": "2608.24793v1",
-      "title": "EMFE: A lightweight, explainable machine learning framework for malaria cell classification",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Automated malaria diagnosis from stained blood-smear microscopy is dominated by deep convolutional neural networks that are accurate but computationally expensive, poorly interpretable, and rarely validated with patient-level rigor. We present EMFE (Efficient Mathematical Feature Extraction), a five...",
-      "authors": [
-        "Md Abdullah Al Kafi",
-        "Walayat Hussain",
-        "Mousumi Karmakar",
-        "Sumit Kumar Banshal"
-      ],
-      "url": "https://arxiv.org/abs/2608.24793v1",
-      "published_date": "2026-08-25"
+      "url": "https://arxiv.org/abs/2608.26094v1",
+      "published_date": "2026-08-26"
     }
   ]
 }

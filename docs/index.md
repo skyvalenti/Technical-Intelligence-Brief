@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-08-26 14:45 UTC`  
+> **Generated Timestamp**: `2026-08-27 02:59 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning
-* **arXiv ID**: [`2608.24885v1`](https://arxiv.org/abs/2608.24885v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Sixiang Chen, Jiaming Liu, Jixian Wu, Yichen Guo
-* **Abstract**: Action-conditioned world models are increasingly used as learned simulators for policy evaluation and improvement, yet their effectiveness rests on an unverified assumption: generated futures faithfully reflect arbitrary valid actions. Existing benchmarks are typically confined to expert demonstrati...
+### 📄 VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning
+* **arXiv ID**: [`2608.26105v1`](https://arxiv.org/abs/2608.26105v1) | **Categories**: `cs.CV, cs.AI, cs.LG, cs.MM, cs.RO`
+* **Authors**: Junxiang Xu, Ruisi Wang, Fanyi Pu, Maijunxian Wang
+* **Abstract**: Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack o...
 
 
-### 📄 From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms
-* **arXiv ID**: [`2608.24877v1`](https://arxiv.org/abs/2608.24877v1) | **Categories**: `cs.CV`
-* **Authors**: Jiangning Zhang, Haojun Chen, Yong Liu
-* **Abstract**: Smart glasses are evolving from capture and display accessories into first-person intelligence platforms that connect human perception, persistent context, and digital or physical action. Their on-body viewpoint aligns with the wearer's vision, audition, motion, and hand-object interaction, but must...
+### 📄 Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization
+* **arXiv ID**: [`2608.26103v1`](https://arxiv.org/abs/2608.26103v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Jiaming Zhou, Qihang Zhang, Gangwei Xu, Cunxin Fan
+* **Abstract**: Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in...
 
 
-### 📄 LeFlow: Generative Latent Flow Planning for World Models
-* **arXiv ID**: [`2608.24855v1`](https://arxiv.org/abs/2608.24855v1) | **Categories**: `cs.CV`
-* **Authors**: Hsiang-Wei Huang, Jianxu Shangguan, Junbin Lu, Jenq-Neng Hwang
-* **Abstract**: Latent world models are inherently strong encoders that transform image pixel to latent embedding, yet existing world models still rely on online trajectory optimization for action planning: for every state-goal pair, an iterative optimizer is run from scratch to search for optimal action sequences,...
+### 📄 RefVideo-6M: A Reliable Reference-Based Dataset for Instructional Video Editing
+* **arXiv ID**: [`2608.26101v1`](https://arxiv.org/abs/2608.26101v1) | **Categories**: `cs.CV`
+* **Authors**: Bojia Zi, Xiaoyan Yang, Yu Zhou, Ruijie Sun
+* **Abstract**: Recent advances in video editing have been largely driven by large-scale instruction-based datasets. However, existing datasets still suffer from two critical limitations. First, target videos are commonly produced by automatic editing models, which may introduce visible artifacts and unreliable sup...
 
 
-### 📄 LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training
-* **arXiv ID**: [`2608.24845v1`](https://arxiv.org/abs/2608.24845v1) | **Categories**: `cs.CV, cs.AI, cs.LG`
-* **Authors**: Andreas Hochlehnert, Marianna Nezhurina, Mehdi Cherti, Andrej Radonjic
-* **Abstract**: We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl. From these, we download 80M videos with a total duration of 10 million hours. The dataset is designed for multimodal pre-training across the vi...
+### 📄 A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training
+* **arXiv ID**: [`2608.26095v1`](https://arxiv.org/abs/2608.26095v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Kaichen Li, Zhilin Zhu, Jianhao Huang, Zhengqin Lai
+* **Abstract**: In this paper, we explore a novel task of Multimodal Unsupervised Continual Post-Training (MU-CPT), enabling deployed MLLMs to continually evolve from streaming unlabeled data. Existing unsupervised post-training methods for MLLMs typically optimize target tokens uniformly, overlooking their heterog...
 
 
-### 📄 EMFE: A lightweight, explainable machine learning framework for malaria cell classification
-* **arXiv ID**: [`2608.24793v1`](https://arxiv.org/abs/2608.24793v1) | **Categories**: `cs.CV`
-* **Authors**: Md Abdullah Al Kafi, Walayat Hussain, Mousumi Karmakar, Sumit Kumar Banshal
-* **Abstract**: Automated malaria diagnosis from stained blood-smear microscopy is dominated by deep convolutional neural networks that are accurate but computationally expensive, poorly interpretable, and rarely validated with patient-level rigor. We present EMFE (Efficient Mathematical Feature Extraction), a five...
+### 📄 MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching
+* **arXiv ID**: [`2608.26094v1`](https://arxiv.org/abs/2608.26094v1) | **Categories**: `cs.CV, cs.AI, cs.ET, cs.HC, cs.LG`
+* **Authors**: Hao Yin, Paritosh Parmar, Lijun Gu, Lin Xu
+* **Abstract**: Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback....
 
 
 
