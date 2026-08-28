@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-08-27 17:24 UTC`  
+> **Generated Timestamp**: `2026-08-28 05:59 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning
-* **arXiv ID**: [`2608.26105v1`](https://arxiv.org/abs/2608.26105v1) | **Categories**: `cs.CV, cs.AI, cs.LG, cs.MM, cs.RO`
-* **Authors**: Junxiang Xu, Ruisi Wang, Fanyi Pu, Maijunxian Wang
-* **Abstract**: Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack o...
+### 📄 UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City
+* **arXiv ID**: [`2608.27456v1`](https://arxiv.org/abs/2608.27456v1) | **Categories**: `cs.CV`
+* **Authors**: Tianjie Ju, Zheng Wu, Yueqing Sun, Yuhan Cui
+* **Abstract**: Multimodal large language models (MLLMs) can interpret a street view, but urban agency depends on whether such local evidence remains useful after the agent starts to move. In this paper, we investigate how far current MLLM agents can turn local urban perception into reliable action in a complicated...
 
 
-### 📄 Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization
-* **arXiv ID**: [`2608.26103v1`](https://arxiv.org/abs/2608.26103v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Jiaming Zhou, Qihang Zhang, Gangwei Xu, Cunxin Fan
-* **Abstract**: Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in...
+### 📄 Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information
+* **arXiv ID**: [`2608.27417v1`](https://arxiv.org/abs/2608.27417v1) | **Categories**: `cs.CV`
+* **Authors**: Chanho Park, Daehyeon Choi, Jihyun Lee, Minhyuk Sung
+* **Abstract**: Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the output, yet the internal mechanism behind this behavior is not understood. Inspired by retrieval heads in large language models, we ask whether VLMs contain an ana...
 
 
-### 📄 RefVideo-6M: A Reliable Reference-Based Dataset for Instructional Video Editing
-* **arXiv ID**: [`2608.26101v1`](https://arxiv.org/abs/2608.26101v1) | **Categories**: `cs.CV`
-* **Authors**: Bojia Zi, Xiaoyan Yang, Yu Zhou, Ruijie Sun
-* **Abstract**: Recent advances in video editing have been largely driven by large-scale instruction-based datasets. However, existing datasets still suffer from two critical limitations. First, target videos are commonly produced by automatic editing models, which may introduce visible artifacts and unreliable sup...
+### 📄 Reconstructing Humans and Objects in Interaction using Large Reconstruction Models
+* **arXiv ID**: [`2608.27407v1`](https://arxiv.org/abs/2608.27407v1) | **Categories**: `cs.CV`
+* **Authors**: Agniv Chatterjee, Georgios Pavlakos
+* **Abstract**: Estimation of Human-Object Interactions in 3D (3D HOI) is a fundamental problem in 3D computer vision with applications in AR/VR, robotics, and embodied AI. However, reconstructing these interactions in 3D remains challenging due to depth ambiguities, occlusions, and object shape variability. Existi...
 
 
-### 📄 A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training
-* **arXiv ID**: [`2608.26095v1`](https://arxiv.org/abs/2608.26095v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Kaichen Li, Zhilin Zhu, Jianhao Huang, Zhengqin Lai
-* **Abstract**: In this paper, we explore a novel task of Multimodal Unsupervised Continual Post-Training (MU-CPT), enabling deployed MLLMs to continually evolve from streaming unlabeled data. Existing unsupervised post-training methods for MLLMs typically optimize target tokens uniformly, overlooking their heterog...
+### 📄 CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators
+* **arXiv ID**: [`2608.27406v1`](https://arxiv.org/abs/2608.27406v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
+* **Authors**: Kechen Liu, Ola Shorinwa
+* **Abstract**: State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cr...
 
 
-### 📄 MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching
-* **arXiv ID**: [`2608.26094v1`](https://arxiv.org/abs/2608.26094v1) | **Categories**: `cs.CV, cs.AI, cs.ET, cs.HC, cs.LG`
-* **Authors**: Hao Yin, Paritosh Parmar, Lijun Gu, Lin Xu
-* **Abstract**: Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback....
+### 📄 LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics
+* **arXiv ID**: [`2608.27395v1`](https://arxiv.org/abs/2608.27395v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Lukas Kuhn, Lucas Maes, Giuseppe Serra, Quentin Le Lidec
+* **Abstract**: Video carries the temporal structure of the physical world, yet learning representations from it has remained computationally expensive: prevailing self-supervised methods either prevent representation collapse through architectural asymmetries, coupling an exponential-moving-average target encoder,...
 
 
 

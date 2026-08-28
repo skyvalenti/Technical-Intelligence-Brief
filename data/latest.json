@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-08-27 17:24 UTC",
+  "generated_at": "2026-08-28 05:59 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,94 +229,83 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2608.26105v1",
-      "title": "VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning",
+      "arxiv_id": "2608.27456v1",
+      "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG",
-        "cs.MM",
-        "cs.RO"
+        "cs.CV"
       ],
-      "summary": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language. Yet progress remains bottlenecked by the lack o...",
+      "summary": "Multimodal large language models (MLLMs) can interpret a street view, but urban agency depends on whether such local evidence remains useful after the agent starts to move. In this paper, we investigate how far current MLLM agents can turn local urban perception into reliable action in a complicated...",
       "authors": [
-        "Junxiang Xu",
-        "Ruisi Wang",
-        "Fanyi Pu",
-        "Maijunxian Wang"
+        "Tianjie Ju",
+        "Zheng Wu",
+        "Yueqing Sun",
+        "Yuhan Cui"
       ],
-      "url": "https://arxiv.org/abs/2608.26105v1",
-      "published_date": "2026-08-26"
+      "url": "https://arxiv.org/abs/2608.27456v1",
+      "published_date": "2026-08-27"
     },
     {
-      "arxiv_id": "2608.26103v1",
-      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "arxiv_id": "2608.27417v1",
+      "title": "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the output, yet the internal mechanism behind this behavior is not understood. Inspired by retrieval heads in large language models, we ask whether VLMs contain an ana...",
+      "authors": [
+        "Chanho Park",
+        "Daehyeon Choi",
+        "Jihyun Lee",
+        "Minhyuk Sung"
+      ],
+      "url": "https://arxiv.org/abs/2608.27417v1",
+      "published_date": "2026-08-27"
+    },
+    {
+      "arxiv_id": "2608.27407v1",
+      "title": "Reconstructing Humans and Objects in Interaction using Large Reconstruction Models",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Estimation of Human-Object Interactions in 3D (3D HOI) is a fundamental problem in 3D computer vision with applications in AR/VR, robotics, and embodied AI. However, reconstructing these interactions in 3D remains challenging due to depth ambiguities, occlusions, and object shape variability. Existi...",
+      "authors": [
+        "Agniv Chatterjee",
+        "Georgios Pavlakos"
+      ],
+      "url": "https://arxiv.org/abs/2608.27407v1",
+      "published_date": "2026-08-27"
+    },
+    {
+      "arxiv_id": "2608.27406v1",
+      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
       "categories": [
         "cs.RO",
+        "cs.AI",
         "cs.CV"
       ],
-      "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in...",
+      "summary": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cr...",
       "authors": [
-        "Jiaming Zhou",
-        "Qihang Zhang",
-        "Gangwei Xu",
-        "Cunxin Fan"
+        "Kechen Liu",
+        "Ola Shorinwa"
       ],
-      "url": "https://arxiv.org/abs/2608.26103v1",
-      "published_date": "2026-08-26"
+      "url": "https://arxiv.org/abs/2608.27406v1",
+      "published_date": "2026-08-27"
     },
     {
-      "arxiv_id": "2608.26101v1",
-      "title": "RefVideo-6M: A Reliable Reference-Based Dataset for Instructional Video Editing",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Recent advances in video editing have been largely driven by large-scale instruction-based datasets. However, existing datasets still suffer from two critical limitations. First, target videos are commonly produced by automatic editing models, which may introduce visible artifacts and unreliable sup...",
-      "authors": [
-        "Bojia Zi",
-        "Xiaoyan Yang",
-        "Yu Zhou",
-        "Ruijie Sun"
-      ],
-      "url": "https://arxiv.org/abs/2608.26101v1",
-      "published_date": "2026-08-26"
-    },
-    {
-      "arxiv_id": "2608.26095v1",
-      "title": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training",
+      "arxiv_id": "2608.27395v1",
+      "title": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
-      "summary": "In this paper, we explore a novel task of Multimodal Unsupervised Continual Post-Training (MU-CPT), enabling deployed MLLMs to continually evolve from streaming unlabeled data. Existing unsupervised post-training methods for MLLMs typically optimize target tokens uniformly, overlooking their heterog...",
+      "summary": "Video carries the temporal structure of the physical world, yet learning representations from it has remained computationally expensive: prevailing self-supervised methods either prevent representation collapse through architectural asymmetries, coupling an exponential-moving-average target encoder,...",
       "authors": [
-        "Kaichen Li",
-        "Zhilin Zhu",
-        "Jianhao Huang",
-        "Zhengqin Lai"
+        "Lukas Kuhn",
+        "Lucas Maes",
+        "Giuseppe Serra",
+        "Quentin Le Lidec"
       ],
-      "url": "https://arxiv.org/abs/2608.26095v1",
-      "published_date": "2026-08-26"
-    },
-    {
-      "arxiv_id": "2608.26094v1",
-      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.ET",
-        "cs.HC",
-        "cs.LG"
-      ],
-      "summary": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback....",
-      "authors": [
-        "Hao Yin",
-        "Paritosh Parmar",
-        "Lijun Gu",
-        "Lin Xu"
-      ],
-      "url": "https://arxiv.org/abs/2608.26094v1",
-      "published_date": "2026-08-26"
+      "url": "https://arxiv.org/abs/2608.27395v1",
+      "published_date": "2026-08-27"
     }
   ]
 }
