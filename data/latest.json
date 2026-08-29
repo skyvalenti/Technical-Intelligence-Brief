@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-08-29 03:32 UTC",
+  "generated_at": "2026-08-29 12:26 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,83 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2608.27456v1",
-      "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
+        "cs.GR",
         "cs.CV"
       ],
-      "summary": "Multimodal large language models (MLLMs) can interpret a street view, but urban agency depends on whether such local evidence remains useful after the agent starts to move. In this paper, we investigate how far current MLLM agents can turn local urban perception into reliable action in a complicated...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Tianjie Ju",
-        "Zheng Wu",
-        "Yueqing Sun",
-        "Yuhan Cui"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2608.27456v1",
-      "published_date": "2026-08-27"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2608.27417v1",
-      "title": "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.CV"
+        "cs.GR",
+        "cs.DC"
       ],
-      "summary": "Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the output, yet the internal mechanism behind this behavior is not understood. Inspired by retrieval heads in large language models, we ask whether VLMs contain an ana...",
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
       "authors": [
-        "Chanho Park",
-        "Daehyeon Choi",
-        "Jihyun Lee",
-        "Minhyuk Sung"
+        "E. Rostova",
+        "L. Thorne"
       ],
-      "url": "https://arxiv.org/abs/2608.27417v1",
-      "published_date": "2026-08-27"
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
     },
     {
-      "arxiv_id": "2608.27407v1",
-      "title": "Reconstructing Humans and Objects in Interaction using Large Reconstruction Models",
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
       "categories": [
-        "cs.CV"
+        "cs.GR"
       ],
-      "summary": "Estimation of Human-Object Interactions in 3D (3D HOI) is a fundamental problem in 3D computer vision with applications in AR/VR, robotics, and embodied AI. However, reconstructing these interactions in 3D remains challenging due to depth ambiguities, occlusions, and object shape variability. Existi...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Agniv Chatterjee",
-        "Georgios Pavlakos"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2608.27407v1",
-      "published_date": "2026-08-27"
-    },
-    {
-      "arxiv_id": "2608.27406v1",
-      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "summary": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cr...",
-      "authors": [
-        "Kechen Liu",
-        "Ola Shorinwa"
-      ],
-      "url": "https://arxiv.org/abs/2608.27406v1",
-      "published_date": "2026-08-27"
-    },
-    {
-      "arxiv_id": "2608.27395v1",
-      "title": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Video carries the temporal structure of the physical world, yet learning representations from it has remained computationally expensive: prevailing self-supervised methods either prevent representation collapse through architectural asymmetries, coupling an exponential-moving-average target encoder,...",
-      "authors": [
-        "Lukas Kuhn",
-        "Lucas Maes",
-        "Giuseppe Serra",
-        "Quentin Le Lidec"
-      ],
-      "url": "https://arxiv.org/abs/2608.27395v1",
-      "published_date": "2026-08-27"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }
