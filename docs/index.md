@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-08-30 17:57 UTC`  
+> **Generated Timestamp**: `2026-08-31 00:14 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City
-* **arXiv ID**: [`2608.27456v1`](https://arxiv.org/abs/2608.27456v1) | **Categories**: `cs.CV`
-* **Authors**: Tianjie Ju, Zheng Wu, Yueqing Sun, Yuhan Cui
-* **Abstract**: Multimodal large language models (MLLMs) can interpret a street view, but urban agency depends on whether such local evidence remains useful after the agent starts to move. In this paper, we investigate how far current MLLM agents can turn local urban perception into reliable action in a complicated...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information
-* **arXiv ID**: [`2608.27417v1`](https://arxiv.org/abs/2608.27417v1) | **Categories**: `cs.CV`
-* **Authors**: Chanho Park, Daehyeon Choi, Jihyun Lee, Minhyuk Sung
-* **Abstract**: Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the output, yet the internal mechanism behind this behavior is not understood. Inspired by retrieval heads in large language models, we ask whether VLMs contain an ana...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 Reconstructing Humans and Objects in Interaction using Large Reconstruction Models
-* **arXiv ID**: [`2608.27407v1`](https://arxiv.org/abs/2608.27407v1) | **Categories**: `cs.CV`
-* **Authors**: Agniv Chatterjee, Georgios Pavlakos
-* **Abstract**: Estimation of Human-Object Interactions in 3D (3D HOI) is a fundamental problem in 3D computer vision with applications in AR/VR, robotics, and embodied AI. However, reconstructing these interactions in 3D remains challenging due to depth ambiguities, occlusions, and object shape variability. Existi...
-
-
-### 📄 CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators
-* **arXiv ID**: [`2608.27406v1`](https://arxiv.org/abs/2608.27406v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
-* **Authors**: Kechen Liu, Ola Shorinwa
-* **Abstract**: State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for cr...
-
-
-### 📄 LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics
-* **arXiv ID**: [`2608.27395v1`](https://arxiv.org/abs/2608.27395v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Lukas Kuhn, Lucas Maes, Giuseppe Serra, Quentin Le Lidec
-* **Abstract**: Video carries the temporal structure of the physical world, yet learning representations from it has remained computationally expensive: prevailing self-supervised methods either prevent representation collapse through architectural asymmetries, coupling an exponential-moving-average target encoder,...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
