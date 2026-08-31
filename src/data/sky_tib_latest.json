@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-08-31 00:14 UTC",
+  "generated_at": "2026-08-31 12:56 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,49 +229,83 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2502.14890",
-      "title": "Continuous Normalization in Neural Radiance Relighting",
+      "arxiv_id": "2608.28568v1",
+      "title": "SignRR: Retrieve and Refine Real Motion for Sign Language Production",
       "categories": [
-        "cs.GR",
         "cs.CV"
       ],
-      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
+      "summary": "Sign language production (SLP) aims to generate continuous signing motion from spoken language, often through gloss-to-pose generation. Prior work mainly follows two paradigms. Generative models synthesize motion from a learned prior or from noise, without reference to an observed signing instance, ...",
       "authors": [
-        "V. Chen",
-        "K. Sunder",
-        "A. Mercier"
+        "Fidel Omar Tito Cruz",
+        "Angie Sanchez Marquina",
+        "Summy Farfan",
+        "Gissella Bejarano"
       ],
-      "url": "https://arxiv.org/abs/2502.14890",
-      "published_date": "2026-02-18"
+      "url": "https://arxiv.org/abs/2608.28568v1",
+      "published_date": "2026-08-28"
     },
     {
-      "arxiv_id": "2502.09102",
-      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
+      "arxiv_id": "2608.28567v1",
+      "title": "GeBDA: Building Damage Assessment as Text-Based Sequence Prediction",
       "categories": [
-        "cs.GR",
-        "cs.DC"
+        "cs.CV"
       ],
-      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
+      "summary": "Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. In this work, we ask whether a general-purpose Vision-Language Model (VLM) can localize buildings and grade their damage through autoregressiv...",
       "authors": [
-        "E. Rostova",
-        "L. Thorne"
+        "Olivier Dietrich",
+        "Krishna Sapkota",
+        "Konrad Schindler",
+        "Genady Beryozkin"
       ],
-      "url": "https://arxiv.org/abs/2502.09102",
-      "published_date": "2026-02-15"
+      "url": "https://arxiv.org/abs/2608.28567v1",
+      "published_date": "2026-08-28"
     },
     {
-      "arxiv_id": "2501.19230",
-      "title": "Deterministic MaterialX Shader Translation in WebGPU",
+      "arxiv_id": "2608.28549v1",
+      "title": "Video Generative Models as Geometry Learner",
       "categories": [
-        "cs.GR"
+        "cs.CV",
+        "cs.AI"
       ],
-      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
+      "summary": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they either (i) train task-specific geometry models (for depth and surface normal estimation) independently...",
       "authors": [
-        "M. Tanaka",
-        "J. Doe"
+        "Haosen Yang",
+        "Jifei Song",
+        "Zhensong Zhang",
+        "Xiatian Zhu"
       ],
-      "url": "https://arxiv.org/abs/2501.19230",
-      "published_date": "2026-01-28"
+      "url": "https://arxiv.org/abs/2608.28549v1",
+      "published_date": "2026-08-28"
+    },
+    {
+      "arxiv_id": "2608.28524v1",
+      "title": "Texture Image Classification Using DWT AlexNet Feature Fusion and Deep Neural Networks",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "Texture image classification plays a significant role in computer vision applications, including industrial inspection, medical image analysis, remote sensing, and object recognition. Handcrafted features can capture local texture characteristics but may have limited capability to represent complex ...",
+      "authors": [
+        "Arun D. Kulkarni"
+      ],
+      "url": "https://arxiv.org/abs/2608.28524v1",
+      "published_date": "2026-08-28"
+    },
+    {
+      "arxiv_id": "2608.28517v1",
+      "title": "Learning the Target Priors Before Image Translation: A Decoupled Training Paradigm for Cross-Modal Image Translation in Remote Sensing",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Cross-modal image translation in remote sensing must preserve source-observed content while matching the target-domain distribution. Existing methods jointly learn the target prior and cross-modal dependence from scarce paired data, overlooking a key asymmetry: only the latter intrinsically requires...",
+      "authors": [
+        "Keyan Hu",
+        "Mingtao Wang",
+        "Ziyu Zhou",
+        "Tiandong Shi"
+      ],
+      "url": "https://arxiv.org/abs/2608.28517v1",
+      "published_date": "2026-08-28"
     }
   ]
 }
