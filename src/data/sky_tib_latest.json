@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-01 01:01 UTC",
+  "generated_at": "2026-09-01 11:14 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,49 +229,85 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2502.14890",
-      "title": "Continuous Normalization in Neural Radiance Relighting",
+      "arxiv_id": "2608.31159v1",
+      "title": "BRF-GS: Hyperspectral Bidirectional Reflectance Factor Modeling and Image Generation Based on 3D Gaussian Splatting",
       "categories": [
-        "cs.GR",
         "cs.CV"
       ],
-      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
+      "summary": "The bidirectional reflectance factor (BRF) characterizes the directional radiative properties of terrestrial surfaces. However, existing three-dimensional (3D) radiative transfer models require complex scene construction and computationally intensive radiative transfer solvers, limiting efficient ge...",
       "authors": [
-        "V. Chen",
-        "K. Sunder",
-        "A. Mercier"
+        "Yiling Yao",
+        "Wenjuan Zhang",
+        "Bowen Wang",
+        "Bocheng Li"
       ],
-      "url": "https://arxiv.org/abs/2502.14890",
-      "published_date": "2026-02-18"
+      "url": "https://arxiv.org/abs/2608.31159v1",
+      "published_date": "2026-08-31"
     },
     {
-      "arxiv_id": "2502.09102",
-      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
+      "arxiv_id": "2608.31113v1",
+      "title": "BLARM: Animating 3D Objects from Video via Blending Latent Rigid Motion Primitives",
       "categories": [
-        "cs.GR",
-        "cs.DC"
+        "cs.CV"
       ],
-      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
+      "summary": "We introduce BLARM, a feed-forward method for video-driven 3D mesh animation. Given a monocular video and a static object mesh, BLARM predicts a temporally coherent animated mesh whose motion follows the video. Rather than relying on explicit rigs or directly regressing high-dimensional vertex motio...",
       "authors": [
-        "E. Rostova",
-        "L. Thorne"
+        "Pradyumn Goyal",
+        "Yizhak Ben-Shabat",
+        "Hsueh-Ti Derek Liu",
+        "Haomiao Jiang"
       ],
-      "url": "https://arxiv.org/abs/2502.09102",
-      "published_date": "2026-02-15"
+      "url": "https://arxiv.org/abs/2608.31113v1",
+      "published_date": "2026-08-31"
     },
     {
-      "arxiv_id": "2501.19230",
-      "title": "Deterministic MaterialX Shader Translation in WebGPU",
+      "arxiv_id": "2608.31107v1",
+      "title": "VeriCam: A Verification Baseline for the Classification of Unknown Data",
       "categories": [
-        "cs.GR"
+        "cs.CV"
       ],
-      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
+      "summary": "The advent of foundation models have enabled a new era in zero-shot classification. Yet, key challenges persist. Despite their impressive generalization power that leverages the immense pre-training knowledge, both foundation models for image and text as well as vision-text hybrids lack the represen...",
       "authors": [
-        "M. Tanaka",
-        "J. Doe"
+        "Lucas Wojcik",
+        "Gabriel E. Lima",
+        "Sergio M. Silva",
+        "Eduil Nascimento"
       ],
-      "url": "https://arxiv.org/abs/2501.19230",
-      "published_date": "2026-01-28"
+      "url": "https://arxiv.org/abs/2608.31107v1",
+      "published_date": "2026-08-31"
+    },
+    {
+      "arxiv_id": "2608.31106v1",
+      "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
+      "categories": [
+        "cs.CV",
+        "cs.SD"
+      ],
+      "summary": "Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual dynamics and acoustic events. We present DreamX-Creator 1.0, a compact native joint audio-video generation system centered on a 7B generator. Conditioned on a first frame and a text ...",
+      "authors": [
+        "Jiashu Zhu",
+        "Yanhao Zheng",
+        "Ruitian Tian",
+        "Rujing Dang"
+      ],
+      "url": "https://arxiv.org/abs/2608.31106v1",
+      "published_date": "2026-08-31"
+    },
+    {
+      "arxiv_id": "2608.31096v1",
+      "title": "One Adapter, Many Tasks: Task-Conditioned Feature Transformations for Continual Learning",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "summary": "Class-incremental learning (CIL) requires a model to incrementally learn tasks that contain new classes without accessing earlier training data while preserving the ability to recognize all seen classes. Recently, pretrained-model-based approaches have become prevalent by adapting a frozen backbone ...",
+      "authors": [
+        "Yunxiang Fu",
+        "Meng Lou",
+        "Yizhou Yu"
+      ],
+      "url": "https://arxiv.org/abs/2608.31096v1",
+      "published_date": "2026-08-31"
     }
   ]
 }
