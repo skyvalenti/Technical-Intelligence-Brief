@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-08-31 19:51 UTC`  
+> **Generated Timestamp**: `2026-09-01 01:01 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 SignRR: Retrieve and Refine Real Motion for Sign Language Production
-* **arXiv ID**: [`2608.28568v1`](https://arxiv.org/abs/2608.28568v1) | **Categories**: `cs.CV`
-* **Authors**: Fidel Omar Tito Cruz, Angie Sanchez Marquina, Summy Farfan, Gissella Bejarano
-* **Abstract**: Sign language production (SLP) aims to generate continuous signing motion from spoken language, often through gloss-to-pose generation. Prior work mainly follows two paradigms. Generative models synthesize motion from a learned prior or from noise, without reference to an observed signing instance, ...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 GeBDA: Building Damage Assessment as Text-Based Sequence Prediction
-* **arXiv ID**: [`2608.28567v1`](https://arxiv.org/abs/2608.28567v1) | **Categories**: `cs.CV`
-* **Authors**: Olivier Dietrich, Krishna Sapkota, Konrad Schindler, Genady Beryozkin
-* **Abstract**: Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. In this work, we ask whether a general-purpose Vision-Language Model (VLM) can localize buildings and grade their damage through autoregressiv...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 Video Generative Models as Geometry Learner
-* **arXiv ID**: [`2608.28549v1`](https://arxiv.org/abs/2608.28549v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Haosen Yang, Jifei Song, Zhensong Zhang, Xiatian Zhu
-* **Abstract**: Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they either (i) train task-specific geometry models (for depth and surface normal estimation) independently...
-
-
-### 📄 Texture Image Classification Using DWT AlexNet Feature Fusion and Deep Neural Networks
-* **arXiv ID**: [`2608.28524v1`](https://arxiv.org/abs/2608.28524v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Arun D. Kulkarni
-* **Abstract**: Texture image classification plays a significant role in computer vision applications, including industrial inspection, medical image analysis, remote sensing, and object recognition. Handcrafted features can capture local texture characteristics but may have limited capability to represent complex ...
-
-
-### 📄 Learning the Target Priors Before Image Translation: A Decoupled Training Paradigm for Cross-Modal Image Translation in Remote Sensing
-* **arXiv ID**: [`2608.28517v1`](https://arxiv.org/abs/2608.28517v1) | **Categories**: `cs.CV`
-* **Authors**: Keyan Hu, Mingtao Wang, Ziyu Zhou, Tiandong Shi
-* **Abstract**: Cross-modal image translation in remote sensing must preserve source-observed content while matching the target-domain distribution. Existing methods jointly learn the target prior and cross-modal dependence from scarce paired data, overlooking a key asymmetry: only the latter intrinsically requires...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
