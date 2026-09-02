@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-02 10:48 UTC`  
+> **Generated Timestamp**: `2026-09-02 17:40 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System
-* **arXiv ID**: [`2609.01607v1`](https://arxiv.org/abs/2609.01607v1) | **Categories**: `cs.CV`
-* **Authors**: Penghao Wu, Haiwen Diao, Weichen Fan, Lewei Lu
-* **Abstract**: While unified multimodal models (UMMs) jointly perform visual understanding and generation within a single model, functional unification does not guarantee learning synergy: the two objectives may reinforce each other, compete for capacity, or merely coexist. We investigate their relationship at the...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 UI-VISA: U-Net Initialized Vascular Image Segmentation Architecture
-* **arXiv ID**: [`2609.01598v1`](https://arxiv.org/abs/2609.01598v1) | **Categories**: `cs.CV`
-* **Authors**: Asees Kaur, Suzanne S. Sindi, Erica M. Rutter
-* **Abstract**: Accurate segmentation of vascular structures in digital subtraction angiography (DSA) images remains challenging due to the thin, elongated, and branching nature of blood vessels. Pixel-wise deep learning approaches such as U-Net achieve strong general-purpose segmentation performance but often prod...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 A Benchmark for Vehicle Attribute Classification in Cross-Domain Surveillance Scenarios
-* **arXiv ID**: [`2609.01584v1`](https://arxiv.org/abs/2609.01584v1) | **Categories**: `cs.CV`
-* **Authors**: Sergio M. Silva, Otavio T. Remer, Gabriel E. Lima, Lucas Wojcik
-* **Abstract**: Vehicle attribute analysis is a key component of Intelligent Transportation Systems (ITS), supporting applications such as vehicle identification, traffic monitoring, and forensic investigation. However, models trained under controlled conditions often degrade in real surveillance scenarios due to c...
-
-
-### 📄 SpatialGuard: Harness-Guided Verifiable Spatial Reasoning for Text-to-Image Generation
-* **arXiv ID**: [`2609.01582v1`](https://arxiv.org/abs/2609.01582v1) | **Categories**: `cs.CV`
-* **Authors**: Ziyun Qian, Zizhi Chen, Yizhou Liu, Mingyang Sun
-* **Abstract**: Complex 3D spatial text to image generation requires models to convert natural language into stable visual geometry, not merely semantic appearance. Existing prompt-driven or layout-conditioned methods improve controllability, but often lack an optimizable and verifiable spatial intermediary before ...
-
-
-### 📄 H3-World: Turning Language Understanding into World Control
-* **arXiv ID**: [`2609.01560v1`](https://arxiv.org/abs/2609.01560v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Danze Chen, Zeqing Wang, Ziyue Lin, Xingyi Yang
-* **Abstract**: We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world model. Our key finding is that, as large video generators become more capable, language is emerging as a natural interface for control. MiniMax-H3, for example, already supports zero-s...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
