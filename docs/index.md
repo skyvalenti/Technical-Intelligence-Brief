@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-01 23:50 UTC`  
+> **Generated Timestamp**: `2026-09-02 10:48 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 BRF-GS: Hyperspectral Bidirectional Reflectance Factor Modeling and Image Generation Based on 3D Gaussian Splatting
-* **arXiv ID**: [`2608.31159v1`](https://arxiv.org/abs/2608.31159v1) | **Categories**: `cs.CV`
-* **Authors**: Yiling Yao, Wenjuan Zhang, Bowen Wang, Bocheng Li
-* **Abstract**: The bidirectional reflectance factor (BRF) characterizes the directional radiative properties of terrestrial surfaces. However, existing three-dimensional (3D) radiative transfer models require complex scene construction and computationally intensive radiative transfer solvers, limiting efficient ge...
+### 📄 Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System
+* **arXiv ID**: [`2609.01607v1`](https://arxiv.org/abs/2609.01607v1) | **Categories**: `cs.CV`
+* **Authors**: Penghao Wu, Haiwen Diao, Weichen Fan, Lewei Lu
+* **Abstract**: While unified multimodal models (UMMs) jointly perform visual understanding and generation within a single model, functional unification does not guarantee learning synergy: the two objectives may reinforce each other, compete for capacity, or merely coexist. We investigate their relationship at the...
 
 
-### 📄 BLARM: Animating 3D Objects from Video via Blending Latent Rigid Motion Primitives
-* **arXiv ID**: [`2608.31113v1`](https://arxiv.org/abs/2608.31113v1) | **Categories**: `cs.CV`
-* **Authors**: Pradyumn Goyal, Yizhak Ben-Shabat, Hsueh-Ti Derek Liu, Haomiao Jiang
-* **Abstract**: We introduce BLARM, a feed-forward method for video-driven 3D mesh animation. Given a monocular video and a static object mesh, BLARM predicts a temporally coherent animated mesh whose motion follows the video. Rather than relying on explicit rigs or directly regressing high-dimensional vertex motio...
+### 📄 UI-VISA: U-Net Initialized Vascular Image Segmentation Architecture
+* **arXiv ID**: [`2609.01598v1`](https://arxiv.org/abs/2609.01598v1) | **Categories**: `cs.CV`
+* **Authors**: Asees Kaur, Suzanne S. Sindi, Erica M. Rutter
+* **Abstract**: Accurate segmentation of vascular structures in digital subtraction angiography (DSA) images remains challenging due to the thin, elongated, and branching nature of blood vessels. Pixel-wise deep learning approaches such as U-Net achieve strong general-purpose segmentation performance but often prod...
 
 
-### 📄 VeriCam: A Verification Baseline for the Classification of Unknown Data
-* **arXiv ID**: [`2608.31107v1`](https://arxiv.org/abs/2608.31107v1) | **Categories**: `cs.CV`
-* **Authors**: Lucas Wojcik, Gabriel E. Lima, Sergio M. Silva, Eduil Nascimento
-* **Abstract**: The advent of foundation models have enabled a new era in zero-shot classification. Yet, key challenges persist. Despite their impressive generalization power that leverages the immense pre-training knowledge, both foundation models for image and text as well as vision-text hybrids lack the represen...
+### 📄 A Benchmark for Vehicle Attribute Classification in Cross-Domain Surveillance Scenarios
+* **arXiv ID**: [`2609.01584v1`](https://arxiv.org/abs/2609.01584v1) | **Categories**: `cs.CV`
+* **Authors**: Sergio M. Silva, Otavio T. Remer, Gabriel E. Lima, Lucas Wojcik
+* **Abstract**: Vehicle attribute analysis is a key component of Intelligent Transportation Systems (ITS), supporting applications such as vehicle identification, traffic monitoring, and forensic investigation. However, models trained under controlled conditions often degrade in real surveillance scenarios due to c...
 
 
-### 📄 DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution
-* **arXiv ID**: [`2608.31106v1`](https://arxiv.org/abs/2608.31106v1) | **Categories**: `cs.CV, cs.SD`
-* **Authors**: Jiashu Zhu, Yanhao Zheng, Ruitian Tian, Rujing Dang
-* **Abstract**: Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual dynamics and acoustic events. We present DreamX-Creator 1.0, a compact native joint audio-video generation system centered on a 7B generator. Conditioned on a first frame and a text ...
+### 📄 SpatialGuard: Harness-Guided Verifiable Spatial Reasoning for Text-to-Image Generation
+* **arXiv ID**: [`2609.01582v1`](https://arxiv.org/abs/2609.01582v1) | **Categories**: `cs.CV`
+* **Authors**: Ziyun Qian, Zizhi Chen, Yizhou Liu, Mingyang Sun
+* **Abstract**: Complex 3D spatial text to image generation requires models to convert natural language into stable visual geometry, not merely semantic appearance. Existing prompt-driven or layout-conditioned methods improve controllability, but often lack an optimizable and verifiable spatial intermediary before ...
 
 
-### 📄 One Adapter, Many Tasks: Task-Conditioned Feature Transformations for Continual Learning
-* **arXiv ID**: [`2608.31096v1`](https://arxiv.org/abs/2608.31096v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Yunxiang Fu, Meng Lou, Yizhou Yu
-* **Abstract**: Class-incremental learning (CIL) requires a model to incrementally learn tasks that contain new classes without accessing earlier training data while preserving the ability to recognize all seen classes. Recently, pretrained-model-based approaches have become prevalent by adapting a frozen backbone ...
+### 📄 H3-World: Turning Language Understanding into World Control
+* **arXiv ID**: [`2609.01560v1`](https://arxiv.org/abs/2609.01560v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Danze Chen, Zeqing Wang, Ziyue Lin, Xingyi Yang
+* **Abstract**: We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world model. Our key finding is that, as large video generators become more capable, language is emerging as a natural interface for control. MiniMax-H3, for example, already supports zero-s...
 
 
 
