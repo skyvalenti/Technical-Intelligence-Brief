@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-02 23:53 UTC`  
+> **Generated Timestamp**: `2026-09-03 10:48 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System
-* **arXiv ID**: [`2609.01607v1`](https://arxiv.org/abs/2609.01607v1) | **Categories**: `cs.CV`
-* **Authors**: Penghao Wu, Haiwen Diao, Weichen Fan, Lewei Lu
-* **Abstract**: While unified multimodal models (UMMs) jointly perform visual understanding and generation within a single model, functional unification does not guarantee learning synergy: the two objectives may reinforce each other, compete for capacity, or merely coexist. We investigate their relationship at the...
+### 📄 SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models
+* **arXiv ID**: [`2609.02886v1`](https://arxiv.org/abs/2609.02886v1) | **Categories**: `cs.CV`
+* **Authors**: Junchao Huang, Guian Fang, Shengju Qian, Xianghao Kong
+* **Abstract**: We introduce SolarWM, a fully open foundation for building interactive video world models from data preparation through long-horizon inference. Training across heterogeneous data sources and video backbones is challenging: datasets differ in temporal scale, camera geometry, visual quality, motion, a...
 
 
-### 📄 UI-VISA: U-Net Initialized Vascular Image Segmentation Architecture
-* **arXiv ID**: [`2609.01598v1`](https://arxiv.org/abs/2609.01598v1) | **Categories**: `cs.CV`
-* **Authors**: Asees Kaur, Suzanne S. Sindi, Erica M. Rutter
-* **Abstract**: Accurate segmentation of vascular structures in digital subtraction angiography (DSA) images remains challenging due to the thin, elongated, and branching nature of blood vessels. Pixel-wise deep learning approaches such as U-Net achieve strong general-purpose segmentation performance but often prod...
+### 📄 Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation
+* **arXiv ID**: [`2609.02864v1`](https://arxiv.org/abs/2609.02864v1) | **Categories**: `cs.CV`
+* **Authors**: Yutong Liu, Nan Huang, Xu Cao, James M. Rehg
+* **Abstract**: Recent advancements in unified generative models (UGMs) and world simulators have achieved unprecedented results in visual perception and synthesis. However, these models primarily rely on surface-level event alignment, leaving the capacity for high-level visual reasoning underexplored. True visual ...
 
 
-### 📄 A Benchmark for Vehicle Attribute Classification in Cross-Domain Surveillance Scenarios
-* **arXiv ID**: [`2609.01584v1`](https://arxiv.org/abs/2609.01584v1) | **Categories**: `cs.CV`
-* **Authors**: Sergio M. Silva, Otavio T. Remer, Gabriel E. Lima, Lucas Wojcik
-* **Abstract**: Vehicle attribute analysis is a key component of Intelligent Transportation Systems (ITS), supporting applications such as vehicle identification, traffic monitoring, and forensic investigation. However, models trained under controlled conditions often degrade in real surveillance scenarios due to c...
+### 📄 PlantC2USeg: Cross-Scale Consistent Pre-Training for Few-Shot Unified Plant Point Cloud Segmentation
+* **arXiv ID**: [`2609.02860v1`](https://arxiv.org/abs/2609.02860v1) | **Categories**: `cs.CV`
+* **Authors**: Yu Tian, Xintong Jiang, Jan Franklin Adamowski, Shiv O. Prasher
+* **Abstract**: Modern crop breeding demands precise organ-level analysis for trait quantification, making plant point cloud segmentation (PPCS) increasingly important. However, conventional deep learning approaches rely heavily on densely annotated datasets that are labor-intensive to acquire. Unified PPCS adaptat...
 
 
-### 📄 SpatialGuard: Harness-Guided Verifiable Spatial Reasoning for Text-to-Image Generation
-* **arXiv ID**: [`2609.01582v1`](https://arxiv.org/abs/2609.01582v1) | **Categories**: `cs.CV`
-* **Authors**: Ziyun Qian, Zizhi Chen, Yizhou Liu, Mingyang Sun
-* **Abstract**: Complex 3D spatial text to image generation requires models to convert natural language into stable visual geometry, not merely semantic appearance. Existing prompt-driven or layout-conditioned methods improve controllability, but often lack an optimizable and verifiable spatial intermediary before ...
+### 📄 MuyBridge: Mobile Human Center-of-Mass Estimation from Monocular Video via Sparse Fusion
+* **arXiv ID**: [`2609.02854v1`](https://arxiv.org/abs/2609.02854v1) | **Categories**: `cs.CV`
+* **Authors**: Aidan Bradshaw, Marco Giordano, David Rode, Andreas Habersack
+* **Abstract**: The 3D center of mass (CoM) is a primary quantity in the biomechanical analysis of sport, rehabilitation, and clinical movement, yet existing 3D pose tracking, mesh recovery, and multi-view triangulation methods either optimize 3D keypoint accuracy without anatomical constraints or carry compute and...
 
 
-### 📄 H3-World: Turning Language Understanding into World Control
-* **arXiv ID**: [`2609.01560v1`](https://arxiv.org/abs/2609.01560v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Danze Chen, Zeqing Wang, Ziyue Lin, Xingyi Yang
-* **Abstract**: We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world model. Our key finding is that, as large video generators become more capable, language is emerging as a natural interface for control. MiniMax-H3, for example, already supports zero-s...
+### 📄 RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation
+* **arXiv ID**: [`2609.02847v1`](https://arxiv.org/abs/2609.02847v1) | **Categories**: `cs.CV`
+* **Authors**: Xiaolei Lang, Ze Kang, Zehao Huang, Naiyan Wang
+* **Abstract**: Novel view synthesis from sparse inputs requires both geometric grounding from the observed views and generative priors of unobserved regions, motivating recent hybrid methods that combine reconstruction and generation. However, existing methods bridge the two with rendered images or explicit 3D rep...
 
 
 
