@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-03 23:49 UTC`  
+> **Generated Timestamp**: `2026-09-04 10:48 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models
-* **arXiv ID**: [`2609.02886v1`](https://arxiv.org/abs/2609.02886v1) | **Categories**: `cs.CV`
-* **Authors**: Junchao Huang, Guian Fang, Shengju Qian, Xianghao Kong
-* **Abstract**: We introduce SolarWM, a fully open foundation for building interactive video world models from data preparation through long-horizon inference. Training across heterogeneous data sources and video backbones is challenging: datasets differ in temporal scale, camera geometry, visual quality, motion, a...
+### 📄 Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision
+* **arXiv ID**: [`2609.04203v1`](https://arxiv.org/abs/2609.04203v1) | **Categories**: `cs.CV`
+* **Authors**: Shravan Venkatraman, Wenshuai Zhao, Mohammad Hassan Vali, Arno Solin
+* **Abstract**: We introduce S$^3$T (Self-Supervised Self-Distillation over Time), which, to the best of our knowledge, is the first fully self-contained framework for continuous video state tracking. Our method treats temporal sampling density as privileged information, based on the hypothesis that a denser view o...
 
 
-### 📄 Thinking in Pictures: A Systematic Benchmark for Reasoning-driven Image Generation
-* **arXiv ID**: [`2609.02864v1`](https://arxiv.org/abs/2609.02864v1) | **Categories**: `cs.CV`
-* **Authors**: Yutong Liu, Nan Huang, Xu Cao, James M. Rehg
-* **Abstract**: Recent advancements in unified generative models (UGMs) and world simulators have achieved unprecedented results in visual perception and synthesis. However, these models primarily rely on surface-level event alignment, leaving the capacity for high-level visual reasoning underexplored. True visual ...
+### 📄 TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation
+* **arXiv ID**: [`2609.04202v1`](https://arxiv.org/abs/2609.04202v1) | **Categories**: `cs.CV`
+* **Authors**: Adeela Islam, Zorah Lähner, Vittorio Murino, Vladislav Golyanik
+* **Abstract**: While data-driven 3D shape correspondence estimation has recently seen substantial progress, robust matching under partial observations and strong non-isometric deformations remains challenging. Existing learning-based approaches often rely on hand-crafted descriptors or template-based representatio...
 
 
-### 📄 PlantC2USeg: Cross-Scale Consistent Pre-Training for Few-Shot Unified Plant Point Cloud Segmentation
-* **arXiv ID**: [`2609.02860v1`](https://arxiv.org/abs/2609.02860v1) | **Categories**: `cs.CV`
-* **Authors**: Yu Tian, Xintong Jiang, Jan Franklin Adamowski, Shiv O. Prasher
-* **Abstract**: Modern crop breeding demands precise organ-level analysis for trait quantification, making plant point cloud segmentation (PPCS) increasingly important. However, conventional deep learning approaches rely heavily on densely annotated datasets that are labor-intensive to acquire. Unified PPCS adaptat...
+### 📄 Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction
+* **arXiv ID**: [`2609.04201v1`](https://arxiv.org/abs/2609.04201v1) | **Categories**: `cs.CV`
+* **Authors**: Chin-Yang Lin, Yang-Che Sun, Cheng Sun, Fu-En Yang
+* **Abstract**: Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per...
 
 
-### 📄 MuyBridge: Mobile Human Center-of-Mass Estimation from Monocular Video via Sparse Fusion
-* **arXiv ID**: [`2609.02854v1`](https://arxiv.org/abs/2609.02854v1) | **Categories**: `cs.CV`
-* **Authors**: Aidan Bradshaw, Marco Giordano, David Rode, Andreas Habersack
-* **Abstract**: The 3D center of mass (CoM) is a primary quantity in the biomechanical analysis of sport, rehabilitation, and clinical movement, yet existing 3D pose tracking, mesh recovery, and multi-view triangulation methods either optimize 3D keypoint accuracy without anatomical constraints or carry compute and...
+### 📄 Principia: Relational Physics Tests for Video Models
+* **arXiv ID**: [`2609.04200v1`](https://arxiv.org/abs/2609.04200v1) | **Categories**: `cs.CV`
+* **Authors**: Varun Varma Thozhiyoor, Shivam Tripathi, Venkatesh Babu Radhakrishnan, Anand Bhattad
+* **Abstract**: Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the...
 
 
-### 📄 RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation
-* **arXiv ID**: [`2609.02847v1`](https://arxiv.org/abs/2609.02847v1) | **Categories**: `cs.CV`
-* **Authors**: Xiaolei Lang, Ze Kang, Zehao Huang, Naiyan Wang
-* **Abstract**: Novel view synthesis from sparse inputs requires both geometric grounding from the observed views and generative priors of unobserved regions, motivating recent hybrid methods that combine reconstruction and generation. However, existing methods bridge the two with rendered images or explicit 3D rep...
+### 📄 Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States
+* **arXiv ID**: [`2609.04196v1`](https://arxiv.org/abs/2609.04196v1) | **Categories**: `cs.CV`
+* **Authors**: Kang Liao, Yihang Luo, Xiao-Ming Wu, Linyi Jin
+* **Abstract**: We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, and 3D world generation and reconstruction without relying on external offline modules. To reliably construct and interact with 3D worlds, our framework jointly models three native ...
 
 
 
