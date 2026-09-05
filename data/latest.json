@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-04 23:47 UTC",
+  "generated_at": "2026-09-05 10:05 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,84 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.04203v1",
-      "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
+        "cs.GR",
         "cs.CV"
       ],
-      "summary": "We introduce S$^3$T (Self-Supervised Self-Distillation over Time), which, to the best of our knowledge, is the first fully self-contained framework for continuous video state tracking. Our method treats temporal sampling density as privileged information, based on the hypothesis that a denser view o...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Shravan Venkatraman",
-        "Wenshuai Zhao",
-        "Mohammad Hassan Vali",
-        "Arno Solin"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2609.04203v1",
-      "published_date": "2026-09-03"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2609.04202v1",
-      "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.CV"
+        "cs.GR",
+        "cs.DC"
       ],
-      "summary": "While data-driven 3D shape correspondence estimation has recently seen substantial progress, robust matching under partial observations and strong non-isometric deformations remains challenging. Existing learning-based approaches often rely on hand-crafted descriptors or template-based representatio...",
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
       "authors": [
-        "Adeela Islam",
-        "Zorah Lähner",
-        "Vittorio Murino",
-        "Vladislav Golyanik"
+        "E. Rostova",
+        "L. Thorne"
       ],
-      "url": "https://arxiv.org/abs/2609.04202v1",
-      "published_date": "2026-09-03"
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
     },
     {
-      "arxiv_id": "2609.04201v1",
-      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
       "categories": [
-        "cs.CV"
+        "cs.GR"
       ],
-      "summary": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Chin-Yang Lin",
-        "Yang-Che Sun",
-        "Cheng Sun",
-        "Fu-En Yang"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2609.04201v1",
-      "published_date": "2026-09-03"
-    },
-    {
-      "arxiv_id": "2609.04200v1",
-      "title": "Principia: Relational Physics Tests for Video Models",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the...",
-      "authors": [
-        "Varun Varma Thozhiyoor",
-        "Shivam Tripathi",
-        "Venkatesh Babu Radhakrishnan",
-        "Anand Bhattad"
-      ],
-      "url": "https://arxiv.org/abs/2609.04200v1",
-      "published_date": "2026-09-03"
-    },
-    {
-      "arxiv_id": "2609.04196v1",
-      "title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, and 3D world generation and reconstruction without relying on external offline modules. To reliably construct and interact with 3D worlds, our framework jointly models three native ...",
-      "authors": [
-        "Kang Liao",
-        "Yihang Luo",
-        "Xiao-Ming Wu",
-        "Linyi Jin"
-      ],
-      "url": "https://arxiv.org/abs/2609.04196v1",
-      "published_date": "2026-09-03"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }

@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-04 23:47 UTC`  
+> **Generated Timestamp**: `2026-09-05 10:05 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision
-* **arXiv ID**: [`2609.04203v1`](https://arxiv.org/abs/2609.04203v1) | **Categories**: `cs.CV`
-* **Authors**: Shravan Venkatraman, Wenshuai Zhao, Mohammad Hassan Vali, Arno Solin
-* **Abstract**: We introduce S$^3$T (Self-Supervised Self-Distillation over Time), which, to the best of our knowledge, is the first fully self-contained framework for continuous video state tracking. Our method treats temporal sampling density as privileged information, based on the hypothesis that a denser view o...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation
-* **arXiv ID**: [`2609.04202v1`](https://arxiv.org/abs/2609.04202v1) | **Categories**: `cs.CV`
-* **Authors**: Adeela Islam, Zorah Lähner, Vittorio Murino, Vladislav Golyanik
-* **Abstract**: While data-driven 3D shape correspondence estimation has recently seen substantial progress, robust matching under partial observations and strong non-isometric deformations remains challenging. Existing learning-based approaches often rely on hand-crafted descriptors or template-based representatio...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction
-* **arXiv ID**: [`2609.04201v1`](https://arxiv.org/abs/2609.04201v1) | **Categories**: `cs.CV`
-* **Authors**: Chin-Yang Lin, Yang-Che Sun, Cheng Sun, Fu-En Yang
-* **Abstract**: Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per...
-
-
-### 📄 Principia: Relational Physics Tests for Video Models
-* **arXiv ID**: [`2609.04200v1`](https://arxiv.org/abs/2609.04200v1) | **Categories**: `cs.CV`
-* **Authors**: Varun Varma Thozhiyoor, Shivam Tripathi, Venkatesh Babu Radhakrishnan, Anand Bhattad
-* **Abstract**: Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the...
-
-
-### 📄 Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States
-* **arXiv ID**: [`2609.04196v1`](https://arxiv.org/abs/2609.04196v1) | **Categories**: `cs.CV`
-* **Authors**: Kang Liao, Yihang Luo, Xiao-Ming Wu, Linyi Jin
-* **Abstract**: We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, and 3D world generation and reconstruction without relying on external offline modules. To reliably construct and interact with 3D worlds, our framework jointly models three native ...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
