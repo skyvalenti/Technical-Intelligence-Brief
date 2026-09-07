@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-06 23:33 UTC`  
+> **Generated Timestamp**: `2026-09-07 11:48 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision
-* **arXiv ID**: [`2609.04203v1`](https://arxiv.org/abs/2609.04203v1) | **Categories**: `cs.CV`
-* **Authors**: Shravan Venkatraman, Wenshuai Zhao, Mohammad Hassan Vali, Arno Solin
-* **Abstract**: We introduce S$^3$T (Self-Supervised Self-Distillation over Time), which, to the best of our knowledge, is the first fully self-contained framework for continuous video state tracking. Our method treats temporal sampling density as privileged information, based on the hypothesis that a denser view o...
+### 📄 WorldSculpt: Generating Compositional Worlds from Grounded Videos
+* **arXiv ID**: [`2609.05416v1`](https://arxiv.org/abs/2609.05416v1) | **Categories**: `cs.CV`
+* **Authors**: Muyao Niu, Jixuan He, Ruihan Yu, Lian Fu
+* **Abstract**: We study the problem of generating a compositional 3D representation of a cluttered scene containing hundreds of objects. The goal is to represent the scene as a collection of individual object meshes placed in a shared world frame, as required by downstream applications such as gaming, AR/VR, simul...
 
 
-### 📄 TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation
-* **arXiv ID**: [`2609.04202v1`](https://arxiv.org/abs/2609.04202v1) | **Categories**: `cs.CV`
-* **Authors**: Adeela Islam, Zorah Lähner, Vittorio Murino, Vladislav Golyanik
-* **Abstract**: While data-driven 3D shape correspondence estimation has recently seen substantial progress, robust matching under partial observations and strong non-isometric deformations remains challenging. Existing learning-based approaches often rely on hand-crafted descriptors or template-based representatio...
+### 📄 UniMate: One Unified Model to Animate Diverse Skeletons
+* **arXiv ID**: [`2609.05415v1`](https://arxiv.org/abs/2609.05415v1) | **Categories**: `cs.CV, cs.GR, cs.LG`
+* **Authors**: Linzhan Mou, Jiahui Lei, Zhiyang Dou, Chenyue Cai
+* **Abstract**: Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and reference motions a...
 
 
-### 📄 Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction
-* **arXiv ID**: [`2609.04201v1`](https://arxiv.org/abs/2609.04201v1) | **Categories**: `cs.CV`
-* **Authors**: Chin-Yang Lin, Yang-Che Sun, Cheng Sun, Fu-En Yang
-* **Abstract**: Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per...
+### 📄 A Generalizable Feature Extractor for Alzheimer's-Related Brain MRI Tasks
+* **arXiv ID**: [`2609.05400v1`](https://arxiv.org/abs/2609.05400v1) | **Categories**: `cs.CV, q-bio.QM`
+* **Authors**: Reza Rajabli, D. Louis Collins
+* **Abstract**: When there is not enough labeled data to properly train deep learning models, transfer learning can help. We still do not fully understand how effective it is in neuroimaging, especially for Alzheimer's disease research. It is also not clear if these transferred models can work on new datasets witho...
 
 
-### 📄 Principia: Relational Physics Tests for Video Models
-* **arXiv ID**: [`2609.04200v1`](https://arxiv.org/abs/2609.04200v1) | **Categories**: `cs.CV`
-* **Authors**: Varun Varma Thozhiyoor, Shivam Tripathi, Venkatesh Babu Radhakrishnan, Anand Bhattad
-* **Abstract**: Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the...
+### 📄 From Interpretability Methods to Interpretable Models
+* **arXiv ID**: [`2609.05399v1`](https://arxiv.org/abs/2609.05399v1) | **Categories**: `cs.CV, cs.HC`
+* **Authors**: Julien Colin, Nuria Oliver, Thomas Serre
+* **Abstract**: More than a decade in, explainable AI (XAI) for computer vision has assembled a mature toolbox: attribution, feature visualization, concept-based, and circuit-based methods. Yet almost all of the field's effort has gone into building and comparing these methods, and little into the question they wer...
 
 
-### 📄 Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States
-* **arXiv ID**: [`2609.04196v1`](https://arxiv.org/abs/2609.04196v1) | **Categories**: `cs.CV`
-* **Authors**: Kang Liao, Yihang Luo, Xiao-Ming Wu, Linyi Jin
-* **Abstract**: We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, and 3D world generation and reconstruction without relying on external offline modules. To reliably construct and interact with 3D worlds, our framework jointly models three native ...
+### 📄 CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation
+* **arXiv ID**: [`2609.05397v1`](https://arxiv.org/abs/2609.05397v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Samer Abualhanud, Max Mehltretter
+* **Abstract**: Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving. Multi-view surround camera rigs provide broad scene coverage, but the spatially adjacent images typically overlap only minimally. Consequently, the depth of most pixels must be inferred from monocu...
 
 
 
