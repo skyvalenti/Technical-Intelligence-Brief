@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-08 17:47 UTC`  
+> **Generated Timestamp**: `2026-09-08 23:53 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 WorldSculpt: Generating Compositional Worlds from Grounded Videos
-* **arXiv ID**: [`2609.05416v1`](https://arxiv.org/abs/2609.05416v1) | **Categories**: `cs.CV`
-* **Authors**: Muyao Niu, Jixuan He, Ruihan Yu, Lian Fu
-* **Abstract**: We study the problem of generating a compositional 3D representation of a cluttered scene containing hundreds of objects. The goal is to represent the scene as a collection of individual object meshes placed in a shared world frame, as required by downstream applications such as gaming, AR/VR, simul...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 UniMate: One Unified Model to Animate Diverse Skeletons
-* **arXiv ID**: [`2609.05415v1`](https://arxiv.org/abs/2609.05415v1) | **Categories**: `cs.CV, cs.GR, cs.LG`
-* **Authors**: Linzhan Mou, Jiahui Lei, Zhiyang Dou, Chenyue Cai
-* **Abstract**: Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and reference motions a...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 A Generalizable Feature Extractor for Alzheimer's-Related Brain MRI Tasks
-* **arXiv ID**: [`2609.05400v1`](https://arxiv.org/abs/2609.05400v1) | **Categories**: `cs.CV, q-bio.QM`
-* **Authors**: Reza Rajabli, D. Louis Collins
-* **Abstract**: When there is not enough labeled data to properly train deep learning models, transfer learning can help. We still do not fully understand how effective it is in neuroimaging, especially for Alzheimer's disease research. It is also not clear if these transferred models can work on new datasets witho...
-
-
-### 📄 From Interpretability Methods to Interpretable Models
-* **arXiv ID**: [`2609.05399v1`](https://arxiv.org/abs/2609.05399v1) | **Categories**: `cs.CV, cs.HC`
-* **Authors**: Julien Colin, Nuria Oliver, Thomas Serre
-* **Abstract**: More than a decade in, explainable AI (XAI) for computer vision has assembled a mature toolbox: attribution, feature visualization, concept-based, and circuit-based methods. Yet almost all of the field's effort has gone into building and comparing these methods, and little into the question they wer...
-
-
-### 📄 CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation
-* **arXiv ID**: [`2609.05397v1`](https://arxiv.org/abs/2609.05397v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Samer Abualhanud, Max Mehltretter
-* **Abstract**: Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving. Multi-view surround camera rigs provide broad scene coverage, but the spatially adjacent images typically overlap only minimally. Consequently, the depth of most pixels must be inferred from monocu...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
