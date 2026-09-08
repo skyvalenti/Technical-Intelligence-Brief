@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-08 00:01 UTC",
+  "generated_at": "2026-09-08 10:46 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,49 +229,84 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2502.14890",
-      "title": "Continuous Normalization in Neural Radiance Relighting",
+      "arxiv_id": "2609.05416v1",
+      "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
       "categories": [
-        "cs.GR",
         "cs.CV"
       ],
-      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
+      "summary": "We study the problem of generating a compositional 3D representation of a cluttered scene containing hundreds of objects. The goal is to represent the scene as a collection of individual object meshes placed in a shared world frame, as required by downstream applications such as gaming, AR/VR, simul...",
       "authors": [
-        "V. Chen",
-        "K. Sunder",
-        "A. Mercier"
+        "Muyao Niu",
+        "Jixuan He",
+        "Ruihan Yu",
+        "Lian Fu"
       ],
-      "url": "https://arxiv.org/abs/2502.14890",
-      "published_date": "2026-02-18"
+      "url": "https://arxiv.org/abs/2609.05416v1",
+      "published_date": "2026-09-04"
     },
     {
-      "arxiv_id": "2502.09102",
-      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
+      "arxiv_id": "2609.05415v1",
+      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
       "categories": [
+        "cs.CV",
         "cs.GR",
-        "cs.DC"
+        "cs.LG"
       ],
-      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
+      "summary": "Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and reference motions a...",
       "authors": [
-        "E. Rostova",
-        "L. Thorne"
+        "Linzhan Mou",
+        "Jiahui Lei",
+        "Zhiyang Dou",
+        "Chenyue Cai"
       ],
-      "url": "https://arxiv.org/abs/2502.09102",
-      "published_date": "2026-02-15"
+      "url": "https://arxiv.org/abs/2609.05415v1",
+      "published_date": "2026-09-04"
     },
     {
-      "arxiv_id": "2501.19230",
-      "title": "Deterministic MaterialX Shader Translation in WebGPU",
+      "arxiv_id": "2609.05400v1",
+      "title": "A Generalizable Feature Extractor for Alzheimer's-Related Brain MRI Tasks",
       "categories": [
-        "cs.GR"
+        "cs.CV",
+        "q-bio.QM"
       ],
-      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
+      "summary": "When there is not enough labeled data to properly train deep learning models, transfer learning can help. We still do not fully understand how effective it is in neuroimaging, especially for Alzheimer's disease research. It is also not clear if these transferred models can work on new datasets witho...",
       "authors": [
-        "M. Tanaka",
-        "J. Doe"
+        "Reza Rajabli",
+        "D. Louis Collins"
       ],
-      "url": "https://arxiv.org/abs/2501.19230",
-      "published_date": "2026-01-28"
+      "url": "https://arxiv.org/abs/2609.05400v1",
+      "published_date": "2026-09-04"
+    },
+    {
+      "arxiv_id": "2609.05399v1",
+      "title": "From Interpretability Methods to Interpretable Models",
+      "categories": [
+        "cs.CV",
+        "cs.HC"
+      ],
+      "summary": "More than a decade in, explainable AI (XAI) for computer vision has assembled a mature toolbox: attribution, feature visualization, concept-based, and circuit-based methods. Yet almost all of the field's effort has gone into building and comparing these methods, and little into the question they wer...",
+      "authors": [
+        "Julien Colin",
+        "Nuria Oliver",
+        "Thomas Serre"
+      ],
+      "url": "https://arxiv.org/abs/2609.05399v1",
+      "published_date": "2026-09-04"
+    },
+    {
+      "arxiv_id": "2609.05397v1",
+      "title": "CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "summary": "Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving. Multi-view surround camera rigs provide broad scene coverage, but the spatially adjacent images typically overlap only minimally. Consequently, the depth of most pixels must be inferred from monocu...",
+      "authors": [
+        "Samer Abualhanud",
+        "Max Mehltretter"
+      ],
+      "url": "https://arxiv.org/abs/2609.05397v1",
+      "published_date": "2026-09-04"
     }
   ]
 }
