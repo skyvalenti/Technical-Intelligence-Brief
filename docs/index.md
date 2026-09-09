@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-08 23:53 UTC`  
+> **Generated Timestamp**: `2026-09-09 10:53 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators
+* **arXiv ID**: [`2609.09155v1`](https://arxiv.org/abs/2609.09155v1) | **Categories**: `cs.CV`
+* **Authors**: Yuncong Yang, Zhengtao Han, Furkan Ozyurt, Zeyuan Yang
+* **Abstract**: World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine-grained controllability with respect to low-level robot actions. A key obstacle to scaling such models in robotics is that actions are not a universal language in pixel space: chan...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 Point4D: Long-range 4D Motion Reconstruction
+* **arXiv ID**: [`2609.09145v1`](https://arxiv.org/abs/2609.09145v1) | **Categories**: `cs.CV`
+* **Authors**: Minsik Jeon, Jay Karhade, Deva Ramanan, Shubham Tulsiani
+* **Abstract**: We introduce Point4D, a feed-forward model for 4D reconstruction of long-range video sequences. Point4D is able to reliably infer dense per-point 3D trajectories across multi-hundred-frame videos, unlike existing 4D methods that are limited to short input windows of at most a few dozen frames. A key...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 Studying Image Tokenizers as Visual Languages in Unified Multimodal Models
+* **arXiv ID**: [`2609.09143v1`](https://arxiv.org/abs/2609.09143v1) | **Categories**: `cs.CV, cs.CL`
+* **Authors**: Siting Li, Zhengyang Wang, Simon Shaolei Du, Xi Chen
+* **Abstract**: Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations. These evaluations do not fully capture how visual tokens behave when modeled jointly with text. We build a controlled pure-au...
+
+
+### 📄 Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs
+* **arXiv ID**: [`2609.09124v1`](https://arxiv.org/abs/2609.09124v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Xiaofu Chen, Stella Frank, Yova Kementchedjhieva
+* **Abstract**: Visual encoders construct a representation of the image input for Vision-Language models. How much conceptual, as opposed to immediately visible, information does this representation contain? We use canonical color as a controlled test case to ask whether vision encoders make canonical-color informa...
+
+
+### 📄 Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout
+* **arXiv ID**: [`2609.09123v1`](https://arxiv.org/abs/2609.09123v1) | **Categories**: `cs.CV`
+* **Authors**: Zhuoran Zhao, Shengju Qian, Tongtong Liang, Xianghao Kong
+* **Abstract**: Autoregressive (AR) video diffusion models have shown great potential in real-time video generation. Recent methods distill pretrained bidirectional video diffusion models into causal AR students through Distribution Matching Distillation (DMD), but the generated videos often suffer from over-satura...
 
 
 
