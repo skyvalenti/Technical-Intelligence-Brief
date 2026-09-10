@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-09 23:52 UTC",
+  "generated_at": "2026-09-10 10:49 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,85 +229,87 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.09155v1",
-      "title": "SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators",
+      "arxiv_id": "2609.10540v1",
+      "title": "Programmable World Model",
       "categories": [
         "cs.CV"
       ],
-      "summary": "World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine-grained controllability with respect to low-level robot actions. A key obstacle to scaling such models in robotics is that actions are not a universal language in pixel space: chan...",
+      "summary": "Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state...",
       "authors": [
-        "Yuncong Yang",
-        "Zhengtao Han",
-        "Furkan Ozyurt",
-        "Zeyuan Yang"
+        "Zheng-Hui Huang",
+        "Guixu Lin",
+        "Jiacheng Lin",
+        "Yi-Chuan Huang"
       ],
-      "url": "https://arxiv.org/abs/2609.09155v1",
-      "published_date": "2026-09-08"
+      "url": "https://arxiv.org/abs/2609.10540v1",
+      "published_date": "2026-09-09"
     },
     {
-      "arxiv_id": "2609.09145v1",
-      "title": "Point4D: Long-range 4D Motion Reconstruction",
+      "arxiv_id": "2609.10531v1",
+      "title": "Guiding Image-to-3D Generation with Test-Time Partial Observations",
       "categories": [
         "cs.CV"
       ],
-      "summary": "We introduce Point4D, a feed-forward model for 4D reconstruction of long-range video sequences. Point4D is able to reliably infer dense per-point 3D trajectories across multi-hundred-frame videos, unlike existing 4D methods that are limited to short input windows of at most a few dozen frames. A key...",
+      "summary": "Image-to-3D models can generate visually compelling 3D assets from a single RGB image, but their geometry is often only loosely constrained by the available observations, limiting their use in applications that require geometric fidelity. In many real-world settings, however, partial geometric obser...",
       "authors": [
-        "Minsik Jeon",
-        "Jay Karhade",
-        "Deva Ramanan",
-        "Shubham Tulsiani"
+        "Jerred Chen",
+        "Simon Weber",
+        "Ronald Clark"
       ],
-      "url": "https://arxiv.org/abs/2609.09145v1",
-      "published_date": "2026-09-08"
+      "url": "https://arxiv.org/abs/2609.10531v1",
+      "published_date": "2026-09-09"
     },
     {
-      "arxiv_id": "2609.09143v1",
-      "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
+      "arxiv_id": "2609.10524v1",
+      "title": "Precision in Rice Variety Classification using Stacking-Based Ensemble Learning",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Rice, a staple food for a significant portion of the global population, exhibits remarkable diversity in its varieties, presenting substantial challenges for accurate identification by consumers, traders, and farmers. This complexity often facilitates fraudulent practices, such as the unauthorized m...",
+      "authors": [
+        "Md. Masudul Islam",
+        "Galib Muhammad Shahriar Himel",
+        "Md. Golam Moazzam",
+        "Mohammad Shorif Uddin"
+      ],
+      "url": "https://arxiv.org/abs/2609.10524v1",
+      "published_date": "2026-09-09"
+    },
+    {
+      "arxiv_id": "2609.10522v1",
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.MM"
+      ],
+      "summary": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a compact semantic interface linking intent to action...",
+      "authors": [
+        "Yanzhe Chen",
+        "Zechen Bai",
+        "Zhijun Cao",
+        "Wenzheng Zeng"
+      ],
+      "url": "https://arxiv.org/abs/2609.10522v1",
+      "published_date": "2026-09-09"
+    },
+    {
+      "arxiv_id": "2609.10518v1",
+      "title": "BrainTaskonomy: Learning How to Pretrain and What to Transfer in fMRI Foundation Models",
       "categories": [
         "cs.CV",
-        "cs.CL"
+        "q-bio.NC"
       ],
-      "summary": "Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations. These evaluations do not fully capture how visual tokens behave when modeled jointly with text. We build a controlled pure-au...",
+      "summary": "fMRI foundation models increasingly aggregate heterogeneous data across brain states, cohorts, and acquisition settings, yet pretraining domains are commonly treated as a flat mixture and downstream tasks are adapted independently. We study whether measured learning relations can organize both stage...",
       "authors": [
-        "Siting Li",
-        "Zhengyang Wang",
-        "Simon Shaolei Du",
-        "Xi Chen"
+        "Junfeng Xia",
+        "Wenhao Ye",
+        "Junxiang Zhang",
+        "Jiayu Zuo"
       ],
-      "url": "https://arxiv.org/abs/2609.09143v1",
-      "published_date": "2026-09-08"
-    },
-    {
-      "arxiv_id": "2609.09124v1",
-      "title": "Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Visual encoders construct a representation of the image input for Vision-Language models. How much conceptual, as opposed to immediately visible, information does this representation contain? We use canonical color as a controlled test case to ask whether vision encoders make canonical-color informa...",
-      "authors": [
-        "Xiaofu Chen",
-        "Stella Frank",
-        "Yova Kementchedjhieva"
-      ],
-      "url": "https://arxiv.org/abs/2609.09124v1",
-      "published_date": "2026-09-08"
-    },
-    {
-      "arxiv_id": "2609.09123v1",
-      "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Autoregressive (AR) video diffusion models have shown great potential in real-time video generation. Recent methods distill pretrained bidirectional video diffusion models into causal AR students through Distribution Matching Distillation (DMD), but the generated videos often suffer from over-satura...",
-      "authors": [
-        "Zhuoran Zhao",
-        "Shengju Qian",
-        "Tongtong Liang",
-        "Xianghao Kong"
-      ],
-      "url": "https://arxiv.org/abs/2609.09123v1",
-      "published_date": "2026-09-08"
+      "url": "https://arxiv.org/abs/2609.10518v1",
+      "published_date": "2026-09-09"
     }
   ]
 }

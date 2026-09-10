@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-09 23:52 UTC`  
+> **Generated Timestamp**: `2026-09-10 10:49 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators
-* **arXiv ID**: [`2609.09155v1`](https://arxiv.org/abs/2609.09155v1) | **Categories**: `cs.CV`
-* **Authors**: Yuncong Yang, Zhengtao Han, Furkan Ozyurt, Zeyuan Yang
-* **Abstract**: World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine-grained controllability with respect to low-level robot actions. A key obstacle to scaling such models in robotics is that actions are not a universal language in pixel space: chan...
+### 📄 Programmable World Model
+* **arXiv ID**: [`2609.10540v1`](https://arxiv.org/abs/2609.10540v1) | **Categories**: `cs.CV`
+* **Authors**: Zheng-Hui Huang, Guixu Lin, Jiacheng Lin, Yi-Chuan Huang
+* **Abstract**: Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state...
 
 
-### 📄 Point4D: Long-range 4D Motion Reconstruction
-* **arXiv ID**: [`2609.09145v1`](https://arxiv.org/abs/2609.09145v1) | **Categories**: `cs.CV`
-* **Authors**: Minsik Jeon, Jay Karhade, Deva Ramanan, Shubham Tulsiani
-* **Abstract**: We introduce Point4D, a feed-forward model for 4D reconstruction of long-range video sequences. Point4D is able to reliably infer dense per-point 3D trajectories across multi-hundred-frame videos, unlike existing 4D methods that are limited to short input windows of at most a few dozen frames. A key...
+### 📄 Guiding Image-to-3D Generation with Test-Time Partial Observations
+* **arXiv ID**: [`2609.10531v1`](https://arxiv.org/abs/2609.10531v1) | **Categories**: `cs.CV`
+* **Authors**: Jerred Chen, Simon Weber, Ronald Clark
+* **Abstract**: Image-to-3D models can generate visually compelling 3D assets from a single RGB image, but their geometry is often only loosely constrained by the available observations, limiting their use in applications that require geometric fidelity. In many real-world settings, however, partial geometric obser...
 
 
-### 📄 Studying Image Tokenizers as Visual Languages in Unified Multimodal Models
-* **arXiv ID**: [`2609.09143v1`](https://arxiv.org/abs/2609.09143v1) | **Categories**: `cs.CV, cs.CL`
-* **Authors**: Siting Li, Zhengyang Wang, Simon Shaolei Du, Xi Chen
-* **Abstract**: Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations. These evaluations do not fully capture how visual tokens behave when modeled jointly with text. We build a controlled pure-au...
+### 📄 Precision in Rice Variety Classification using Stacking-Based Ensemble Learning
+* **arXiv ID**: [`2609.10524v1`](https://arxiv.org/abs/2609.10524v1) | **Categories**: `cs.CV`
+* **Authors**: Md. Masudul Islam, Galib Muhammad Shahriar Himel, Md. Golam Moazzam, Mohammad Shorif Uddin
+* **Abstract**: Rice, a staple food for a significant portion of the global population, exhibits remarkable diversity in its varieties, presenting substantial challenges for accurate identification by consumers, traders, and farmers. This complexity often facilitates fraudulent practices, such as the unauthorized m...
 
 
-### 📄 Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs
-* **arXiv ID**: [`2609.09124v1`](https://arxiv.org/abs/2609.09124v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Xiaofu Chen, Stella Frank, Yova Kementchedjhieva
-* **Abstract**: Visual encoders construct a representation of the image input for Vision-Language models. How much conceptual, as opposed to immediately visible, information does this representation contain? We use canonical color as a controlled test case to ask whether vision encoders make canonical-color informa...
+### 📄 Show-Harness: Just a VLM Agent Can Play Robots
+* **arXiv ID**: [`2609.10522v1`](https://arxiv.org/abs/2609.10522v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.MM`
+* **Authors**: Yanzhe Chen, Zechen Bai, Zhijun Cao, Wenzheng Zeng
+* **Abstract**: Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to "play" robots through a compact semantic interface linking intent to action...
 
 
-### 📄 Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout
-* **arXiv ID**: [`2609.09123v1`](https://arxiv.org/abs/2609.09123v1) | **Categories**: `cs.CV`
-* **Authors**: Zhuoran Zhao, Shengju Qian, Tongtong Liang, Xianghao Kong
-* **Abstract**: Autoregressive (AR) video diffusion models have shown great potential in real-time video generation. Recent methods distill pretrained bidirectional video diffusion models into causal AR students through Distribution Matching Distillation (DMD), but the generated videos often suffer from over-satura...
+### 📄 BrainTaskonomy: Learning How to Pretrain and What to Transfer in fMRI Foundation Models
+* **arXiv ID**: [`2609.10518v1`](https://arxiv.org/abs/2609.10518v1) | **Categories**: `cs.CV, q-bio.NC`
+* **Authors**: Junfeng Xia, Wenhao Ye, Junxiang Zhang, Jiayu Zuo
+* **Abstract**: fMRI foundation models increasingly aggregate heterogeneous data across brain states, cohorts, and acquisition settings, yet pretraining domains are commonly treated as a flat mixture and downstream tasks are adapted independently. We study whether measured learning relations can organize both stage...
 
 
 
