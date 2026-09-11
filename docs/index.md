@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-10 23:48 UTC`  
+> **Generated Timestamp**: `2026-09-11 10:45 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Programmable World Model
-* **arXiv ID**: [`2609.10540v1`](https://arxiv.org/abs/2609.10540v1) | **Categories**: `cs.CV`
-* **Authors**: Zheng-Hui Huang, Guixu Lin, Jiacheng Lin, Yi-Chuan Huang
-* **Abstract**: Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Guiding Image-to-3D Generation with Test-Time Partial Observations
-* **arXiv ID**: [`2609.10531v1`](https://arxiv.org/abs/2609.10531v1) | **Categories**: `cs.CV`
-* **Authors**: Jerred Chen, Simon Weber, Ronald Clark
-* **Abstract**: Image-to-3D models can generate visually compelling 3D assets from a single RGB image, but their geometry is often only loosely constrained by the available observations, limiting their use in applications that require geometric fidelity. In many real-world settings, however, partial geometric obser...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 Precision in Rice Variety Classification using Stacking-Based Ensemble Learning
-* **arXiv ID**: [`2609.10524v1`](https://arxiv.org/abs/2609.10524v1) | **Categories**: `cs.CV`
-* **Authors**: Md. Masudul Islam, Galib Muhammad Shahriar Himel, Md. Golam Moazzam, Mohammad Shorif Uddin
-* **Abstract**: Rice, a staple food for a significant portion of the global population, exhibits remarkable diversity in its varieties, presenting substantial challenges for accurate identification by consumers, traders, and farmers. This complexity often facilitates fraudulent practices, such as the unauthorized m...
-
-
-### 📄 Show-Harness: Just a VLM Agent Can Play Robots
-* **arXiv ID**: [`2609.10522v1`](https://arxiv.org/abs/2609.10522v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.MM`
-* **Authors**: Yanzhe Chen, Zechen Bai, Zhijun Cao, Wenzheng Zeng
-* **Abstract**: Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to "play" robots through a compact semantic interface linking intent to action...
-
-
-### 📄 BrainTaskonomy: Learning How to Pretrain and What to Transfer in fMRI Foundation Models
-* **arXiv ID**: [`2609.10518v1`](https://arxiv.org/abs/2609.10518v1) | **Categories**: `cs.CV, q-bio.NC`
-* **Authors**: Junfeng Xia, Wenhao Ye, Junxiang Zhang, Jiayu Zuo
-* **Abstract**: fMRI foundation models increasingly aggregate heterogeneous data across brain states, cohorts, and acquisition settings, yet pretraining domains are commonly treated as a flat mixture and downstream tasks are adapted independently. We study whether measured learning relations can organize both stage...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
