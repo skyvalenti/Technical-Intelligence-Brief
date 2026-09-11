@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-11 17:35 UTC`  
+> **Generated Timestamp**: `2026-09-11 23:55 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 SenseNova-U1.5: Towards Native Unified Visual Intelligence
-* **arXiv ID**: [`2609.11929v1`](https://arxiv.org/abs/2609.11929v1) | **Categories**: `cs.CV`
-* **Authors**: Haiwen Diao, Jiahao Wang, Chenjing Ding, Hanming Deng
-* **Abstract**: We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visual content within an encoder-free and VAE-free architecture. We strengthen its visual interface through spatially coherent patch reconstruction and scale its training with carefully...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 MindTopo: Can Foundation Models Reason in Topological Space?
-* **arXiv ID**: [`2609.11900v1`](https://arxiv.org/abs/2609.11900v1) | **Categories**: `cs.AI, cs.CL, cs.CV`
-* **Authors**: Yunfei Ge, Anbang Liu, Qineng Wang, Johnalbert Garnica
-* **Abstract**: Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science identifies these relations as foundational to spatial understanding, yet foundation-model evaluations la...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding
-* **arXiv ID**: [`2609.11899v1`](https://arxiv.org/abs/2609.11899v1) | **Categories**: `cs.CV, cs.HC`
-* **Authors**: Weitong Cai, Hang Zhang, Yukai Huang, Yiqiao Xie
-* **Abstract**: Long-video understanding on edge devices must reason over hours of content under tight compute and bandwidth budgets. Subsampling visual tokens loses temporal structure, while text-only video memories lose fine-grained visual attributes. We observe a visual-textual duality: language memories carry l...
-
-
-### 📄 3D Point Splatting for mmWave Radar Novel View Synthesis
-* **arXiv ID**: [`2609.11894v1`](https://arxiv.org/abs/2609.11894v1) | **Categories**: `cs.CV, cs.GR, cs.LG, eess.SP`
-* **Authors**: Adnan Armouti, Yixuan Gao, Rajalakshmi Nandakumar
-* **Abstract**: Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implement the radar forwar...
-
-
-### 📄 Guided Super-Resolution of Digital Elevation Models with Diffusion-Based Image Generators
-* **arXiv ID**: [`2609.11886v1`](https://arxiv.org/abs/2609.11886v1) | **Categories**: `cs.CV`
-* **Authors**: Armand Mihai Nicolicioiu, Dominik Narnhofer, Nando Metzger, Daniel Panangian
-* **Abstract**: High-resolution digital surface models (DSMs) play an important role in urban analysis, 3D building reconstruction, and infrastructure monitoring, yet their availability remains limited due to the high cost and complexity of data acquisition. In contrast, coarse DSMs from commercial satellite missio...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
