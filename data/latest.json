@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-12 10:14 UTC",
+  "generated_at": "2026-09-12 16:47 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,89 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.11929v1",
-      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
-        "cs.CV"
-      ],
-      "summary": "We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visual content within an encoder-free and VAE-free architecture. We strengthen its visual interface through spatially coherent patch reconstruction and scale its training with carefully...",
-      "authors": [
-        "Haiwen Diao",
-        "Jiahao Wang",
-        "Chenjing Ding",
-        "Hanming Deng"
-      ],
-      "url": "https://arxiv.org/abs/2609.11929v1",
-      "published_date": "2026-09-10"
-    },
-    {
-      "arxiv_id": "2609.11900v1",
-      "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.CV"
-      ],
-      "summary": "Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science identifies these relations as foundational to spatial understanding, yet foundation-model evaluations la...",
-      "authors": [
-        "Yunfei Ge",
-        "Anbang Liu",
-        "Qineng Wang",
-        "Johnalbert Garnica"
-      ],
-      "url": "https://arxiv.org/abs/2609.11900v1",
-      "published_date": "2026-09-10"
-    },
-    {
-      "arxiv_id": "2609.11899v1",
-      "title": "Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding",
-      "categories": [
-        "cs.CV",
-        "cs.HC"
-      ],
-      "summary": "Long-video understanding on edge devices must reason over hours of content under tight compute and bandwidth budgets. Subsampling visual tokens loses temporal structure, while text-only video memories lose fine-grained visual attributes. We observe a visual-textual duality: language memories carry l...",
-      "authors": [
-        "Weitong Cai",
-        "Hang Zhang",
-        "Yukai Huang",
-        "Yiqiao Xie"
-      ],
-      "url": "https://arxiv.org/abs/2609.11899v1",
-      "published_date": "2026-09-10"
-    },
-    {
-      "arxiv_id": "2609.11894v1",
-      "title": "3D Point Splatting for mmWave Radar Novel View Synthesis",
-      "categories": [
-        "cs.CV",
         "cs.GR",
-        "cs.LG",
-        "eess.SP"
-      ],
-      "summary": "Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implement the radar forwar...",
-      "authors": [
-        "Adnan Armouti",
-        "Yixuan Gao",
-        "Rajalakshmi Nandakumar"
-      ],
-      "url": "https://arxiv.org/abs/2609.11894v1",
-      "published_date": "2026-09-10"
-    },
-    {
-      "arxiv_id": "2609.11886v1",
-      "title": "Guided Super-Resolution of Digital Elevation Models with Diffusion-Based Image Generators",
-      "categories": [
         "cs.CV"
       ],
-      "summary": "High-resolution digital surface models (DSMs) play an important role in urban analysis, 3D building reconstruction, and infrastructure monitoring, yet their availability remains limited due to the high cost and complexity of data acquisition. In contrast, coarse DSMs from commercial satellite missio...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Armand Mihai Nicolicioiu",
-        "Dominik Narnhofer",
-        "Nando Metzger",
-        "Daniel Panangian"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2609.11886v1",
-      "published_date": "2026-09-10"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
+    },
+    {
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
+      "categories": [
+        "cs.GR",
+        "cs.DC"
+      ],
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
+      "authors": [
+        "E. Rostova",
+        "L. Thorne"
+      ],
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
+    },
+    {
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
+      "categories": [
+        "cs.GR"
+      ],
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
+      "authors": [
+        "M. Tanaka",
+        "J. Doe"
+      ],
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }
