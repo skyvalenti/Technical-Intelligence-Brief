@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-16 00:00 UTC",
+  "generated_at": "2026-09-16 10:58 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,49 +229,85 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2502.14890",
-      "title": "Continuous Normalization in Neural Radiance Relighting",
+      "arxiv_id": "2609.17521v1",
+      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
       "categories": [
-        "cs.GR",
-        "cs.CV"
-      ],
-      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
-      "authors": [
-        "V. Chen",
-        "K. Sunder",
-        "A. Mercier"
-      ],
-      "url": "https://arxiv.org/abs/2502.14890",
-      "published_date": "2026-02-18"
-    },
-    {
-      "arxiv_id": "2502.09102",
-      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
-      "categories": [
-        "cs.GR",
-        "cs.DC"
-      ],
-      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
-      "authors": [
-        "E. Rostova",
-        "L. Thorne"
-      ],
-      "url": "https://arxiv.org/abs/2502.09102",
-      "published_date": "2026-02-15"
-    },
-    {
-      "arxiv_id": "2501.19230",
-      "title": "Deterministic MaterialX Shader Translation in WebGPU",
-      "categories": [
+        "cs.CV",
+        "cs.AI",
         "cs.GR"
       ],
-      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
+      "summary": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positi...",
       "authors": [
-        "M. Tanaka",
-        "J. Doe"
+        "Chuhao Chen",
+        "Peter Wonka",
+        "Chaoyang Wang",
+        "Chen Wang"
       ],
-      "url": "https://arxiv.org/abs/2501.19230",
-      "published_date": "2026-01-28"
+      "url": "https://arxiv.org/abs/2609.17521v1",
+      "published_date": "2026-09-15"
+    },
+    {
+      "arxiv_id": "2609.17479v1",
+      "title": "Det-LIME: Detector-Aware, Multi-Instance Local Interpretable Model-Agnostic Explanations for Automated Marine Mammal Detection",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "Despite the rapid uptake of black-box object detectors in marine mammal research and monitoring, explainability techniques are rarely integrated into conservation workflows. Furthermore, most classification-oriented explainability tools are ill-suited to detection tasks involving imagery of social o...",
+      "authors": [
+        "Jiayi Zhou",
+        "David W. Johnston",
+        "Brinnae Bent"
+      ],
+      "url": "https://arxiv.org/abs/2609.17479v1",
+      "published_date": "2026-09-15"
+    },
+    {
+      "arxiv_id": "2609.17458v1",
+      "title": "Tables Decoded: DELTA for Structure, TARQA for Understanding",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "summary": "Table understanding is a core task in document intelligence, encompassing two key subtasks: table reconstruction and table visual question answering (TabVQA). While recent approaches predominantly rely on vision- language models (VLMs) operating on table images, we propose a more scalable and effect...",
+      "authors": [
+        "Jahanvi Rajput",
+        "Dhruv Kudale",
+        "Saikiran Kasturi",
+        "Utkarsh Verma"
+      ],
+      "url": "https://arxiv.org/abs/2609.17458v1",
+      "published_date": "2026-09-15"
+    },
+    {
+      "arxiv_id": "2609.17450v1",
+      "title": "ORCA: Occlusion-Aware Refinement and Completion for Novel View Synthesis",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Novel-view synthesis from a single image is a fundamentally ambiguous problem. As the camera moves away from the input viewpoint, previously hidden regions become visible, exposing missing geometry and holes in the reconstructed scene. Existing methods often rely on generative models to complete suc...",
+      "authors": [
+        "Weronika Jakubowska",
+        "Maciej Zięba",
+        "Przemysław Spurek"
+      ],
+      "url": "https://arxiv.org/abs/2609.17450v1",
+      "published_date": "2026-09-15"
+    },
+    {
+      "arxiv_id": "2609.17443v1",
+      "title": "BrainFocus: EEG-Guided ROI Selection for Efficient Vision-Language Models",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Vision-language models (VLMs) achieve strong visual question answering (VQA) performance, but processing large cluttered images is computationally expensive when only a small region is relevant. Electroencephalography (EEG) signals, which capture human neural responses to visual stimuli, can provide...",
+      "authors": [
+        "Yihui Peng",
+        "Guorui Lu",
+        "Qinyu Chen"
+      ],
+      "url": "https://arxiv.org/abs/2609.17443v1",
+      "published_date": "2026-09-15"
     }
   ]
 }

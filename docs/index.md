@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-16 00:00 UTC`  
+> **Generated Timestamp**: `2026-09-16 10:58 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control
+* **arXiv ID**: [`2609.17521v1`](https://arxiv.org/abs/2609.17521v1) | **Categories**: `cs.CV, cs.AI, cs.GR`
+* **Authors**: Chuhao Chen, Peter Wonka, Chaoyang Wang, Chen Wang
+* **Abstract**: Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positi...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 Det-LIME: Detector-Aware, Multi-Instance Local Interpretable Model-Agnostic Explanations for Automated Marine Mammal Detection
+* **arXiv ID**: [`2609.17479v1`](https://arxiv.org/abs/2609.17479v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Jiayi Zhou, David W. Johnston, Brinnae Bent
+* **Abstract**: Despite the rapid uptake of black-box object detectors in marine mammal research and monitoring, explainability techniques are rarely integrated into conservation workflows. Furthermore, most classification-oriented explainability tools are ill-suited to detection tasks involving imagery of social o...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 Tables Decoded: DELTA for Structure, TARQA for Understanding
+* **arXiv ID**: [`2609.17458v1`](https://arxiv.org/abs/2609.17458v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Jahanvi Rajput, Dhruv Kudale, Saikiran Kasturi, Utkarsh Verma
+* **Abstract**: Table understanding is a core task in document intelligence, encompassing two key subtasks: table reconstruction and table visual question answering (TabVQA). While recent approaches predominantly rely on vision- language models (VLMs) operating on table images, we propose a more scalable and effect...
+
+
+### 📄 ORCA: Occlusion-Aware Refinement and Completion for Novel View Synthesis
+* **arXiv ID**: [`2609.17450v1`](https://arxiv.org/abs/2609.17450v1) | **Categories**: `cs.CV`
+* **Authors**: Weronika Jakubowska, Maciej Zięba, Przemysław Spurek
+* **Abstract**: Novel-view synthesis from a single image is a fundamentally ambiguous problem. As the camera moves away from the input viewpoint, previously hidden regions become visible, exposing missing geometry and holes in the reconstructed scene. Existing methods often rely on generative models to complete suc...
+
+
+### 📄 BrainFocus: EEG-Guided ROI Selection for Efficient Vision-Language Models
+* **arXiv ID**: [`2609.17443v1`](https://arxiv.org/abs/2609.17443v1) | **Categories**: `cs.CV`
+* **Authors**: Yihui Peng, Guorui Lu, Qinyu Chen
+* **Abstract**: Vision-language models (VLMs) achieve strong visual question answering (VQA) performance, but processing large cluttered images is computationally expensive when only a small region is relevant. Electroencephalography (EEG) signals, which capture human neural responses to visual stimuli, can provide...
 
 
 
