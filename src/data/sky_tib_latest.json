@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-16 10:58 UTC",
+  "generated_at": "2026-09-16 17:59 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
