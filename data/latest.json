@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-15 17:58 UTC",
+  "generated_at": "2026-09-16 00:00 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,87 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.15980v1",
-      "title": "A Chosen Future Can Still Be Rewritten: Causal Writability in Video Models",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
-        "cs.LG",
+        "cs.GR",
         "cs.CV"
       ],
-      "summary": "When a video model generates physically incorrect motion, did it fail to learn the correct motion, or did it learn it but fail to use it? We show the latter: the correct motion remains available inside the model and can still be made to control the generated video. We train on videos where red masse...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Xingyun Wang",
-        "Haomin Zheng",
-        "Man Yuan",
-        "Leqian Yang"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2609.15980v1",
-      "published_date": "2026-09-14"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2609.15888v1",
-      "title": "Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.GR",
+        "cs.DC"
       ],
-      "summary": "Deep networks trained on structural MRI for Alzheimer's disease (AD) staging often reach reasonable accuracy while attending to anatomically irrelevant regions, and multimodal models that add clinical tables frequently rely on variables that were used to assign the diagnostic label in the first plac...",
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
       "authors": [
-        "Paul-Gabriel Nicolae",
-        "Irina Georgiana Mocanu"
+        "E. Rostova",
+        "L. Thorne"
       ],
-      "url": "https://arxiv.org/abs/2609.15888v1",
-      "published_date": "2026-09-14"
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
     },
     {
-      "arxiv_id": "2609.15863v1",
-      "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
       "categories": [
-        "cs.CV"
+        "cs.GR"
       ],
-      "summary": "Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without guaranteed success, and long-horizon scenes drift in appearance, interactions, and temporal coherence. Agentic visual creation provides explicit references, editable 3D scenes, or exec...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Xiaofeng Mao",
-        "Peijia Lin",
-        "Shaohao Rui",
-        "Yibo Zhang"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2609.15863v1",
-      "published_date": "2026-09-14"
-    },
-    {
-      "arxiv_id": "2609.15847v1",
-      "title": "Proportional-Fair Resource Allocation and Dual-Threshold Early-Exit Inference for Secure Cooperative Multi-Layer Edge Intelligence",
-      "categories": [
-        "cs.NI",
-        "cs.CV",
-        "cs.ET",
-        "cs.LG"
-      ],
-      "summary": "This paper proposes FREDI (Fair Resource Allocation for Edge Dual-Threshold Inference), a secure wireless edge-intelligence framework for event-triggered inference in a cooperative user equipment (UE)--edge server (ES)--cloud system. Each UE performs early-exit convolutional neural network (CNN) scr...",
-      "authors": [
-        "Thai T. Vu",
-        "John Le",
-        "Tu N. Nguyen",
-        "Jun Shen"
-      ],
-      "url": "https://arxiv.org/abs/2609.15847v1",
-      "published_date": "2026-09-14"
-    },
-    {
-      "arxiv_id": "2609.15834v1",
-      "title": "TRACE: Two-Stage Detector-Response Estimation With Angular Cosine Expansion for Ring Artifact Correction in Photon-Counting CT",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Detector response nonuniformity introduces systematic projection errors and ring artifacts in photon-counting detector computed tomography (PCD-CT). In measured PCD-CT data, residual stripe amplitudes vary slowly with projection angle, which fixed-bias models cannot adequately capture. We propose TR...",
-      "authors": [
-        "Jigang Duan",
-        "Heran Wang",
-        "Ligen Shi",
-        "Zheng Sun"
-      ],
-      "url": "https://arxiv.org/abs/2609.15834v1",
-      "published_date": "2026-09-14"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }

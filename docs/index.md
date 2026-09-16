@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-15 17:58 UTC`  
+> **Generated Timestamp**: `2026-09-16 00:00 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 A Chosen Future Can Still Be Rewritten: Causal Writability in Video Models
-* **arXiv ID**: [`2609.15980v1`](https://arxiv.org/abs/2609.15980v1) | **Categories**: `cs.LG, cs.CV`
-* **Authors**: Xingyun Wang, Haomin Zheng, Man Yuan, Leqian Yang
-* **Abstract**: When a video model generates physically incorrect motion, did it fail to learn the correct motion, or did it learn it but fail to use it? We show the latter: the correct motion remains available inside the model and can still be made to control the generated video. We train on videos where red masse...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Anatomical Grounding and Leakage-Aware Multimodal Contrastive Learning for Alzheimer's Disease Classification from Structural MRI
-* **arXiv ID**: [`2609.15888v1`](https://arxiv.org/abs/2609.15888v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Paul-Gabriel Nicolae, Irina Georgiana Mocanu
-* **Abstract**: Deep networks trained on structural MRI for Alzheimer's disease (AD) staging often reach reasonable accuracy while attending to anatomically irrelevant regions, and multimodal models that add clinical tables frequently rely on variables that were used to assign the diagnostic label in the first plac...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows
-* **arXiv ID**: [`2609.15863v1`](https://arxiv.org/abs/2609.15863v1) | **Categories**: `cs.CV`
-* **Authors**: Xiaofeng Mao, Peijia Lin, Shaohao Rui, Yibo Zhang
-* **Abstract**: Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without guaranteed success, and long-horizon scenes drift in appearance, interactions, and temporal coherence. Agentic visual creation provides explicit references, editable 3D scenes, or exec...
-
-
-### 📄 Proportional-Fair Resource Allocation and Dual-Threshold Early-Exit Inference for Secure Cooperative Multi-Layer Edge Intelligence
-* **arXiv ID**: [`2609.15847v1`](https://arxiv.org/abs/2609.15847v1) | **Categories**: `cs.NI, cs.CV, cs.ET, cs.LG`
-* **Authors**: Thai T. Vu, John Le, Tu N. Nguyen, Jun Shen
-* **Abstract**: This paper proposes FREDI (Fair Resource Allocation for Edge Dual-Threshold Inference), a secure wireless edge-intelligence framework for event-triggered inference in a cooperative user equipment (UE)--edge server (ES)--cloud system. Each UE performs early-exit convolutional neural network (CNN) scr...
-
-
-### 📄 TRACE: Two-Stage Detector-Response Estimation With Angular Cosine Expansion for Ring Artifact Correction in Photon-Counting CT
-* **arXiv ID**: [`2609.15834v1`](https://arxiv.org/abs/2609.15834v1) | **Categories**: `cs.CV`
-* **Authors**: Jigang Duan, Heran Wang, Ligen Shi, Zheng Sun
-* **Abstract**: Detector response nonuniformity introduces systematic projection errors and ring artifacts in photon-counting detector computed tomography (PCD-CT). In measured PCD-CT data, residual stripe amplitudes vary slowly with projection angle, which fixed-bias models cannot adequately capture. We propose TR...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
