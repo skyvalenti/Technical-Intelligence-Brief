@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-17 00:10 UTC",
+  "generated_at": "2026-09-17 11:09 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,85 +229,85 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.17521v1",
-      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+      "arxiv_id": "2609.19143v1",
+      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
       "categories": [
         "cs.CV",
-        "cs.AI",
-        "cs.GR"
+        "cs.CL"
       ],
-      "summary": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positi...",
+      "summary": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Existing methods that c...",
       "authors": [
-        "Chuhao Chen",
-        "Peter Wonka",
-        "Chaoyang Wang",
-        "Chen Wang"
+        "Sara Pieri",
+        "Evangelos Kazakos",
+        "Shizhe Chen",
+        "Josef Sivic"
       ],
-      "url": "https://arxiv.org/abs/2609.17521v1",
-      "published_date": "2026-09-15"
+      "url": "https://arxiv.org/abs/2609.19143v1",
+      "published_date": "2026-09-16"
     },
     {
-      "arxiv_id": "2609.17479v1",
-      "title": "Det-LIME: Detector-Aware, Multi-Instance Local Interpretable Model-Agnostic Explanations for Automated Marine Mammal Detection",
+      "arxiv_id": "2609.19142v1",
+      "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
       "categories": [
         "cs.CV",
-        "cs.AI"
+        "cs.RO"
       ],
-      "summary": "Despite the rapid uptake of black-box object detectors in marine mammal research and monitoring, explainability techniques are rarely integrated into conservation workflows. Furthermore, most classification-oriented explainability tools are ill-suited to detection tasks involving imagery of social o...",
+      "summary": "World models endow perceptual systems with the ability to predict how scenes evolve under interaction. They are most beneficial when trained on diverse volumes of data, to instill a rich prior into downstream applications. Existing methods typically require robot action labels to learn action-condit...",
       "authors": [
-        "Jiayi Zhou",
-        "David W. Johnston",
-        "Brinnae Bent"
+        "Bardienus P. Duisterhof",
+        "Kaifeng Zhang",
+        "Adam Hung",
+        "Bowen Wen"
       ],
-      "url": "https://arxiv.org/abs/2609.17479v1",
-      "published_date": "2026-09-15"
+      "url": "https://arxiv.org/abs/2609.19142v1",
+      "published_date": "2026-09-16"
     },
     {
-      "arxiv_id": "2609.17458v1",
-      "title": "Tables Decoded: DELTA for Structure, TARQA for Understanding",
+      "arxiv_id": "2609.19138v1",
+      "title": "In-Context Robot Learning with VLM Agents",
       "categories": [
         "cs.CV",
-        "cs.LG"
+        "cs.RO"
       ],
-      "summary": "Table understanding is a core task in document intelligence, encompassing two key subtasks: table reconstruction and table visual question answering (TabVQA). While recent approaches predominantly rely on vision- language models (VLMs) operating on table images, we propose a more scalable and effect...",
+      "summary": "Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such...",
       "authors": [
-        "Jahanvi Rajput",
-        "Dhruv Kudale",
-        "Saikiran Kasturi",
-        "Utkarsh Verma"
+        "Dongzhou Cheng",
+        "Taoran Yi",
+        "Ye Fang",
+        "Xingwu Zhang"
       ],
-      "url": "https://arxiv.org/abs/2609.17458v1",
-      "published_date": "2026-09-15"
+      "url": "https://arxiv.org/abs/2609.19138v1",
+      "published_date": "2026-09-16"
     },
     {
-      "arxiv_id": "2609.17450v1",
-      "title": "ORCA: Occlusion-Aware Refinement and Completion for Novel View Synthesis",
+      "arxiv_id": "2609.19122v1",
+      "title": "Adaptive Convolutional Sparse Coding via Information Bottleneck for Robust Visual Signal Representation",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Novel-view synthesis from a single image is a fundamentally ambiguous problem. As the camera moves away from the input viewpoint, previously hidden regions become visible, exposing missing geometry and holes in the reconstructed scene. Existing methods often rely on generative models to complete suc...",
+      "summary": "Visual signals require compact yet sufficient representations for robust downstream prediction. Convolutional sparse coding (CSC) provides an explicit mechanism for suppressing redundant components while preserving signal content, but its sparsity coefficient is typically fixed and manually selected...",
       "authors": [
-        "Weronika Jakubowska",
-        "Maciej Zięba",
-        "Przemysław Spurek"
+        "Meng'en Qin",
+        "Yinchen Liu",
+        "Mingxuan Cui",
+        "Youlu Xing"
       ],
-      "url": "https://arxiv.org/abs/2609.17450v1",
-      "published_date": "2026-09-15"
+      "url": "https://arxiv.org/abs/2609.19122v1",
+      "published_date": "2026-09-16"
     },
     {
-      "arxiv_id": "2609.17443v1",
-      "title": "BrainFocus: EEG-Guided ROI Selection for Efficient Vision-Language Models",
+      "arxiv_id": "2609.19119v1",
+      "title": "Track, Articulate, Act: Generating Articulation from Casual Human Videos",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Vision-language models (VLMs) achieve strong visual question answering (VQA) performance, but processing large cluttered images is computationally expensive when only a small region is relevant. Electroencephalography (EEG) signals, which capture human neural responses to visual stimuli, can provide...",
+      "summary": "Human videos contain rich causal evidence for robot manipulation: they reveal how hand motion induces object motion and produces task-relevant changes in object state. In this work, we study articulated objects such as doors, drawers, cabinets, laptops, ovens, and hinged containers that are ubiquito...",
       "authors": [
-        "Yihui Peng",
-        "Guorui Lu",
-        "Qinyu Chen"
+        "Jiaming Zhang",
+        "Homanga Bharadhwaj"
       ],
-      "url": "https://arxiv.org/abs/2609.17443v1",
-      "published_date": "2026-09-15"
+      "url": "https://arxiv.org/abs/2609.19119v1",
+      "published_date": "2026-09-16"
     }
   ]
 }

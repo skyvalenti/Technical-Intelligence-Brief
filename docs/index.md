@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-17 00:10 UTC`  
+> **Generated Timestamp**: `2026-09-17 11:09 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control
-* **arXiv ID**: [`2609.17521v1`](https://arxiv.org/abs/2609.17521v1) | **Categories**: `cs.CV, cs.AI, cs.GR`
-* **Authors**: Chuhao Chen, Peter Wonka, Chaoyang Wang, Chen Wang
-* **Abstract**: Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positi...
+### 📄 PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection
+* **arXiv ID**: [`2609.19143v1`](https://arxiv.org/abs/2609.19143v1) | **Categories**: `cs.CV, cs.CL`
+* **Authors**: Sara Pieri, Evangelos Kazakos, Shizhe Chen, Josef Sivic
+* **Abstract**: Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Existing methods that c...
 
 
-### 📄 Det-LIME: Detector-Aware, Multi-Instance Local Interpretable Model-Agnostic Explanations for Automated Marine Mammal Detection
-* **arXiv ID**: [`2609.17479v1`](https://arxiv.org/abs/2609.17479v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Jiayi Zhou, David W. Johnston, Brinnae Bent
-* **Abstract**: Despite the rapid uptake of black-box object detectors in marine mammal research and monitoring, explainability techniques are rarely integrated into conservation workflows. Furthermore, most classification-oriented explainability tools are ill-suited to detection tasks involving imagery of social o...
+### 📄 PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics
+* **arXiv ID**: [`2609.19142v1`](https://arxiv.org/abs/2609.19142v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Bardienus P. Duisterhof, Kaifeng Zhang, Adam Hung, Bowen Wen
+* **Abstract**: World models endow perceptual systems with the ability to predict how scenes evolve under interaction. They are most beneficial when trained on diverse volumes of data, to instill a rich prior into downstream applications. Existing methods typically require robot action labels to learn action-condit...
 
 
-### 📄 Tables Decoded: DELTA for Structure, TARQA for Understanding
-* **arXiv ID**: [`2609.17458v1`](https://arxiv.org/abs/2609.17458v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Jahanvi Rajput, Dhruv Kudale, Saikiran Kasturi, Utkarsh Verma
-* **Abstract**: Table understanding is a core task in document intelligence, encompassing two key subtasks: table reconstruction and table visual question answering (TabVQA). While recent approaches predominantly rely on vision- language models (VLMs) operating on table images, we propose a more scalable and effect...
+### 📄 In-Context Robot Learning with VLM Agents
+* **arXiv ID**: [`2609.19138v1`](https://arxiv.org/abs/2609.19138v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Dongzhou Cheng, Taoran Yi, Ye Fang, Xingwu Zhang
+* **Abstract**: Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such...
 
 
-### 📄 ORCA: Occlusion-Aware Refinement and Completion for Novel View Synthesis
-* **arXiv ID**: [`2609.17450v1`](https://arxiv.org/abs/2609.17450v1) | **Categories**: `cs.CV`
-* **Authors**: Weronika Jakubowska, Maciej Zięba, Przemysław Spurek
-* **Abstract**: Novel-view synthesis from a single image is a fundamentally ambiguous problem. As the camera moves away from the input viewpoint, previously hidden regions become visible, exposing missing geometry and holes in the reconstructed scene. Existing methods often rely on generative models to complete suc...
+### 📄 Adaptive Convolutional Sparse Coding via Information Bottleneck for Robust Visual Signal Representation
+* **arXiv ID**: [`2609.19122v1`](https://arxiv.org/abs/2609.19122v1) | **Categories**: `cs.CV`
+* **Authors**: Meng'en Qin, Yinchen Liu, Mingxuan Cui, Youlu Xing
+* **Abstract**: Visual signals require compact yet sufficient representations for robust downstream prediction. Convolutional sparse coding (CSC) provides an explicit mechanism for suppressing redundant components while preserving signal content, but its sparsity coefficient is typically fixed and manually selected...
 
 
-### 📄 BrainFocus: EEG-Guided ROI Selection for Efficient Vision-Language Models
-* **arXiv ID**: [`2609.17443v1`](https://arxiv.org/abs/2609.17443v1) | **Categories**: `cs.CV`
-* **Authors**: Yihui Peng, Guorui Lu, Qinyu Chen
-* **Abstract**: Vision-language models (VLMs) achieve strong visual question answering (VQA) performance, but processing large cluttered images is computationally expensive when only a small region is relevant. Electroencephalography (EEG) signals, which capture human neural responses to visual stimuli, can provide...
+### 📄 Track, Articulate, Act: Generating Articulation from Casual Human Videos
+* **arXiv ID**: [`2609.19119v1`](https://arxiv.org/abs/2609.19119v1) | **Categories**: `cs.CV`
+* **Authors**: Jiaming Zhang, Homanga Bharadhwaj
+* **Abstract**: Human videos contain rich causal evidence for robot manipulation: they reveal how hand motion induces object motion and produces task-relevant changes in object state. In this work, we study articulated objects such as doors, drawers, cabinets, laptops, ovens, and hinged containers that are ubiquito...
 
 
 
