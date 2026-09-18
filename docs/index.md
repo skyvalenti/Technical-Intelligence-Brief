@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-18 17:33 UTC`  
+> **Generated Timestamp**: `2026-09-18 23:55 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation
-* **arXiv ID**: [`2609.20822v1`](https://arxiv.org/abs/2609.20822v1) | **Categories**: `cs.RO, cs.AI, cs.CL, cs.CV`
-* **Authors**: Bingxin Xu, Yuzhang Shang, Zhen Dong, Emilio Ferrara
-* **Abstract**: Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding ag...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Can 4D Foundation Models Remember?
-* **arXiv ID**: [`2609.20819v1`](https://arxiv.org/abs/2609.20819v1) | **Categories**: `cs.CV`
-* **Authors**: Guangzhao He, Hadar Averbuch-Elor, Wei-Chiu Ma
-* **Abstract**: Perceiving and remembering the visual world is fundamental to navigating and interacting with our environment. Current 4D foundation models, such as camera-controllable video models or 4D reconstruction models, can perceive and reconstruct dynamic environments, but how well they remember what they h...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos
-* **arXiv ID**: [`2609.20818v1`](https://arxiv.org/abs/2609.20818v1) | **Categories**: `cs.CV, cs.GR`
-* **Authors**: Peiyu Liu, Dingxi Zhang, Federico Tombari, Marc Pollefeys
-* **Abstract**: A splash lives for a fraction of a second: sheets tear into ligaments and droplets, appearance is view-dependent and nearly textureless, and little persists long enough to track. Reconstruction research has consequently focused on smoke, synthetic liquids, or gently deforming surfaces. To our knowle...
-
-
-### 📄 FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations
-* **arXiv ID**: [`2609.20817v1`](https://arxiv.org/abs/2609.20817v1) | **Categories**: `cs.CV, cs.AI, cs.RO`
-* **Authors**: Kevin Qu, Tao Sun, Massimiliano Viola, Liyuan Zhu
-* **Abstract**: Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation and therefore rely heavily on learned category-level shape priors. We present FAM...
-
-
-### 📄 Paint-Anything: Unified Any-Color Control for Image Generation and Editing
-* **arXiv ID**: [`2609.20816v1`](https://arxiv.org/abs/2609.20816v1) | **Categories**: `cs.CV, cs.AI, cs.LG`
-* **Authors**: Ji Xie, Dewei Zhou, Xinyu Huang, Zhennan Chen
-* **Abstract**: Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inferenc...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
