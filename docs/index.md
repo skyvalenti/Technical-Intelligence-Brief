@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-17 23:56 UTC`  
+> **Generated Timestamp**: `2026-09-18 10:43 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection
-* **arXiv ID**: [`2609.19143v1`](https://arxiv.org/abs/2609.19143v1) | **Categories**: `cs.CV, cs.CL`
-* **Authors**: Sara Pieri, Evangelos Kazakos, Shizhe Chen, Josef Sivic
-* **Abstract**: Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Existing methods that c...
+### 📄 Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation
+* **arXiv ID**: [`2609.20822v1`](https://arxiv.org/abs/2609.20822v1) | **Categories**: `cs.RO, cs.AI, cs.CL, cs.CV`
+* **Authors**: Bingxin Xu, Yuzhang Shang, Zhen Dong, Emilio Ferrara
+* **Abstract**: Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding ag...
 
 
-### 📄 PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics
-* **arXiv ID**: [`2609.19142v1`](https://arxiv.org/abs/2609.19142v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Bardienus P. Duisterhof, Kaifeng Zhang, Adam Hung, Bowen Wen
-* **Abstract**: World models endow perceptual systems with the ability to predict how scenes evolve under interaction. They are most beneficial when trained on diverse volumes of data, to instill a rich prior into downstream applications. Existing methods typically require robot action labels to learn action-condit...
+### 📄 Can 4D Foundation Models Remember?
+* **arXiv ID**: [`2609.20819v1`](https://arxiv.org/abs/2609.20819v1) | **Categories**: `cs.CV`
+* **Authors**: Guangzhao He, Hadar Averbuch-Elor, Wei-Chiu Ma
+* **Abstract**: Perceiving and remembering the visual world is fundamental to navigating and interacting with our environment. Current 4D foundation models, such as camera-controllable video models or 4D reconstruction models, can perceive and reconstruct dynamic environments, but how well they remember what they h...
 
 
-### 📄 In-Context Robot Learning with VLM Agents
-* **arXiv ID**: [`2609.19138v1`](https://arxiv.org/abs/2609.19138v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Dongzhou Cheng, Taoran Yi, Ye Fang, Xingwu Zhang
-* **Abstract**: Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such...
+### 📄 SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos
+* **arXiv ID**: [`2609.20818v1`](https://arxiv.org/abs/2609.20818v1) | **Categories**: `cs.CV, cs.GR`
+* **Authors**: Peiyu Liu, Dingxi Zhang, Federico Tombari, Marc Pollefeys
+* **Abstract**: A splash lives for a fraction of a second: sheets tear into ligaments and droplets, appearance is view-dependent and nearly textureless, and little persists long enough to track. Reconstruction research has consequently focused on smoke, synthetic liquids, or gently deforming surfaces. To our knowle...
 
 
-### 📄 Adaptive Convolutional Sparse Coding via Information Bottleneck for Robust Visual Signal Representation
-* **arXiv ID**: [`2609.19122v1`](https://arxiv.org/abs/2609.19122v1) | **Categories**: `cs.CV`
-* **Authors**: Meng'en Qin, Yinchen Liu, Mingxuan Cui, Youlu Xing
-* **Abstract**: Visual signals require compact yet sufficient representations for robust downstream prediction. Convolutional sparse coding (CSC) provides an explicit mechanism for suppressing redundant components while preserving signal content, but its sparsity coefficient is typically fixed and manually selected...
+### 📄 FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations
+* **arXiv ID**: [`2609.20817v1`](https://arxiv.org/abs/2609.20817v1) | **Categories**: `cs.CV, cs.AI, cs.RO`
+* **Authors**: Kevin Qu, Tao Sun, Massimiliano Viola, Liyuan Zhu
+* **Abstract**: Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation and therefore rely heavily on learned category-level shape priors. We present FAM...
 
 
-### 📄 Track, Articulate, Act: Generating Articulation from Casual Human Videos
-* **arXiv ID**: [`2609.19119v1`](https://arxiv.org/abs/2609.19119v1) | **Categories**: `cs.CV`
-* **Authors**: Jiaming Zhang, Homanga Bharadhwaj
-* **Abstract**: Human videos contain rich causal evidence for robot manipulation: they reveal how hand motion induces object motion and produces task-relevant changes in object state. In this work, we study articulated objects such as doors, drawers, cabinets, laptops, ovens, and hinged containers that are ubiquito...
+### 📄 Paint-Anything: Unified Any-Color Control for Image Generation and Editing
+* **arXiv ID**: [`2609.20816v1`](https://arxiv.org/abs/2609.20816v1) | **Categories**: `cs.CV, cs.AI, cs.LG`
+* **Authors**: Ji Xie, Dewei Zhou, Xinyu Huang, Zhennan Chen
+* **Abstract**: Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inferenc...
 
 
 
