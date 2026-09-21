@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-20 23:54 UTC",
+  "generated_at": "2026-09-21 12:12 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,91 +229,83 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.20822v1",
-      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "arxiv_id": "2609.22086v1",
+      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
       "categories": [
-        "cs.RO",
         "cs.AI",
-        "cs.CL",
         "cs.CV"
       ],
-      "summary": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding ag...",
+      "summary": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates professional design ...",
       "authors": [
-        "Bingxin Xu",
-        "Yuzhang Shang",
-        "Zhen Dong",
-        "Emilio Ferrara"
+        "Hongyang Du",
+        "Lan Yan",
+        "Christian Flores",
+        "Asim Kadav"
       ],
-      "url": "https://arxiv.org/abs/2609.20822v1",
-      "published_date": "2026-09-17"
+      "url": "https://arxiv.org/abs/2609.22086v1",
+      "published_date": "2026-09-18"
     },
     {
-      "arxiv_id": "2609.20819v1",
-      "title": "Can 4D Foundation Models Remember?",
+      "arxiv_id": "2609.22083v1",
+      "title": "MintAct: A Unified Visual Agent for Digital Environments",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Perceiving and remembering the visual world is fundamental to navigating and interacting with our environment. Current 4D foundation models, such as camera-controllable video models or 4D reconstruction models, can perceive and reconstruct dynamic environments, but how well they remember what they h...",
+      "summary": "We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance...",
       "authors": [
-        "Guangzhao He",
-        "Hadar Averbuch-Elor",
-        "Wei-Chiu Ma"
+        "Mingfei Gao",
+        "Rui Tian",
+        "Haiming Gang",
+        "Bohan Zhai"
       ],
-      "url": "https://arxiv.org/abs/2609.20819v1",
-      "published_date": "2026-09-17"
+      "url": "https://arxiv.org/abs/2609.22083v1",
+      "published_date": "2026-09-18"
     },
     {
-      "arxiv_id": "2609.20818v1",
-      "title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos",
+      "arxiv_id": "2609.22069v1",
+      "title": "OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation",
       "categories": [
-        "cs.CV",
-        "cs.GR"
+        "cs.CV"
       ],
-      "summary": "A splash lives for a fraction of a second: sheets tear into ligaments and droplets, appearance is view-dependent and nearly textureless, and little persists long enough to track. Reconstruction research has consequently focused on smoke, synthetic liquids, or gently deforming surfaces. To our knowle...",
+      "summary": "Reference-to-video (R2V) generation is evolving toward increasingly general and versatile reference control, giving rise to the emerging paradigm of omni R2V generation. However, existing benchmarks fall short of these emerging capabilities: their test cases cover limited reference types and composi...",
       "authors": [
-        "Peiyu Liu",
-        "Dingxi Zhang",
-        "Federico Tombari",
-        "Marc Pollefeys"
+        "Wenxue Li",
+        "Peiyan Guan",
+        "Haoyang Jiang",
+        "Junxian Cai"
       ],
-      "url": "https://arxiv.org/abs/2609.20818v1",
-      "published_date": "2026-09-17"
+      "url": "https://arxiv.org/abs/2609.22069v1",
+      "published_date": "2026-09-18"
     },
     {
-      "arxiv_id": "2609.20817v1",
-      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+      "arxiv_id": "2609.22060v1",
+      "title": "Traffic Sign Recognition for Autonomous Driving Using Branched YOLOv2 and Geometric Features",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Traffic sign recognition (TSR) is an important perception task for autonomous driving and advanced driver-assistance systems, where a system must both localize traffic signs and determine their semantic classes efficiently. This work presents a TSR system based on YOLOv2 for simultaneous detection a...",
+      "authors": [
+        "Arefeh Rezaei"
+      ],
+      "url": "https://arxiv.org/abs/2609.22060v1",
+      "published_date": "2026-09-18"
+    },
+    {
+      "arxiv_id": "2609.22040v1",
+      "title": "PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models",
       "categories": [
         "cs.CV",
-        "cs.AI",
         "cs.RO"
       ],
-      "summary": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation and therefore rely heavily on learned category-level shape priors. We present FAM...",
+      "summary": "Current Vision-Language-Action (VLA) models for autonomous driving operate primarily through feedforward inference across the perception--reasoning--planning hierarchy. While modern architectures maintain temporal recurrence within the perceptual module, early perception remains blind to downstream ...",
       "authors": [
-        "Kevin Qu",
-        "Tao Sun",
-        "Massimiliano Viola",
-        "Liyuan Zhu"
+        "Erik Deinzer",
+        "Naya Baslan",
+        "Luca Paparusso",
+        "Narunas Vaskevicius"
       ],
-      "url": "https://arxiv.org/abs/2609.20817v1",
-      "published_date": "2026-09-17"
-    },
-    {
-      "arxiv_id": "2609.20816v1",
-      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "summary": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inferenc...",
-      "authors": [
-        "Ji Xie",
-        "Dewei Zhou",
-        "Xinyu Huang",
-        "Zhennan Chen"
-      ],
-      "url": "https://arxiv.org/abs/2609.20816v1",
-      "published_date": "2026-09-17"
+      "url": "https://arxiv.org/abs/2609.22040v1",
+      "published_date": "2026-09-18"
     }
   ]
 }

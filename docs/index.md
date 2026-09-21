@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-20 23:54 UTC`  
+> **Generated Timestamp**: `2026-09-21 12:12 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation
-* **arXiv ID**: [`2609.20822v1`](https://arxiv.org/abs/2609.20822v1) | **Categories**: `cs.RO, cs.AI, cs.CL, cs.CV`
-* **Authors**: Bingxin Xu, Yuzhang Shang, Zhen Dong, Emilio Ferrara
-* **Abstract**: Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding ag...
+### 📄 Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design
+* **arXiv ID**: [`2609.22086v1`](https://arxiv.org/abs/2609.22086v1) | **Categories**: `cs.AI, cs.CV`
+* **Authors**: Hongyang Du, Lan Yan, Christian Flores, Asim Kadav
+* **Abstract**: Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates professional design ...
 
 
-### 📄 Can 4D Foundation Models Remember?
-* **arXiv ID**: [`2609.20819v1`](https://arxiv.org/abs/2609.20819v1) | **Categories**: `cs.CV`
-* **Authors**: Guangzhao He, Hadar Averbuch-Elor, Wei-Chiu Ma
-* **Abstract**: Perceiving and remembering the visual world is fundamental to navigating and interacting with our environment. Current 4D foundation models, such as camera-controllable video models or 4D reconstruction models, can perceive and reconstruct dynamic environments, but how well they remember what they h...
+### 📄 MintAct: A Unified Visual Agent for Digital Environments
+* **arXiv ID**: [`2609.22083v1`](https://arxiv.org/abs/2609.22083v1) | **Categories**: `cs.CV`
+* **Authors**: Mingfei Gao, Rui Tian, Haiming Gang, Bohan Zhai
+* **Abstract**: We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance...
 
 
-### 📄 SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos
-* **arXiv ID**: [`2609.20818v1`](https://arxiv.org/abs/2609.20818v1) | **Categories**: `cs.CV, cs.GR`
-* **Authors**: Peiyu Liu, Dingxi Zhang, Federico Tombari, Marc Pollefeys
-* **Abstract**: A splash lives for a fraction of a second: sheets tear into ligaments and droplets, appearance is view-dependent and nearly textureless, and little persists long enough to track. Reconstruction research has consequently focused on smoke, synthetic liquids, or gently deforming surfaces. To our knowle...
+### 📄 OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation
+* **arXiv ID**: [`2609.22069v1`](https://arxiv.org/abs/2609.22069v1) | **Categories**: `cs.CV`
+* **Authors**: Wenxue Li, Peiyan Guan, Haoyang Jiang, Junxian Cai
+* **Abstract**: Reference-to-video (R2V) generation is evolving toward increasingly general and versatile reference control, giving rise to the emerging paradigm of omni R2V generation. However, existing benchmarks fall short of these emerging capabilities: their test cases cover limited reference types and composi...
 
 
-### 📄 FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations
-* **arXiv ID**: [`2609.20817v1`](https://arxiv.org/abs/2609.20817v1) | **Categories**: `cs.CV, cs.AI, cs.RO`
-* **Authors**: Kevin Qu, Tao Sun, Massimiliano Viola, Liyuan Zhu
-* **Abstract**: Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation and therefore rely heavily on learned category-level shape priors. We present FAM...
+### 📄 Traffic Sign Recognition for Autonomous Driving Using Branched YOLOv2 and Geometric Features
+* **arXiv ID**: [`2609.22060v1`](https://arxiv.org/abs/2609.22060v1) | **Categories**: `cs.CV`
+* **Authors**: Arefeh Rezaei
+* **Abstract**: Traffic sign recognition (TSR) is an important perception task for autonomous driving and advanced driver-assistance systems, where a system must both localize traffic signs and determine their semantic classes efficiently. This work presents a TSR system based on YOLOv2 for simultaneous detection a...
 
 
-### 📄 Paint-Anything: Unified Any-Color Control for Image Generation and Editing
-* **arXiv ID**: [`2609.20816v1`](https://arxiv.org/abs/2609.20816v1) | **Categories**: `cs.CV, cs.AI, cs.LG`
-* **Authors**: Ji Xie, Dewei Zhou, Xinyu Huang, Zhennan Chen
-* **Abstract**: Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inferenc...
+### 📄 PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models
+* **arXiv ID**: [`2609.22040v1`](https://arxiv.org/abs/2609.22040v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Erik Deinzer, Naya Baslan, Luca Paparusso, Narunas Vaskevicius
+* **Abstract**: Current Vision-Language-Action (VLA) models for autonomous driving operate primarily through feedforward inference across the perception--reasoning--planning hierarchy. While modern architectures maintain temporal recurrence within the perceptual module, early perception remains blind to downstream ...
 
 
 
