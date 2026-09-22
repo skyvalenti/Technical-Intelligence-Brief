@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-22 00:37 UTC`  
+> **Generated Timestamp**: `2026-09-22 11:06 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design
-* **arXiv ID**: [`2609.22086v1`](https://arxiv.org/abs/2609.22086v1) | **Categories**: `cs.AI, cs.CV`
-* **Authors**: Hongyang Du, Lan Yan, Christian Flores, Asim Kadav
-* **Abstract**: Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates professional design ...
+### 📄 GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay
+* **arXiv ID**: [`2609.25001v1`](https://arxiv.org/abs/2609.25001v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Yiran Wang, Xingyilang Yin, Junfu Pu, Guangzhi Wang
+* **Abstract**: Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack lang...
 
 
-### 📄 MintAct: A Unified Visual Agent for Digital Environments
-* **arXiv ID**: [`2609.22083v1`](https://arxiv.org/abs/2609.22083v1) | **Categories**: `cs.CV`
-* **Authors**: Mingfei Gao, Rui Tian, Haiming Gang, Bohan Zhai
-* **Abstract**: We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance...
+### 📄 VideoGen-Agent: Reinforcing Video Generation Agents
+* **arXiv ID**: [`2609.24997v1`](https://arxiv.org/abs/2609.24997v1) | **Categories**: `cs.CV`
+* **Authors**: Binxu Li, Haoyi Duan, Yuhui Zhang, Yaohui Zhang
+* **Abstract**: Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent...
 
 
-### 📄 OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation
-* **arXiv ID**: [`2609.22069v1`](https://arxiv.org/abs/2609.22069v1) | **Categories**: `cs.CV`
-* **Authors**: Wenxue Li, Peiyan Guan, Haoyang Jiang, Junxian Cai
-* **Abstract**: Reference-to-video (R2V) generation is evolving toward increasingly general and versatile reference control, giving rise to the emerging paradigm of omni R2V generation. However, existing benchmarks fall short of these emerging capabilities: their test cases cover limited reference types and composi...
+### 📄 WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory
+* **arXiv ID**: [`2609.24984v1`](https://arxiv.org/abs/2609.24984v1) | **Categories**: `cs.CV, cs.AI, cs.GR`
+* **Authors**: Wangbo Yu, Kunhao Liu, Wenbo Hu, Shenghai Yuan
+* **Abstract**: Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to...
 
 
-### 📄 Traffic Sign Recognition for Autonomous Driving Using Branched YOLOv2 and Geometric Features
-* **arXiv ID**: [`2609.22060v1`](https://arxiv.org/abs/2609.22060v1) | **Categories**: `cs.CV`
-* **Authors**: Arefeh Rezaei
-* **Abstract**: Traffic sign recognition (TSR) is an important perception task for autonomous driving and advanced driver-assistance systems, where a system must both localize traffic signs and determine their semantic classes efficiently. This work presents a TSR system based on YOLOv2 for simultaneous detection a...
+### 📄 GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation
+* **arXiv ID**: [`2609.24981v1`](https://arxiv.org/abs/2609.24981v1) | **Categories**: `cs.CV`
+* **Authors**: Jiahao Lu, Minghao Yin, Wenbo Hu, Hengyu Liu
+* **Abstract**: We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typica...
 
 
-### 📄 PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models
-* **arXiv ID**: [`2609.22040v1`](https://arxiv.org/abs/2609.22040v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Erik Deinzer, Naya Baslan, Luca Paparusso, Narunas Vaskevicius
-* **Abstract**: Current Vision-Language-Action (VLA) models for autonomous driving operate primarily through feedforward inference across the perception--reasoning--planning hierarchy. While modern architectures maintain temporal recurrence within the perceptual module, early perception remains blind to downstream ...
+### 📄 DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation
+* **arXiv ID**: [`2609.24976v1`](https://arxiv.org/abs/2609.24976v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
+* **Authors**: Haoran Yuan, Zekai Wang, Boning Shao, Haoran Lu
+* **Abstract**: Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation, but remain largely vision-centric and therefore cannot directly model these contact dynamics. We p...
 
 
 
