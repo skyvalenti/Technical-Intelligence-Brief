@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-23 00:04 UTC",
+  "generated_at": "2026-09-23 10:56 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,89 +229,88 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.25001v1",
-      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "arxiv_id": "2609.26795v1",
+      "title": "φ-RIE: From Photorealistic Reconstruction to Interactive Environments",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "summary": "3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \\textit{i.e.}, objects must move independently, make contact, and reveal previous...",
+      "authors": [
+        "Runyi Yang",
+        "Deheng Zhang",
+        "Xiaoye Wang",
+        "Kanzhi Wu"
+      ],
+      "url": "https://arxiv.org/abs/2609.26795v1",
+      "published_date": "2026-09-22"
+    },
+    {
+      "arxiv_id": "2609.26793v1",
+      "title": "HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Compositional 3D scene reconstruction has recently been explored from two directions: agentic reasoning that provides semantic understanding of spatial relationships but lacks precise alignment with input images; and visual geometry foundation models that predict dense point maps from input images b...",
+      "authors": [
+        "Shufan Sun",
+        "Chen Wang",
+        "Enxin Song",
+        "Jiatao Gu"
+      ],
+      "url": "https://arxiv.org/abs/2609.26793v1",
+      "published_date": "2026-09-22"
+    },
+    {
+      "arxiv_id": "2609.26792v1",
+      "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "summary": "Faithfully evaluating end-to-end driving policies in simulation requires observations that are not merely photo-realistic, but preserve the scene features a policy relies on to make decisions. Existing platforms, however, exhibit a sim-to-real visual gap that corrupts policy perception, undermining ...",
+      "authors": [
+        "Ziyang Leng",
+        "Sicheng Mo",
+        "Seth Z. Zhao",
+        "Haoyuan Cai"
+      ],
+      "url": "https://arxiv.org/abs/2609.26792v1",
+      "published_date": "2026-09-22"
+    },
+    {
+      "arxiv_id": "2609.26774v1",
+      "title": "StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image generation models. While recent shared-projection codebook methods have substantially advanced codebook utilization, training stability remains a critical and underexplored challen...",
+      "authors": [
+        "Bao Tang",
+        "Jiahao Guo",
+        "Haoxiang Cao",
+        "Wenyu Liu"
+      ],
+      "url": "https://arxiv.org/abs/2609.26774v1",
+      "published_date": "2026-09-22"
+    },
+    {
+      "arxiv_id": "2609.26756v1",
+      "title": "FleXray: Universal Clinical X-ray Segmentation",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
-      "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack lang...",
+      "summary": "X-ray is medicine's most widely used imaging modality, yet remains among its least quantitative. Unlike volumetric modalities like CT or MRI, X-ray collapses 3D anatomy into a 2D projection, causing structures to overlap and anatomical boundaries to be ambiguous, even to experts. As a result, labeli...",
       "authors": [
-        "Yiran Wang",
-        "Xingyilang Yin",
-        "Junfu Pu",
-        "Guangzhi Wang"
+        "Victor Ion Butoi",
+        "Vivek Gopalakrishnan",
+        "John V. Guttag",
+        "Adrian V. Dalca"
       ],
-      "url": "https://arxiv.org/abs/2609.25001v1",
-      "published_date": "2026-09-21"
-    },
-    {
-      "arxiv_id": "2609.24997v1",
-      "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent...",
-      "authors": [
-        "Binxu Li",
-        "Haoyi Duan",
-        "Yuhui Zhang",
-        "Yaohui Zhang"
-      ],
-      "url": "https://arxiv.org/abs/2609.24997v1",
-      "published_date": "2026-09-21"
-    },
-    {
-      "arxiv_id": "2609.24984v1",
-      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
-      ],
-      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to...",
-      "authors": [
-        "Wangbo Yu",
-        "Kunhao Liu",
-        "Wenbo Hu",
-        "Shenghai Yuan"
-      ],
-      "url": "https://arxiv.org/abs/2609.24984v1",
-      "published_date": "2026-09-21"
-    },
-    {
-      "arxiv_id": "2609.24981v1",
-      "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typica...",
-      "authors": [
-        "Jiahao Lu",
-        "Minghao Yin",
-        "Wenbo Hu",
-        "Hengyu Liu"
-      ],
-      "url": "https://arxiv.org/abs/2609.24981v1",
-      "published_date": "2026-09-21"
-    },
-    {
-      "arxiv_id": "2609.24976v1",
-      "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "summary": "Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation, but remain largely vision-centric and therefore cannot directly model these contact dynamics. We p...",
-      "authors": [
-        "Haoran Yuan",
-        "Zekai Wang",
-        "Boning Shao",
-        "Haoran Lu"
-      ],
-      "url": "https://arxiv.org/abs/2609.24976v1",
-      "published_date": "2026-09-21"
+      "url": "https://arxiv.org/abs/2609.26756v1",
+      "published_date": "2026-09-22"
     }
   ]
 }

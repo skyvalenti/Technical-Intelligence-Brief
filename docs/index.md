@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-23 00:04 UTC`  
+> **Generated Timestamp**: `2026-09-23 10:56 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay
-* **arXiv ID**: [`2609.25001v1`](https://arxiv.org/abs/2609.25001v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Yiran Wang, Xingyilang Yin, Junfu Pu, Guangzhi Wang
-* **Abstract**: Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack lang...
+### 📄 φ-RIE: From Photorealistic Reconstruction to Interactive Environments
+* **arXiv ID**: [`2609.26795v1`](https://arxiv.org/abs/2609.26795v1) | **Categories**: `cs.RO, cs.CV, cs.GR`
+* **Authors**: Runyi Yang, Deheng Zhang, Xiaoye Wang, Kanzhi Wu
+* **Abstract**: 3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \textit{i.e.}, objects must move independently, make contact, and reveal previous...
 
 
-### 📄 VideoGen-Agent: Reinforcing Video Generation Agents
-* **arXiv ID**: [`2609.24997v1`](https://arxiv.org/abs/2609.24997v1) | **Categories**: `cs.CV`
-* **Authors**: Binxu Li, Haoyi Duan, Yuhui Zhang, Yaohui Zhang
-* **Abstract**: Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent...
+### 📄 HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis
+* **arXiv ID**: [`2609.26793v1`](https://arxiv.org/abs/2609.26793v1) | **Categories**: `cs.CV`
+* **Authors**: Shufan Sun, Chen Wang, Enxin Song, Jiatao Gu
+* **Abstract**: Compositional 3D scene reconstruction has recently been explored from two directions: agentic reasoning that provides semantic understanding of spatial relationships but lacks precise alignment with input images; and visual geometry foundation models that predict dense point maps from input images b...
 
 
-### 📄 WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory
-* **arXiv ID**: [`2609.24984v1`](https://arxiv.org/abs/2609.24984v1) | **Categories**: `cs.CV, cs.AI, cs.GR`
-* **Authors**: Wangbo Yu, Kunhao Liu, Wenbo Hu, Shenghai Yuan
-* **Abstract**: Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to...
+### 📄 DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving
+* **arXiv ID**: [`2609.26792v1`](https://arxiv.org/abs/2609.26792v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Ziyang Leng, Sicheng Mo, Seth Z. Zhao, Haoyuan Cai
+* **Abstract**: Faithfully evaluating end-to-end driving policies in simulation requires observations that are not merely photo-realistic, but preserve the scene features a policy relies on to make decisions. Existing platforms, however, exhibit a sim-to-real visual gap that corrupts policy perception, undermining ...
 
 
-### 📄 GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation
-* **arXiv ID**: [`2609.24981v1`](https://arxiv.org/abs/2609.24981v1) | **Categories**: `cs.CV`
-* **Authors**: Jiahao Lu, Minghao Yin, Wenbo Hu, Hengyu Liu
-* **Abstract**: We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typica...
+### 📄 StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training
+* **arXiv ID**: [`2609.26774v1`](https://arxiv.org/abs/2609.26774v1) | **Categories**: `cs.CV`
+* **Authors**: Bao Tang, Jiahao Guo, Haoxiang Cao, Wenyu Liu
+* **Abstract**: Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image generation models. While recent shared-projection codebook methods have substantially advanced codebook utilization, training stability remains a critical and underexplored challen...
 
 
-### 📄 DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation
-* **arXiv ID**: [`2609.24976v1`](https://arxiv.org/abs/2609.24976v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
-* **Authors**: Haoran Yuan, Zekai Wang, Boning Shao, Haoran Lu
-* **Abstract**: Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation, but remain largely vision-centric and therefore cannot directly model these contact dynamics. We p...
+### 📄 FleXray: Universal Clinical X-ray Segmentation
+* **arXiv ID**: [`2609.26756v1`](https://arxiv.org/abs/2609.26756v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Victor Ion Butoi, Vivek Gopalakrishnan, John V. Guttag, Adrian V. Dalca
+* **Abstract**: X-ray is medicine's most widely used imaging modality, yet remains among its least quantitative. Unlike volumetric modalities like CT or MRI, X-ray collapses 3D anatomy into a 2D projection, causing structures to overlap and anatomical boundaries to be ambiguous, even to experts. As a result, labeli...
 
 
 
