@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-24 00:16 UTC`  
+> **Generated Timestamp**: `2026-09-24 11:15 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 φ-RIE: From Photorealistic Reconstruction to Interactive Environments
-* **arXiv ID**: [`2609.26795v1`](https://arxiv.org/abs/2609.26795v1) | **Categories**: `cs.RO, cs.CV, cs.GR`
-* **Authors**: Runyi Yang, Deheng Zhang, Xiaoye Wang, Kanzhi Wu
-* **Abstract**: 3D Gaussian Splatting (3DGS) can reconstruct a captured scene photorealistically, but the resulting representation does not by itself support physical interaction. Robot simulation instead requires object-level change, \textit{i.e.}, objects must move independently, make contact, and reveal previous...
+### 📄 On the Diffusibility of High-Dimensional Latents
+* **arXiv ID**: [`2609.28473v1`](https://arxiv.org/abs/2609.28473v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Chao Feng, Zhiyang Xu, Bowei Chen, Yuanjun Xiong
+* **Abstract**: Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstruction, discarding fine-grained visual details. As expected, finetuning these encoders for image reco...
 
 
-### 📄 HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis
-* **arXiv ID**: [`2609.26793v1`](https://arxiv.org/abs/2609.26793v1) | **Categories**: `cs.CV`
-* **Authors**: Shufan Sun, Chen Wang, Enxin Song, Jiatao Gu
-* **Abstract**: Compositional 3D scene reconstruction has recently been explored from two directions: agentic reasoning that provides semantic understanding of spatial relationships but lacks precise alignment with input images; and visual geometry foundation models that predict dense point maps from input images b...
+### 📄 The Past Frames the Future: Memory for Autoregressive Video Generation
+* **arXiv ID**: [`2609.28466v1`](https://arxiv.org/abs/2609.28466v1) | **Categories**: `cs.CV`
+* **Authors**: Harold Haodong Chen, Rongjin Guo, Disen Lan, Wen-Jie Shu
+* **Abstract**: Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generat...
 
 
-### 📄 DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving
-* **arXiv ID**: [`2609.26792v1`](https://arxiv.org/abs/2609.26792v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Ziyang Leng, Sicheng Mo, Seth Z. Zhao, Haoyuan Cai
-* **Abstract**: Faithfully evaluating end-to-end driving policies in simulation requires observations that are not merely photo-realistic, but preserve the scene features a policy relies on to make decisions. Existing platforms, however, exhibit a sim-to-real visual gap that corrupts policy perception, undermining ...
+### 📄 HaRP: High Dynamic Range Photosequencing through Dual Reversed Shutter Scanning
+* **arXiv ID**: [`2609.28439v1`](https://arxiv.org/abs/2609.28439v1) | **Categories**: `cs.CV`
+* **Authors**: Xiang Ji, Guixu Lin, Jiancheng Zhao, Zhengwei Yin
+* **Abstract**: The adoption of CMOS sensors in mobile photography is frequently compromised by the rolling shutter (RS) effect, which introduces geometric distortions and motion artifacts. Particularly, recent rolling shutter with global reset (RSGR) mode, while mitigating some RS issues, also incurs major limitat...
 
 
-### 📄 StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training
-* **arXiv ID**: [`2609.26774v1`](https://arxiv.org/abs/2609.26774v1) | **Categories**: `cs.CV`
-* **Authors**: Bao Tang, Jiahao Guo, Haoxiang Cao, Wenyu Liu
-* **Abstract**: Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image generation models. While recent shared-projection codebook methods have substantially advanced codebook utilization, training stability remains a critical and underexplored challen...
+### 📄 MultiVENT-Raw: A Benchmark for Retrieval and Reasoning over Raw Videos
+* **arXiv ID**: [`2609.28437v1`](https://arxiv.org/abs/2609.28437v1) | **Categories**: `cs.CV, cs.IR`
+* **Authors**: Reno Kriz, David Etter, Alexander Martin, Cameron Carpenter
+* **Abstract**: Online information is increasingly consumed in video format. Much of this comes in the form of *raw video*: continuous footage taken on a cell phone, with a hand-held camera, or via CCTV, which is then directly uploaded to social media platforms and content sharing services. Whereas professional or ...
 
 
-### 📄 FleXray: Universal Clinical X-ray Segmentation
-* **arXiv ID**: [`2609.26756v1`](https://arxiv.org/abs/2609.26756v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Victor Ion Butoi, Vivek Gopalakrishnan, John V. Guttag, Adrian V. Dalca
-* **Abstract**: X-ray is medicine's most widely used imaging modality, yet remains among its least quantitative. Unlike volumetric modalities like CT or MRI, X-ray collapses 3D anatomy into a 2D projection, causing structures to overlap and anatomical boundaries to be ambiguous, even to experts. As a result, labeli...
+### 📄 Predicting the Progression of Adolescent Idiopathic Scoliosis
+* **arXiv ID**: [`2609.28434v1`](https://arxiv.org/abs/2609.28434v1) | **Categories**: `cs.CV, eess.IV`
+* **Authors**: Owen Pullen, Amir Jamaludin, Andrew Zisserman
+* **Abstract**: Adolescent Idiopathic Scoliosis is defined as a lateral curvature of the spine that develops during adolescence, without known cause. The condition can result in significant pain and disability, and often progresses rapidly during adolescence. The objective of this paper is to predict the progressio...
 
 
 
