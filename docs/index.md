@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-25 00:18 UTC`  
+> **Generated Timestamp**: `2026-09-25 11:21 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 On the Diffusibility of High-Dimensional Latents
-* **arXiv ID**: [`2609.28473v1`](https://arxiv.org/abs/2609.28473v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Chao Feng, Zhiyang Xu, Bowei Chen, Yuanjun Xiong
-* **Abstract**: Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstruction, discarding fine-grained visual details. As expected, finetuning these encoders for image reco...
+### 📄 RAPID: Robot Agentic Programming from Demonstrations
+* **arXiv ID**: [`2609.30249v1`](https://arxiv.org/abs/2609.30249v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
+* **Authors**: Yuyao Liu, Jiayuan Mao, David Hsu, Leslie Pack Kaelbling
+* **Abstract**: Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single vis...
 
 
-### 📄 The Past Frames the Future: Memory for Autoregressive Video Generation
-* **arXiv ID**: [`2609.28466v1`](https://arxiv.org/abs/2609.28466v1) | **Categories**: `cs.CV`
-* **Authors**: Harold Haodong Chen, Rongjin Guo, Disen Lan, Wen-Jie Shu
-* **Abstract**: Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generat...
+### 📄 Rolling-WAM: World Action Models with Rolling Imagination
+* **arXiv ID**: [`2609.30247v1`](https://arxiv.org/abs/2609.30247v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
+* **Authors**: Yinghua Zhou, Junjie Ye, Yiqi Zhao, Hao Dong
+* **Abstract**: World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness. We present Ro...
 
 
-### 📄 HaRP: High Dynamic Range Photosequencing through Dual Reversed Shutter Scanning
-* **arXiv ID**: [`2609.28439v1`](https://arxiv.org/abs/2609.28439v1) | **Categories**: `cs.CV`
-* **Authors**: Xiang Ji, Guixu Lin, Jiancheng Zhao, Zhengwei Yin
-* **Abstract**: The adoption of CMOS sensors in mobile photography is frequently compromised by the rolling shutter (RS) effect, which introduces geometric distortions and motion artifacts. Particularly, recent rolling shutter with global reset (RSGR) mode, while mitigating some RS issues, also incurs major limitat...
+### 📄 Towards Practical Compression of 3D Gaussian Splatting
+* **arXiv ID**: [`2609.30245v1`](https://arxiv.org/abs/2609.30245v1) | **Categories**: `cs.CV`
+* **Authors**: Pengpeng Yu, Yueru Chen, Fei Song, Tai Qin
+* **Abstract**: 3D Gaussian Splatting (3DGS) enables high-quality novel-view synthesis but requires substantial storage. Existing compression methods often rely on spatial context modeling over irregular 3D representations, increasing the complexity of training and coding. Meanwhile, floating-point context inferenc...
 
 
-### 📄 MultiVENT-Raw: A Benchmark for Retrieval and Reasoning over Raw Videos
-* **arXiv ID**: [`2609.28437v1`](https://arxiv.org/abs/2609.28437v1) | **Categories**: `cs.CV, cs.IR`
-* **Authors**: Reno Kriz, David Etter, Alexander Martin, Cameron Carpenter
-* **Abstract**: Online information is increasingly consumed in video format. Much of this comes in the form of *raw video*: continuous footage taken on a cell phone, with a hand-held camera, or via CCTV, which is then directly uploaded to social media platforms and content sharing services. Whereas professional or ...
+### 📄 SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data
+* **arXiv ID**: [`2609.30238v1`](https://arxiv.org/abs/2609.30238v1) | **Categories**: `cs.CL, cs.CV, cs.MM`
+* **Authors**: Wenhao Li, Zhibin Wu, Chong Xiao, Qiangchang Wang
+* **Abstract**: Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically compensate for missing information by reconstructing modality features or designing complicated fusion m...
 
 
-### 📄 Predicting the Progression of Adolescent Idiopathic Scoliosis
-* **arXiv ID**: [`2609.28434v1`](https://arxiv.org/abs/2609.28434v1) | **Categories**: `cs.CV, eess.IV`
-* **Authors**: Owen Pullen, Amir Jamaludin, Andrew Zisserman
-* **Abstract**: Adolescent Idiopathic Scoliosis is defined as a lateral curvature of the spine that develops during adolescence, without known cause. The condition can result in significant pain and disability, and often progresses rapidly during adolescence. The objective of this paper is to predict the progressio...
+### 📄 OmniFabric: Coherent UV Space Texture Synthesis for 3D Garment Reconstruction
+* **arXiv ID**: [`2609.30234v1`](https://arxiv.org/abs/2609.30234v1) | **Categories**: `cs.CV`
+* **Authors**: Ding-Jiun Huang, Yuanhao Wang, Cheng Zhang, Hugo Bertiche
+* **Abstract**: Automated generation of production-ready 3D garment assets from a single image is a central challenge in digital content creation. While recent generative models have significantly advanced 3D geometry reconstruction, synthesizing high-quality textures remains a bottleneck. Existing methods often ba...
 
 
 
