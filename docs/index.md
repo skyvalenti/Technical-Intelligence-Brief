@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-28 00:20 UTC`  
+> **Generated Timestamp**: `2026-09-28 13:08 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 RAPID: Robot Agentic Programming from Demonstrations
-* **arXiv ID**: [`2609.30249v1`](https://arxiv.org/abs/2609.30249v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
-* **Authors**: Yuyao Liu, Jiayuan Mao, David Hsu, Leslie Pack Kaelbling
-* **Abstract**: Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single vis...
+### 📄 FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders
+* **arXiv ID**: [`2609.31620v1`](https://arxiv.org/abs/2609.31620v1) | **Categories**: `cs.CV`
+* **Authors**: Hongyang Du, Yunfei Xie, Junjie Ye, Jiawei Yang
+* **Abstract**: Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixe...
 
 
-### 📄 Rolling-WAM: World Action Models with Rolling Imagination
-* **arXiv ID**: [`2609.30247v1`](https://arxiv.org/abs/2609.30247v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
-* **Authors**: Yinghua Zhou, Junjie Ye, Yiqi Zhao, Hao Dong
-* **Abstract**: World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness. We present Ro...
+### 📄 GraphWrit3R: End-to-End 3D Scene Graph Writing
+* **arXiv ID**: [`2609.31595v1`](https://arxiv.org/abs/2609.31595v1) | **Categories**: `cs.CV`
+* **Authors**: Luka Milivojevic, Nikola Popovic, Sayan Deb Sarkar, Sebastian Koch
+* **Abstract**: 3D scene graphs provide a structured representation of complex environments by encoding objects, their semantic attributes, and the spatial and functional relationships between them. Current approaches for 3D scene graph generation suffer from several fundamental limitations. They rely on complex mu...
 
 
-### 📄 Towards Practical Compression of 3D Gaussian Splatting
-* **arXiv ID**: [`2609.30245v1`](https://arxiv.org/abs/2609.30245v1) | **Categories**: `cs.CV`
-* **Authors**: Pengpeng Yu, Yueru Chen, Fei Song, Tai Qin
-* **Abstract**: 3D Gaussian Splatting (3DGS) enables high-quality novel-view synthesis but requires substantial storage. Existing compression methods often rely on spatial context modeling over irregular 3D representations, increasing the complexity of training and coding. Meanwhile, floating-point context inferenc...
+### 📄 How Far Can INRs Go? Cross-Domain Parameter-efficient INR-Based Semantic Segmentation for Brain MRI
+* **arXiv ID**: [`2609.31573v1`](https://arxiv.org/abs/2609.31573v1) | **Categories**: `cs.CV`
+* **Authors**: Ziyao Shang, Pouya Sadeghi, Letian Jiang, Alexander Wong
+* **Abstract**: Biomedical image segmentation is central to medical image analysis, but practical deployment often faces limited annotations, memory constraints, and cross-site distribution shifts. Implicit Neural Representations (INRs) have recently emerged as a lightweight alternative for semantic segmentation, a...
 
 
-### 📄 SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data
-* **arXiv ID**: [`2609.30238v1`](https://arxiv.org/abs/2609.30238v1) | **Categories**: `cs.CL, cs.CV, cs.MM`
-* **Authors**: Wenhao Li, Zhibin Wu, Chong Xiao, Qiangchang Wang
-* **Abstract**: Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically compensate for missing information by reconstructing modality features or designing complicated fusion m...
+### 📄 OC-GS: Gaussian Splatting for Irregular Turntable Capture
+* **arXiv ID**: [`2609.31572v1`](https://arxiv.org/abs/2609.31572v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Jae Joong Lee, Bedrich Benes
+* **Abstract**: Uneven rotation and dropped frames make equal-angle assumptions unreliable for turntable reconstruction. We present OC-GS, an object-centric Gaussian splatting that refines each image's angle while maintaining a shared camera, rotation axis, and pivot. This orbit-consistent refinement jointly optimi...
 
 
-### 📄 OmniFabric: Coherent UV Space Texture Synthesis for 3D Garment Reconstruction
-* **arXiv ID**: [`2609.30234v1`](https://arxiv.org/abs/2609.30234v1) | **Categories**: `cs.CV`
-* **Authors**: Ding-Jiun Huang, Yuanhao Wang, Cheng Zhang, Hugo Bertiche
-* **Abstract**: Automated generation of production-ready 3D garment assets from a single image is a central challenge in digital content creation. While recent generative models have significantly advanced 3D geometry reconstruction, synthesizing high-quality textures remains a bottleneck. Existing methods often ba...
+### 📄 Region-Level Black-Box Defense Against Stealthy Embedding-Space Backdoors in CLIP
+* **arXiv ID**: [`2609.31558v1`](https://arxiv.org/abs/2609.31558v1) | **Categories**: `cs.CV, cs.CR`
+* **Authors**: Ahmed Abdelnaby, Mohamed Elmahallawy
+* **Abstract**: Contrastive Language--Image Pretraining (CLIP) has emerged as a dominant vision backbone due to its strong transferability and zero-shot capabilities. However, recent studies reveal a critical vulnerability: embedding-space backdoor attacks. By poisoning only a tiny fraction of image--text pairs, ad...
 
 
 

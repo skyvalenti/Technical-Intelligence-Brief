@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-28 00:20 UTC",
+  "generated_at": "2026-09-28 13:08 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,90 +229,82 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.30249v1",
-      "title": "RAPID: Robot Agentic Programming from Demonstrations",
+      "arxiv_id": "2609.31620v1",
+      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
       "categories": [
-        "cs.RO",
-        "cs.AI",
         "cs.CV"
       ],
-      "summary": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single vis...",
+      "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixe...",
       "authors": [
-        "Yuyao Liu",
-        "Jiayuan Mao",
-        "David Hsu",
-        "Leslie Pack Kaelbling"
-      ],
-      "url": "https://arxiv.org/abs/2609.30249v1",
-      "published_date": "2026-09-24"
-    },
-    {
-      "arxiv_id": "2609.30247v1",
-      "title": "Rolling-WAM: World Action Models with Rolling Imagination",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "summary": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness. We present Ro...",
-      "authors": [
-        "Yinghua Zhou",
+        "Hongyang Du",
+        "Yunfei Xie",
         "Junjie Ye",
-        "Yiqi Zhao",
-        "Hao Dong"
+        "Jiawei Yang"
       ],
-      "url": "https://arxiv.org/abs/2609.30247v1",
-      "published_date": "2026-09-24"
+      "url": "https://arxiv.org/abs/2609.31620v1",
+      "published_date": "2026-09-25"
     },
     {
-      "arxiv_id": "2609.30245v1",
-      "title": "Towards Practical Compression of 3D Gaussian Splatting",
+      "arxiv_id": "2609.31595v1",
+      "title": "GraphWrit3R: End-to-End 3D Scene Graph Writing",
       "categories": [
         "cs.CV"
       ],
-      "summary": "3D Gaussian Splatting (3DGS) enables high-quality novel-view synthesis but requires substantial storage. Existing compression methods often rely on spatial context modeling over irregular 3D representations, increasing the complexity of training and coding. Meanwhile, floating-point context inferenc...",
+      "summary": "3D scene graphs provide a structured representation of complex environments by encoding objects, their semantic attributes, and the spatial and functional relationships between them. Current approaches for 3D scene graph generation suffer from several fundamental limitations. They rely on complex mu...",
       "authors": [
-        "Pengpeng Yu",
-        "Yueru Chen",
-        "Fei Song",
-        "Tai Qin"
+        "Luka Milivojevic",
+        "Nikola Popovic",
+        "Sayan Deb Sarkar",
+        "Sebastian Koch"
       ],
-      "url": "https://arxiv.org/abs/2609.30245v1",
-      "published_date": "2026-09-24"
+      "url": "https://arxiv.org/abs/2609.31595v1",
+      "published_date": "2026-09-25"
     },
     {
-      "arxiv_id": "2609.30238v1",
-      "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data",
+      "arxiv_id": "2609.31573v1",
+      "title": "How Far Can INRs Go? Cross-Domain Parameter-efficient INR-Based Semantic Segmentation for Brain MRI",
       "categories": [
-        "cs.CL",
+        "cs.CV"
+      ],
+      "summary": "Biomedical image segmentation is central to medical image analysis, but practical deployment often faces limited annotations, memory constraints, and cross-site distribution shifts. Implicit Neural Representations (INRs) have recently emerged as a lightweight alternative for semantic segmentation, a...",
+      "authors": [
+        "Ziyao Shang",
+        "Pouya Sadeghi",
+        "Letian Jiang",
+        "Alexander Wong"
+      ],
+      "url": "https://arxiv.org/abs/2609.31573v1",
+      "published_date": "2026-09-25"
+    },
+    {
+      "arxiv_id": "2609.31572v1",
+      "title": "OC-GS: Gaussian Splatting for Irregular Turntable Capture",
+      "categories": [
         "cs.CV",
-        "cs.MM"
+        "cs.AI"
       ],
-      "summary": "Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically compensate for missing information by reconstructing modality features or designing complicated fusion m...",
+      "summary": "Uneven rotation and dropped frames make equal-angle assumptions unreliable for turntable reconstruction. We present OC-GS, an object-centric Gaussian splatting that refines each image's angle while maintaining a shared camera, rotation axis, and pivot. This orbit-consistent refinement jointly optimi...",
       "authors": [
-        "Wenhao Li",
-        "Zhibin Wu",
-        "Chong Xiao",
-        "Qiangchang Wang"
+        "Jae Joong Lee",
+        "Bedrich Benes"
       ],
-      "url": "https://arxiv.org/abs/2609.30238v1",
-      "published_date": "2026-09-24"
+      "url": "https://arxiv.org/abs/2609.31572v1",
+      "published_date": "2026-09-25"
     },
     {
-      "arxiv_id": "2609.30234v1",
-      "title": "OmniFabric: Coherent UV Space Texture Synthesis for 3D Garment Reconstruction",
+      "arxiv_id": "2609.31558v1",
+      "title": "Region-Level Black-Box Defense Against Stealthy Embedding-Space Backdoors in CLIP",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.CR"
       ],
-      "summary": "Automated generation of production-ready 3D garment assets from a single image is a central challenge in digital content creation. While recent generative models have significantly advanced 3D geometry reconstruction, synthesizing high-quality textures remains a bottleneck. Existing methods often ba...",
+      "summary": "Contrastive Language--Image Pretraining (CLIP) has emerged as a dominant vision backbone due to its strong transferability and zero-shot capabilities. However, recent studies reveal a critical vulnerability: embedding-space backdoor attacks. By poisoning only a tiny fraction of image--text pairs, ad...",
       "authors": [
-        "Ding-Jiun Huang",
-        "Yuanhao Wang",
-        "Cheng Zhang",
-        "Hugo Bertiche"
+        "Ahmed Abdelnaby",
+        "Mohamed Elmahallawy"
       ],
-      "url": "https://arxiv.org/abs/2609.30234v1",
-      "published_date": "2026-09-24"
+      "url": "https://arxiv.org/abs/2609.31558v1",
+      "published_date": "2026-09-25"
     }
   ]
 }
