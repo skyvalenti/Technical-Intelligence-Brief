@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-29 01:31 UTC`  
+> **Generated Timestamp**: `2026-09-29 12:18 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 SynCo: Learning Cross-Modal Synergy by Contrasting Interaction Residuals
-* **arXiv ID**: [`2609.32846v1`](https://arxiv.org/abs/2609.32846v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Yavuz Yarici, Ghassan AlRegib
-* **Abstract**: Multimodal contrastive learning is a dominant paradigm for learning transferable representations from unlabeled data, but standard objectives primarily capture information that is redundant between modalities. Partial Information Decomposition (PID) shows that task-relevant information in multimodal...
+### 📄 FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets
+* **arXiv ID**: [`2609.35770v1`](https://arxiv.org/abs/2609.35770v1) | **Categories**: `cs.CV, cs.AI, cs.GR`
+* **Authors**: Srinjay Sarkar, Prakhar Kaushik, Soumava Paul, Alan Yuille
+* **Abstract**: Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intra-species variabilit...
 
 
-### 📄 Mask2Restore: Self-Supervised Ultrasound Despeckling via Inpainting
-* **arXiv ID**: [`2609.32844v1`](https://arxiv.org/abs/2609.32844v1) | **Categories**: `eess.IV, cs.CV`
-* **Authors**: Xuesong Li, Yingtai Xu, Zhongliang Jiang, Nassir Navab
-* **Abstract**: Medical ultrasound (US) is inherently degraded by speckle, a granular interference pattern that is often treated as a complex form of noise in image restoration. However, unlike random noise, US speckle originates from coherent scattering within tissue and is therefore highly spatially dependent and...
+### 📄 PDMD: Projected Distribution Matching Distillation for Video Diffusion Models
+* **arXiv ID**: [`2609.35768v1`](https://arxiv.org/abs/2609.35768v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Zimo Wang, Junkun Yuan, Angtian Wang, Haotian Yang
+* **Abstract**: Modern video diffusion models require tens of denoising evaluations over long spatiotemporal token sequences. Distribution Matching Distillation (DMD) reduces the number of function evaluations (NFE) to just a few. However, DMD samples can degrade during training, exhibiting progressive oversaturati...
 
 
-### 📄 Beyond Temporal Smoothing: Spatial Energy Budgets Stabilize One-Step Diffusion Editing
-* **arXiv ID**: [`2609.32841v1`](https://arxiv.org/abs/2609.32841v1) | **Categories**: `cs.CV`
-* **Authors**: Shengxiao Zhou, Lei Luo, Jian Yang
-* **Abstract**: One-step text-guided diffusion editing is efficient but prone to spatially misallocated updates that distort the edited object and alter the background. Existing methods often improve stability by averaging the editing field across timesteps. We instead identify spatial energy misallocation as a dis...
+### 📄 Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning
+* **arXiv ID**: [`2609.35767v1`](https://arxiv.org/abs/2609.35767v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Yijia Fan, Ziqi Huang, Zhongang Cai, Yan Li
+* **Abstract**: Unified multimodal models can both look at and render images, so in principle they can repair their own generations: diagnose what an image gets wrong, revise it, observe the result, and diagnose again. Whether a revision helps is known only after it is rendered, so the reflection text and the image...
 
 
-### 📄 VCRE-Fib: View-Conditioned Regional Evidence for Fine-Grained Ultrasound Grading of Schistosoma japonicum-Associated Liver Fibrosis
-* **arXiv ID**: [`2609.32840v1`](https://arxiv.org/abs/2609.32840v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Ziyang Xu, Shuli An, Hao Zhou, Haitian Zhong
-* **Abstract**: Accurate assessment of Schistosoma japonicum-associated liver fibrosis is essential for disease management and long-term follow-up in endemic regions. Ultrasound provides non-invasive imaging, but complex local echogenic patterns and anatomical structures make fine-grained grading challenging. Exist...
+### 📄 Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose
+* **arXiv ID**: [`2609.35764v1`](https://arxiv.org/abs/2609.35764v1) | **Categories**: `cs.CV, cs.HC`
+* **Authors**: Zhilin Guo, Boqiao Zhang, Oszkár Urbán, Josef Bengtson
+* **Abstract**: Sparse inertial pose estimation promises camera-free motion capture from consumer devices, but consumer sensors are unreliable: firmware-fused orientations are biased, mounting varies between sessions, and streams drift or drop out. On a new 35-take single-subject benchmark pairing an earbud head in...
 
 
-### 📄 Unlocking Geodesic Gromov-Wasserstein Distances for 3D Modeling
-* **arXiv ID**: [`2609.32824v1`](https://arxiv.org/abs/2609.32824v1) | **Categories**: `cs.CV, cs.DS, eess.IV`
-* **Authors**: Krzysztof Marcin Choromanski, Derek Long, Ananya Parashar, Dwaipayan Saha
-* **Abstract**: \textit{Gromov-Wasserstein Distances} (GWDs) provide quantitative ways of comparing probabilistic distributions defined on different metric spaces by applying techniques from the optimal transport theory. As such, GWD can be potentially useful in a large variety of applications ranging from graph ma...
+### 📄 Copy the Same, Distill the Difference: Initializing Linear Vision Transformers
+* **arXiv ID**: [`2609.35745v1`](https://arxiv.org/abs/2609.35745v1) | **Categories**: `cs.CV, cs.AI, cs.LG`
+* **Authors**: Huaiyuan Qin, Muli Yang, Gabriel James Goenawan, Shiqi Huang
+* **Abstract**: Linear Vision Transformers (ViTs) are designed to replace the attention in Softmax ViTs with the linear-complexity attention operator for more efficient token routing, but they require from-scratch pre-training and typically underperform the original Softmax version. How to initialize linear ViTs bo...
 
 
 
