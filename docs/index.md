@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-28 20:24 UTC`  
+> **Generated Timestamp**: `2026-09-29 01:31 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders
-* **arXiv ID**: [`2609.31620v1`](https://arxiv.org/abs/2609.31620v1) | **Categories**: `cs.CV`
-* **Authors**: Hongyang Du, Yunfei Xie, Junjie Ye, Jiawei Yang
-* **Abstract**: Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixe...
+### 📄 SynCo: Learning Cross-Modal Synergy by Contrasting Interaction Residuals
+* **arXiv ID**: [`2609.32846v1`](https://arxiv.org/abs/2609.32846v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Yavuz Yarici, Ghassan AlRegib
+* **Abstract**: Multimodal contrastive learning is a dominant paradigm for learning transferable representations from unlabeled data, but standard objectives primarily capture information that is redundant between modalities. Partial Information Decomposition (PID) shows that task-relevant information in multimodal...
 
 
-### 📄 GraphWrit3R: End-to-End 3D Scene Graph Writing
-* **arXiv ID**: [`2609.31595v1`](https://arxiv.org/abs/2609.31595v1) | **Categories**: `cs.CV`
-* **Authors**: Luka Milivojevic, Nikola Popovic, Sayan Deb Sarkar, Sebastian Koch
-* **Abstract**: 3D scene graphs provide a structured representation of complex environments by encoding objects, their semantic attributes, and the spatial and functional relationships between them. Current approaches for 3D scene graph generation suffer from several fundamental limitations. They rely on complex mu...
+### 📄 Mask2Restore: Self-Supervised Ultrasound Despeckling via Inpainting
+* **arXiv ID**: [`2609.32844v1`](https://arxiv.org/abs/2609.32844v1) | **Categories**: `eess.IV, cs.CV`
+* **Authors**: Xuesong Li, Yingtai Xu, Zhongliang Jiang, Nassir Navab
+* **Abstract**: Medical ultrasound (US) is inherently degraded by speckle, a granular interference pattern that is often treated as a complex form of noise in image restoration. However, unlike random noise, US speckle originates from coherent scattering within tissue and is therefore highly spatially dependent and...
 
 
-### 📄 How Far Can INRs Go? Cross-Domain Parameter-efficient INR-Based Semantic Segmentation for Brain MRI
-* **arXiv ID**: [`2609.31573v1`](https://arxiv.org/abs/2609.31573v1) | **Categories**: `cs.CV`
-* **Authors**: Ziyao Shang, Pouya Sadeghi, Letian Jiang, Alexander Wong
-* **Abstract**: Biomedical image segmentation is central to medical image analysis, but practical deployment often faces limited annotations, memory constraints, and cross-site distribution shifts. Implicit Neural Representations (INRs) have recently emerged as a lightweight alternative for semantic segmentation, a...
+### 📄 Beyond Temporal Smoothing: Spatial Energy Budgets Stabilize One-Step Diffusion Editing
+* **arXiv ID**: [`2609.32841v1`](https://arxiv.org/abs/2609.32841v1) | **Categories**: `cs.CV`
+* **Authors**: Shengxiao Zhou, Lei Luo, Jian Yang
+* **Abstract**: One-step text-guided diffusion editing is efficient but prone to spatially misallocated updates that distort the edited object and alter the background. Existing methods often improve stability by averaging the editing field across timesteps. We instead identify spatial energy misallocation as a dis...
 
 
-### 📄 OC-GS: Gaussian Splatting for Irregular Turntable Capture
-* **arXiv ID**: [`2609.31572v1`](https://arxiv.org/abs/2609.31572v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Jae Joong Lee, Bedrich Benes
-* **Abstract**: Uneven rotation and dropped frames make equal-angle assumptions unreliable for turntable reconstruction. We present OC-GS, an object-centric Gaussian splatting that refines each image's angle while maintaining a shared camera, rotation axis, and pivot. This orbit-consistent refinement jointly optimi...
+### 📄 VCRE-Fib: View-Conditioned Regional Evidence for Fine-Grained Ultrasound Grading of Schistosoma japonicum-Associated Liver Fibrosis
+* **arXiv ID**: [`2609.32840v1`](https://arxiv.org/abs/2609.32840v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Ziyang Xu, Shuli An, Hao Zhou, Haitian Zhong
+* **Abstract**: Accurate assessment of Schistosoma japonicum-associated liver fibrosis is essential for disease management and long-term follow-up in endemic regions. Ultrasound provides non-invasive imaging, but complex local echogenic patterns and anatomical structures make fine-grained grading challenging. Exist...
 
 
-### 📄 Region-Level Black-Box Defense Against Stealthy Embedding-Space Backdoors in CLIP
-* **arXiv ID**: [`2609.31558v1`](https://arxiv.org/abs/2609.31558v1) | **Categories**: `cs.CV, cs.CR`
-* **Authors**: Ahmed Abdelnaby, Mohamed Elmahallawy
-* **Abstract**: Contrastive Language--Image Pretraining (CLIP) has emerged as a dominant vision backbone due to its strong transferability and zero-shot capabilities. However, recent studies reveal a critical vulnerability: embedding-space backdoor attacks. By poisoning only a tiny fraction of image--text pairs, ad...
+### 📄 Unlocking Geodesic Gromov-Wasserstein Distances for 3D Modeling
+* **arXiv ID**: [`2609.32824v1`](https://arxiv.org/abs/2609.32824v1) | **Categories**: `cs.CV, cs.DS, eess.IV`
+* **Authors**: Krzysztof Marcin Choromanski, Derek Long, Ananya Parashar, Dwaipayan Saha
+* **Abstract**: \textit{Gromov-Wasserstein Distances} (GWDs) provide quantitative ways of comparing probabilistic distributions defined on different metric spaces by applying techniques from the optimal transport theory. As such, GWD can be potentially useful in a large variety of applications ranging from graph ma...
 
 
 
