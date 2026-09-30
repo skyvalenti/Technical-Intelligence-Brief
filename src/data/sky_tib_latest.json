@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-30 01:07 UTC",
+  "generated_at": "2026-09-30 12:03 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,79 +229,86 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.36965v1",
-      "title": "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
-      "categories": [
-        "cs.CL",
-        "cs.CV"
-      ],
-      "summary": "System One models such as Jev offer an efficient alternative to generative language models for tasks that require decisions rather than open-ended responses. However, existing Jev models exhibit limited Chinese-language decision accuracy, restricting their utility in both general and specialized set...",
-      "authors": [
-        "Zexiao Wang",
-        "Zihao Zhang",
-        "Xudong Wang",
-        "Pan Wang"
-      ],
-      "url": "https://arxiv.org/abs/2609.36965v1",
-      "published_date": "2026-09-29"
-    },
-    {
-      "arxiv_id": "2609.36957v1",
-      "title": "Beyond Readability: Evaluating Task Information Recoverability",
+      "arxiv_id": "2609.38180v1",
+      "title": "Point2Part: Unified 3D Partitioning from Point Prompts",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Direct visual readability and task-information recoverability are different quantities. Failure to decode a target from a fixed observation need not eliminate access to that target through another recovery route. We develop an evaluation perspective that makes the observation, query, target, and ava...",
+      "summary": "Existing 3D part decomposition methods do not necessarily partition the original shape into non-overlapping parts that collectively cover the entire shape, allowing overlaps or gaps that hinder downstream part-level applications. We instead formulate part decomposition as a joint partitioning of the...",
       "authors": [
-        "Yiwei Liu"
+        "Hao-Tang Tsui",
+        "Yu-Rou Tuan",
+        "Xiaoxuan Ma",
+        "Nicolas Ugrinovic"
       ],
-      "url": "https://arxiv.org/abs/2609.36957v1",
+      "url": "https://arxiv.org/abs/2609.38180v1",
       "published_date": "2026-09-29"
     },
     {
-      "arxiv_id": "2609.36940v1",
-      "title": "DispFlow-GS: Displacement Flow Supervision with Motion Disentangling for Monocular Deformable 3D Gaussian Splatting",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Accurate dynamic scene reconstruction is important for robotic perception, where temporally consistent representations of dynamic environments are essential. Deformable 3D Gaussian Splatting (3DGS) models dynamic scenes through deformation fields, and recent methods incorporate motion supervision by...",
-      "authors": [
-        "Thai Duy Nguyen",
-        "Haitian Zhang",
-        "Addison Lin Wang"
-      ],
-      "url": "https://arxiv.org/abs/2609.36940v1",
-      "published_date": "2026-09-29"
-    },
-    {
-      "arxiv_id": "2609.36937v1",
-      "title": "WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation",
+      "arxiv_id": "2609.38177v1",
+      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
       "categories": [
         "cs.CV",
-        "cs.AI"
+        "cs.CL"
       ],
-      "summary": "Human image animation aims to transfer motion from a driving video to subjects in a reference image. Despite remarkable progress in video generation, achieving high-fidelity animation of multiple interacting subjects remains a challenge. Many existing approaches rely on explicit motion representatio...",
+      "summary": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work ...",
       "authors": [
-        "Sangeyl Lee",
-        "Seunghyun Shin",
-        "Seungho Park",
-        "Wooseok Jeon"
+        "Jaewoo Jung",
+        "Hyeonseo Yu",
+        "Honggyu An",
+        "Jisang Han"
       ],
-      "url": "https://arxiv.org/abs/2609.36937v1",
+      "url": "https://arxiv.org/abs/2609.38177v1",
       "published_date": "2026-09-29"
     },
     {
-      "arxiv_id": "2609.36929v1",
-      "title": "SFE-VGGT: Source-Free VGGT Distillation for Event-Based Monocular Depth Estimation",
+      "arxiv_id": "2609.38172v1",
+      "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "summary": "Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots. However, collecting diverse, high-quality interaction videos, such as clips that clearly show a person's full body and unoccluded interactions with object...",
+      "authors": [
+        "Zihan Wang",
+        "Zhen Wu",
+        "Pieter Abbeel",
+        "Rocky Duan"
+      ],
+      "url": "https://arxiv.org/abs/2609.38172v1",
+      "published_date": "2026-09-29"
+    },
+    {
+      "arxiv_id": "2609.38170v1",
+      "title": "Adversarial Training for Pixel Diffusion",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Recent event-based depth estimation methods successfully transfer geometric priors from vision foundation models via cross-modal distillation. However, their reliance on synchronized RGB-event pairs or depth annotations during training severely restricts practical deployment. To overcome this bottle...",
+      "summary": "Pixel diffusion models generate RGB images directly, avoiding the bottleneck of an autoencoder, yet their outputs still systematically underrepresent fine-scale natural-image statistics. We show that adversarial learning provides an effective post-training correction for this deficiency. Starting fr...",
       "authors": [
-        "Thai Duy Nguyen",
-        "Addison Lin Wang"
+        "Xin Lin",
+        "Zhifei Zhang",
+        "Yuqian Zhou",
+        "Haitian Zheng"
       ],
-      "url": "https://arxiv.org/abs/2609.36929v1",
+      "url": "https://arxiv.org/abs/2609.38170v1",
+      "published_date": "2026-09-29"
+    },
+    {
+      "arxiv_id": "2609.38165v1",
+      "title": "Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "summary": "The landscape of satellite imagery time series datasets and boundary-pushing architectures for cropland segmentation has never been richer. However, in this gold rush, important truths are being missed on both fronts, as a drive for the most novel concepts or the largest datasets pushes finer detail...",
+      "authors": [
+        "Joseph Metcalfe",
+        "Sara Sharifzadeh",
+        "Fabio Caraffini"
+      ],
+      "url": "https://arxiv.org/abs/2609.38165v1",
       "published_date": "2026-09-29"
     }
   ]
