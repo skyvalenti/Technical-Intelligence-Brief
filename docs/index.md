@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-29 19:09 UTC`  
+> **Generated Timestamp**: `2026-09-30 01:07 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets
-* **arXiv ID**: [`2609.35770v1`](https://arxiv.org/abs/2609.35770v1) | **Categories**: `cs.CV, cs.AI, cs.GR`
-* **Authors**: Srinjay Sarkar, Prakhar Kaushik, Soumava Paul, Alan Yuille
-* **Abstract**: Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intra-species variabilit...
+### 📄 Chinese-Jev: Bringing System One Model to Chinese-Language Tasks
+* **arXiv ID**: [`2609.36965v1`](https://arxiv.org/abs/2609.36965v1) | **Categories**: `cs.CL, cs.CV`
+* **Authors**: Zexiao Wang, Zihao Zhang, Xudong Wang, Pan Wang
+* **Abstract**: System One models such as Jev offer an efficient alternative to generative language models for tasks that require decisions rather than open-ended responses. However, existing Jev models exhibit limited Chinese-language decision accuracy, restricting their utility in both general and specialized set...
 
 
-### 📄 PDMD: Projected Distribution Matching Distillation for Video Diffusion Models
-* **arXiv ID**: [`2609.35768v1`](https://arxiv.org/abs/2609.35768v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Zimo Wang, Junkun Yuan, Angtian Wang, Haotian Yang
-* **Abstract**: Modern video diffusion models require tens of denoising evaluations over long spatiotemporal token sequences. Distribution Matching Distillation (DMD) reduces the number of function evaluations (NFE) to just a few. However, DMD samples can degrade during training, exhibiting progressive oversaturati...
+### 📄 Beyond Readability: Evaluating Task Information Recoverability
+* **arXiv ID**: [`2609.36957v1`](https://arxiv.org/abs/2609.36957v1) | **Categories**: `cs.CV`
+* **Authors**: Yiwei Liu
+* **Abstract**: Direct visual readability and task-information recoverability are different quantities. Failure to decode a target from a fixed observation need not eliminate access to that target through another recovery route. We develop an evaluation perspective that makes the observation, query, target, and ava...
 
 
-### 📄 Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning
-* **arXiv ID**: [`2609.35767v1`](https://arxiv.org/abs/2609.35767v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Yijia Fan, Ziqi Huang, Zhongang Cai, Yan Li
-* **Abstract**: Unified multimodal models can both look at and render images, so in principle they can repair their own generations: diagnose what an image gets wrong, revise it, observe the result, and diagnose again. Whether a revision helps is known only after it is rendered, so the reflection text and the image...
+### 📄 DispFlow-GS: Displacement Flow Supervision with Motion Disentangling for Monocular Deformable 3D Gaussian Splatting
+* **arXiv ID**: [`2609.36940v1`](https://arxiv.org/abs/2609.36940v1) | **Categories**: `cs.CV`
+* **Authors**: Thai Duy Nguyen, Haitian Zhang, Addison Lin Wang
+* **Abstract**: Accurate dynamic scene reconstruction is important for robotic perception, where temporally consistent representations of dynamic environments are essential. Deformable 3D Gaussian Splatting (3DGS) models dynamic scenes through deformation fields, and recent methods incorporate motion supervision by...
 
 
-### 📄 Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose
-* **arXiv ID**: [`2609.35764v1`](https://arxiv.org/abs/2609.35764v1) | **Categories**: `cs.CV, cs.HC`
-* **Authors**: Zhilin Guo, Boqiao Zhang, Oszkár Urbán, Josef Bengtson
-* **Abstract**: Sparse inertial pose estimation promises camera-free motion capture from consumer devices, but consumer sensors are unreliable: firmware-fused orientations are biased, mounting varies between sessions, and streams drift or drop out. On a new 35-take single-subject benchmark pairing an earbud head in...
+### 📄 WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation
+* **arXiv ID**: [`2609.36937v1`](https://arxiv.org/abs/2609.36937v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Sangeyl Lee, Seunghyun Shin, Seungho Park, Wooseok Jeon
+* **Abstract**: Human image animation aims to transfer motion from a driving video to subjects in a reference image. Despite remarkable progress in video generation, achieving high-fidelity animation of multiple interacting subjects remains a challenge. Many existing approaches rely on explicit motion representatio...
 
 
-### 📄 Copy the Same, Distill the Difference: Initializing Linear Vision Transformers
-* **arXiv ID**: [`2609.35745v1`](https://arxiv.org/abs/2609.35745v1) | **Categories**: `cs.CV, cs.AI, cs.LG`
-* **Authors**: Huaiyuan Qin, Muli Yang, Gabriel James Goenawan, Shiqi Huang
-* **Abstract**: Linear Vision Transformers (ViTs) are designed to replace the attention in Softmax ViTs with the linear-complexity attention operator for more efficient token routing, but they require from-scratch pre-training and typically underperform the original Softmax version. How to initialize linear ViTs bo...
+### 📄 SFE-VGGT: Source-Free VGGT Distillation for Event-Based Monocular Depth Estimation
+* **arXiv ID**: [`2609.36929v1`](https://arxiv.org/abs/2609.36929v1) | **Categories**: `cs.CV`
+* **Authors**: Thai Duy Nguyen, Addison Lin Wang
+* **Abstract**: Recent event-based depth estimation methods successfully transfer geometric priors from vision foundation models via cross-modal distillation. However, their reliance on synchronized RGB-event pairs or depth annotations during training severely restricts practical deployment. To overcome this bottle...
 
 
 

@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-29 19:09 UTC",
+  "generated_at": "2026-09-30 01:07 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,91 +229,80 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.35770v1",
-      "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+      "arxiv_id": "2609.36965v1",
+      "title": "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
+        "cs.CL",
+        "cs.CV"
       ],
-      "summary": "Realistic and editable animal fur reconstruction from multi-view images is challenging due to fine-scale detail, self-occlusion and obfuscation, and, unlike human hair, the lack of animal-fur datasets. Fur usually covers most of an animal's body, with large inter-species and intra-species variabilit...",
+      "summary": "System One models such as Jev offer an efficient alternative to generative language models for tasks that require decisions rather than open-ended responses. However, existing Jev models exhibit limited Chinese-language decision accuracy, restricting their utility in both general and specialized set...",
       "authors": [
-        "Srinjay Sarkar",
-        "Prakhar Kaushik",
-        "Soumava Paul",
-        "Alan Yuille"
+        "Zexiao Wang",
+        "Zihao Zhang",
+        "Xudong Wang",
+        "Pan Wang"
       ],
-      "url": "https://arxiv.org/abs/2609.35770v1",
-      "published_date": "2026-09-28"
+      "url": "https://arxiv.org/abs/2609.36965v1",
+      "published_date": "2026-09-29"
     },
     {
-      "arxiv_id": "2609.35768v1",
-      "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
+      "arxiv_id": "2609.36957v1",
+      "title": "Beyond Readability: Evaluating Task Information Recoverability",
       "categories": [
-        "cs.CV",
-        "cs.LG"
+        "cs.CV"
       ],
-      "summary": "Modern video diffusion models require tens of denoising evaluations over long spatiotemporal token sequences. Distribution Matching Distillation (DMD) reduces the number of function evaluations (NFE) to just a few. However, DMD samples can degrade during training, exhibiting progressive oversaturati...",
+      "summary": "Direct visual readability and task-information recoverability are different quantities. Failure to decode a target from a fixed observation need not eliminate access to that target through another recovery route. We develop an evaluation perspective that makes the observation, query, target, and ava...",
       "authors": [
-        "Zimo Wang",
-        "Junkun Yuan",
-        "Angtian Wang",
-        "Haotian Yang"
+        "Yiwei Liu"
       ],
-      "url": "https://arxiv.org/abs/2609.35768v1",
-      "published_date": "2026-09-28"
+      "url": "https://arxiv.org/abs/2609.36957v1",
+      "published_date": "2026-09-29"
     },
     {
-      "arxiv_id": "2609.35767v1",
-      "title": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
+      "arxiv_id": "2609.36940v1",
+      "title": "DispFlow-GS: Displacement Flow Supervision with Motion Disentangling for Monocular Deformable 3D Gaussian Splatting",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Accurate dynamic scene reconstruction is important for robotic perception, where temporally consistent representations of dynamic environments are essential. Deformable 3D Gaussian Splatting (3DGS) models dynamic scenes through deformation fields, and recent methods incorporate motion supervision by...",
+      "authors": [
+        "Thai Duy Nguyen",
+        "Haitian Zhang",
+        "Addison Lin Wang"
+      ],
+      "url": "https://arxiv.org/abs/2609.36940v1",
+      "published_date": "2026-09-29"
+    },
+    {
+      "arxiv_id": "2609.36937v1",
+      "title": "WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
-      "summary": "Unified multimodal models can both look at and render images, so in principle they can repair their own generations: diagnose what an image gets wrong, revise it, observe the result, and diagnose again. Whether a revision helps is known only after it is rendered, so the reflection text and the image...",
+      "summary": "Human image animation aims to transfer motion from a driving video to subjects in a reference image. Despite remarkable progress in video generation, achieving high-fidelity animation of multiple interacting subjects remains a challenge. Many existing approaches rely on explicit motion representatio...",
       "authors": [
-        "Yijia Fan",
-        "Ziqi Huang",
-        "Zhongang Cai",
-        "Yan Li"
+        "Sangeyl Lee",
+        "Seunghyun Shin",
+        "Seungho Park",
+        "Wooseok Jeon"
       ],
-      "url": "https://arxiv.org/abs/2609.35767v1",
-      "published_date": "2026-09-28"
+      "url": "https://arxiv.org/abs/2609.36937v1",
+      "published_date": "2026-09-29"
     },
     {
-      "arxiv_id": "2609.35764v1",
-      "title": "Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose",
+      "arxiv_id": "2609.36929v1",
+      "title": "SFE-VGGT: Source-Free VGGT Distillation for Event-Based Monocular Depth Estimation",
       "categories": [
-        "cs.CV",
-        "cs.HC"
+        "cs.CV"
       ],
-      "summary": "Sparse inertial pose estimation promises camera-free motion capture from consumer devices, but consumer sensors are unreliable: firmware-fused orientations are biased, mounting varies between sessions, and streams drift or drop out. On a new 35-take single-subject benchmark pairing an earbud head in...",
+      "summary": "Recent event-based depth estimation methods successfully transfer geometric priors from vision foundation models via cross-modal distillation. However, their reliance on synchronized RGB-event pairs or depth annotations during training severely restricts practical deployment. To overcome this bottle...",
       "authors": [
-        "Zhilin Guo",
-        "Boqiao Zhang",
-        "Oszkár Urbán",
-        "Josef Bengtson"
+        "Thai Duy Nguyen",
+        "Addison Lin Wang"
       ],
-      "url": "https://arxiv.org/abs/2609.35764v1",
-      "published_date": "2026-09-28"
-    },
-    {
-      "arxiv_id": "2609.35745v1",
-      "title": "Copy the Same, Distill the Difference: Initializing Linear Vision Transformers",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "summary": "Linear Vision Transformers (ViTs) are designed to replace the attention in Softmax ViTs with the linear-complexity attention operator for more efficient token routing, but they require from-scratch pre-training and typically underperform the original Softmax version. How to initialize linear ViTs bo...",
-      "authors": [
-        "Huaiyuan Qin",
-        "Muli Yang",
-        "Gabriel James Goenawan",
-        "Shiqi Huang"
-      ],
-      "url": "https://arxiv.org/abs/2609.35745v1",
-      "published_date": "2026-09-28"
+      "url": "https://arxiv.org/abs/2609.36929v1",
+      "published_date": "2026-09-29"
     }
   ]
 }
