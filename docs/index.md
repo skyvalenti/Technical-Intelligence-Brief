@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-09-30 18:51 UTC`  
+> **Generated Timestamp**: `2026-10-01 01:07 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Point2Part: Unified 3D Partitioning from Point Prompts
-* **arXiv ID**: [`2609.38180v1`](https://arxiv.org/abs/2609.38180v1) | **Categories**: `cs.CV`
-* **Authors**: Hao-Tang Tsui, Yu-Rou Tuan, Xiaoxuan Ma, Nicolas Ugrinovic
-* **Abstract**: Existing 3D part decomposition methods do not necessarily partition the original shape into non-overlapping parts that collectively cover the entire shape, allowing overlaps or gaps that hinder downstream part-level applications. We instead formulate part decomposition as a joint partitioning of the...
+### 📄 Uruqi: Learning Spatial Cognition from Visual Experience
+* **arXiv ID**: [`2609.39195v1`](https://arxiv.org/abs/2609.39195v1) | **Categories**: `cs.CV`
+* **Authors**: Shichao Li, Meiqi Wang, Fei Su, Zhicheng Zhao
+* **Abstract**: Spatial intelligence requires maintaining a coherent understanding of the world as the embodied agent moves. Like humans, the agent must use its own motion to interpret changes across observations and update object locations and spatial relations accordingly. Despite spatial post-training having sub...
 
 
-### 📄 Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering
-* **arXiv ID**: [`2609.38177v1`](https://arxiv.org/abs/2609.38177v1) | **Categories**: `cs.CV, cs.CL`
-* **Authors**: Jaewoo Jung, Hyeonseo Yu, Honggyu An, Jisang Han
-* **Abstract**: Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work ...
+### 📄 Fiber-Resolved Microstructure Quantification from Multi-Shell Diffusion MRI using Detection Transformers
+* **arXiv ID**: [`2609.39184v1`](https://arxiv.org/abs/2609.39184v1) | **Categories**: `cs.CV, cs.LG, physics.med-ph`
+* **Authors**: Sebastian Endt, Marcus Wirth, Johannes Reinhold Schlund, Marion Irene Menzel
+* **Abstract**: Fiber orientation and compartmental microstructure are central to the characterization of white matter tissue in diffusion MRI, yet existing methods either resolve fiber orientations without quantifying microstructure, or quantify microstructure while assuming a fixed number of compartments and a si...
 
 
-### 📄 Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
-* **arXiv ID**: [`2609.38172v1`](https://arxiv.org/abs/2609.38172v1) | **Categories**: `cs.RO, cs.CV, cs.GR`
-* **Authors**: Zihan Wang, Zhen Wu, Pieter Abbeel, Rocky Duan
-* **Abstract**: Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots. However, collecting diverse, high-quality interaction videos, such as clips that clearly show a person's full body and unoccluded interactions with object...
+### 📄 Aligning Thoughts with Answers: Probability Rewards to Tame Thinking Drift
+* **arXiv ID**: [`2609.39183v1`](https://arxiv.org/abs/2609.39183v1) | **Categories**: `cs.CV`
+* **Authors**: Pengzhan Sun, Shiu-hong Kao, Shijie Li, Yongyi Su
+* **Abstract**: This paper studies \textbf{thinking--answer consistency} in vision-language models. We focus on Visual Intention Grounding, where a model infers a target object based on a human intention query and predicts a bounding box. We reveal that previous IoU-based reinforcement learning (RL) frameworks suff...
 
 
-### 📄 Adversarial Training for Pixel Diffusion
-* **arXiv ID**: [`2609.38170v1`](https://arxiv.org/abs/2609.38170v1) | **Categories**: `cs.CV`
-* **Authors**: Xin Lin, Zhifei Zhang, Yuqian Zhou, Haitian Zheng
-* **Abstract**: Pixel diffusion models generate RGB images directly, avoiding the bottleneck of an autoencoder, yet their outputs still systematically underrepresent fine-scale natural-image statistics. We show that adversarial learning provides an effective post-training correction for this deficiency. Starting fr...
+### 📄 MEND: Label-Free Detection, Localisation, and Correction of Latent Hallucination in World Models
+* **arXiv ID**: [`2609.39182v1`](https://arxiv.org/abs/2609.39182v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Ali J Alrasheed, Aryan Yazdan Parast, Basim Azam, James Bailey
+* **Abstract**: World Models are appearing as the next major frontier in computer vision. However, their robustness is currently largely unexplored. We identify the phenomenon of hallucination in latent World Models: given a state and an action, the predicted next latent can decode to a scene that never occurs. Bec...
 
 
-### 📄 Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data
-* **arXiv ID**: [`2609.38165v1`](https://arxiv.org/abs/2609.38165v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Joseph Metcalfe, Sara Sharifzadeh, Fabio Caraffini
-* **Abstract**: The landscape of satellite imagery time series datasets and boundary-pushing architectures for cropland segmentation has never been richer. However, in this gold rush, important truths are being missed on both fronts, as a drive for the most novel concepts or the largest datasets pushes finer detail...
+### 📄 Exploiting Vulnerabilities: Universal Adversarial Attacks on Vision-Language-Action Models in Robotics
+* **arXiv ID**: [`2609.39178v1`](https://arxiv.org/abs/2609.39178v1) | **Categories**: `cs.RO, cs.CR, cs.CV`
+* **Authors**: Songhua Yang, Ziyu Liu, Yuanwei Liu, Xuetao Li
+* **Abstract**: Recently, Vision-Language-Action (VLA) models have revolutionized robotic manipulation by seamlessly integrating visual perception, language understanding, and action generation in an end-to-end learning framework. However, since these models are designed to interact directly with the physical world...
 
 
 

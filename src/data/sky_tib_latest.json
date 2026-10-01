@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-09-30 18:51 UTC",
+  "generated_at": "2026-10-01 01:07 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,87 +229,89 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.38180v1",
-      "title": "Point2Part: Unified 3D Partitioning from Point Prompts",
+      "arxiv_id": "2609.39195v1",
+      "title": "Uruqi: Learning Spatial Cognition from Visual Experience",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Existing 3D part decomposition methods do not necessarily partition the original shape into non-overlapping parts that collectively cover the entire shape, allowing overlaps or gaps that hinder downstream part-level applications. We instead formulate part decomposition as a joint partitioning of the...",
+      "summary": "Spatial intelligence requires maintaining a coherent understanding of the world as the embodied agent moves. Like humans, the agent must use its own motion to interpret changes across observations and update object locations and spatial relations accordingly. Despite spatial post-training having sub...",
       "authors": [
-        "Hao-Tang Tsui",
-        "Yu-Rou Tuan",
-        "Xiaoxuan Ma",
-        "Nicolas Ugrinovic"
+        "Shichao Li",
+        "Meiqi Wang",
+        "Fei Su",
+        "Zhicheng Zhao"
       ],
-      "url": "https://arxiv.org/abs/2609.38180v1",
-      "published_date": "2026-09-29"
+      "url": "https://arxiv.org/abs/2609.39195v1",
+      "published_date": "2026-09-30"
     },
     {
-      "arxiv_id": "2609.38177v1",
-      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+      "arxiv_id": "2609.39184v1",
+      "title": "Fiber-Resolved Microstructure Quantification from Multi-Shell Diffusion MRI using Detection Transformers",
       "categories": [
         "cs.CV",
-        "cs.CL"
+        "cs.LG",
+        "physics.med-ph"
       ],
-      "summary": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work ...",
+      "summary": "Fiber orientation and compartmental microstructure are central to the characterization of white matter tissue in diffusion MRI, yet existing methods either resolve fiber orientations without quantifying microstructure, or quantify microstructure while assuming a fixed number of compartments and a si...",
       "authors": [
-        "Jaewoo Jung",
-        "Hyeonseo Yu",
-        "Honggyu An",
-        "Jisang Han"
+        "Sebastian Endt",
+        "Marcus Wirth",
+        "Johannes Reinhold Schlund",
+        "Marion Irene Menzel"
       ],
-      "url": "https://arxiv.org/abs/2609.38177v1",
-      "published_date": "2026-09-29"
+      "url": "https://arxiv.org/abs/2609.39184v1",
+      "published_date": "2026-09-30"
     },
     {
-      "arxiv_id": "2609.38172v1",
-      "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+      "arxiv_id": "2609.39183v1",
+      "title": "Aligning Thoughts with Answers: Probability Rewards to Tame Thinking Drift",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "This paper studies \\textbf{thinking--answer consistency} in vision-language models. We focus on Visual Intention Grounding, where a model infers a target object based on a human intention query and predicts a bounding box. We reveal that previous IoU-based reinforcement learning (RL) frameworks suff...",
+      "authors": [
+        "Pengzhan Sun",
+        "Shiu-hong Kao",
+        "Shijie Li",
+        "Yongyi Su"
+      ],
+      "url": "https://arxiv.org/abs/2609.39183v1",
+      "published_date": "2026-09-30"
+    },
+    {
+      "arxiv_id": "2609.39182v1",
+      "title": "MEND: Label-Free Detection, Localisation, and Correction of Latent Hallucination in World Models",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "World Models are appearing as the next major frontier in computer vision. However, their robustness is currently largely unexplored. We identify the phenomenon of hallucination in latent World Models: given a state and an action, the predicted next latent can decode to a scene that never occurs. Bec...",
+      "authors": [
+        "Ali J Alrasheed",
+        "Aryan Yazdan Parast",
+        "Basim Azam",
+        "James Bailey"
+      ],
+      "url": "https://arxiv.org/abs/2609.39182v1",
+      "published_date": "2026-09-30"
+    },
+    {
+      "arxiv_id": "2609.39178v1",
+      "title": "Exploiting Vulnerabilities: Universal Adversarial Attacks on Vision-Language-Action Models in Robotics",
       "categories": [
         "cs.RO",
-        "cs.CV",
-        "cs.GR"
-      ],
-      "summary": "Teaching humanoids loco-manipulation skills, such as carrying diverse objects, via visual imitation is a promising path toward generalist robots. However, collecting diverse, high-quality interaction videos, such as clips that clearly show a person's full body and unoccluded interactions with object...",
-      "authors": [
-        "Zihan Wang",
-        "Zhen Wu",
-        "Pieter Abbeel",
-        "Rocky Duan"
-      ],
-      "url": "https://arxiv.org/abs/2609.38172v1",
-      "published_date": "2026-09-29"
-    },
-    {
-      "arxiv_id": "2609.38170v1",
-      "title": "Adversarial Training for Pixel Diffusion",
-      "categories": [
+        "cs.CR",
         "cs.CV"
       ],
-      "summary": "Pixel diffusion models generate RGB images directly, avoiding the bottleneck of an autoencoder, yet their outputs still systematically underrepresent fine-scale natural-image statistics. We show that adversarial learning provides an effective post-training correction for this deficiency. Starting fr...",
+      "summary": "Recently, Vision-Language-Action (VLA) models have revolutionized robotic manipulation by seamlessly integrating visual perception, language understanding, and action generation in an end-to-end learning framework. However, since these models are designed to interact directly with the physical world...",
       "authors": [
-        "Xin Lin",
-        "Zhifei Zhang",
-        "Yuqian Zhou",
-        "Haitian Zheng"
+        "Songhua Yang",
+        "Ziyu Liu",
+        "Yuanwei Liu",
+        "Xuetao Li"
       ],
-      "url": "https://arxiv.org/abs/2609.38170v1",
-      "published_date": "2026-09-29"
-    },
-    {
-      "arxiv_id": "2609.38165v1",
-      "title": "Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "summary": "The landscape of satellite imagery time series datasets and boundary-pushing architectures for cropland segmentation has never been richer. However, in this gold rush, important truths are being missed on both fronts, as a drive for the most novel concepts or the largest datasets pushes finer detail...",
-      "authors": [
-        "Joseph Metcalfe",
-        "Sara Sharifzadeh",
-        "Fabio Caraffini"
-      ],
-      "url": "https://arxiv.org/abs/2609.38165v1",
-      "published_date": "2026-09-29"
+      "url": "https://arxiv.org/abs/2609.39178v1",
+      "published_date": "2026-09-30"
     }
   ]
 }
