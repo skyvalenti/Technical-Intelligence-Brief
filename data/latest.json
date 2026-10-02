@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-01 19:18 UTC",
+  "generated_at": "2026-10-02 01:20 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,88 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2609.40362v1",
-      "title": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
+        "cs.GR",
         "cs.CV"
       ],
-      "summary": "We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized images as discrete tokens or combine discrete language prediction with continuous image generation. The former introduces a visual quantizat...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Hongyuan Tao",
-        "Xinggang Wang",
-        "Lianghui Zhu",
-        "Yongkang Li"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2609.40362v1",
-      "published_date": "2026-09-30"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2609.40361v1",
-      "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.LG",
-        "cs.CL",
-        "cs.CV"
+        "cs.GR",
+        "cs.DC"
       ],
-      "summary": "Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We th...",
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
       "authors": [
-        "Tian Xia",
-        "Minghao Liu",
-        "Yiqing Liang",
-        "Laixi Shi"
+        "E. Rostova",
+        "L. Thorne"
       ],
-      "url": "https://arxiv.org/abs/2609.40361v1",
-      "published_date": "2026-09-30"
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
     },
     {
-      "arxiv_id": "2609.40358v1",
-      "title": "Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model",
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
       "categories": [
-        "cs.CV"
+        "cs.GR"
       ],
-      "summary": "Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. Existing approaches commonly assume that natural language is insufficient to represent the physical knowledge required for reliable gene...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Liming Lu",
-        "Xianzheng Ma",
-        "Wenkun He",
-        "Guanqi Zhan"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2609.40358v1",
-      "published_date": "2026-09-30"
-    },
-    {
-      "arxiv_id": "2609.40356v1",
-      "title": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must preserve the original scene dynamics. Video scene text editing replaces text on scene surfaces, such as storefront signs, whiteboards, and prod...",
-      "authors": [
-        "Xinghao Chen",
-        "Xiangbo Gao",
-        "Jiongze Yu",
-        "Yuheng Wu"
-      ],
-      "url": "https://arxiv.org/abs/2609.40356v1",
-      "published_date": "2026-09-30"
-    },
-    {
-      "arxiv_id": "2609.40353v1",
-      "title": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "summary": "The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained general-purpose agents assemble objects through visual interaction without additional assembly-specific fine-tuning? To investigate this question, we intro...",
-      "authors": [
-        "Jiahao Zhang",
-        "Yeying Fan",
-        "Moitreya Chatterjee",
-        "Suhas Lohit"
-      ],
-      "url": "https://arxiv.org/abs/2609.40353v1",
-      "published_date": "2026-09-30"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }

@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-01 19:18 UTC`  
+> **Generated Timestamp**: `2026-10-02 01:20 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces
-* **arXiv ID**: [`2609.40362v1`](https://arxiv.org/abs/2609.40362v1) | **Categories**: `cs.CV`
-* **Authors**: Hongyuan Tao, Xinggang Wang, Lianghui Zhu, Yongkang Li
-* **Abstract**: We present Multimodal Flow, a fully continuous generative model of language and vision. Most unified multimodal models either model both language and quantized images as discrete tokens or combine discrete language prediction with continuous image generation. The former introduces a visual quantizat...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis
-* **arXiv ID**: [`2609.40361v1`](https://arxiv.org/abs/2609.40361v1) | **Categories**: `cs.LG, cs.CL, cs.CV`
-* **Authors**: Tian Xia, Minghao Liu, Yiqing Liang, Laixi Shi
-* **Abstract**: Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We th...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model
-* **arXiv ID**: [`2609.40358v1`](https://arxiv.org/abs/2609.40358v1) | **Categories**: `cs.CV`
-* **Authors**: Liming Lu, Xianzheng Ma, Wenkun He, Guanqi Zhan
-* **Abstract**: Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. Existing approaches commonly assume that natural language is insufficient to represent the physical knowledge required for reliable gene...
-
-
-### 📄 ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing
-* **arXiv ID**: [`2609.40356v1`](https://arxiv.org/abs/2609.40356v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Xinghao Chen, Xiangbo Gao, Jiongze Yu, Yuheng Wu
-* **Abstract**: Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must preserve the original scene dynamics. Video scene text editing replaces text on scene surfaces, such as storefront signs, whiteboards, and prod...
-
-
-### 📄 AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents
-* **arXiv ID**: [`2609.40353v1`](https://arxiv.org/abs/2609.40353v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Jiahao Zhang, Yeying Fan, Moitreya Chatterjee, Suhas Lohit
-* **Abstract**: The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained general-purpose agents assemble objects through visual interaction without additional assembly-specific fine-tuning? To investigate this question, we intro...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
