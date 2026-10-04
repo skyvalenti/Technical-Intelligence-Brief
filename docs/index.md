@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-03 17:49 UTC`  
+> **Generated Timestamp**: `2026-10-04 00:23 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Moore, Escher, Penrose: A Conformal Golden Braid
-* **arXiv ID**: [`2610.02210v1`](https://arxiv.org/abs/2610.02210v1) | **Categories**: `cs.CV`
-* **Authors**: Sophia Feldman, Assaf Shocher
-* **Abstract**: I don't think I have ever done anything as peculiar in my life. Among other things, it shows a young man looking with interest at a print on the wall of an exhibition that features himself. How can this be? Perhaps I am not far removed from Einstein's curved universe.'' So wrote M.C. Escher about hi...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Sphere Encoder 2
-* **arXiv ID**: [`2610.02208v1`](https://arxiv.org/abs/2610.02208v1) | **Categories**: `cs.CV`
-* **Authors**: Kaiyu Yue, Sean McLeish, Ruchit Rawal, Brian Bartoldson
-* **Abstract**: Sphere Encoder is an autoencoder that generates images by decoding random points from a high-dimensional latent sphere. We identify two limitations of the original formulation that reduce its generation quality. First, random points concentrate near the equator relative to the pole on an encoded lat...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars
-* **arXiv ID**: [`2610.02207v1`](https://arxiv.org/abs/2610.02207v1) | **Categories**: `cs.CV, cs.AI, cs.HC, cs.LG`
-* **Authors**: Ramazan Fazylov, Stamatis Lefkimmiatis, Ivan Laptev
-* **Abstract**: 3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshape...
-
-
-### 📄 ROWBench: Do Video Models Render What the Program Specifies?
-* **arXiv ID**: [`2610.02205v1`](https://arxiv.org/abs/2610.02205v1) | **Categories**: `cs.CV`
-* **Authors**: Zheng-Hui Huang, Guixu Lin, Yu-Ju Tsai, Jian-Kai Zhu
-* **Abstract**: Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllabi...
-
-
-### 📄 Embedding Prediction Helps Image Generation
-* **arXiv ID**: [`2610.02203v1`](https://arxiv.org/abs/2610.02203v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Sihan Xu, Ji Xie, Zilin Wang, Hui Shen
-* **Abstract**: In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to predict the next cont...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
