@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-05 00:29 UTC`  
+> **Generated Timestamp**: `2026-10-05 13:51 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis
+* **arXiv ID**: [`2610.03717v1`](https://arxiv.org/abs/2610.03717v1) | **Categories**: `cs.CV, cs.AI, cs.RO`
+* **Authors**: Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan, Nhi Ngoc Nguyen
+* **Abstract**: This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based NVS methods yield poor representations. This is n...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 MoSE3: Learning World-Space SE(3) at Every Pixel
+* **arXiv ID**: [`2610.03716v1`](https://arxiv.org/abs/2610.03716v1) | **Categories**: `cs.CV`
+* **Authors**: Jiahuan Cheng, Zhiyi Li, Tian Xia, Ruojin Cai
+* **Abstract**: Dense 3D point tracking has been a prominent paradigm for modeling motion in dynamic scenes, but a point track is just a 3-DoF translation curve per pixel: it captures where pixels go, not the rotation of the underlying part, nor which pixels move together as one body. We propose MoSE3, the first fe...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes
+* **arXiv ID**: [`2610.03715v1`](https://arxiv.org/abs/2610.03715v1) | **Categories**: `cs.CV, cs.AI, cs.GR`
+* **Authors**: Ruihong Shen, Žiga Kovačič, Peter Kulits, Xingrui Wang
+* **Abstract**: We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by...
+
+
+### 📄 What Should World Models Forget? Stratified Retention for Continual Adaptation
+* **arXiv ID**: [`2610.03713v1`](https://arxiv.org/abs/2610.03713v1) | **Categories**: `cs.LG, cs.AI, cs.CV, eess.IV, eess.SP`
+* **Authors**: Nishit Anand, Ramani Duraiswami, Dinesh Manocha
+* **Abstract**: Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct indefinitely. World models do not satisfy this condition. Their prediction target is the environment, ...
+
+
+### 📄 Decoding the Functional Roles of Register and High-Norm Patch Tokens in Vision Transformers
+* **arXiv ID**: [`2610.03698v1`](https://arxiv.org/abs/2610.03698v1) | **Categories**: `cs.CV`
+* **Authors**: Neel Varma, Andrew Rufail, Dipika Khullar, Vasu Sharma
+* **Abstract**: Self-supervised Vision Transformers (ViTs), such as DINOv2, learn rich visual representations, but the functions of their internal tokens remain poorly understood. Recent architectures introduce dedicated register tokens to reduce high-norm out- lier patch tokens that emerge in background re- gions,...
 
 
 
