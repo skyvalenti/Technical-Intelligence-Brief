@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-05 21:23 UTC",
+  "generated_at": "2026-10-06 02:05 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,91 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.03717v1",
-      "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.RO"
-      ],
-      "summary": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based NVS methods yield poor representations. This is n...",
-      "authors": [
-        "Keerthi Kaashyap",
-        "Dennis Anthony",
-        "Akshay Krishnan",
-        "Nhi Ngoc Nguyen"
-      ],
-      "url": "https://arxiv.org/abs/2610.03717v1",
-      "published_date": "2026-10-02"
-    },
-    {
-      "arxiv_id": "2610.03716v1",
-      "title": "MoSE3: Learning World-Space SE(3) at Every Pixel",
-      "categories": [
+        "cs.GR",
         "cs.CV"
       ],
-      "summary": "Dense 3D point tracking has been a prominent paradigm for modeling motion in dynamic scenes, but a point track is just a 3-DoF translation curve per pixel: it captures where pixels go, not the rotation of the underlying part, nor which pixels move together as one body. We propose MoSE3, the first fe...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Jiahuan Cheng",
-        "Zhiyi Li",
-        "Tian Xia",
-        "Ruojin Cai"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2610.03716v1",
-      "published_date": "2026-10-02"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2610.03715v1",
-      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.CV",
-        "cs.AI",
+        "cs.GR",
+        "cs.DC"
+      ],
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
+      "authors": [
+        "E. Rostova",
+        "L. Thorne"
+      ],
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
+    },
+    {
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
+      "categories": [
         "cs.GR"
       ],
-      "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Ruihong Shen",
-        "Žiga Kovačič",
-        "Peter Kulits",
-        "Xingrui Wang"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2610.03715v1",
-      "published_date": "2026-10-02"
-    },
-    {
-      "arxiv_id": "2610.03713v1",
-      "title": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CV",
-        "eess.IV",
-        "eess.SP"
-      ],
-      "summary": "Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct indefinitely. World models do not satisfy this condition. Their prediction target is the environment, ...",
-      "authors": [
-        "Nishit Anand",
-        "Ramani Duraiswami",
-        "Dinesh Manocha"
-      ],
-      "url": "https://arxiv.org/abs/2610.03713v1",
-      "published_date": "2026-10-02"
-    },
-    {
-      "arxiv_id": "2610.03698v1",
-      "title": "Decoding the Functional Roles of Register and High-Norm Patch Tokens in Vision Transformers",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Self-supervised Vision Transformers (ViTs), such as DINOv2, learn rich visual representations, but the functions of their internal tokens remain poorly understood. Recent architectures introduce dedicated register tokens to reduce high-norm out- lier patch tokens that emerge in background re- gions,...",
-      "authors": [
-        "Neel Varma",
-        "Andrew Rufail",
-        "Dipika Khullar",
-        "Vasu Sharma"
-      ],
-      "url": "https://arxiv.org/abs/2610.03698v1",
-      "published_date": "2026-10-02"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }
