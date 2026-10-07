@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-07 01:14 UTC`  
+> **Generated Timestamp**: `2026-10-07 12:48 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 World Models' Last Exam in Physics
+* **arXiv ID**: [`2610.08791v1`](https://arxiv.org/abs/2610.08791v1) | **Categories**: `cs.CV`
+* **Authors**: Mingju Gao, Qingle Liu, Yuzhao Peng, Xinjie Lin
+* **Abstract**: Video world models can produce visually convincing yet physically inconsistent sequences, raising concerns about their reliability for prediction and planning in embodied AI systems. Existing evaluations often rely on model-based judgments or reference videos, while direct physical tests largely foc...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 Building Rome from a Single Image
+* **arXiv ID**: [`2610.08790v1`](https://arxiv.org/abs/2610.08790v1) | **Categories**: `cs.CV`
+* **Authors**: Jiraphon Yenphraphai, Fang Li, Tianshuo Xu, Depu Meng
+* **Abstract**: Single-image scene generation aims to produce a complete 3D scene mesh from a single image, including surfaces the camera did not observe. While pretrained 3D object generators encode a strong shape prior, they are mainly designed for isolated objects in a fixed canonical volume and focus mostly on ...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction
+* **arXiv ID**: [`2610.08782v1`](https://arxiv.org/abs/2610.08782v1) | **Categories**: `cs.CV, cs.AI, cs.GR`
+* **Authors**: Shiqi Li, Sean Cho, Yijie Li, Fengzhi Guo
+* **Abstract**: Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to unstable interaction prediction. We introduce 4D-HOF, a feed-forward framework that reconstructs 4D ha...
+
+
+### 📄 DepthWorld: 3D World Model for Robot Manipulation
+* **arXiv ID**: [`2610.08780v1`](https://arxiv.org/abs/2610.08780v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
+* **Authors**: Jai Bardhan, Josef Sivic, Vladimir Petrik
+* **Abstract**: World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D geometry, yet current video-based world models are trained on RGB alone and produce rollouts that look...
+
+
+### 📄 ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing
+* **arXiv ID**: [`2610.08779v1`](https://arxiv.org/abs/2610.08779v1) | **Categories**: `cs.CV`
+* **Authors**: Zhenghong Zhou, Zhe Lin, Jiebo Luo, Yuqian Zhou
+* **Abstract**: Current video editors can insert objects but often struggle to make them participate in interactions such as being picked up or manipulated. We introduce ALIVE, a framework that makes inserted objects "alive" through coherent interactions with the source video's contents, using an edited first frame...
 
 
 

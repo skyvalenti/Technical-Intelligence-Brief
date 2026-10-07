@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-07 01:14 UTC",
+  "generated_at": "2026-10-07 12:48 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,49 +229,87 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2502.14890",
-      "title": "Continuous Normalization in Neural Radiance Relighting",
+      "arxiv_id": "2610.08791v1",
+      "title": "World Models' Last Exam in Physics",
       "categories": [
-        "cs.GR",
         "cs.CV"
       ],
-      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
+      "summary": "Video world models can produce visually convincing yet physically inconsistent sequences, raising concerns about their reliability for prediction and planning in embodied AI systems. Existing evaluations often rely on model-based judgments or reference videos, while direct physical tests largely foc...",
       "authors": [
-        "V. Chen",
-        "K. Sunder",
-        "A. Mercier"
+        "Mingju Gao",
+        "Qingle Liu",
+        "Yuzhao Peng",
+        "Xinjie Lin"
       ],
-      "url": "https://arxiv.org/abs/2502.14890",
-      "published_date": "2026-02-18"
+      "url": "https://arxiv.org/abs/2610.08791v1",
+      "published_date": "2026-10-06"
     },
     {
-      "arxiv_id": "2502.09102",
-      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
+      "arxiv_id": "2610.08790v1",
+      "title": "Building Rome from a Single Image",
       "categories": [
-        "cs.GR",
-        "cs.DC"
+        "cs.CV"
       ],
-      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
+      "summary": "Single-image scene generation aims to produce a complete 3D scene mesh from a single image, including surfaces the camera did not observe. While pretrained 3D object generators encode a strong shape prior, they are mainly designed for isolated objects in a fixed canonical volume and focus mostly on ...",
       "authors": [
-        "E. Rostova",
-        "L. Thorne"
+        "Jiraphon Yenphraphai",
+        "Fang Li",
+        "Tianshuo Xu",
+        "Depu Meng"
       ],
-      "url": "https://arxiv.org/abs/2502.09102",
-      "published_date": "2026-02-15"
+      "url": "https://arxiv.org/abs/2610.08790v1",
+      "published_date": "2026-10-06"
     },
     {
-      "arxiv_id": "2501.19230",
-      "title": "Deterministic MaterialX Shader Translation in WebGPU",
+      "arxiv_id": "2610.08782v1",
+      "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
       "categories": [
+        "cs.CV",
+        "cs.AI",
         "cs.GR"
       ],
-      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
+      "summary": "Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to unstable interaction prediction. We introduce 4D-HOF, a feed-forward framework that reconstructs 4D ha...",
       "authors": [
-        "M. Tanaka",
-        "J. Doe"
+        "Shiqi Li",
+        "Sean Cho",
+        "Yijie Li",
+        "Fengzhi Guo"
       ],
-      "url": "https://arxiv.org/abs/2501.19230",
-      "published_date": "2026-01-28"
+      "url": "https://arxiv.org/abs/2610.08782v1",
+      "published_date": "2026-10-06"
+    },
+    {
+      "arxiv_id": "2610.08780v1",
+      "title": "DepthWorld: 3D World Model for Robot Manipulation",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "summary": "World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D geometry, yet current video-based world models are trained on RGB alone and produce rollouts that look...",
+      "authors": [
+        "Jai Bardhan",
+        "Josef Sivic",
+        "Vladimir Petrik"
+      ],
+      "url": "https://arxiv.org/abs/2610.08780v1",
+      "published_date": "2026-10-06"
+    },
+    {
+      "arxiv_id": "2610.08779v1",
+      "title": "ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Current video editors can insert objects but often struggle to make them participate in interactions such as being picked up or manipulated. We introduce ALIVE, a framework that makes inserted objects \"alive\" through coherent interactions with the source video's contents, using an edited first frame...",
+      "authors": [
+        "Zhenghong Zhou",
+        "Zhe Lin",
+        "Jiebo Luo",
+        "Yuqian Zhou"
+      ],
+      "url": "https://arxiv.org/abs/2610.08779v1",
+      "published_date": "2026-10-06"
     }
   ]
 }
