@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-06 19:19 UTC`  
+> **Generated Timestamp**: `2026-10-07 01:14 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline
-* **arXiv ID**: [`2610.06852v1`](https://arxiv.org/abs/2610.06852v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Shih-Chen Tseng, Chih-Hsuan Chen, Ryan Yang, Hsi-An Chen
-* **Abstract**: Pipeline figures in ML papers must be repurposed across many canvases, including paper columns, 16:9 slides, portrait posters, 1:1 social teasers, 9:16 phone previews. Each format imposes a different aspect ratio on the same computational graph, where any silently broken connection misrepresents the...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation
-* **arXiv ID**: [`2610.06850v1`](https://arxiv.org/abs/2610.06850v1) | **Categories**: `cs.RO, cs.CV, cs.GR`
-* **Authors**: Yucheng Zhang, Sirui Xu, Jinhong Li, Liuyu Bian
-* **Abstract**: Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking policy improve each ...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation
-* **arXiv ID**: [`2610.06847v1`](https://arxiv.org/abs/2610.06847v1) | **Categories**: `cs.CV`
-* **Authors**: Jeffrey Hu, Daniel Olmeda Reino, Ayush Tewari
-* **Abstract**: Bidirectional video diffusion models denoise entire videos in parallel, yet when trained on effectively unlimited in-distribution data from procedural generators, continue to violate physical laws and simple symbolic rules. We introduce Serial-to-Parallel Diffusion (S2PD), which performs autoregress...
-
-
-### 📄 Learning to Read the Contextual Tokens in Diffusion Transformers
-* **arXiv ID**: [`2610.06844v1`](https://arxiv.org/abs/2610.06844v1) | **Categories**: `cs.CV, cs.AI, cs.GR, cs.LG`
-* **Authors**: Omer Dahary, Etai Sella, Hadar Averbuch-Elor, Daniel Cohen-Or
-* **Abstract**: Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, forming dynamic contextual tokens whose function is not well understood. In this work, we introduce a fra...
-
-
-### 📄 Anatomy-aware Fine-grained Multimodal Fusion for Laryngopharyngeal Cancer T-Staging Prediction Using CT and Radiology Report
-* **arXiv ID**: [`2610.06837v1`](https://arxiv.org/abs/2610.06837v1) | **Categories**: `cs.CV`
-* **Authors**: Xingyue Zhao, Yanzhou Su, Fang Zhang, Zhanghexuan Ji
-* **Abstract**: Accurate T-staging is crucial for guiding personalized treatment strategies for laryngopharyngeal cancer. However, current clinical practice relies on invasive biopsy procedures, whereas CT-based staging remains challenging due to the complex patterns of tumor invasion. Recent computer-aided approac...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 

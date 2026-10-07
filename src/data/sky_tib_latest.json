@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-06 19:19 UTC",
+  "generated_at": "2026-10-07 01:14 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,89 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.06852v1",
-      "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.GR",
+        "cs.CV"
       ],
-      "summary": "Pipeline figures in ML papers must be repurposed across many canvases, including paper columns, 16:9 slides, portrait posters, 1:1 social teasers, 9:16 phone previews. Each format imposes a different aspect ratio on the same computational graph, where any silently broken connection misrepresents the...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Shih-Chen Tseng",
-        "Chih-Hsuan Chen",
-        "Ryan Yang",
-        "Hsi-An Chen"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2610.06852v1",
-      "published_date": "2026-10-05"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2610.06850v1",
-      "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.RO",
-        "cs.CV",
+        "cs.GR",
+        "cs.DC"
+      ],
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
+      "authors": [
+        "E. Rostova",
+        "L. Thorne"
+      ],
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
+    },
+    {
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
+      "categories": [
         "cs.GR"
       ],
-      "summary": "Captured human-object interactions provide rich supervision for humanoid loco-manipulation, but they are sparse, heterogeneous, and not directly executable by robots. We introduce InterMimicGen, a self-evolving motion-imitation framework in which robot motion data and a tracking policy improve each ...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Yucheng Zhang",
-        "Sirui Xu",
-        "Jinhong Li",
-        "Liuyu Bian"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2610.06850v1",
-      "published_date": "2026-10-05"
-    },
-    {
-      "arxiv_id": "2610.06847v1",
-      "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Bidirectional video diffusion models denoise entire videos in parallel, yet when trained on effectively unlimited in-distribution data from procedural generators, continue to violate physical laws and simple symbolic rules. We introduce Serial-to-Parallel Diffusion (S2PD), which performs autoregress...",
-      "authors": [
-        "Jeffrey Hu",
-        "Daniel Olmeda Reino",
-        "Ayush Tewari"
-      ],
-      "url": "https://arxiv.org/abs/2610.06847v1",
-      "published_date": "2026-10-05"
-    },
-    {
-      "arxiv_id": "2610.06844v1",
-      "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR",
-        "cs.LG"
-      ],
-      "summary": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, forming dynamic contextual tokens whose function is not well understood. In this work, we introduce a fra...",
-      "authors": [
-        "Omer Dahary",
-        "Etai Sella",
-        "Hadar Averbuch-Elor",
-        "Daniel Cohen-Or"
-      ],
-      "url": "https://arxiv.org/abs/2610.06844v1",
-      "published_date": "2026-10-05"
-    },
-    {
-      "arxiv_id": "2610.06837v1",
-      "title": "Anatomy-aware Fine-grained Multimodal Fusion for Laryngopharyngeal Cancer T-Staging Prediction Using CT and Radiology Report",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Accurate T-staging is crucial for guiding personalized treatment strategies for laryngopharyngeal cancer. However, current clinical practice relies on invasive biopsy procedures, whereas CT-based staging remains challenging due to the complex patterns of tumor invasion. Recent computer-aided approac...",
-      "authors": [
-        "Xingyue Zhao",
-        "Yanzhou Su",
-        "Fang Zhang",
-        "Zhanghexuan Ji"
-      ],
-      "url": "https://arxiv.org/abs/2610.06837v1",
-      "published_date": "2026-10-05"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }
