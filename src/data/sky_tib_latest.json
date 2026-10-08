@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-07 19:46 UTC",
+  "generated_at": "2026-10-08 01:36 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,87 +229,84 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.08791v1",
-      "title": "World Models' Last Exam in Physics",
+      "arxiv_id": "2610.09952v1",
+      "title": "MSU Team at the Explainable Deepfake Detection Challenge 2026: Grounded Artifact Evidence for Deepfake Detection",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Video world models can produce visually convincing yet physically inconsistent sequences, raising concerns about their reliability for prediction and planning in embodied AI systems. Existing evaluations often rely on model-based judgments or reference videos, while direct physical tests largely foc...",
+      "summary": "Recent advances in generative image models have made many manipulated images highly realistic, raising the need for detectors that are not only accurate but also able to provide visual evidence for their decisions. In this paper, we present our solution to the Explainable Deepfake Detection Challeng...",
       "authors": [
-        "Mingju Gao",
-        "Qingle Liu",
-        "Yuzhao Peng",
-        "Xinjie Lin"
+        "Artem Filippov",
+        "Aleksandr Gushchin",
+        "Kirill Koltsov",
+        "Dmitriy Vatolin"
       ],
-      "url": "https://arxiv.org/abs/2610.08791v1",
-      "published_date": "2026-10-06"
+      "url": "https://arxiv.org/abs/2610.09952v1",
+      "published_date": "2026-10-07"
     },
     {
-      "arxiv_id": "2610.08790v1",
-      "title": "Building Rome from a Single Image",
+      "arxiv_id": "2610.09941v1",
+      "title": "Purifying Backdoored Large Vision-Language Models by Removing Hijacked Directions",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Single-image scene generation aims to produce a complete 3D scene mesh from a single image, including surfaces the camera did not observe. While pretrained 3D object generators encode a strong shape prior, they are mainly designed for isolated objects in a fixed canonical volume and focus mostly on ...",
+      "summary": "Large vision-language models (LVLMs) are increasingly deployed in safety-critical applications, yet they remain vulnerable to backdoor attacks. Defending against such attacks remains costly, as existing methods require either extensive retraining on clean data or per-query intervention at inference ...",
       "authors": [
-        "Jiraphon Yenphraphai",
-        "Fang Li",
-        "Tianshuo Xu",
-        "Depu Meng"
+        "Bojun Yang",
+        "Haochen Zhou",
+        "Zhifang Zhang",
+        "Haobo Wang"
       ],
-      "url": "https://arxiv.org/abs/2610.08790v1",
-      "published_date": "2026-10-06"
+      "url": "https://arxiv.org/abs/2610.09941v1",
+      "published_date": "2026-10-07"
     },
     {
-      "arxiv_id": "2610.08782v1",
-      "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
-      ],
-      "summary": "Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to unstable interaction prediction. We introduce 4D-HOF, a feed-forward framework that reconstructs 4D ha...",
-      "authors": [
-        "Shiqi Li",
-        "Sean Cho",
-        "Yijie Li",
-        "Fengzhi Guo"
-      ],
-      "url": "https://arxiv.org/abs/2610.08782v1",
-      "published_date": "2026-10-06"
-    },
-    {
-      "arxiv_id": "2610.08780v1",
-      "title": "DepthWorld: 3D World Model for Robot Manipulation",
+      "arxiv_id": "2610.09940v1",
+      "title": "Juno: Taming Predictive Latents for Vision-Language-Action Models",
       "categories": [
         "cs.RO",
-        "cs.AI",
         "cs.CV"
       ],
-      "summary": "World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D geometry, yet current video-based world models are trained on RGB alone and produce rollouts that look...",
+      "summary": "Joint-embedding predictive architectures (JEPAs) predict masked or future observations in representation space, offering a natural source of predictive latents for vision-language-action (VLA) models. Yet making these latents useful across pretraining, policy learning, and deployment requires addres...",
       "authors": [
-        "Jai Bardhan",
-        "Josef Sivic",
-        "Vladimir Petrik"
+        "Yuchen Zhu",
+        "Chenyi Xu",
+        "Yulin Zhang",
+        "Gang Xu"
       ],
-      "url": "https://arxiv.org/abs/2610.08780v1",
-      "published_date": "2026-10-06"
+      "url": "https://arxiv.org/abs/2610.09940v1",
+      "published_date": "2026-10-07"
     },
     {
-      "arxiv_id": "2610.08779v1",
-      "title": "ALIVE: Interaction-Aligned Object Insertion for First-Frame-Guided Video Editing",
+      "arxiv_id": "2610.09928v1",
+      "title": "Do Generative Priors Align with Human Naturalness Perception?",
       "categories": [
+        "cs.CV",
+        "q-bio.NC"
+      ],
+      "summary": "Visual generative models are trained to capture the probability distributions of natural images, yet whether their native priors reflect the regularities governing human perception of image naturalness remains an open question. Here, we probe these priors through native prediction errors across 25 o...",
+      "authors": [
+        "Taiki Fukiage"
+      ],
+      "url": "https://arxiv.org/abs/2610.09928v1",
+      "published_date": "2026-10-07"
+    },
+    {
+      "arxiv_id": "2610.09920v1",
+      "title": "Inverting Multi-Vector Visual Document Indices",
+      "categories": [
+        "cs.IR",
+        "cs.CL",
         "cs.CV"
       ],
-      "summary": "Current video editors can insert objects but often struggle to make them participate in interactions such as being picked up or manipulated. We introduce ALIVE, a framework that makes inserted objects \"alive\" through coherent interactions with the source video's contents, using an edited first frame...",
+      "summary": "Prevailing multi-vector visual document retrievers store each page as about a thousand patch vectors, often in vector databases run by a third party. Since no one can read a page from its vectors, this index is easily treated as less sensitive than the page. However, because the index keeps one vect...",
       "authors": [
-        "Zhenghong Zhou",
-        "Zhe Lin",
-        "Jiebo Luo",
-        "Yuqian Zhou"
+        "Zhuchenyang Liu",
+        "Yao Zhang",
+        "Yu Xiao"
       ],
-      "url": "https://arxiv.org/abs/2610.08779v1",
-      "published_date": "2026-10-06"
+      "url": "https://arxiv.org/abs/2610.09920v1",
+      "published_date": "2026-10-07"
     }
   ]
 }
