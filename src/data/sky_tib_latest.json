@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-08 01:36 UTC",
+  "generated_at": "2026-10-08 12:57 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,83 +229,87 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.09952v1",
-      "title": "MSU Team at the Explainable Deepfake Detection Challenge 2026: Grounded Artifact Evidence for Deepfake Detection",
+      "arxiv_id": "2610.10539v1",
+      "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Recent advances in generative image models have made many manipulated images highly realistic, raising the need for detectors that are not only accurate but also able to provide visual evidence for their decisions. In this paper, we present our solution to the Explainable Deepfake Detection Challeng...",
+      "summary": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained...",
       "authors": [
-        "Artem Filippov",
-        "Aleksandr Gushchin",
-        "Kirill Koltsov",
-        "Dmitriy Vatolin"
+        "Jaeyeong Kim",
+        "Jinhyuk Jang",
+        "Jongmin Lee",
+        "Kyehong Park"
       ],
-      "url": "https://arxiv.org/abs/2610.09952v1",
+      "url": "https://arxiv.org/abs/2610.10539v1",
       "published_date": "2026-10-07"
     },
     {
-      "arxiv_id": "2610.09941v1",
-      "title": "Purifying Backdoored Large Vision-Language Models by Removing Hijacked Directions",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Large vision-language models (LVLMs) are increasingly deployed in safety-critical applications, yet they remain vulnerable to backdoor attacks. Defending against such attacks remains costly, as existing methods require either extensive retraining on clean data or per-query intervention at inference ...",
-      "authors": [
-        "Bojun Yang",
-        "Haochen Zhou",
-        "Zhifang Zhang",
-        "Haobo Wang"
-      ],
-      "url": "https://arxiv.org/abs/2610.09941v1",
-      "published_date": "2026-10-07"
-    },
-    {
-      "arxiv_id": "2610.09940v1",
-      "title": "Juno: Taming Predictive Latents for Vision-Language-Action Models",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "summary": "Joint-embedding predictive architectures (JEPAs) predict masked or future observations in representation space, offering a natural source of predictive latents for vision-language-action (VLA) models. Yet making these latents useful across pretraining, policy learning, and deployment requires addres...",
-      "authors": [
-        "Yuchen Zhu",
-        "Chenyi Xu",
-        "Yulin Zhang",
-        "Gang Xu"
-      ],
-      "url": "https://arxiv.org/abs/2610.09940v1",
-      "published_date": "2026-10-07"
-    },
-    {
-      "arxiv_id": "2610.09928v1",
-      "title": "Do Generative Priors Align with Human Naturalness Perception?",
+      "arxiv_id": "2610.10538v1",
+      "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
       "categories": [
         "cs.CV",
-        "q-bio.NC"
+        "cs.AI",
+        "cs.RO"
       ],
-      "summary": "Visual generative models are trained to capture the probability distributions of natural images, yet whether their native priors reflect the regularities governing human perception of image naturalness remains an open question. Here, we probe these priors through native prediction errors across 25 o...",
+      "summary": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a s...",
       "authors": [
-        "Taiki Fukiage"
+        "Shravan Chaudhari",
+        "William Paul",
+        "Suchi Saria",
+        "Rama Chellappa"
       ],
-      "url": "https://arxiv.org/abs/2610.09928v1",
+      "url": "https://arxiv.org/abs/2610.10538v1",
       "published_date": "2026-10-07"
     },
     {
-      "arxiv_id": "2610.09920v1",
-      "title": "Inverting Multi-Vector Visual Document Indices",
+      "arxiv_id": "2610.10528v1",
+      "title": "Long-WAM: Scaling the Context of World-Action Models",
       "categories": [
-        "cs.IR",
-        "cs.CL",
+        "cs.RO",
+        "cs.AI",
         "cs.CV"
       ],
-      "summary": "Prevailing multi-vector visual document retrievers store each page as about a thousand patch vectors, often in vector databases run by a third party. Since no one can read a page from its vectors, this index is easily treated as less sensitive than the page. However, because the index keeps one vect...",
+      "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that ...",
       "authors": [
-        "Zhuchenyang Liu",
-        "Yao Zhang",
-        "Yu Xiao"
+        "Wei Huang",
+        "Bohan Zhang",
+        "Chenzhi Liu",
+        "Isabella Liu"
       ],
-      "url": "https://arxiv.org/abs/2610.09920v1",
+      "url": "https://arxiv.org/abs/2610.10528v1",
+      "published_date": "2026-10-07"
+    },
+    {
+      "arxiv_id": "2610.10524v1",
+      "title": "GRACE: Generation-aware latent compression for efficient video generation",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it r...",
+      "authors": [
+        "Jiyoung Kim",
+        "Paul Hyunbin Cho",
+        "Jisu Nam",
+        "Donghoon Lee"
+      ],
+      "url": "https://arxiv.org/abs/2610.10524v1",
+      "published_date": "2026-10-07"
+    },
+    {
+      "arxiv_id": "2610.10512v1",
+      "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual observations, which make frame-wise pose estimates unreliable and temporally inconsistent. To address this problem, we propose JoHan, a unified generative framework that recovers hand m...",
+      "authors": [
+        "Chen Xu",
+        "Yunqi Li",
+        "Binbin Huang",
+        "Brent Yi"
+      ],
+      "url": "https://arxiv.org/abs/2610.10512v1",
       "published_date": "2026-10-07"
     }
   ]
