@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-08 19:41 UTC`  
+> **Generated Timestamp**: `2026-10-09 01:46 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Tetris3D: 3D Scene Generation With Objects That Fit Together
-* **arXiv ID**: [`2610.10539v1`](https://arxiv.org/abs/2610.10539v1) | **Categories**: `cs.CV`
-* **Authors**: Jaeyeong Kim, Jinhyuk Jang, Jongmin Lee, Kyehong Park
-* **Abstract**: We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained...
+### 📄 Neural Caching of Prefiltered Radiance for Specular Lighting
+* **arXiv ID**: [`2610.11702v1`](https://arxiv.org/abs/2610.11702v1) | **Categories**: `cs.GR`
+* **Authors**: Dmitrii Klepikov, Vladimir Frolov
+* **Abstract**: Neural Radiance Caching (NRC) provides an online neural representation of scene illumination for real-time path tracing. This paper presents an NRC variant tailored to specular lighting through a reflection-direction parameterization and a roughness-dependent radiance target. Our network predicts pr...
 
 
-### 📄 Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos
-* **arXiv ID**: [`2610.10538v1`](https://arxiv.org/abs/2610.10538v1) | **Categories**: `cs.CV, cs.AI, cs.RO`
-* **Authors**: Shravan Chaudhari, William Paul, Suchi Saria, Rama Chellappa
-* **Abstract**: As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a s...
+### 📄 HI3D 3.0 (Twinkle3D): Object-specific 3D Asset Generation with High Resolution
+* **arXiv ID**: [`2610.11685v1`](https://arxiv.org/abs/2610.11685v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Ziying Li, Shengchu Zhao, Huiang He, Yiyang Chen
+* **Abstract**: Image-to-3D generation has become increasingly capable of producing objects that closely resemble the input image, and an outstanding challenge is to reproduce the depicted object itself, including the specific geometry that defines it. Inscriptions, brand marks, and repeated structures are frequent...
 
 
-### 📄 Long-WAM: Scaling the Context of World-Action Models
-* **arXiv ID**: [`2610.10528v1`](https://arxiv.org/abs/2610.10528v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
-* **Authors**: Wei Huang, Bohan Zhang, Chenzhi Liu, Isabella Liu
-* **Abstract**: Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that ...
+### 📄 VESSI - VLM-Enhanced Support for Surveillance and Investigations
+* **arXiv ID**: [`2610.11674v1`](https://arxiv.org/abs/2610.11674v1) | **Categories**: `cs.CV`
+* **Authors**: Saverio Cavasin, Pietro Tedeschi, Mattia Tamiazzo, Alessandro Brighente
+* **Abstract**: Automated video surveillance analysis has become a critical component of intelligence infrastructures and Law Enforcement agencies. Traditional systems lack the semantic module for comprehensive situational awareness and forensic tasks, limiting their ability to interpret events meaningfully or supp...
 
 
-### 📄 GRACE: Generation-aware latent compression for efficient video generation
-* **arXiv ID**: [`2610.10524v1`](https://arxiv.org/abs/2610.10524v1) | **Categories**: `cs.CV`
-* **Authors**: Jiyoung Kim, Paul Hyunbin Cho, Jisu Nam, Donghoon Lee
-* **Abstract**: Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it r...
+### 📄 Perceptually Grounded and Semantics-Aware Evaluation for Holistic Co-Speech Gesture Generation
+* **arXiv ID**: [`2610.11669v1`](https://arxiv.org/abs/2610.11669v1) | **Categories**: `cs.CV`
+* **Authors**: Nick Milkin, Lanmiao Liu, Esam Ghaleb, Asli Ozyurek
+* **Abstract**: Holistic and semantics-aware co-speech gesture generation has advanced rapidly, yet evaluation remains behind: objective metrics do not consistently reflect human perception, and semantic appropriateness remains difficult to quantify. We present a perceptually grounded and semantics-aware benchmark ...
 
 
-### 📄 Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery
-* **arXiv ID**: [`2610.10512v1`](https://arxiv.org/abs/2610.10512v1) | **Categories**: `cs.CV`
-* **Authors**: Chen Xu, Yunqi Li, Binbin Huang, Brent Yi
-* **Abstract**: Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual observations, which make frame-wise pose estimates unreliable and temporally inconsistent. To address this problem, we propose JoHan, a unified generative framework that recovers hand m...
+### 📄 Autoregressive Retriever: Improving Query Understanding from Item Feedback for Universal Multimodal Retrieval
+* **arXiv ID**: [`2610.11666v1`](https://arxiv.org/abs/2610.11666v1) | **Categories**: `cs.IR, cs.CV`
+* **Authors**: Jianfei Zhao, Yifan Wang, Feng Zhang, Xin Sun
+* **Abstract**: Universal multimodal retrieval typically encodes a query once and ranks independently indexed items by embedding similarity. This design supports efficient search, but leaves the query representation unchanged even when retrieved items could help clarify the information need. We introduce the AutoRe...
 
 
 

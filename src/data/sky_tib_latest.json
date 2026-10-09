@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-08 19:41 UTC",
+  "generated_at": "2026-10-09 01:46 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,88 +229,84 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.10539v1",
-      "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
+      "arxiv_id": "2610.11702v1",
+      "title": "Neural Caching of Prefiltered Radiance for Specular Lighting",
       "categories": [
-        "cs.CV"
+        "cs.GR"
       ],
-      "summary": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained...",
+      "summary": "Neural Radiance Caching (NRC) provides an online neural representation of scene illumination for real-time path tracing. This paper presents an NRC variant tailored to specular lighting through a reflection-direction parameterization and a roughness-dependent radiance target. Our network predicts pr...",
       "authors": [
-        "Jaeyeong Kim",
-        "Jinhyuk Jang",
-        "Jongmin Lee",
-        "Kyehong Park"
+        "Dmitrii Klepikov",
+        "Vladimir Frolov"
       ],
-      "url": "https://arxiv.org/abs/2610.10539v1",
-      "published_date": "2026-10-07"
+      "url": "https://arxiv.org/abs/2610.11702v1",
+      "published_date": "2026-10-08"
     },
     {
-      "arxiv_id": "2610.10538v1",
-      "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+      "arxiv_id": "2610.11685v1",
+      "title": "HI3D 3.0 (Twinkle3D): Object-specific 3D Asset Generation with High Resolution",
       "categories": [
         "cs.CV",
-        "cs.AI",
-        "cs.RO"
+        "cs.AI"
       ],
-      "summary": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a s...",
+      "summary": "Image-to-3D generation has become increasingly capable of producing objects that closely resemble the input image, and an outstanding challenge is to reproduce the depicted object itself, including the specific geometry that defines it. Inscriptions, brand marks, and repeated structures are frequent...",
       "authors": [
-        "Shravan Chaudhari",
-        "William Paul",
-        "Suchi Saria",
-        "Rama Chellappa"
+        "Ziying Li",
+        "Shengchu Zhao",
+        "Huiang He",
+        "Yiyang Chen"
       ],
-      "url": "https://arxiv.org/abs/2610.10538v1",
-      "published_date": "2026-10-07"
+      "url": "https://arxiv.org/abs/2610.11685v1",
+      "published_date": "2026-10-08"
     },
     {
-      "arxiv_id": "2610.10528v1",
-      "title": "Long-WAM: Scaling the Context of World-Action Models",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that ...",
-      "authors": [
-        "Wei Huang",
-        "Bohan Zhang",
-        "Chenzhi Liu",
-        "Isabella Liu"
-      ],
-      "url": "https://arxiv.org/abs/2610.10528v1",
-      "published_date": "2026-10-07"
-    },
-    {
-      "arxiv_id": "2610.10524v1",
-      "title": "GRACE: Generation-aware latent compression for efficient video generation",
+      "arxiv_id": "2610.11674v1",
+      "title": "VESSI - VLM-Enhanced Support for Surveillance and Investigations",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it r...",
+      "summary": "Automated video surveillance analysis has become a critical component of intelligence infrastructures and Law Enforcement agencies. Traditional systems lack the semantic module for comprehensive situational awareness and forensic tasks, limiting their ability to interpret events meaningfully or supp...",
       "authors": [
-        "Jiyoung Kim",
-        "Paul Hyunbin Cho",
-        "Jisu Nam",
-        "Donghoon Lee"
+        "Saverio Cavasin",
+        "Pietro Tedeschi",
+        "Mattia Tamiazzo",
+        "Alessandro Brighente"
       ],
-      "url": "https://arxiv.org/abs/2610.10524v1",
-      "published_date": "2026-10-07"
+      "url": "https://arxiv.org/abs/2610.11674v1",
+      "published_date": "2026-10-08"
     },
     {
-      "arxiv_id": "2610.10512v1",
-      "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+      "arxiv_id": "2610.11669v1",
+      "title": "Perceptually Grounded and Semantics-Aware Evaluation for Holistic Co-Speech Gesture Generation",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual observations, which make frame-wise pose estimates unreliable and temporally inconsistent. To address this problem, we propose JoHan, a unified generative framework that recovers hand m...",
+      "summary": "Holistic and semantics-aware co-speech gesture generation has advanced rapidly, yet evaluation remains behind: objective metrics do not consistently reflect human perception, and semantic appropriateness remains difficult to quantify. We present a perceptually grounded and semantics-aware benchmark ...",
       "authors": [
-        "Chen Xu",
-        "Yunqi Li",
-        "Binbin Huang",
-        "Brent Yi"
+        "Nick Milkin",
+        "Lanmiao Liu",
+        "Esam Ghaleb",
+        "Asli Ozyurek"
       ],
-      "url": "https://arxiv.org/abs/2610.10512v1",
-      "published_date": "2026-10-07"
+      "url": "https://arxiv.org/abs/2610.11669v1",
+      "published_date": "2026-10-08"
+    },
+    {
+      "arxiv_id": "2610.11666v1",
+      "title": "Autoregressive Retriever: Improving Query Understanding from Item Feedback for Universal Multimodal Retrieval",
+      "categories": [
+        "cs.IR",
+        "cs.CV"
+      ],
+      "summary": "Universal multimodal retrieval typically encodes a query once and ranks independently indexed items by embedding similarity. This design supports efficient search, but leaves the query representation unchanged even when retrieved items could help clarify the information need. We introduce the AutoRe...",
+      "authors": [
+        "Jianfei Zhao",
+        "Yifan Wang",
+        "Feng Zhang",
+        "Xin Sun"
+      ],
+      "url": "https://arxiv.org/abs/2610.11666v1",
+      "published_date": "2026-10-08"
     }
   ]
 }
