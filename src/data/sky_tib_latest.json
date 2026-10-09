@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-09 01:46 UTC",
+  "generated_at": "2026-10-09 12:43 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,83 +229,86 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.11702v1",
-      "title": "Neural Caching of Prefiltered Radiance for Specular Lighting",
+      "arxiv_id": "2610.12470v1",
+      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
       "categories": [
-        "cs.GR"
+        "cs.RO",
+        "cs.CV"
       ],
-      "summary": "Neural Radiance Caching (NRC) provides an online neural representation of scene illumination for real-time path tracing. This paper presents an NRC variant tailored to specular lighting through a reflection-direction parameterization and a roughness-dependent radiance target. Our network predicts pr...",
+      "summary": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not s...",
       "authors": [
-        "Dmitrii Klepikov",
-        "Vladimir Frolov"
+        "Jusuk Lee",
+        "Sungha Kim",
+        "Yeonsoo Park",
+        "Jonguk Cheon"
       ],
-      "url": "https://arxiv.org/abs/2610.11702v1",
+      "url": "https://arxiv.org/abs/2610.12470v1",
       "published_date": "2026-10-08"
     },
     {
-      "arxiv_id": "2610.11685v1",
-      "title": "HI3D 3.0 (Twinkle3D): Object-specific 3D Asset Generation with High Resolution",
+      "arxiv_id": "2610.12469v1",
+      "title": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Instruction-guided image editors have become highly capable, yet improving them further still depends on human-edited training pairs or external reward models. Such supervision is costly to obtain and can reward plausible failures: a realistic output may leave the requested change undone or alter co...",
+      "authors": [
+        "Ritesh Thawkar",
+        "Shubham Patle",
+        "Shravan Venkatraman",
+        "Rao Muhammad Anwer"
+      ],
+      "url": "https://arxiv.org/abs/2610.12469v1",
+      "published_date": "2026-10-08"
+    },
+    {
+      "arxiv_id": "2610.12468v1",
+      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "summary": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful intera...",
+      "authors": [
+        "Junyan Li",
+        "Ruizhi Li",
+        "Yu Liu",
+        "Xiangshuo Liu"
+      ],
+      "url": "https://arxiv.org/abs/2610.12468v1",
+      "published_date": "2026-10-08"
+    },
+    {
+      "arxiv_id": "2610.12464v1",
+      "title": "What 30,000 Hours of Ego-centric Video Does Not Teach",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "World models offer a promising alternative to physics-based simulators, yet remain far from practical deployment. We ask how far scaling ego-centric human video takes them, using a dataset of 30,000 hours spanning over 1,000 scene types and 14,000 contributors. Rather than relying on opaque downstre...",
+      "authors": [
+        "Jiahua Dong",
+        "Anurag Bagchi",
+        "Yash Jangir",
+        "Muhammad Zubair Irshad"
+      ],
+      "url": "https://arxiv.org/abs/2610.12464v1",
+      "published_date": "2026-10-08"
+    },
+    {
+      "arxiv_id": "2610.12461v1",
+      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
       "categories": [
         "cs.CV",
-        "cs.AI"
+        "cs.GR"
       ],
-      "summary": "Image-to-3D generation has become increasingly capable of producing objects that closely resemble the input image, and an outstanding challenge is to reproduce the depicted object itself, including the specific geometry that defines it. Inscriptions, brand marks, and repeated structures are frequent...",
+      "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-languag...",
       "authors": [
-        "Ziying Li",
-        "Shengchu Zhao",
-        "Huiang He",
-        "Yiyang Chen"
+        "You-Zhe Xie",
+        "Ting-Wei Chou",
+        "Yu-Hsuan Li",
+        "Kaipeng Zhang"
       ],
-      "url": "https://arxiv.org/abs/2610.11685v1",
-      "published_date": "2026-10-08"
-    },
-    {
-      "arxiv_id": "2610.11674v1",
-      "title": "VESSI - VLM-Enhanced Support for Surveillance and Investigations",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Automated video surveillance analysis has become a critical component of intelligence infrastructures and Law Enforcement agencies. Traditional systems lack the semantic module for comprehensive situational awareness and forensic tasks, limiting their ability to interpret events meaningfully or supp...",
-      "authors": [
-        "Saverio Cavasin",
-        "Pietro Tedeschi",
-        "Mattia Tamiazzo",
-        "Alessandro Brighente"
-      ],
-      "url": "https://arxiv.org/abs/2610.11674v1",
-      "published_date": "2026-10-08"
-    },
-    {
-      "arxiv_id": "2610.11669v1",
-      "title": "Perceptually Grounded and Semantics-Aware Evaluation for Holistic Co-Speech Gesture Generation",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Holistic and semantics-aware co-speech gesture generation has advanced rapidly, yet evaluation remains behind: objective metrics do not consistently reflect human perception, and semantic appropriateness remains difficult to quantify. We present a perceptually grounded and semantics-aware benchmark ...",
-      "authors": [
-        "Nick Milkin",
-        "Lanmiao Liu",
-        "Esam Ghaleb",
-        "Asli Ozyurek"
-      ],
-      "url": "https://arxiv.org/abs/2610.11669v1",
-      "published_date": "2026-10-08"
-    },
-    {
-      "arxiv_id": "2610.11666v1",
-      "title": "Autoregressive Retriever: Improving Query Understanding from Item Feedback for Universal Multimodal Retrieval",
-      "categories": [
-        "cs.IR",
-        "cs.CV"
-      ],
-      "summary": "Universal multimodal retrieval typically encodes a query once and ranks independently indexed items by embedding similarity. This design supports efficient search, but leaves the query representation unchanged even when retrieved items could help clarify the information need. We introduce the AutoRe...",
-      "authors": [
-        "Jianfei Zhao",
-        "Yifan Wang",
-        "Feng Zhang",
-        "Xin Sun"
-      ],
-      "url": "https://arxiv.org/abs/2610.11666v1",
+      "url": "https://arxiv.org/abs/2610.12461v1",
       "published_date": "2026-10-08"
     }
   ]
