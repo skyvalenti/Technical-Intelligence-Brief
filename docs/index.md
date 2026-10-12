@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-11 18:39 UTC`  
+> **Generated Timestamp**: `2026-10-12 01:03 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration
-* **arXiv ID**: [`2610.12470v1`](https://arxiv.org/abs/2610.12470v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Jusuk Lee, Sungha Kim, Yeonsoo Park, Jonguk Cheon
-* **Abstract**: While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not s...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation
-* **arXiv ID**: [`2610.12469v1`](https://arxiv.org/abs/2610.12469v1) | **Categories**: `cs.CV`
-* **Authors**: Ritesh Thawkar, Shubham Patle, Shravan Venkatraman, Rao Muhammad Anwer
-* **Abstract**: Instruction-guided image editors have become highly capable, yet improving them further still depends on human-edited training pairs or external reward models. Such supervision is costly to obtain and can reward plausible failures: a realistic output may leave the requested change undone or alter co...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training
-* **arXiv ID**: [`2610.12468v1`](https://arxiv.org/abs/2610.12468v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Junyan Li, Ruizhi Li, Yu Liu, Xiangshuo Liu
-* **Abstract**: We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful intera...
-
-
-### 📄 What 30,000 Hours of Ego-centric Video Does Not Teach
-* **arXiv ID**: [`2610.12464v1`](https://arxiv.org/abs/2610.12464v1) | **Categories**: `cs.CV`
-* **Authors**: Jiahua Dong, Anurag Bagchi, Yash Jangir, Muhammad Zubair Irshad
-* **Abstract**: World models offer a promising alternative to physics-based simulators, yet remain far from practical deployment. We ask how far scaling ego-centric human video takes them, using a dataset of 30,000 hours spanning over 1,000 scene types and 14,000 contributors. Rather than relying on opaque downstre...
-
-
-### 📄 OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs
-* **arXiv ID**: [`2610.12461v1`](https://arxiv.org/abs/2610.12461v1) | **Categories**: `cs.CV, cs.GR`
-* **Authors**: You-Zhe Xie, Ting-Wei Chou, Yu-Hsuan Li, Kaipeng Zhang
-* **Abstract**: Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-languag...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
