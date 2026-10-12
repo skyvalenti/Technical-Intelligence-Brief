@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-12 01:03 UTC`  
+> **Generated Timestamp**: `2026-10-12 14:39 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark
+* **arXiv ID**: [`2610.13947v1`](https://arxiv.org/abs/2610.13947v1) | **Categories**: `cs.CV`
+* **Authors**: Xudong Cai, Ruijie Zhu, Haoliang Shang, Ruining Li
+* **Abstract**: In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articr...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 Splat2Act: From Captured Scenes to Personalized VLA Manipulation
+* **arXiv ID**: [`2610.13945v1`](https://arxiv.org/abs/2610.13945v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Xiaomeng Ye, Krishna Jaganathan, Gyubeum Lim, Gunjan Chhablani
+* **Abstract**: A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $π_{0.5}$ achieves 0% pickup success in our captured deployment scenes without adaptation, and collecting real de...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators
+* **arXiv ID**: [`2610.13944v1`](https://arxiv.org/abs/2610.13944v1) | **Categories**: `cs.CV`
+* **Authors**: Xuanlang Dai, Jiazi Bu, Yujie Zhou, Yuhong Liu
+* **Abstract**: Diffusion/flow models have emerged as the de facto paradigms for image generation, giving rise to a diverse family of modern generators with increasingly heterogeneous architectures and representations. Despite their remarkable generation capabilities, the cross-model alignment of latent representat...
+
+
+### 📄 Images Talk Back: Guiding MMDiTs by Suppressing Image-to-Text Feedback
+* **arXiv ID**: [`2610.13941v1`](https://arxiv.org/abs/2610.13941v1) | **Categories**: `cs.CV`
+* **Authors**: Yucheng Yang, Xiaoxiao Sun, Shusheng Yang, Jiakang Chen
+* **Abstract**: Multimodal diffusion transformers (MMDiTs) allow the evolving image to update internal text representations through joint attention. These representations then guide subsequent image updates, raising a question: does this feedback help correct deviations from the prompt, or preserve them? We find th...
+
+
+### 📄 Hide and Seek: HIDE Concepts to SEEK explanations for black box models
+* **arXiv ID**: [`2610.13935v1`](https://arxiv.org/abs/2610.13935v1) | **Categories**: `cs.CV, cs.AI, cs.LG`
+* **Authors**: Bhanu Tokas, Rahul Nair, Rockwell Jackson, Hannah Kerner
+* **Abstract**: Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They requi...
 
 
 
