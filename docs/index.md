@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-14 00:55 UTC`  
+> **Generated Timestamp**: `2026-10-14 11:21 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark
-* **arXiv ID**: [`2610.13947v1`](https://arxiv.org/abs/2610.13947v1) | **Categories**: `cs.CV`
-* **Authors**: Xudong Cai, Ruijie Zhu, Haoliang Shang, Ruining Li
-* **Abstract**: In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articr...
+### 📄 ChunkAct: Action Chunking for Agentic Robotics
+* **arXiv ID**: [`2610.18874v1`](https://arxiv.org/abs/2610.18874v1) | **Categories**: `cs.RO, cs.AI, cs.CL, cs.CV`
+* **Authors**: Bingxin Xu, Wenrui Bao, Xinxin Liu, Jiawei Zhou
+* **Abstract**: Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficie...
 
 
-### 📄 Splat2Act: From Captured Scenes to Personalized VLA Manipulation
-* **arXiv ID**: [`2610.13945v1`](https://arxiv.org/abs/2610.13945v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Xiaomeng Ye, Krishna Jaganathan, Gyubeum Lim, Gunjan Chhablani
-* **Abstract**: A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like $π_{0.5}$ achieves 0% pickup success in our captured deployment scenes without adaptation, and collecting real de...
+### 📄 LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts
+* **arXiv ID**: [`2610.18873v1`](https://arxiv.org/abs/2610.18873v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Wenxuan Guo, Yingping Liang, Zhaoguo Wang, Ziyuan Li
+* **Abstract**: Scaling expert demonstrations alone does not enable generalist robot policies to improve from deployment. Real-world rollouts contain successes, suboptimal behavior, and failures: imitating every recorded action can reinforce poor behavior, while filtering out failures discards evidence of physical ...
 
 
-### 📄 InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators
-* **arXiv ID**: [`2610.13944v1`](https://arxiv.org/abs/2610.13944v1) | **Categories**: `cs.CV`
-* **Authors**: Xuanlang Dai, Jiazi Bu, Yujie Zhou, Yuhong Liu
-* **Abstract**: Diffusion/flow models have emerged as the de facto paradigms for image generation, giving rise to a diverse family of modern generators with increasingly heterogeneous architectures and representations. Despite their remarkable generation capabilities, the cross-model alignment of latent representat...
+### 📄 EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ
+* **arXiv ID**: [`2610.18872v1`](https://arxiv.org/abs/2610.18872v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Yunsong Zhou, Xuekun Jiang, Haiqi Shen, Hangxu Liu
+* **Abstract**: Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only...
 
 
-### 📄 Images Talk Back: Guiding MMDiTs by Suppressing Image-to-Text Feedback
-* **arXiv ID**: [`2610.13941v1`](https://arxiv.org/abs/2610.13941v1) | **Categories**: `cs.CV`
-* **Authors**: Yucheng Yang, Xiaoxiao Sun, Shusheng Yang, Jiakang Chen
-* **Abstract**: Multimodal diffusion transformers (MMDiTs) allow the evolving image to update internal text representations through joint attention. These representations then guide subsequent image updates, raising a question: does this feedback help correct deviations from the prompt, or preserve them? We find th...
+### 📄 Dog-Breed Text-to-image Flow Matching from Pretraining to Fine-Tuning on 4 Consumer GPUs
+* **arXiv ID**: [`2610.18870v1`](https://arxiv.org/abs/2610.18870v1) | **Categories**: `cs.CV`
+* **Authors**: Reyhaneh Esmailizadeh, Xingjian Leng, Zhanhao Liang, Liang Zheng
+* **Abstract**: We generally perceive that training text-to-image diffusion models requires heavy compute: it is true if we aim at a comprehensive frontier model. This understanding prevents people from training their own models when getting started in the field. We develop MiniDog, a framework that enables pretrai...
 
 
-### 📄 Hide and Seek: HIDE Concepts to SEEK explanations for black box models
-* **arXiv ID**: [`2610.13935v1`](https://arxiv.org/abs/2610.13935v1) | **Categories**: `cs.CV, cs.AI, cs.LG`
-* **Authors**: Bhanu Tokas, Rahul Nair, Rockwell Jackson, Hannah Kerner
-* **Abstract**: Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They requi...
+### 📄 Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion
+* **arXiv ID**: [`2610.18871v1`](https://arxiv.org/abs/2610.18871v1) | **Categories**: `cs.CV, cs.GR, cs.LG`
+* **Authors**: Chih-Hai Su, Tsung-Wei Ke, Yu-Lun Liu
+* **Abstract**: Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by mo...
 
 
 
