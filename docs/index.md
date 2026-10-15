@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-15 00:18 UTC`  
+> **Generated Timestamp**: `2026-10-15 10:58 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 ChunkAct: Action Chunking for Agentic Robotics
-* **arXiv ID**: [`2610.18874v1`](https://arxiv.org/abs/2610.18874v1) | **Categories**: `cs.RO, cs.AI, cs.CL, cs.CV`
-* **Authors**: Bingxin Xu, Wenrui Bao, Xinxin Liu, Jiawei Zhou
-* **Abstract**: Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficie...
+### 📄 Can Learning to Answer Spatial Questions Improve Novel-View Generation?
+* **arXiv ID**: [`2610.20610v1`](https://arxiv.org/abs/2610.20610v1) | **Categories**: `cs.CV`
+* **Authors**: Jahyeok Koo, Hyeonseo Yu, Seungho Jang, Jaewoo Jung
+* **Abstract**: Generating novel views from limited observations requires preserving both the appearance and spatial structure of a scene. Although recent approaches exploit fine-grained geometric cues, they do not explicitly model high-level semantic and spatial properties such as object identity, attributes, and ...
 
 
-### 📄 LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts
-* **arXiv ID**: [`2610.18873v1`](https://arxiv.org/abs/2610.18873v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Wenxuan Guo, Yingping Liang, Zhaoguo Wang, Ziyuan Li
-* **Abstract**: Scaling expert demonstrations alone does not enable generalist robot policies to improve from deployment. Real-world rollouts contain successes, suboptimal behavior, and failures: imitating every recorded action can reinforce poor behavior, while filtering out failures discards evidence of physical ...
+### 📄 Representation Conditioning for Generation
+* **arXiv ID**: [`2610.20608v1`](https://arxiv.org/abs/2610.20608v1) | **Categories**: `cs.CV`
+* **Authors**: Saeed Razavi, Xingjian Leng, Liang Zheng
+* **Abstract**: Representation-alignment methods effectively accelerate the diffusion transformer training. REPA, for example, uses a pretrained vision encoder to supervise an intermediate layer through an MLP projection head which is discarded after training. It aims to import semantics from the vision encoder to ...
 
 
-### 📄 EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ
-* **arXiv ID**: [`2610.18872v1`](https://arxiv.org/abs/2610.18872v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Yunsong Zhou, Xuekun Jiang, Haiqi Shen, Hangxu Liu
-* **Abstract**: Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only...
+### 📄 VITAL: From Visual Motion to Precise Action
+* **arXiv ID**: [`2610.20604v1`](https://arxiv.org/abs/2610.20604v1) | **Categories**: `cs.CV`
+* **Authors**: Ao Liang, Youquan Liu, Mingxiao Li, Wei Chow
+* **Abstract**: World-action models aim to turn visual anticipation into driving decisions, yet typically train action experts on trajectory representations defined independently of visual dynamics. This motivates deriving action targets directly from visual motion. We first examine a simpler setting in which traje...
 
 
-### 📄 Dog-Breed Text-to-image Flow Matching from Pretraining to Fine-Tuning on 4 Consumer GPUs
-* **arXiv ID**: [`2610.18870v1`](https://arxiv.org/abs/2610.18870v1) | **Categories**: `cs.CV`
-* **Authors**: Reyhaneh Esmailizadeh, Xingjian Leng, Zhanhao Liang, Liang Zheng
-* **Abstract**: We generally perceive that training text-to-image diffusion models requires heavy compute: it is true if we aim at a comprehensive frontier model. This understanding prevents people from training their own models when getting started in the field. We develop MiniDog, a framework that enables pretrai...
+### 📄 CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation
+* **arXiv ID**: [`2610.20603v1`](https://arxiv.org/abs/2610.20603v1) | **Categories**: `cs.CV`
+* **Authors**: Xiaoli Xu, Zhengtao Wu, Zhengze Xu, Tao Liu
+* **Abstract**: We present CommerceGen-Studio, an end-to-end framework for generating commercial-grade main images for e-commerce Stock Keeping Units (SKUs). Our framework is organized along a three-stage pipeline of information extraction, semantic rewriting, and multi-condition generation: Prompt-Eval-Refine-Loop...
 
 
-### 📄 Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion
-* **arXiv ID**: [`2610.18871v1`](https://arxiv.org/abs/2610.18871v1) | **Categories**: `cs.CV, cs.GR, cs.LG`
-* **Authors**: Chih-Hai Su, Tsung-Wei Ke, Yu-Lun Liu
-* **Abstract**: Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by mo...
+### 📄 DynThinker: Unifying Static 3D and Dynamic 4D Spatial Reasoning
+* **arXiv ID**: [`2610.20598v1`](https://arxiv.org/abs/2610.20598v1) | **Categories**: `cs.CV`
+* **Authors**: Qihang Cao, Haoyuan Li, Zihan Guo, Sensen Gao
+* **Abstract**: Achieving general spatial intelligence requires a unified understanding of both static 3D and dynamic 4D. However, we find that existing models struggle to excel at both: 3D post-training can weaken dynamic understanding, while 4D-specialized models often lack strong static 3D reasoning. Our analysi...
 
 
 

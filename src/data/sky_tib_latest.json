@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-15 00:18 UTC",
+  "generated_at": "2026-10-15 10:58 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,90 +229,83 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.18874v1",
-      "title": "ChunkAct: Action Chunking for Agentic Robotics",
+      "arxiv_id": "2610.20610v1",
+      "title": "Can Learning to Answer Spatial Questions Improve Novel-View Generation?",
       "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CL",
         "cs.CV"
       ],
-      "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficie...",
+      "summary": "Generating novel views from limited observations requires preserving both the appearance and spatial structure of a scene. Although recent approaches exploit fine-grained geometric cues, they do not explicitly model high-level semantic and spatial properties such as object identity, attributes, and ...",
       "authors": [
-        "Bingxin Xu",
-        "Wenrui Bao",
-        "Xinxin Liu",
-        "Jiawei Zhou"
+        "Jahyeok Koo",
+        "Hyeonseo Yu",
+        "Seungho Jang",
+        "Jaewoo Jung"
       ],
-      "url": "https://arxiv.org/abs/2610.18874v1",
-      "published_date": "2026-10-13"
+      "url": "https://arxiv.org/abs/2610.20610v1",
+      "published_date": "2026-10-14"
     },
     {
-      "arxiv_id": "2610.18873v1",
-      "title": "LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "summary": "Scaling expert demonstrations alone does not enable generalist robot policies to improve from deployment. Real-world rollouts contain successes, suboptimal behavior, and failures: imitating every recorded action can reinforce poor behavior, while filtering out failures discards evidence of physical ...",
-      "authors": [
-        "Wenxuan Guo",
-        "Yingping Liang",
-        "Zhaoguo Wang",
-        "Ziyuan Li"
-      ],
-      "url": "https://arxiv.org/abs/2610.18873v1",
-      "published_date": "2026-10-13"
-    },
-    {
-      "arxiv_id": "2610.18872v1",
-      "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
-      "categories": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "summary": "Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only...",
-      "authors": [
-        "Yunsong Zhou",
-        "Xuekun Jiang",
-        "Haiqi Shen",
-        "Hangxu Liu"
-      ],
-      "url": "https://arxiv.org/abs/2610.18872v1",
-      "published_date": "2026-10-13"
-    },
-    {
-      "arxiv_id": "2610.18870v1",
-      "title": "Dog-Breed Text-to-image Flow Matching from Pretraining to Fine-Tuning on 4 Consumer GPUs",
+      "arxiv_id": "2610.20608v1",
+      "title": "Representation Conditioning for Generation",
       "categories": [
         "cs.CV"
       ],
-      "summary": "We generally perceive that training text-to-image diffusion models requires heavy compute: it is true if we aim at a comprehensive frontier model. This understanding prevents people from training their own models when getting started in the field. We develop MiniDog, a framework that enables pretrai...",
+      "summary": "Representation-alignment methods effectively accelerate the diffusion transformer training. REPA, for example, uses a pretrained vision encoder to supervise an intermediate layer through an MLP projection head which is discarded after training. It aims to import semantics from the vision encoder to ...",
       "authors": [
-        "Reyhaneh Esmailizadeh",
+        "Saeed Razavi",
         "Xingjian Leng",
-        "Zhanhao Liang",
         "Liang Zheng"
       ],
-      "url": "https://arxiv.org/abs/2610.18870v1",
-      "published_date": "2026-10-13"
+      "url": "https://arxiv.org/abs/2610.20608v1",
+      "published_date": "2026-10-14"
     },
     {
-      "arxiv_id": "2610.18871v1",
-      "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
+      "arxiv_id": "2610.20604v1",
+      "title": "VITAL: From Visual Motion to Precise Action",
       "categories": [
-        "cs.CV",
-        "cs.GR",
-        "cs.LG"
+        "cs.CV"
       ],
-      "summary": "Sparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by mo...",
+      "summary": "World-action models aim to turn visual anticipation into driving decisions, yet typically train action experts on trajectory representations defined independently of visual dynamics. This motivates deriving action targets directly from visual motion. We first examine a simpler setting in which traje...",
       "authors": [
-        "Chih-Hai Su",
-        "Tsung-Wei Ke",
-        "Yu-Lun Liu"
+        "Ao Liang",
+        "Youquan Liu",
+        "Mingxiao Li",
+        "Wei Chow"
       ],
-      "url": "https://arxiv.org/abs/2610.18871v1",
-      "published_date": "2026-10-13"
+      "url": "https://arxiv.org/abs/2610.20604v1",
+      "published_date": "2026-10-14"
+    },
+    {
+      "arxiv_id": "2610.20603v1",
+      "title": "CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "We present CommerceGen-Studio, an end-to-end framework for generating commercial-grade main images for e-commerce Stock Keeping Units (SKUs). Our framework is organized along a three-stage pipeline of information extraction, semantic rewriting, and multi-condition generation: Prompt-Eval-Refine-Loop...",
+      "authors": [
+        "Xiaoli Xu",
+        "Zhengtao Wu",
+        "Zhengze Xu",
+        "Tao Liu"
+      ],
+      "url": "https://arxiv.org/abs/2610.20603v1",
+      "published_date": "2026-10-14"
+    },
+    {
+      "arxiv_id": "2610.20598v1",
+      "title": "DynThinker: Unifying Static 3D and Dynamic 4D Spatial Reasoning",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Achieving general spatial intelligence requires a unified understanding of both static 3D and dynamic 4D. However, we find that existing models struggle to excel at both: 3D post-training can weaken dynamic understanding, while 4D-specialized models often lack strong static 3D reasoning. Our analysi...",
+      "authors": [
+        "Qihang Cao",
+        "Haoyuan Li",
+        "Zihan Guo",
+        "Sensen Gao"
+      ],
+      "url": "https://arxiv.org/abs/2610.20598v1",
+      "published_date": "2026-10-14"
     }
   ]
 }
