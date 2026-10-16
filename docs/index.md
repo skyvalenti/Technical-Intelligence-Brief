@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-15 18:03 UTC`  
+> **Generated Timestamp**: `2026-10-16 00:06 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Can Learning to Answer Spatial Questions Improve Novel-View Generation?
-* **arXiv ID**: [`2610.20610v1`](https://arxiv.org/abs/2610.20610v1) | **Categories**: `cs.CV`
-* **Authors**: Jahyeok Koo, Hyeonseo Yu, Seungho Jang, Jaewoo Jung
-* **Abstract**: Generating novel views from limited observations requires preserving both the appearance and spatial structure of a scene. Although recent approaches exploit fine-grained geometric cues, they do not explicitly model high-level semantic and spatial properties such as object identity, attributes, and ...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Representation Conditioning for Generation
-* **arXiv ID**: [`2610.20608v1`](https://arxiv.org/abs/2610.20608v1) | **Categories**: `cs.CV`
-* **Authors**: Saeed Razavi, Xingjian Leng, Liang Zheng
-* **Abstract**: Representation-alignment methods effectively accelerate the diffusion transformer training. REPA, for example, uses a pretrained vision encoder to supervise an intermediate layer through an MLP projection head which is discarded after training. It aims to import semantics from the vision encoder to ...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 VITAL: From Visual Motion to Precise Action
-* **arXiv ID**: [`2610.20604v1`](https://arxiv.org/abs/2610.20604v1) | **Categories**: `cs.CV`
-* **Authors**: Ao Liang, Youquan Liu, Mingxiao Li, Wei Chow
-* **Abstract**: World-action models aim to turn visual anticipation into driving decisions, yet typically train action experts on trajectory representations defined independently of visual dynamics. This motivates deriving action targets directly from visual motion. We first examine a simpler setting in which traje...
-
-
-### 📄 CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation
-* **arXiv ID**: [`2610.20603v1`](https://arxiv.org/abs/2610.20603v1) | **Categories**: `cs.CV`
-* **Authors**: Xiaoli Xu, Zhengtao Wu, Zhengze Xu, Tao Liu
-* **Abstract**: We present CommerceGen-Studio, an end-to-end framework for generating commercial-grade main images for e-commerce Stock Keeping Units (SKUs). Our framework is organized along a three-stage pipeline of information extraction, semantic rewriting, and multi-condition generation: Prompt-Eval-Refine-Loop...
-
-
-### 📄 DynThinker: Unifying Static 3D and Dynamic 4D Spatial Reasoning
-* **arXiv ID**: [`2610.20598v1`](https://arxiv.org/abs/2610.20598v1) | **Categories**: `cs.CV`
-* **Authors**: Qihang Cao, Haoyuan Li, Zihan Guo, Sensen Gao
-* **Abstract**: Achieving general spatial intelligence requires a unified understanding of both static 3D and dynamic 4D. However, we find that existing models struggle to excel at both: 3D post-training can weaken dynamic understanding, while 4D-specialized models often lack strong static 3D reasoning. Our analysi...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 

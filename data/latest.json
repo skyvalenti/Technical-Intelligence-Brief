@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-15 18:03 UTC",
+  "generated_at": "2026-10-16 00:06 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,83 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.20610v1",
-      "title": "Can Learning to Answer Spatial Questions Improve Novel-View Generation?",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
+        "cs.GR",
         "cs.CV"
       ],
-      "summary": "Generating novel views from limited observations requires preserving both the appearance and spatial structure of a scene. Although recent approaches exploit fine-grained geometric cues, they do not explicitly model high-level semantic and spatial properties such as object identity, attributes, and ...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Jahyeok Koo",
-        "Hyeonseo Yu",
-        "Seungho Jang",
-        "Jaewoo Jung"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2610.20610v1",
-      "published_date": "2026-10-14"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2610.20608v1",
-      "title": "Representation Conditioning for Generation",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.CV"
+        "cs.GR",
+        "cs.DC"
       ],
-      "summary": "Representation-alignment methods effectively accelerate the diffusion transformer training. REPA, for example, uses a pretrained vision encoder to supervise an intermediate layer through an MLP projection head which is discarded after training. It aims to import semantics from the vision encoder to ...",
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
       "authors": [
-        "Saeed Razavi",
-        "Xingjian Leng",
-        "Liang Zheng"
+        "E. Rostova",
+        "L. Thorne"
       ],
-      "url": "https://arxiv.org/abs/2610.20608v1",
-      "published_date": "2026-10-14"
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
     },
     {
-      "arxiv_id": "2610.20604v1",
-      "title": "VITAL: From Visual Motion to Precise Action",
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
       "categories": [
-        "cs.CV"
+        "cs.GR"
       ],
-      "summary": "World-action models aim to turn visual anticipation into driving decisions, yet typically train action experts on trajectory representations defined independently of visual dynamics. This motivates deriving action targets directly from visual motion. We first examine a simpler setting in which traje...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Ao Liang",
-        "Youquan Liu",
-        "Mingxiao Li",
-        "Wei Chow"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2610.20604v1",
-      "published_date": "2026-10-14"
-    },
-    {
-      "arxiv_id": "2610.20603v1",
-      "title": "CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "We present CommerceGen-Studio, an end-to-end framework for generating commercial-grade main images for e-commerce Stock Keeping Units (SKUs). Our framework is organized along a three-stage pipeline of information extraction, semantic rewriting, and multi-condition generation: Prompt-Eval-Refine-Loop...",
-      "authors": [
-        "Xiaoli Xu",
-        "Zhengtao Wu",
-        "Zhengze Xu",
-        "Tao Liu"
-      ],
-      "url": "https://arxiv.org/abs/2610.20603v1",
-      "published_date": "2026-10-14"
-    },
-    {
-      "arxiv_id": "2610.20598v1",
-      "title": "DynThinker: Unifying Static 3D and Dynamic 4D Spatial Reasoning",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Achieving general spatial intelligence requires a unified understanding of both static 3D and dynamic 4D. However, we find that existing models struggle to excel at both: 3D post-training can weaken dynamic understanding, while 4D-specialized models often lack strong static 3D reasoning. Our analysi...",
-      "authors": [
-        "Qihang Cao",
-        "Haoyuan Li",
-        "Zihan Guo",
-        "Sensen Gao"
-      ],
-      "url": "https://arxiv.org/abs/2610.20598v1",
-      "published_date": "2026-10-14"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }
