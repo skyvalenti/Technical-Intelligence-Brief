@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-16 00:06 UTC`  
+> **Generated Timestamp**: `2026-10-16 10:53 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 Gen4P: Video Generators are 4D Perceivers
+* **arXiv ID**: [`2610.22371v1`](https://arxiv.org/abs/2610.22371v1) | **Categories**: `cs.CV`
+* **Authors**: Yitong Xia, Zeren Jiang, Chuanxia Zheng
+* **Abstract**: We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising. Building on on-demand querying, Gen4P processes clean video latents in a singl...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation
+* **arXiv ID**: [`2610.22370v1`](https://arxiv.org/abs/2610.22370v1) | **Categories**: `cs.CV`
+* **Authors**: SeungJu Cha, Ye-Chan Kim, HyunGee Kim, Sungho Koh
+* **Abstract**: Token merging has emerged as an effective training-free strategy for accelerating diffusion models by reducing redundant token computation while minimizing generation degradation. A key challenge is determining which tokens can be safely merged and which should be preserved for subsequent computatio...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 SoftCache: Adaptive Step Size Caching for Diffusion Transformers
+* **arXiv ID**: [`2610.22369v1`](https://arxiv.org/abs/2610.22369v1) | **Categories**: `cs.CV`
+* **Authors**: Shimon Malnick, Nadav Orenstein, Ohad Fried, Shai Avidan
+* **Abstract**: Diffusion and flow models generate a sample over iterative steps, each a full pass through a large network, and that pass dominates generation cost. Training-free caching accelerates them by reusing activations from recent evaluations instead of recomputing them. Dynamic caching methods decide when ...
+
+
+### 📄 T2-z: Test-Time Optimization of Environment Latents for Robotic World Models
+* **arXiv ID**: [`2610.22364v1`](https://arxiv.org/abs/2610.22364v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
+* **Authors**: Chenyuan Zhou, Yining Hong, Huang Huang, Yunfan Jiang
+* **Abstract**: Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties such as friction and mass to human-defined environmental rules. We introduce T2-Z ...
+
+
+### 📄 Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation
+* **arXiv ID**: [`2610.22363v1`](https://arxiv.org/abs/2610.22363v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Zirui Wu, Chen Guo, Tianjian Jiang, Zeren Jiang
+* **Abstract**: We introduce P$^{3}$-WAM, a unified world action model for egocentric dexterous manipulation that learns 3D perception, action-conditioned prediction, and goal-directed planning through three complementary modes: Perceive, which reconstructs articulated hand motion and camera trajectories from video...
 
 
 
