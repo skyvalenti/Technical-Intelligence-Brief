@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-18 23:57 UTC`  
+> **Generated Timestamp**: `2026-10-19 12:24 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Gen4P: Video Generators are 4D Perceivers
-* **arXiv ID**: [`2610.22371v1`](https://arxiv.org/abs/2610.22371v1) | **Categories**: `cs.CV`
-* **Authors**: Yitong Xia, Zeren Jiang, Chuanxia Zheng
-* **Abstract**: We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising. Building on on-demand querying, Gen4P processes clean video latents in a singl...
+### 📄 Learning to Correct Geometry in Generated Videos
+* **arXiv ID**: [`2610.23856v1`](https://arxiv.org/abs/2610.23856v1) | **Categories**: `cs.CV`
+* **Authors**: Weijie Lyu, Tiancheng Shen, Jason Li, Yujing Wang
+* **Abstract**: Generated videos often lose geometric consistency under camera motion: structures warp under viewpoint change, parallax becomes inconsistent, and smooth camera movement may collapse into shot-like transitions. We argue that this failure is largely a data problem. In web-scale video corpora, most vis...
 
 
-### 📄 Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation
-* **arXiv ID**: [`2610.22370v1`](https://arxiv.org/abs/2610.22370v1) | **Categories**: `cs.CV`
-* **Authors**: SeungJu Cha, Ye-Chan Kim, HyunGee Kim, Sungho Koh
-* **Abstract**: Token merging has emerged as an effective training-free strategy for accelerating diffusion models by reducing redundant token computation while minimizing generation degradation. A key challenge is determining which tokens can be safely merged and which should be preserved for subsequent computatio...
+### 📄 Rethinking the design space of Vanilla Pixel Diffusion Transformers
+* **arXiv ID**: [`2610.23854v1`](https://arxiv.org/abs/2610.23854v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Soumik Mukhopadhyay, Long Mai, Abhinav Shrivastava, Aniruddha Mahapatra
+* **Abstract**: Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity ...
 
 
-### 📄 SoftCache: Adaptive Step Size Caching for Diffusion Transformers
-* **arXiv ID**: [`2610.22369v1`](https://arxiv.org/abs/2610.22369v1) | **Categories**: `cs.CV`
-* **Authors**: Shimon Malnick, Nadav Orenstein, Ohad Fried, Shai Avidan
-* **Abstract**: Diffusion and flow models generate a sample over iterative steps, each a full pass through a large network, and that pass dominates generation cost. Training-free caching accelerates them by reusing activations from recent evaluations instead of recomputing them. Dynamic caching methods decide when ...
+### 📄 StopWatch: Goal Grounding for Object-goal Navigation
+* **arXiv ID**: [`2610.23841v1`](https://arxiv.org/abs/2610.23841v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Xinhao Liu, Yunsheng Tian, Yuheng Qiu, Pieter Abbeel
+* **Abstract**: Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis ident...
 
 
-### 📄 T2-z: Test-Time Optimization of Environment Latents for Robotic World Models
-* **arXiv ID**: [`2610.22364v1`](https://arxiv.org/abs/2610.22364v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
-* **Authors**: Chenyuan Zhou, Yining Hong, Huang Huang, Yunfan Jiang
-* **Abstract**: Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties such as friction and mass to human-defined environmental rules. We introduce T2-Z ...
+### 📄 Persistent Planar Memory for Video World Models
+* **arXiv ID**: [`2610.23795v1`](https://arxiv.org/abs/2610.23795v1) | **Categories**: `cs.CV`
+* **Authors**: Yuze He, Bin Tan, Zelin Gao, Yujun Shen
+* **Abstract**: Video world models that generate and explore environments at scale need a persistent 3D memory of what they have produced. Plane primitives offer a natural candidate: a compact set of oriented planes captures the dominant structural elements (e.g., walls, floors, facades) of indoor and outdoor scene...
 
 
-### 📄 Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation
-* **arXiv ID**: [`2610.22363v1`](https://arxiv.org/abs/2610.22363v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Zirui Wu, Chen Guo, Tianjian Jiang, Zeren Jiang
-* **Abstract**: We introduce P$^{3}$-WAM, a unified world action model for egocentric dexterous manipulation that learns 3D perception, action-conditioned prediction, and goal-directed planning through three complementary modes: Perceive, which reconstructs articulated hand motion and camera trajectories from video...
+### 📄 The Collection of a Real-World, Large-Scale Dataset for Automated Skill Evaluation in Central Line Dressing Change
+* **arXiv ID**: [`2610.23789v1`](https://arxiv.org/abs/2610.23789v1) | **Categories**: `cs.CV`
+* **Authors**: Ummey Tanin, Shannan K. Hamlin, Hsin-Mei Chen, Peizhu
+* **Abstract**: Central line-associated bloodstream infections (CLABSIs) remain a major source of preventable morbidity and mortality in healthcare settings. Proper execution of the central line dressing change (CLDC) procedure is essential for infection prevention, yet current approaches to competency assessment r...
 
 
 
