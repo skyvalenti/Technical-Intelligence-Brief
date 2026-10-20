@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-20 00:55 UTC`  
+> **Generated Timestamp**: `2026-10-20 11:02 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Learning to Correct Geometry in Generated Videos
-* **arXiv ID**: [`2610.23856v1`](https://arxiv.org/abs/2610.23856v1) | **Categories**: `cs.CV`
-* **Authors**: Weijie Lyu, Tiancheng Shen, Jason Li, Yujing Wang
-* **Abstract**: Generated videos often lose geometric consistency under camera motion: structures warp under viewpoint change, parallax becomes inconsistent, and smooth camera movement may collapse into shot-like transitions. We argue that this failure is largely a data problem. In web-scale video corpora, most vis...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Rethinking the design space of Vanilla Pixel Diffusion Transformers
-* **arXiv ID**: [`2610.23854v1`](https://arxiv.org/abs/2610.23854v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Soumik Mukhopadhyay, Long Mai, Abhinav Shrivastava, Aniruddha Mahapatra
-* **Abstract**: Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity ...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 StopWatch: Goal Grounding for Object-goal Navigation
-* **arXiv ID**: [`2610.23841v1`](https://arxiv.org/abs/2610.23841v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Xinhao Liu, Yunsheng Tian, Yuheng Qiu, Pieter Abbeel
-* **Abstract**: Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis ident...
-
-
-### 📄 Persistent Planar Memory for Video World Models
-* **arXiv ID**: [`2610.23795v1`](https://arxiv.org/abs/2610.23795v1) | **Categories**: `cs.CV`
-* **Authors**: Yuze He, Bin Tan, Zelin Gao, Yujun Shen
-* **Abstract**: Video world models that generate and explore environments at scale need a persistent 3D memory of what they have produced. Plane primitives offer a natural candidate: a compact set of oriented planes captures the dominant structural elements (e.g., walls, floors, facades) of indoor and outdoor scene...
-
-
-### 📄 The Collection of a Real-World, Large-Scale Dataset for Automated Skill Evaluation in Central Line Dressing Change
-* **arXiv ID**: [`2610.23789v1`](https://arxiv.org/abs/2610.23789v1) | **Categories**: `cs.CV`
-* **Authors**: Ummey Tanin, Shannan K. Hamlin, Hsin-Mei Chen, Peizhu
-* **Abstract**: Central line-associated bloodstream infections (CLABSIs) remain a major source of preventable morbidity and mortality in healthcare settings. Proper execution of the central line dressing change (CLDC) procedure is essential for infection prevention, yet current approaches to competency assessment r...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 

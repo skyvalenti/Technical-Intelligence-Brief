@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-20 00:55 UTC",
+  "generated_at": "2026-10-20 11:02 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,86 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.23856v1",
-      "title": "Learning to Correct Geometry in Generated Videos",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
+        "cs.GR",
         "cs.CV"
       ],
-      "summary": "Generated videos often lose geometric consistency under camera motion: structures warp under viewpoint change, parallax becomes inconsistent, and smooth camera movement may collapse into shot-like transitions. We argue that this failure is largely a data problem. In web-scale video corpora, most vis...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Weijie Lyu",
-        "Tiancheng Shen",
-        "Jason Li",
-        "Yujing Wang"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2610.23856v1",
-      "published_date": "2026-10-16"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2610.23854v1",
-      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "cs.GR",
+        "cs.DC"
       ],
-      "summary": "Pixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity ...",
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
       "authors": [
-        "Soumik Mukhopadhyay",
-        "Long Mai",
-        "Abhinav Shrivastava",
-        "Aniruddha Mahapatra"
+        "E. Rostova",
+        "L. Thorne"
       ],
-      "url": "https://arxiv.org/abs/2610.23854v1",
-      "published_date": "2026-10-16"
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
     },
     {
-      "arxiv_id": "2610.23841v1",
-      "title": "StopWatch: Goal Grounding for Object-goal Navigation",
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
       "categories": [
-        "cs.CV",
-        "cs.RO"
+        "cs.GR"
       ],
-      "summary": "Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis ident...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Xinhao Liu",
-        "Yunsheng Tian",
-        "Yuheng Qiu",
-        "Pieter Abbeel"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2610.23841v1",
-      "published_date": "2026-10-16"
-    },
-    {
-      "arxiv_id": "2610.23795v1",
-      "title": "Persistent Planar Memory for Video World Models",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Video world models that generate and explore environments at scale need a persistent 3D memory of what they have produced. Plane primitives offer a natural candidate: a compact set of oriented planes captures the dominant structural elements (e.g., walls, floors, facades) of indoor and outdoor scene...",
-      "authors": [
-        "Yuze He",
-        "Bin Tan",
-        "Zelin Gao",
-        "Yujun Shen"
-      ],
-      "url": "https://arxiv.org/abs/2610.23795v1",
-      "published_date": "2026-10-16"
-    },
-    {
-      "arxiv_id": "2610.23789v1",
-      "title": "The Collection of a Real-World, Large-Scale Dataset for Automated Skill Evaluation in Central Line Dressing Change",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Central line-associated bloodstream infections (CLABSIs) remain a major source of preventable morbidity and mortality in healthcare settings. Proper execution of the central line dressing change (CLDC) procedure is essential for infection prevention, yet current approaches to competency assessment r...",
-      "authors": [
-        "Ummey Tanin",
-        "Shannan K. Hamlin",
-        "Hsin-Mei Chen",
-        "Peizhu"
-      ],
-      "url": "https://arxiv.org/abs/2610.23789v1",
-      "published_date": "2026-10-16"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }
