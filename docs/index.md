@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-20 11:02 UTC`  
+> **Generated Timestamp**: `2026-10-20 18:22 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 Text-to-Image Generative Modeling Without Language Pretraining
+* **arXiv ID**: [`2610.26863v1`](https://arxiv.org/abs/2610.26863v1) | **Categories**: `cs.LG, cs.CV`
+* **Authors**: Keshigeyan Chandrasegaran, Yue Zhao, Armin W. Thomas, Ehsan Adeli
+* **Abstract**: Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scrat...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory
+* **arXiv ID**: [`2610.26860v1`](https://arxiv.org/abs/2610.26860v1) | **Categories**: `cs.CL, cs.AI, cs.CV, cs.LG, cs.MM`
+* **Authors**: Yu Zhou, Cheng-Fu Yang, Rui Sun, Di Wu
+* **Abstract**: Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only m...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 Can It Actually Work? Synthesizing Functional CAD Mechanisms
+* **arXiv ID**: [`2610.26861v1`](https://arxiv.org/abs/2610.26861v1) | **Categories**: `cs.CV, cs.CL, cs.GR`
+* **Authors**: Wenqian Zhang, Yangyi Huang, Zigeng Xu, Weiyang Liu
+* **Abstract**: While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requ...
+
+
+### 📄 Reinforcement Learning with Visually Attributable On-Policy Self-Distillation
+* **arXiv ID**: [`2610.26856v1`](https://arxiv.org/abs/2610.26856v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Shiao Xie, Siyu Chen, Jianwei Lv, Xiandong Li
+* **Abstract**: Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complements this supervision with dense token-level corrections from a privileged teach...
+
+
+### 📄 VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token
+* **arXiv ID**: [`2610.26857v1`](https://arxiv.org/abs/2610.26857v1) | **Categories**: `cs.CV`
+* **Authors**: Sangbeom Lim, Seoung Wug Oh, Heeji Yoon, Seungryong Kim
+* **Abstract**: Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from internet-scale pretraining to achieve strong zero-shot generalization from limited synthetic data. However, the heavy compute of these diffusion backbones limits inference to a short chun...
 
 
 

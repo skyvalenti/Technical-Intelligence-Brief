@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-20 11:02 UTC",
+  "generated_at": "2026-10-20 18:22 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,49 +229,92 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2502.14890",
-      "title": "Continuous Normalization in Neural Radiance Relighting",
+      "arxiv_id": "2610.26863v1",
+      "title": "Text-to-Image Generative Modeling Without Language Pretraining",
       "categories": [
-        "cs.GR",
+        "cs.LG",
         "cs.CV"
       ],
-      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
+      "summary": "Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scrat...",
       "authors": [
-        "V. Chen",
-        "K. Sunder",
-        "A. Mercier"
+        "Keshigeyan Chandrasegaran",
+        "Yue Zhao",
+        "Armin W. Thomas",
+        "Ehsan Adeli"
       ],
-      "url": "https://arxiv.org/abs/2502.14890",
-      "published_date": "2026-02-18"
+      "url": "https://arxiv.org/abs/2610.26863v1",
+      "published_date": "2026-10-19"
     },
     {
-      "arxiv_id": "2502.09102",
-      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
+      "arxiv_id": "2610.26860v1",
+      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
       "categories": [
-        "cs.GR",
-        "cs.DC"
+        "cs.CL",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "cs.MM"
       ],
-      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
+      "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only m...",
       "authors": [
-        "E. Rostova",
-        "L. Thorne"
+        "Yu Zhou",
+        "Cheng-Fu Yang",
+        "Rui Sun",
+        "Di Wu"
       ],
-      "url": "https://arxiv.org/abs/2502.09102",
-      "published_date": "2026-02-15"
+      "url": "https://arxiv.org/abs/2610.26860v1",
+      "published_date": "2026-10-19"
     },
     {
-      "arxiv_id": "2501.19230",
-      "title": "Deterministic MaterialX Shader Translation in WebGPU",
+      "arxiv_id": "2610.26861v1",
+      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
       "categories": [
+        "cs.CV",
+        "cs.CL",
         "cs.GR"
       ],
-      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
+      "summary": "While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requ...",
       "authors": [
-        "M. Tanaka",
-        "J. Doe"
+        "Wenqian Zhang",
+        "Yangyi Huang",
+        "Zigeng Xu",
+        "Weiyang Liu"
       ],
-      "url": "https://arxiv.org/abs/2501.19230",
-      "published_date": "2026-01-28"
+      "url": "https://arxiv.org/abs/2610.26861v1",
+      "published_date": "2026-10-19"
+    },
+    {
+      "arxiv_id": "2610.26856v1",
+      "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complements this supervision with dense token-level corrections from a privileged teach...",
+      "authors": [
+        "Shiao Xie",
+        "Siyu Chen",
+        "Jianwei Lv",
+        "Xiandong Li"
+      ],
+      "url": "https://arxiv.org/abs/2610.26856v1",
+      "published_date": "2026-10-19"
+    },
+    {
+      "arxiv_id": "2610.26857v1",
+      "title": "VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from internet-scale pretraining to achieve strong zero-shot generalization from limited synthetic data. However, the heavy compute of these diffusion backbones limits inference to a short chun...",
+      "authors": [
+        "Sangbeom Lim",
+        "Seoung Wug Oh",
+        "Heeji Yoon",
+        "Seungryong Kim"
+      ],
+      "url": "https://arxiv.org/abs/2610.26857v1",
+      "published_date": "2026-10-19"
     }
   ]
 }
