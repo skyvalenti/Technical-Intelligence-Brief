@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-21 00:24 UTC`  
+> **Generated Timestamp**: `2026-10-21 11:19 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Text-to-Image Generative Modeling Without Language Pretraining
-* **arXiv ID**: [`2610.26863v1`](https://arxiv.org/abs/2610.26863v1) | **Categories**: `cs.LG, cs.CV`
-* **Authors**: Keshigeyan Chandrasegaran, Yue Zhao, Armin W. Thomas, Ehsan Adeli
-* **Abstract**: Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scrat...
+### 📄 Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs
+* **arXiv ID**: [`2610.28632v1`](https://arxiv.org/abs/2610.28632v1) | **Categories**: `cs.CV, cs.AI, cs.GR, cs.LG, cs.RO`
+* **Authors**: Noam Rotstein, Yoad Tewel, Chen Tessler, Haggai Maron
+* **Abstract**: Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump a...
 
 
-### 📄 OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory
-* **arXiv ID**: [`2610.26860v1`](https://arxiv.org/abs/2610.26860v1) | **Categories**: `cs.CL, cs.AI, cs.CV, cs.LG, cs.MM`
-* **Authors**: Yu Zhou, Cheng-Fu Yang, Rui Sun, Di Wu
-* **Abstract**: Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only m...
+### 📄 AEON: Unifying Video and 3D World Models
+* **arXiv ID**: [`2610.28631v1`](https://arxiv.org/abs/2610.28631v1) | **Categories**: `cs.CV`
+* **Authors**: Weiqi Zhang, Wenyuan Zhang, Yu-Shen Liu, Junsheng Zhou
+* **Abstract**: Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), which generate geometrically consistent scenes b...
 
 
-### 📄 Can It Actually Work? Synthesizing Functional CAD Mechanisms
-* **arXiv ID**: [`2610.26861v1`](https://arxiv.org/abs/2610.26861v1) | **Categories**: `cs.CV, cs.CL, cs.GR`
-* **Authors**: Wenqian Zhang, Yangyi Huang, Zigeng Xu, Weiyang Liu
-* **Abstract**: While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requ...
+### 📄 SolarRenderer: Few-Step Generative Reference Rendering
+* **arXiv ID**: [`2610.28630v1`](https://arxiv.org/abs/2610.28630v1) | **Categories**: `cs.CV`
+* **Authors**: Guian Fang, Shengju Qian, Dongyue Lu, Junchao Huang
+* **Abstract**: Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, ne...
 
 
-### 📄 Reinforcement Learning with Visually Attributable On-Policy Self-Distillation
-* **arXiv ID**: [`2610.26856v1`](https://arxiv.org/abs/2610.26856v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Shiao Xie, Siyu Chen, Jianwei Lv, Xiandong Li
-* **Abstract**: Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complements this supervision with dense token-level corrections from a privileged teach...
+### 📄 Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking
+* **arXiv ID**: [`2610.28628v1`](https://arxiv.org/abs/2610.28628v1) | **Categories**: `cs.RO, cs.CV, cs.GR, cs.LG`
+* **Authors**: Yuxuan Kuang, Jiashun Wang, Yixuan Sun, Yufei Ye
+* **Abstract**: Dexterous multi-finger hands hold promise to unlock diverse skills like functional grasps, in-hand reorientation, and dynamic handover that the human-designed world assumes, yet existing learning recipes force a trade-off. Goal-reaching reinforcement learning generalizes to arbitrary object poses bu...
 
 
-### 📄 VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token
-* **arXiv ID**: [`2610.26857v1`](https://arxiv.org/abs/2610.26857v1) | **Categories**: `cs.CV`
-* **Authors**: Sangbeom Lim, Seoung Wug Oh, Heeji Yoon, Seungryong Kim
-* **Abstract**: Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from internet-scale pretraining to achieve strong zero-shot generalization from limited synthetic data. However, the heavy compute of these diffusion backbones limits inference to a short chun...
+### 📄 UniWALM: Unified World Action Language Model for Embodied Robot Control
+* **arXiv ID**: [`2610.28626v1`](https://arxiv.org/abs/2610.28626v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
+* **Authors**: Rahul Sajnani, Diego Romeres, Mingyuan Zhang, Kai Gao
+* **Abstract**: Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality is both a conditioning signal and a supervision t...
 
 
 

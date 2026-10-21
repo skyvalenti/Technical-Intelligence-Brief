@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-21 00:24 UTC",
+  "generated_at": "2026-10-21 11:19 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,92 +229,93 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.26863v1",
-      "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+      "arxiv_id": "2610.28632v1",
+      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
       "categories": [
-        "cs.LG",
-        "cs.CV"
-      ],
-      "summary": "Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scrat...",
-      "authors": [
-        "Keshigeyan Chandrasegaran",
-        "Yue Zhao",
-        "Armin W. Thomas",
-        "Ehsan Adeli"
-      ],
-      "url": "https://arxiv.org/abs/2610.26863v1",
-      "published_date": "2026-10-19"
-    },
-    {
-      "arxiv_id": "2610.26860v1",
-      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
-      "categories": [
-        "cs.CL",
+        "cs.CV",
         "cs.AI",
-        "cs.CV",
+        "cs.GR",
         "cs.LG",
-        "cs.MM"
+        "cs.RO"
       ],
-      "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only m...",
+      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump a...",
       "authors": [
-        "Yu Zhou",
-        "Cheng-Fu Yang",
-        "Rui Sun",
-        "Di Wu"
+        "Noam Rotstein",
+        "Yoad Tewel",
+        "Chen Tessler",
+        "Haggai Maron"
       ],
-      "url": "https://arxiv.org/abs/2610.26860v1",
-      "published_date": "2026-10-19"
+      "url": "https://arxiv.org/abs/2610.28632v1",
+      "published_date": "2026-10-20"
     },
     {
-      "arxiv_id": "2610.26861v1",
-      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
-      "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.GR"
-      ],
-      "summary": "While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requ...",
-      "authors": [
-        "Wenqian Zhang",
-        "Yangyi Huang",
-        "Zigeng Xu",
-        "Weiyang Liu"
-      ],
-      "url": "https://arxiv.org/abs/2610.26861v1",
-      "published_date": "2026-10-19"
-    },
-    {
-      "arxiv_id": "2610.26856v1",
-      "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Multimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complements this supervision with dense token-level corrections from a privileged teach...",
-      "authors": [
-        "Shiao Xie",
-        "Siyu Chen",
-        "Jianwei Lv",
-        "Xiandong Li"
-      ],
-      "url": "https://arxiv.org/abs/2610.26856v1",
-      "published_date": "2026-10-19"
-    },
-    {
-      "arxiv_id": "2610.26857v1",
-      "title": "VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token",
+      "arxiv_id": "2610.28631v1",
+      "title": "AEON: Unifying Video and 3D World Models",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from internet-scale pretraining to achieve strong zero-shot generalization from limited synthetic data. However, the heavy compute of these diffusion backbones limits inference to a short chun...",
+      "summary": "Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), which generate geometrically consistent scenes b...",
       "authors": [
-        "Sangbeom Lim",
-        "Seoung Wug Oh",
-        "Heeji Yoon",
-        "Seungryong Kim"
+        "Weiqi Zhang",
+        "Wenyuan Zhang",
+        "Yu-Shen Liu",
+        "Junsheng Zhou"
       ],
-      "url": "https://arxiv.org/abs/2610.26857v1",
-      "published_date": "2026-10-19"
+      "url": "https://arxiv.org/abs/2610.28631v1",
+      "published_date": "2026-10-20"
+    },
+    {
+      "arxiv_id": "2610.28630v1",
+      "title": "SolarRenderer: Few-Step Generative Reference Rendering",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, ne...",
+      "authors": [
+        "Guian Fang",
+        "Shengju Qian",
+        "Dongyue Lu",
+        "Junchao Huang"
+      ],
+      "url": "https://arxiv.org/abs/2610.28630v1",
+      "published_date": "2026-10-20"
+    },
+    {
+      "arxiv_id": "2610.28628v1",
+      "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "summary": "Dexterous multi-finger hands hold promise to unlock diverse skills like functional grasps, in-hand reorientation, and dynamic handover that the human-designed world assumes, yet existing learning recipes force a trade-off. Goal-reaching reinforcement learning generalizes to arbitrary object poses bu...",
+      "authors": [
+        "Yuxuan Kuang",
+        "Jiashun Wang",
+        "Yixuan Sun",
+        "Yufei Ye"
+      ],
+      "url": "https://arxiv.org/abs/2610.28628v1",
+      "published_date": "2026-10-20"
+    },
+    {
+      "arxiv_id": "2610.28626v1",
+      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "summary": "Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality is both a conditioning signal and a supervision t...",
+      "authors": [
+        "Rahul Sajnani",
+        "Diego Romeres",
+        "Mingyuan Zhang",
+        "Kai Gao"
+      ],
+      "url": "https://arxiv.org/abs/2610.28626v1",
+      "published_date": "2026-10-20"
     }
   ]
 }
