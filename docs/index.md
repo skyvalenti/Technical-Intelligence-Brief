@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-22 00:27 UTC`  
+> **Generated Timestamp**: `2026-10-22 11:18 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs
-* **arXiv ID**: [`2610.28632v1`](https://arxiv.org/abs/2610.28632v1) | **Categories**: `cs.CV, cs.AI, cs.GR, cs.LG, cs.RO`
-* **Authors**: Noam Rotstein, Yoad Tewel, Chen Tessler, Haggai Maron
-* **Abstract**: Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump a...
+### 📄 Rethinking Video Autoencoders for Interactive World Models
+* **arXiv ID**: [`2610.30129v1`](https://arxiv.org/abs/2610.30129v1) | **Categories**: `cs.CV`
+* **Authors**: Adrien Ramanana Rahary, Yutong Bai, Nicolas Dufour, Patrick Pérez
+* **Abstract**: Video world models predict future frames from past frames and actions. They serve as simulators in which agents train, plan or are evaluated, and that humans can control interactively. They generate in the latent space of a video autoencoder, whose compression sets their cost per frame and how long ...
 
 
-### 📄 AEON: Unifying Video and 3D World Models
-* **arXiv ID**: [`2610.28631v1`](https://arxiv.org/abs/2610.28631v1) | **Categories**: `cs.CV`
-* **Authors**: Weiqi Zhang, Wenyuan Zhang, Yu-Shen Liu, Junsheng Zhou
-* **Abstract**: Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), which generate geometrically consistent scenes b...
+### 📄 VoxProg: 3D Spatial Reasoning through Voxel Programming
+* **arXiv ID**: [`2610.30127v1`](https://arxiv.org/abs/2610.30127v1) | **Categories**: `cs.CV`
+* **Authors**: Zhichao Zhai, Menglei Zhao, Guikun Chen, Zihao Yan
+* **Abstract**: Language models' abilities to interpret tasks and generate programs offer a promising basis for 3D spatial reasoning. Yet following spatial instructions in 3D scenes requires programs to construct geometric references that language leaves implicit. In this work, we introduce VoxProg, which formulate...
 
 
-### 📄 SolarRenderer: Few-Step Generative Reference Rendering
-* **arXiv ID**: [`2610.28630v1`](https://arxiv.org/abs/2610.28630v1) | **Categories**: `cs.CV`
-* **Authors**: Guian Fang, Shengju Qian, Dongyue Lu, Junchao Huang
-* **Abstract**: Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, ne...
+### 📄 PhysiCalWorld: In-Context Physics Calibration for World Models
+* **arXiv ID**: [`2610.30125v1`](https://arxiv.org/abs/2610.30125v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
+* **Authors**: Yunhao Luo, Wentao He, Yinpei Dai, Hyelin Nam
+* **Abstract**: Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction. Without calibrati...
 
 
-### 📄 Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking
-* **arXiv ID**: [`2610.28628v1`](https://arxiv.org/abs/2610.28628v1) | **Categories**: `cs.RO, cs.CV, cs.GR, cs.LG`
-* **Authors**: Yuxuan Kuang, Jiashun Wang, Yixuan Sun, Yufei Ye
-* **Abstract**: Dexterous multi-finger hands hold promise to unlock diverse skills like functional grasps, in-hand reorientation, and dynamic handover that the human-designed world assumes, yet existing learning recipes force a trade-off. Goal-reaching reinforcement learning generalizes to arbitrary object poses bu...
+### 📄 ALPS: Visual State Encoders for World Models
+* **arXiv ID**: [`2610.30120v1`](https://arxiv.org/abs/2610.30120v1) | **Categories**: `cs.CV`
+* **Authors**: Yanqing Liu, Letian Zhang, Chengzhi Liu, Zijun Wang
+* **Abstract**: World models turn visual representations into predictions and actions. We argue that their visual foundation should combine physical-state information, native language alignment, and pixel reconstruction, so that a single representation can support prediction, instruction, and inspection. However, e...
 
 
-### 📄 UniWALM: Unified World Action Language Model for Embodied Robot Control
-* **arXiv ID**: [`2610.28626v1`](https://arxiv.org/abs/2610.28626v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
-* **Authors**: Rahul Sajnani, Diego Romeres, Mingyuan Zhang, Kai Gao
-* **Abstract**: Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality is both a conditioning signal and a supervision t...
+### 📄 Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use
+* **arXiv ID**: [`2610.30108v1`](https://arxiv.org/abs/2610.30108v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.MA, cs.MM`
+* **Authors**: Yanzhe Chen, Ziyi Yang, Jifeng Zhu, Qiming Huang
+* **Abstract**: Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multim...
 
 
 
