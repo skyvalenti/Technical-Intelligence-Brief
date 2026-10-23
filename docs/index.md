@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-23 00:25 UTC`  
+> **Generated Timestamp**: `2026-10-23 11:09 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Rethinking Video Autoencoders for Interactive World Models
-* **arXiv ID**: [`2610.30129v1`](https://arxiv.org/abs/2610.30129v1) | **Categories**: `cs.CV`
-* **Authors**: Adrien Ramanana Rahary, Yutong Bai, Nicolas Dufour, Patrick Pérez
-* **Abstract**: Video world models predict future frames from past frames and actions. They serve as simulators in which agents train, plan or are evaluated, and that humans can control interactively. They generate in the latent space of a video autoencoder, whose compression sets their cost per frame and how long ...
+### 📄 A Unified Framework for Image-to-3D Part Generation via Variable Granularity
+* **arXiv ID**: [`2610.31671v1`](https://arxiv.org/abs/2610.31671v1) | **Categories**: `cs.CV`
+* **Authors**: Qiwen Gu, Xin Zhou, Xiwu Chen, Zhongyang Zhu
+* **Abstract**: Controllable 3D part generation is pivotal for digital asset creation, yet existing methods lack the flexibility to accommodate diverse user workflows requiring varying levels of control. In this paper, we introduce FlexPart, a unified image-to-3D part generation framework that supports variable-gra...
 
 
-### 📄 VoxProg: 3D Spatial Reasoning through Voxel Programming
-* **arXiv ID**: [`2610.30127v1`](https://arxiv.org/abs/2610.30127v1) | **Categories**: `cs.CV`
-* **Authors**: Zhichao Zhai, Menglei Zhao, Guikun Chen, Zihao Yan
-* **Abstract**: Language models' abilities to interpret tasks and generate programs offer a promising basis for 3D spatial reasoning. Yet following spatial instructions in 3D scenes requires programs to construct geometric references that language leaves implicit. In this work, we introduce VoxProg, which formulate...
+### 📄 Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success
+* **arXiv ID**: [`2610.31670v1`](https://arxiv.org/abs/2610.31670v1) | **Categories**: `cs.CV, cs.LG, cs.RO`
+* **Authors**: Yunfei Xie, Howard H. Qian, Shiyi Lan, Kaiyu Hang
+* **Abstract**: Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a...
 
 
-### 📄 PhysiCalWorld: In-Context Physics Calibration for World Models
-* **arXiv ID**: [`2610.30125v1`](https://arxiv.org/abs/2610.30125v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
-* **Authors**: Yunhao Luo, Wentao He, Yinpei Dai, Hyelin Nam
-* **Abstract**: Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction. Without calibrati...
+### 📄 Reading, Writing, Sharing, and Interacting with the World through Video
+* **arXiv ID**: [`2610.31668v1`](https://arxiv.org/abs/2610.31668v1) | **Categories**: `cs.CV`
+* **Authors**: Shengqiong Wu, Meng Luo, Bobo Li, Ziwei Liu
+* **Abstract**: Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving worl...
 
 
-### 📄 ALPS: Visual State Encoders for World Models
-* **arXiv ID**: [`2610.30120v1`](https://arxiv.org/abs/2610.30120v1) | **Categories**: `cs.CV`
-* **Authors**: Yanqing Liu, Letian Zhang, Chengzhi Liu, Zijun Wang
-* **Abstract**: World models turn visual representations into predictions and actions. We argue that their visual foundation should combine physical-state information, native language alignment, and pixel reconstruction, so that a single representation can support prediction, instruction, and inspection. However, e...
+### 📄 SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing
+* **arXiv ID**: [`2610.31659v1`](https://arxiv.org/abs/2610.31659v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Sy-Tuyen Ho, Anirudh Satheesh, Soham Chawathe, Huy Nghiem
+* **Abstract**: Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later che...
 
 
-### 📄 Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use
-* **arXiv ID**: [`2610.30108v1`](https://arxiv.org/abs/2610.30108v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.MA, cs.MM`
-* **Authors**: Yanzhe Chen, Ziyi Yang, Jifeng Zhu, Qiming Huang
-* **Abstract**: Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multim...
+### 📄 BrickWright: Agentic Creation of Physically Feasible Brick Builds
+* **arXiv ID**: [`2610.31651v1`](https://arxiv.org/abs/2610.31651v1) | **Categories**: `cs.CV`
+* **Authors**: Ava Pun, Kevin Dai, Sally Chen, Maxwell Jones
+* **Abstract**: Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for a...
 
 
 
