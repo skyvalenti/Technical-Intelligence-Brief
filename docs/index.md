@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-25 00:02 UTC`  
+> **Generated Timestamp**: `2026-10-25 10:53 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 A Unified Framework for Image-to-3D Part Generation via Variable Granularity
+* **arXiv ID**: [`2610.31671v1`](https://arxiv.org/abs/2610.31671v1) | **Categories**: `cs.CV`
+* **Authors**: Qiwen Gu, Xin Zhou, Xiwu Chen, Zhongyang Zhu
+* **Abstract**: Controllable 3D part generation is pivotal for digital asset creation, yet existing methods lack the flexibility to accommodate diverse user workflows requiring varying levels of control. In this paper, we introduce FlexPart, a unified image-to-3D part generation framework that supports variable-gra...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success
+* **arXiv ID**: [`2610.31670v1`](https://arxiv.org/abs/2610.31670v1) | **Categories**: `cs.CV, cs.LG, cs.RO`
+* **Authors**: Yunfei Xie, Howard H. Qian, Shiyi Lan, Kaiyu Hang
+* **Abstract**: Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 Reading, Writing, Sharing, and Interacting with the World through Video
+* **arXiv ID**: [`2610.31668v1`](https://arxiv.org/abs/2610.31668v1) | **Categories**: `cs.CV`
+* **Authors**: Shengqiong Wu, Meng Luo, Bobo Li, Ziwei Liu
+* **Abstract**: Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving worl...
+
+
+### 📄 SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing
+* **arXiv ID**: [`2610.31659v1`](https://arxiv.org/abs/2610.31659v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Sy-Tuyen Ho, Anirudh Satheesh, Soham Chawathe, Huy Nghiem
+* **Abstract**: Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later che...
+
+
+### 📄 BrickWright: Agentic Creation of Physically Feasible Brick Builds
+* **arXiv ID**: [`2610.31651v1`](https://arxiv.org/abs/2610.31651v1) | **Categories**: `cs.CV`
+* **Authors**: Ava Pun, Kevin Dai, Sally Chen, Maxwell Jones
+* **Abstract**: Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for a...
 
 
 
