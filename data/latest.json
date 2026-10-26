@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-25 23:54 UTC",
+  "generated_at": "2026-10-26 12:24 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,87 +229,84 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.31671v1",
-      "title": "A Unified Framework for Image-to-3D Part Generation via Variable Granularity",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Controllable 3D part generation is pivotal for digital asset creation, yet existing methods lack the flexibility to accommodate diverse user workflows requiring varying levels of control. In this paper, we introduce FlexPart, a unified image-to-3D part generation framework that supports variable-gra...",
-      "authors": [
-        "Qiwen Gu",
-        "Xin Zhou",
-        "Xiwu Chen",
-        "Zhongyang Zhu"
-      ],
-      "url": "https://arxiv.org/abs/2610.31671v1",
-      "published_date": "2026-10-22"
-    },
-    {
-      "arxiv_id": "2610.31670v1",
-      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "arxiv_id": "2610.32978v1",
+      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
       "categories": [
         "cs.CV",
-        "cs.LG",
+        "cs.AI",
         "cs.RO"
       ],
-      "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a...",
+      "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrang...",
       "authors": [
-        "Yunfei Xie",
-        "Howard H. Qian",
-        "Shiyi Lan",
-        "Kaiyu Hang"
+        "Yuhan Liu",
+        "Lianhui Qin",
+        "Shenji Wan"
       ],
-      "url": "https://arxiv.org/abs/2610.31670v1",
-      "published_date": "2026-10-22"
+      "url": "https://arxiv.org/abs/2610.32978v1",
+      "published_date": "2026-10-23"
     },
     {
-      "arxiv_id": "2610.31668v1",
-      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "arxiv_id": "2610.32977v1",
+      "title": "UniAction: Unified Action Conditioning for World Models",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving worl...",
+      "summary": "Actions that condition world models are highly heterogeneous, and thus existing action-conditioned world models are typically built for individual action types, fragmenting already limited action-annotated data across separate models. We introduce UniAction, a unified action-conditioning framework t...",
       "authors": [
-        "Shengqiong Wu",
-        "Meng Luo",
-        "Bobo Li",
-        "Ziwei Liu"
+        "Bowen Xue",
+        "Zizhang Li",
+        "Hong-Xing Yu",
+        "Jiajun Wu"
       ],
-      "url": "https://arxiv.org/abs/2610.31668v1",
-      "published_date": "2026-10-22"
+      "url": "https://arxiv.org/abs/2610.32977v1",
+      "published_date": "2026-10-23"
     },
     {
-      "arxiv_id": "2610.31659v1",
-      "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "summary": "Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later che...",
-      "authors": [
-        "Sy-Tuyen Ho",
-        "Anirudh Satheesh",
-        "Soham Chawathe",
-        "Huy Nghiem"
-      ],
-      "url": "https://arxiv.org/abs/2610.31659v1",
-      "published_date": "2026-10-22"
-    },
-    {
-      "arxiv_id": "2610.31651v1",
-      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+      "arxiv_id": "2610.32976v1",
+      "title": "FlexGlue: Sparse-to-Dense Feature Matching and Visual Disambiguation",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for a...",
+      "summary": "To estimate correspondences across images, existing approaches match either sparse interest points, which is highly efficient but limited by repeatability, or dense pixel grids, which is robust but expensive. Furthermore, these approaches are trained with only matching pairs and thus often fail to r...",
       "authors": [
-        "Ava Pun",
-        "Kevin Dai",
-        "Sally Chen",
-        "Maxwell Jones"
+        "Philipp Lindenberger",
+        "Paul-Edouard Sarlin",
+        "Ondrej Miksik",
+        "Marc Pollefeys"
       ],
-      "url": "https://arxiv.org/abs/2610.31651v1",
-      "published_date": "2026-10-22"
+      "url": "https://arxiv.org/abs/2610.32976v1",
+      "published_date": "2026-10-23"
+    },
+    {
+      "arxiv_id": "2610.32967v1",
+      "title": "MiD-VLM: Detecting and Grounding Global Semantic Misinformation in Image-Caption Pairs",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Semantic misinformation can arise when an authentic image is paired with a caption that changes or distorts its narrative. Because the image itself may contain no visible signs of manipulation, methods designed to detect pixel-level artifacts can miss these misleading image-caption pairs. We study t...",
+      "authors": [
+        "Tarunya Prasad",
+        "Bharatesh Chakravarthi"
+      ],
+      "url": "https://arxiv.org/abs/2610.32967v1",
+      "published_date": "2026-10-23"
+    },
+    {
+      "arxiv_id": "2610.32966v1",
+      "title": "ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "summary": "Learning humanoid control from monocular human videos offers a scalable way to acquire diverse whole-body behaviors. Yet, existing reconstruction-retargeting-tracking pipelines are limited in system-level scalability by separately optimized intermediate stages and cannot directly optimize reference ...",
+      "authors": [
+        "Zimo He",
+        "Tianyi Bian",
+        "Zizhong Yang",
+        "Hongjie Li"
+      ],
+      "url": "https://arxiv.org/abs/2610.32966v1",
+      "published_date": "2026-10-23"
     }
   ]
 }

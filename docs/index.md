@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-25 23:54 UTC`  
+> **Generated Timestamp**: `2026-10-26 12:24 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 A Unified Framework for Image-to-3D Part Generation via Variable Granularity
-* **arXiv ID**: [`2610.31671v1`](https://arxiv.org/abs/2610.31671v1) | **Categories**: `cs.CV`
-* **Authors**: Qiwen Gu, Xin Zhou, Xiwu Chen, Zhongyang Zhu
-* **Abstract**: Controllable 3D part generation is pivotal for digital asset creation, yet existing methods lack the flexibility to accommodate diverse user workflows requiring varying levels of control. In this paper, we introduce FlexPart, a unified image-to-3D part generation framework that supports variable-gra...
+### 📄 SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning
+* **arXiv ID**: [`2610.32978v1`](https://arxiv.org/abs/2610.32978v1) | **Categories**: `cs.CV, cs.AI, cs.RO`
+* **Authors**: Yuhan Liu, Lianhui Qin, Shenji Wan
+* **Abstract**: Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrang...
 
 
-### 📄 Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success
-* **arXiv ID**: [`2610.31670v1`](https://arxiv.org/abs/2610.31670v1) | **Categories**: `cs.CV, cs.LG, cs.RO`
-* **Authors**: Yunfei Xie, Howard H. Qian, Shiyi Lan, Kaiyu Hang
-* **Abstract**: Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a...
+### 📄 UniAction: Unified Action Conditioning for World Models
+* **arXiv ID**: [`2610.32977v1`](https://arxiv.org/abs/2610.32977v1) | **Categories**: `cs.CV`
+* **Authors**: Bowen Xue, Zizhang Li, Hong-Xing Yu, Jiajun Wu
+* **Abstract**: Actions that condition world models are highly heterogeneous, and thus existing action-conditioned world models are typically built for individual action types, fragmenting already limited action-annotated data across separate models. We introduce UniAction, a unified action-conditioning framework t...
 
 
-### 📄 Reading, Writing, Sharing, and Interacting with the World through Video
-* **arXiv ID**: [`2610.31668v1`](https://arxiv.org/abs/2610.31668v1) | **Categories**: `cs.CV`
-* **Authors**: Shengqiong Wu, Meng Luo, Bobo Li, Ziwei Liu
-* **Abstract**: Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving worl...
+### 📄 FlexGlue: Sparse-to-Dense Feature Matching and Visual Disambiguation
+* **arXiv ID**: [`2610.32976v1`](https://arxiv.org/abs/2610.32976v1) | **Categories**: `cs.CV`
+* **Authors**: Philipp Lindenberger, Paul-Edouard Sarlin, Ondrej Miksik, Marc Pollefeys
+* **Abstract**: To estimate correspondences across images, existing approaches match either sparse interest points, which is highly efficient but limited by repeatability, or dense pixel grids, which is robust but expensive. Furthermore, these approaches are trained with only matching pairs and thus often fail to r...
 
 
-### 📄 SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing
-* **arXiv ID**: [`2610.31659v1`](https://arxiv.org/abs/2610.31659v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Sy-Tuyen Ho, Anirudh Satheesh, Soham Chawathe, Huy Nghiem
-* **Abstract**: Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset-use auditing plants a shared signal in a dataset before release, then later che...
+### 📄 MiD-VLM: Detecting and Grounding Global Semantic Misinformation in Image-Caption Pairs
+* **arXiv ID**: [`2610.32967v1`](https://arxiv.org/abs/2610.32967v1) | **Categories**: `cs.CV`
+* **Authors**: Tarunya Prasad, Bharatesh Chakravarthi
+* **Abstract**: Semantic misinformation can arise when an authentic image is paired with a caption that changes or distorts its narrative. Because the image itself may contain no visible signs of manipulation, methods designed to detect pixel-level artifacts can miss these misleading image-caption pairs. We study t...
 
 
-### 📄 BrickWright: Agentic Creation of Physically Feasible Brick Builds
-* **arXiv ID**: [`2610.31651v1`](https://arxiv.org/abs/2610.31651v1) | **Categories**: `cs.CV`
-* **Authors**: Ava Pun, Kevin Dai, Sally Chen, Maxwell Jones
-* **Abstract**: Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for a...
+### 📄 ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback
+* **arXiv ID**: [`2610.32966v1`](https://arxiv.org/abs/2610.32966v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Zimo He, Tianyi Bian, Zizhong Yang, Hongjie Li
+* **Abstract**: Learning humanoid control from monocular human videos offers a scalable way to acquire diverse whole-body behaviors. Yet, existing reconstruction-retargeting-tracking pipelines are limited in system-level scalability by separately optimized intermediate stages and cannot directly optimize reference ...
 
 
 
