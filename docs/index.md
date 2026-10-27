@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-27 01:14 UTC`  
+> **Generated Timestamp**: `2026-10-27 11:43 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Explaining Navigation Decisions: Stage-Aware Visual Attribution for Vision-Language Navigation
-* **arXiv ID**: [`2610.34028v1`](https://arxiv.org/abs/2610.34028v1) | **Categories**: `cs.CV`
-* **Authors**: Yiyuan Yao, Xinpeng Ding, Minglei Chen, Fei Gao
-* **Abstract**: As Vision-Language Models (VLMs) increasingly enable robots to follow language instructions, understanding their navigation decisions becomes important for reliable deployment. Existing explainability methods overlook a key challenge in Vision-Language Navigation (VLN): evidence for the current acti...
+### 📄 VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation
+* **arXiv ID**: [`2610.35864v1`](https://arxiv.org/abs/2610.35864v1) | **Categories**: `cs.CV`
+* **Authors**: Muxi Diao, Wenbin Xu, Lele Yang, Xuyang Ma
+* **Abstract**: Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a ruleconsistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We...
 
 
-### 📄 Hybrid Mamba-Transformer Network for Single-Shot 3D Reconstruction from Fringe Patterns
-* **arXiv ID**: [`2610.33988v1`](https://arxiv.org/abs/2610.33988v1) | **Categories**: `cs.CV, physics.optics`
-* **Authors**: Xinjie Zhou, XiaoLei Li
-* **Abstract**: Deep learning facilitates rapid single shot three dimensional (3D) reconstruction using fringe projection profilometry (FPP), but recovering accurate surface height from a single high frequency fringe image remains challenging because both long-range spatial consistency and fine geometric details mu...
+### 📄 Do vision models know that three is three?
+* **arXiv ID**: [`2610.35857v1`](https://arxiv.org/abs/2610.35857v1) | **Categories**: `cs.CV`
+* **Authors**: Ankit Sonthalia, Arnas Uselis, Seong Joon Oh
+* **Abstract**: Do vision models encode the transition $2{\to}3$ the same way whether it appears in handwritten digits or in hand gestures, and do they "understand" that clean${\to}$dirty is the same transformation regardless of whether it is applied to a kitchen or a carpet? The linear representation hypothesis (L...
 
 
-### 📄 InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants
-* **arXiv ID**: [`2610.33966v1`](https://arxiv.org/abs/2610.33966v1) | **Categories**: `cs.HC, cs.CV`
-* **Authors**: Qinsi Wang, Wei Wen, Chong Zhou, Saksham Suri
-* **Abstract**: People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees a...
+### 📄 FL4N: Feed-forward Latent Model for 4D Novel View Synthesis
+* **arXiv ID**: [`2610.35854v1`](https://arxiv.org/abs/2610.35854v1) | **Categories**: `cs.CV`
+* **Authors**: Eunbeen Hong, Hyeonseo Yu, Honggyu An, Jooho Son
+* **Abstract**: 4D novel view synthesis (NVS) aims to render dynamic scenes across viewpoints and timestamps, which requires jointly inferring 3D structure and temporal dynamics. Existing monocular feed-forward methods often rely on explicit 4D Gaussian representations, which are prone to temporal inconsistency and...
 
 
-### 📄 Accuracy Is Not Enough: An Efficiency- and Statistics-Aware Benchmark of ResNet50 and Vision Transformer for Explainable Multi-Class Gastrointestinal Diseases Classification
-* **arXiv ID**: [`2610.33965v1`](https://arxiv.org/abs/2610.33965v1) | **Categories**: `cs.CV`
-* **Authors**: Akwasi Asare
-* **Abstract**: Automated classification of gastrointestinal (GI) findings in endoscopic images could support early diagnosis, but architectures are often chosen on accuracy alone. We present a controlled, reproducible benchmark of ResNet50 and ViT-B/16 for eight-class GI classification on the public Kvasir dataset...
+### 📄 OSWAM: An Effective World Action Model with One-Step Action Generation
+* **arXiv ID**: [`2610.35850v1`](https://arxiv.org/abs/2610.35850v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Guowen Zhang, Liyi Chen, Xu Hu, Pengfei Wang
+* **Abstract**: Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality,...
 
 
-### 📄 Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents
-* **arXiv ID**: [`2610.33956v1`](https://arxiv.org/abs/2610.33956v1) | **Categories**: `cs.LG, cs.AI, cs.CL, cs.CV`
-* **Authors**: Haoyu Zhao, Sitian Tu, Yuxuan Huang, Huichi Zhou
-* **Abstract**: Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance ...
+### 📄 MedVTok: A General-Purpose Medical Visual Tokenizer
+* **arXiv ID**: [`2610.35842v1`](https://arxiv.org/abs/2610.35842v1) | **Categories**: `eess.IV, cs.CV`
+* **Authors**: Chenglong Ma, Yuanfeng Ji, Junzhi Ning, Jiyao Liu
+* **Abstract**: Multimodal medical AI requires a common visual interface for encoding heterogeneous imaging evidence for patient condition modeling. However, existing medical visual tokenizers are often tied to a specific dimension and imaging modality, forcing multimodal systems to rely on fragmented and poorly re...
 
 
 
