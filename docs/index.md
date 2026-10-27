@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-26 19:46 UTC`  
+> **Generated Timestamp**: `2026-10-27 01:14 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning
-* **arXiv ID**: [`2610.32978v1`](https://arxiv.org/abs/2610.32978v1) | **Categories**: `cs.CV, cs.AI, cs.RO`
-* **Authors**: Yuhan Liu, Lianhui Qin, Shenji Wan
-* **Abstract**: Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrang...
+### 📄 Explaining Navigation Decisions: Stage-Aware Visual Attribution for Vision-Language Navigation
+* **arXiv ID**: [`2610.34028v1`](https://arxiv.org/abs/2610.34028v1) | **Categories**: `cs.CV`
+* **Authors**: Yiyuan Yao, Xinpeng Ding, Minglei Chen, Fei Gao
+* **Abstract**: As Vision-Language Models (VLMs) increasingly enable robots to follow language instructions, understanding their navigation decisions becomes important for reliable deployment. Existing explainability methods overlook a key challenge in Vision-Language Navigation (VLN): evidence for the current acti...
 
 
-### 📄 UniAction: Unified Action Conditioning for World Models
-* **arXiv ID**: [`2610.32977v1`](https://arxiv.org/abs/2610.32977v1) | **Categories**: `cs.CV`
-* **Authors**: Bowen Xue, Zizhang Li, Hong-Xing Yu, Jiajun Wu
-* **Abstract**: Actions that condition world models are highly heterogeneous, and thus existing action-conditioned world models are typically built for individual action types, fragmenting already limited action-annotated data across separate models. We introduce UniAction, a unified action-conditioning framework t...
+### 📄 Hybrid Mamba-Transformer Network for Single-Shot 3D Reconstruction from Fringe Patterns
+* **arXiv ID**: [`2610.33988v1`](https://arxiv.org/abs/2610.33988v1) | **Categories**: `cs.CV, physics.optics`
+* **Authors**: Xinjie Zhou, XiaoLei Li
+* **Abstract**: Deep learning facilitates rapid single shot three dimensional (3D) reconstruction using fringe projection profilometry (FPP), but recovering accurate surface height from a single high frequency fringe image remains challenging because both long-range spatial consistency and fine geometric details mu...
 
 
-### 📄 FlexGlue: Sparse-to-Dense Feature Matching and Visual Disambiguation
-* **arXiv ID**: [`2610.32976v1`](https://arxiv.org/abs/2610.32976v1) | **Categories**: `cs.CV`
-* **Authors**: Philipp Lindenberger, Paul-Edouard Sarlin, Ondrej Miksik, Marc Pollefeys
-* **Abstract**: To estimate correspondences across images, existing approaches match either sparse interest points, which is highly efficient but limited by repeatability, or dense pixel grids, which is robust but expensive. Furthermore, these approaches are trained with only matching pairs and thus often fail to r...
+### 📄 InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants
+* **arXiv ID**: [`2610.33966v1`](https://arxiv.org/abs/2610.33966v1) | **Categories**: `cs.HC, cs.CV`
+* **Authors**: Qinsi Wang, Wei Wen, Chong Zhou, Saksham Suri
+* **Abstract**: People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees a...
 
 
-### 📄 MiD-VLM: Detecting and Grounding Global Semantic Misinformation in Image-Caption Pairs
-* **arXiv ID**: [`2610.32967v1`](https://arxiv.org/abs/2610.32967v1) | **Categories**: `cs.CV`
-* **Authors**: Tarunya Prasad, Bharatesh Chakravarthi
-* **Abstract**: Semantic misinformation can arise when an authentic image is paired with a caption that changes or distorts its narrative. Because the image itself may contain no visible signs of manipulation, methods designed to detect pixel-level artifacts can miss these misleading image-caption pairs. We study t...
+### 📄 Accuracy Is Not Enough: An Efficiency- and Statistics-Aware Benchmark of ResNet50 and Vision Transformer for Explainable Multi-Class Gastrointestinal Diseases Classification
+* **arXiv ID**: [`2610.33965v1`](https://arxiv.org/abs/2610.33965v1) | **Categories**: `cs.CV`
+* **Authors**: Akwasi Asare
+* **Abstract**: Automated classification of gastrointestinal (GI) findings in endoscopic images could support early diagnosis, but architectures are often chosen on accuracy alone. We present a controlled, reproducible benchmark of ResNet50 and ViT-B/16 for eight-class GI classification on the public Kvasir dataset...
 
 
-### 📄 ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback
-* **arXiv ID**: [`2610.32966v1`](https://arxiv.org/abs/2610.32966v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Zimo He, Tianyi Bian, Zizhong Yang, Hongjie Li
-* **Abstract**: Learning humanoid control from monocular human videos offers a scalable way to acquire diverse whole-body behaviors. Yet, existing reconstruction-retargeting-tracking pipelines are limited in system-level scalability by separately optimized intermediate stages and cannot directly optimize reference ...
+### 📄 Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents
+* **arXiv ID**: [`2610.33956v1`](https://arxiv.org/abs/2610.33956v1) | **Categories**: `cs.LG, cs.AI, cs.CL, cs.CV`
+* **Authors**: Haoyu Zhao, Sitian Tu, Yuxuan Huang, Huichi Zhou
+* **Abstract**: Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance ...
 
 
 
