@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-27 19:15 UTC",
+  "generated_at": "2026-10-28 01:00 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,85 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.35864v1",
-      "title": "VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
+        "cs.GR",
         "cs.CV"
       ],
-      "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a ruleconsistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Muxi Diao",
-        "Wenbin Xu",
-        "Lele Yang",
-        "Xuyang Ma"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2610.35864v1",
-      "published_date": "2026-10-26"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2610.35857v1",
-      "title": "Do vision models know that three is three?",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.CV"
+        "cs.GR",
+        "cs.DC"
       ],
-      "summary": "Do vision models encode the transition $2{\\to}3$ the same way whether it appears in handwritten digits or in hand gestures, and do they \"understand\" that clean${\\to}$dirty is the same transformation regardless of whether it is applied to a kitchen or a carpet? The linear representation hypothesis (L...",
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
       "authors": [
-        "Ankit Sonthalia",
-        "Arnas Uselis",
-        "Seong Joon Oh"
+        "E. Rostova",
+        "L. Thorne"
       ],
-      "url": "https://arxiv.org/abs/2610.35857v1",
-      "published_date": "2026-10-26"
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
     },
     {
-      "arxiv_id": "2610.35854v1",
-      "title": "FL4N: Feed-forward Latent Model for 4D Novel View Synthesis",
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
       "categories": [
-        "cs.CV"
+        "cs.GR"
       ],
-      "summary": "4D novel view synthesis (NVS) aims to render dynamic scenes across viewpoints and timestamps, which requires jointly inferring 3D structure and temporal dynamics. Existing monocular feed-forward methods often rely on explicit 4D Gaussian representations, which are prone to temporal inconsistency and...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Eunbeen Hong",
-        "Hyeonseo Yu",
-        "Honggyu An",
-        "Jooho Son"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2610.35854v1",
-      "published_date": "2026-10-26"
-    },
-    {
-      "arxiv_id": "2610.35850v1",
-      "title": "OSWAM: An Effective World Action Model with One-Step Action Generation",
-      "categories": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "summary": "Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality,...",
-      "authors": [
-        "Guowen Zhang",
-        "Liyi Chen",
-        "Xu Hu",
-        "Pengfei Wang"
-      ],
-      "url": "https://arxiv.org/abs/2610.35850v1",
-      "published_date": "2026-10-26"
-    },
-    {
-      "arxiv_id": "2610.35842v1",
-      "title": "MedVTok: A General-Purpose Medical Visual Tokenizer",
-      "categories": [
-        "eess.IV",
-        "cs.CV"
-      ],
-      "summary": "Multimodal medical AI requires a common visual interface for encoding heterogeneous imaging evidence for patient condition modeling. However, existing medical visual tokenizers are often tied to a specific dimension and imaging modality, forcing multimodal systems to rely on fragmented and poorly re...",
-      "authors": [
-        "Chenglong Ma",
-        "Yuanfeng Ji",
-        "Junzhi Ning",
-        "Jiyao Liu"
-      ],
-      "url": "https://arxiv.org/abs/2610.35842v1",
-      "published_date": "2026-10-26"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }

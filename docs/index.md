@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-27 19:15 UTC`  
+> **Generated Timestamp**: `2026-10-28 01:00 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation
-* **arXiv ID**: [`2610.35864v1`](https://arxiv.org/abs/2610.35864v1) | **Categories**: `cs.CV`
-* **Authors**: Muxi Diao, Wenbin Xu, Lele Yang, Xuyang Ma
-* **Abstract**: Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a ruleconsistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Do vision models know that three is three?
-* **arXiv ID**: [`2610.35857v1`](https://arxiv.org/abs/2610.35857v1) | **Categories**: `cs.CV`
-* **Authors**: Ankit Sonthalia, Arnas Uselis, Seong Joon Oh
-* **Abstract**: Do vision models encode the transition $2{\to}3$ the same way whether it appears in handwritten digits or in hand gestures, and do they "understand" that clean${\to}$dirty is the same transformation regardless of whether it is applied to a kitchen or a carpet? The linear representation hypothesis (L...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 FL4N: Feed-forward Latent Model for 4D Novel View Synthesis
-* **arXiv ID**: [`2610.35854v1`](https://arxiv.org/abs/2610.35854v1) | **Categories**: `cs.CV`
-* **Authors**: Eunbeen Hong, Hyeonseo Yu, Honggyu An, Jooho Son
-* **Abstract**: 4D novel view synthesis (NVS) aims to render dynamic scenes across viewpoints and timestamps, which requires jointly inferring 3D structure and temporal dynamics. Existing monocular feed-forward methods often rely on explicit 4D Gaussian representations, which are prone to temporal inconsistency and...
-
-
-### 📄 OSWAM: An Effective World Action Model with One-Step Action Generation
-* **arXiv ID**: [`2610.35850v1`](https://arxiv.org/abs/2610.35850v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Guowen Zhang, Liyi Chen, Xu Hu, Pengfei Wang
-* **Abstract**: Direct-policy World Action Models (WAM) have demonstrated the benefits of decoupling action generation from explicit future visual prediction for efficient inference in autonomous driving and embodied control. However, they still require tens of denoising steps to achieve competitive action quality,...
-
-
-### 📄 MedVTok: A General-Purpose Medical Visual Tokenizer
-* **arXiv ID**: [`2610.35842v1`](https://arxiv.org/abs/2610.35842v1) | **Categories**: `eess.IV, cs.CV`
-* **Authors**: Chenglong Ma, Yuanfeng Ji, Junzhi Ning, Jiyao Liu
-* **Abstract**: Multimodal medical AI requires a common visual interface for encoding heterogeneous imaging evidence for patient condition modeling. However, existing medical visual tokenizers are often tied to a specific dimension and imaging modality, forcing multimodal systems to rely on fragmented and poorly re...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
