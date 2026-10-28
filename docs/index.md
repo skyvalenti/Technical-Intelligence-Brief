@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-28 01:00 UTC`  
+> **Generated Timestamp**: `2026-10-28 12:16 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction
+* **arXiv ID**: [`2610.37668v1`](https://arxiv.org/abs/2610.37668v1) | **Categories**: `cs.CV, cs.AI, cs.GR, cs.LG`
+* **Authors**: Prakhar Kaushik, Soumava Paul, Alan Yuille
+* **Abstract**: Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for ef...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning
+* **arXiv ID**: [`2610.37666v1`](https://arxiv.org/abs/2610.37666v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
+* **Authors**: Chaehyun Kim, Chi-Pin Huang, Jisoo Kim, Min-Hung Chen
+* **Abstract**: Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning fro...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?
+* **arXiv ID**: [`2610.37662v1`](https://arxiv.org/abs/2610.37662v1) | **Categories**: `cs.CV`
+* **Authors**: Jialv Zou, Xiaotong Li, Zhengrong Yue, Xu Huang
+* **Abstract**: Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic ...
+
+
+### 📄 Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence
+* **arXiv ID**: [`2610.37633v1`](https://arxiv.org/abs/2610.37633v1) | **Categories**: `cs.CV`
+* **Authors**: Siyoon Jin, Dahyun Chung, Honggyu An, Sangbeom Lim
+* **Abstract**: Cross-view object correspondence identifies the same object across views. However, existing methods often rely on frame-wise matching or sequential tracking, which can propagate correspondence errors under appearance changes or occlusions. Therefore, we introduce cross-view temporal object correspon...
+
+
+### 📄 Know, then Draw: A New Learning Paradigm for Visual Generation
+* **arXiv ID**: [`2610.37626v1`](https://arxiv.org/abs/2610.37626v1) | **Categories**: `cs.CV`
+* **Authors**: Yucheng Mao, Chongjian Ge, Zhuowen Tu, Hao Tan
+* **Abstract**: Visual generation requires both high-level semantic knowledge and fine-grained pixel details. We propose a learning paradigm that assigns these roles to autoregressive pretraining for knowledge acquisition and diffusion post-training for high-fidelity rendering. Within this framework, we study the o...
 
 
 
