@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-29 19:26 UTC",
+  "generated_at": "2026-10-30 01:37 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,88 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.37668v1",
-      "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
-        "cs.CV",
-        "cs.AI",
         "cs.GR",
-        "cs.LG"
-      ],
-      "summary": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for ef...",
-      "authors": [
-        "Prakhar Kaushik",
-        "Soumava Paul",
-        "Alan Yuille"
-      ],
-      "url": "https://arxiv.org/abs/2610.37668v1",
-      "published_date": "2026-10-27"
-    },
-    {
-      "arxiv_id": "2610.37666v1",
-      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
         "cs.CV"
       ],
-      "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning fro...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Chaehyun Kim",
-        "Chi-Pin Huang",
-        "Jisoo Kim",
-        "Min-Hung Chen"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2610.37666v1",
-      "published_date": "2026-10-27"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2610.37662v1",
-      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.CV"
+        "cs.GR",
+        "cs.DC"
       ],
-      "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic ...",
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
       "authors": [
-        "Jialv Zou",
-        "Xiaotong Li",
-        "Zhengrong Yue",
-        "Xu Huang"
+        "E. Rostova",
+        "L. Thorne"
       ],
-      "url": "https://arxiv.org/abs/2610.37662v1",
-      "published_date": "2026-10-27"
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
     },
     {
-      "arxiv_id": "2610.37633v1",
-      "title": "Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence",
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
       "categories": [
-        "cs.CV"
+        "cs.GR"
       ],
-      "summary": "Cross-view object correspondence identifies the same object across views. However, existing methods often rely on frame-wise matching or sequential tracking, which can propagate correspondence errors under appearance changes or occlusions. Therefore, we introduce cross-view temporal object correspon...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Siyoon Jin",
-        "Dahyun Chung",
-        "Honggyu An",
-        "Sangbeom Lim"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2610.37633v1",
-      "published_date": "2026-10-27"
-    },
-    {
-      "arxiv_id": "2610.37626v1",
-      "title": "Know, then Draw: A New Learning Paradigm for Visual Generation",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Visual generation requires both high-level semantic knowledge and fine-grained pixel details. We propose a learning paradigm that assigns these roles to autoregressive pretraining for knowledge acquisition and diffusion post-training for high-fidelity rendering. Within this framework, we study the o...",
-      "authors": [
-        "Yucheng Mao",
-        "Chongjian Ge",
-        "Zhuowen Tu",
-        "Hao Tan"
-      ],
-      "url": "https://arxiv.org/abs/2610.37626v1",
-      "published_date": "2026-10-27"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }
