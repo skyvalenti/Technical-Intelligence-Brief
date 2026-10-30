@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-10-30 01:37 UTC",
+  "generated_at": "2026-10-30 12:17 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,49 +229,90 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2502.14890",
-      "title": "Continuous Normalization in Neural Radiance Relighting",
+      "arxiv_id": "2610.40653v1",
+      "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film",
       "categories": [
-        "cs.GR",
+        "cs.HC",
         "cs.CV"
       ],
-      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
+      "summary": "In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to sh...",
       "authors": [
-        "V. Chen",
-        "K. Sunder",
-        "A. Mercier"
+        "Nhan Tran",
+        "Hijung Valentina Shin",
+        "Abe Davis",
+        "Mackenzie Leake"
       ],
-      "url": "https://arxiv.org/abs/2502.14890",
-      "published_date": "2026-02-18"
+      "url": "https://arxiv.org/abs/2610.40653v1",
+      "published_date": "2026-10-29"
     },
     {
-      "arxiv_id": "2502.09102",
-      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
+      "arxiv_id": "2610.40649v1",
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
       "categories": [
-        "cs.GR",
-        "cs.DC"
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
       ],
-      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
+      "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a sing...",
       "authors": [
-        "E. Rostova",
-        "L. Thorne"
+        "Nicolas Dufour",
+        "Elouan Gardès",
+        "Amil Dravid",
+        "Patrick Pérez"
       ],
-      "url": "https://arxiv.org/abs/2502.09102",
-      "published_date": "2026-02-15"
+      "url": "https://arxiv.org/abs/2610.40649v1",
+      "published_date": "2026-10-29"
     },
     {
-      "arxiv_id": "2501.19230",
-      "title": "Deterministic MaterialX Shader Translation in WebGPU",
+      "arxiv_id": "2610.40647v1",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
       "categories": [
-        "cs.GR"
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.NE"
       ],
-      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
+      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from gl...",
       "authors": [
-        "M. Tanaka",
-        "J. Doe"
+        "Jiongfan Yang",
+        "Weichen Fan",
+        "Haiwen Diao",
+        "Zhongang Cai"
       ],
-      "url": "https://arxiv.org/abs/2501.19230",
-      "published_date": "2026-01-28"
+      "url": "https://arxiv.org/abs/2610.40647v1",
+      "published_date": "2026-10-29"
+    },
+    {
+      "arxiv_id": "2610.40643v1",
+      "title": "Luggage re-identification: A study of strategies towards a real-world application",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint ...",
+      "authors": [
+        "Quentin Dhôte",
+        "Romaric Audigier"
+      ],
+      "url": "https://arxiv.org/abs/2610.40643v1",
+      "published_date": "2026-10-29"
+    },
+    {
+      "arxiv_id": "2610.40640v1",
+      "title": "SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization",
+      "categories": [
+        "cs.CV",
+        "cs.SD"
+      ],
+      "summary": "Recent progress in visual scene generation has extended beyond static 3D scenes toward the more challenging problem of generating dynamic 4D scenes from minimal input. However, sound, despite being intrinsically coupled with dynamic objects and events, remains largely unmodeled in prior work. We int...",
+      "authors": [
+        "Derong Jin",
+        "Xiyi Chen",
+        "Ming C. Lin",
+        "Ruohan Gao"
+      ],
+      "url": "https://arxiv.org/abs/2610.40640v1",
+      "published_date": "2026-10-29"
     }
   ]
 }

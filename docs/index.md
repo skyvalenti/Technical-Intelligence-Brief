@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-10-30 01:37 UTC`  
+> **Generated Timestamp**: `2026-10-30 12:17 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 Micro-Edits: Computational Support for Fine-Scale Edits in Film
+* **arXiv ID**: [`2610.40653v1`](https://arxiv.org/abs/2610.40653v1) | **Categories**: `cs.HC, cs.CV`
+* **Authors**: Nhan Tran, Hijung Valentina Shin, Abe Davis, Mackenzie Leake
+* **Abstract**: In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to sh...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 Rethinking Neural Thickets Without Weight Perturbations
+* **arXiv ID**: [`2610.40649v1`](https://arxiv.org/abs/2610.40649v1) | **Categories**: `cs.LG, cs.AI, cs.CV`
+* **Authors**: Nicolas Dufour, Elouan Gardès, Amil Dravid, Patrick Pérez
+* **Abstract**: The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a sing...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers
+* **arXiv ID**: [`2610.40647v1`](https://arxiv.org/abs/2610.40647v1) | **Categories**: `cs.CV, cs.AI, cs.LG, cs.NE`
+* **Authors**: Jiongfan Yang, Weichen Fan, Haiwen Diao, Zhongang Cai
+* **Abstract**: Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from gl...
+
+
+### 📄 Luggage re-identification: A study of strategies towards a real-world application
+* **arXiv ID**: [`2610.40643v1`](https://arxiv.org/abs/2610.40643v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Quentin Dhôte, Romaric Audigier
+* **Abstract**: Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint ...
+
+
+### 📄 SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization
+* **arXiv ID**: [`2610.40640v1`](https://arxiv.org/abs/2610.40640v1) | **Categories**: `cs.CV, cs.SD`
+* **Authors**: Derong Jin, Xiyi Chen, Ming C. Lin, Ruohan Gao
+* **Abstract**: Recent progress in visual scene generation has extended beyond static 3D scenes toward the more challenging problem of generating dynamic 4D scenes from minimal input. However, sound, despite being intrinsically coupled with dynamic objects and events, remains largely unmodeled in prior work. We int...
 
 
 
