@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-02 01:19 UTC",
+  "generated_at": "2026-11-02 14:57 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,90 +229,91 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.40653v1",
-      "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film",
+      "arxiv_id": "2610.42152v1",
+      "title": "GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning",
       "categories": [
+        "cs.CV",
         "cs.HC",
-        "cs.CV"
+        "eess.IV",
+        "eess.SP"
       ],
-      "summary": "In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to sh...",
+      "summary": "Radiologists' visual attention can supervise medical image learning, but how reader panel composition affects its value remains untested. We evaluated GazeRIB (Gaze-guided Radiologist-Informed Blackout), which masks unviewed regions during training and uses unmasked images at inference. Eight expert...",
       "authors": [
-        "Nhan Tran",
-        "Hijung Valentina Shin",
-        "Abe Davis",
-        "Mackenzie Leake"
+        "Nattakorn Kittisut",
+        "Roy M. Gabriel",
+        "Marly van Assen",
+        "Mohammadreza Zandehshahvar"
       ],
-      "url": "https://arxiv.org/abs/2610.40653v1",
-      "published_date": "2026-10-29"
+      "url": "https://arxiv.org/abs/2610.42152v1",
+      "published_date": "2026-10-30"
     },
     {
-      "arxiv_id": "2610.40649v1",
-      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "arxiv_id": "2610.42149v1",
+      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
       "categories": [
-        "cs.LG",
+        "cs.CV",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit t...",
+      "authors": [
+        "Byungwoo Jeon",
+        "Yoonwoo Jeong",
+        "Hyunseok Lee",
+        "Minsu Cho"
+      ],
+      "url": "https://arxiv.org/abs/2610.42149v1",
+      "published_date": "2026-10-30"
+    },
+    {
+      "arxiv_id": "2610.42145v1",
+      "title": "SemEllipsoid: Semantic-aware Shape Abstraction with Ellipsoid",
+      "categories": [
+        "cs.GR",
+        "cs.CV"
+      ],
+      "summary": "Representing 3D shapes using a set of primitives - known as shape abstraction - is an actively studied problem in computer graphics with wide applications in shape understanding, analysis, and simulation due to the compactness and computational efficiency of the primitive-based representation. Prior...",
+      "authors": [
+        "Kuankuan Cheng",
+        "Haocheng Yuan",
+        "Changjian Li"
+      ],
+      "url": "https://arxiv.org/abs/2610.42145v1",
+      "published_date": "2026-10-30"
+    },
+    {
+      "arxiv_id": "2610.42141v1",
+      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+      "categories": [
+        "cs.RO",
         "cs.AI",
         "cs.CV"
       ],
-      "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a sing...",
+      "summary": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that h...",
       "authors": [
-        "Nicolas Dufour",
-        "Elouan Gardès",
-        "Amil Dravid",
-        "Patrick Pérez"
+        "Shengguang Wu",
+        "Suning Huang",
+        "Cherie Ho",
+        "Ria Doshi"
       ],
-      "url": "https://arxiv.org/abs/2610.40649v1",
-      "published_date": "2026-10-29"
+      "url": "https://arxiv.org/abs/2610.42141v1",
+      "published_date": "2026-10-30"
     },
     {
-      "arxiv_id": "2610.40647v1",
-      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "arxiv_id": "2610.42136v1",
+      "title": "ReLift: Dense 3D Tracking as Lifted Trajectory Repair",
       "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.LG",
-        "cs.NE"
+        "cs.CV"
       ],
-      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from gl...",
+      "summary": "Dense 3D tracking from monocular video requires establishing point correspondences over time, estimating their depth, and inferring their trajectories during occlusion. Existing methods typically learn these tasks jointly, a demanding objective given the scarcity of 4D supervision. We show that stro...",
       "authors": [
-        "Jiongfan Yang",
-        "Weichen Fan",
-        "Haiwen Diao",
-        "Zhongang Cai"
+        "Assaf Singer",
+        "Maroun Khriesh",
+        "Noam Rotstein",
+        "Yoni Kasten"
       ],
-      "url": "https://arxiv.org/abs/2610.40647v1",
-      "published_date": "2026-10-29"
-    },
-    {
-      "arxiv_id": "2610.40643v1",
-      "title": "Luggage re-identification: A study of strategies towards a real-world application",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint ...",
-      "authors": [
-        "Quentin Dhôte",
-        "Romaric Audigier"
-      ],
-      "url": "https://arxiv.org/abs/2610.40643v1",
-      "published_date": "2026-10-29"
-    },
-    {
-      "arxiv_id": "2610.40640v1",
-      "title": "SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization",
-      "categories": [
-        "cs.CV",
-        "cs.SD"
-      ],
-      "summary": "Recent progress in visual scene generation has extended beyond static 3D scenes toward the more challenging problem of generating dynamic 4D scenes from minimal input. However, sound, despite being intrinsically coupled with dynamic objects and events, remains largely unmodeled in prior work. We int...",
-      "authors": [
-        "Derong Jin",
-        "Xiyi Chen",
-        "Ming C. Lin",
-        "Ruohan Gao"
-      ],
-      "url": "https://arxiv.org/abs/2610.40640v1",
-      "published_date": "2026-10-29"
+      "url": "https://arxiv.org/abs/2610.42136v1",
+      "published_date": "2026-10-30"
     }
   ]
 }

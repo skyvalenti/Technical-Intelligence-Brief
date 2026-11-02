@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-02 01:19 UTC`  
+> **Generated Timestamp**: `2026-11-02 14:57 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Micro-Edits: Computational Support for Fine-Scale Edits in Film
-* **arXiv ID**: [`2610.40653v1`](https://arxiv.org/abs/2610.40653v1) | **Categories**: `cs.HC, cs.CV`
-* **Authors**: Nhan Tran, Hijung Valentina Shin, Abe Davis, Mackenzie Leake
-* **Abstract**: In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to sh...
+### 📄 GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning
+* **arXiv ID**: [`2610.42152v1`](https://arxiv.org/abs/2610.42152v1) | **Categories**: `cs.CV, cs.HC, eess.IV, eess.SP`
+* **Authors**: Nattakorn Kittisut, Roy M. Gabriel, Marly van Assen, Mohammadreza Zandehshahvar
+* **Abstract**: Radiologists' visual attention can supervise medical image learning, but how reader panel composition affects its value remains untested. We evaluated GazeRIB (Gaze-guided Radiologist-Informed Blackout), which masks unviewed regions during training and uses unmasked images at inference. Eight expert...
 
 
-### 📄 Rethinking Neural Thickets Without Weight Perturbations
-* **arXiv ID**: [`2610.40649v1`](https://arxiv.org/abs/2610.40649v1) | **Categories**: `cs.LG, cs.AI, cs.CV`
-* **Authors**: Nicolas Dufour, Elouan Gardès, Amil Dravid, Patrick Pérez
-* **Abstract**: The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a sing...
+### 📄 Latent Reasoning in Continuous Space for Unified Multimodal Models
+* **arXiv ID**: [`2610.42149v1`](https://arxiv.org/abs/2610.42149v1) | **Categories**: `cs.CV, cs.CL, cs.LG`
+* **Authors**: Byungwoo Jeon, Yoonwoo Jeong, Hyunseok Lee, Minsu Cho
+* **Abstract**: Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit t...
 
 
-### 📄 Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers
-* **arXiv ID**: [`2610.40647v1`](https://arxiv.org/abs/2610.40647v1) | **Categories**: `cs.CV, cs.AI, cs.LG, cs.NE`
-* **Authors**: Jiongfan Yang, Weichen Fan, Haiwen Diao, Zhongang Cai
-* **Abstract**: Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from gl...
+### 📄 SemEllipsoid: Semantic-aware Shape Abstraction with Ellipsoid
+* **arXiv ID**: [`2610.42145v1`](https://arxiv.org/abs/2610.42145v1) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: Kuankuan Cheng, Haocheng Yuan, Changjian Li
+* **Abstract**: Representing 3D shapes using a set of primitives - known as shape abstraction - is an actively studied problem in computer graphics with wide applications in shape understanding, analysis, and simulation due to the compactness and computational efficiency of the primitive-based representation. Prior...
 
 
-### 📄 Luggage re-identification: A study of strategies towards a real-world application
-* **arXiv ID**: [`2610.40643v1`](https://arxiv.org/abs/2610.40643v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Quentin Dhôte, Romaric Audigier
-* **Abstract**: Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint ...
+### 📄 RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
+* **arXiv ID**: [`2610.42141v1`](https://arxiv.org/abs/2610.42141v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
+* **Authors**: Shengguang Wu, Suning Huang, Cherie Ho, Ria Doshi
+* **Abstract**: Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that h...
 
 
-### 📄 SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization
-* **arXiv ID**: [`2610.40640v1`](https://arxiv.org/abs/2610.40640v1) | **Categories**: `cs.CV, cs.SD`
-* **Authors**: Derong Jin, Xiyi Chen, Ming C. Lin, Ruohan Gao
-* **Abstract**: Recent progress in visual scene generation has extended beyond static 3D scenes toward the more challenging problem of generating dynamic 4D scenes from minimal input. However, sound, despite being intrinsically coupled with dynamic objects and events, remains largely unmodeled in prior work. We int...
+### 📄 ReLift: Dense 3D Tracking as Lifted Trajectory Repair
+* **arXiv ID**: [`2610.42136v1`](https://arxiv.org/abs/2610.42136v1) | **Categories**: `cs.CV`
+* **Authors**: Assaf Singer, Maroun Khriesh, Noam Rotstein, Yoni Kasten
+* **Abstract**: Dense 3D tracking from monocular video requires establishing point correspondences over time, estimating their depth, and inferring their trajectories during occlusion. Existing methods typically learn these tasks jointly, a demanding objective given the scarcity of 4D supervision. We show that stro...
 
 
 
