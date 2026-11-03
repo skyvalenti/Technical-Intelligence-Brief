@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-03 03:20 UTC`  
+> **Generated Timestamp**: `2026-11-03 13:45 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 [Re] Pure Noise to the Rescue of Insufficient Data
-* **arXiv ID**: [`2611.01295v1`](https://arxiv.org/abs/2611.01295v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Seungjae Ryan Lee, Seungmin Brian Lee
-* **Abstract**: We examine the main claims of Zada, Benou, and Irani (2021), which states that in an image classification task with imbalanced training data, (i) using pure noise to augment minority-class images encourages generalization by improving minority-class accuracy. This method is paired with (ii) a new ba...
+### 📄 Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations
+* **arXiv ID**: [`2611.03647v1`](https://arxiv.org/abs/2611.03647v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.LG, eess.SY`
+* **Authors**: Jason Jingzhou Liu, Tony Tao, Deepak Pathak, Ruslan Salakhutdinov
+* **Abstract**: Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduce Environment-Aware Retargeting (EAR), which combi...
 
 
-### 📄 DriftingPlanner: Drifting Generative Models for One-Step Trajectory Planning in End-to-End Autonomous Driving
-* **arXiv ID**: [`2611.01283v1`](https://arxiv.org/abs/2611.01283v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Ziming Liu, Yizhan Qu, Leichen Wang, Hao Sun
-* **Abstract**: End-to-end planners decode the ego trajectory either by coordinate regression, which is fast but blends plausible maneuvers into one trajectory that may follow none of them, or by diffusion and flow matching, which model the trajectory distribution but need several inference steps. Drifting models m...
+### 📄 Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
+* **arXiv ID**: [`2611.03648v1`](https://arxiv.org/abs/2611.03648v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.LG, eess.SY`
+* **Authors**: Tony Tao, Jason Jingzhou Liu, Ruslan Salakhutdinov, Deepak Pathak
+* **Abstract**: General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capabilities of the comple...
 
 
-### 📄 StreamClarify: Proactive Clarification for Grounded Streaming Video Question Answering
-* **arXiv ID**: [`2611.01263v1`](https://arxiv.org/abs/2611.01263v1) | **Categories**: `cs.CV`
-* **Authors**: Zhuchen Shao, Bo Chen, Klara Nahrstedt
-* **Abstract**: Streaming video question answering (QA) requires real-time reasoning over continuous video streams under strict latency and active-context budgets. Current streaming vision-language models (VLMs) often give confident yet ungrounded answers when queries are ambiguous or have false premises, or when r...
+### 📄 EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
+* **arXiv ID**: [`2611.03646v1`](https://arxiv.org/abs/2611.03646v1) | **Categories**: `cs.CV`
+* **Authors**: Yujiao Shen, Jiahe Song, Haitian Li, Jingkang Yang
+* **Abstract**: Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations. However, existing benchmarks remain limited in action atomicity, temporal precision, and hand-action association. We ...
 
 
-### 📄 Context-Shielded Backdoor Attack against Large Vision-Language Models
-* **arXiv ID**: [`2611.01252v1`](https://arxiv.org/abs/2611.01252v1) | **Categories**: `cs.CV`
-* **Authors**: Zhifang Zhang, Qiang Huang, Chenpeng Wang, Weitong Chen
-* **Abstract**: Large vision-language models (LVLMs) routinely use inference-time visual-token compression to prune hundreds of patch tokens down to a compact budget. Existing LVLM backdoors fire whenever a triggered image appears, whereas prior deployment-triggered attacks activate only when model weights are quan...
+### 📄 Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data
+* **arXiv ID**: [`2611.03626v1`](https://arxiv.org/abs/2611.03626v1) | **Categories**: `cs.CV`
+* **Authors**: Rafal Karp, Gene Liu, Shih-Hsin Li, Eric Courtemanche
+* **Abstract**: We present Isekai3D Synthetic Data Generation (SDG), a platform for simulating and capturing synthetic 3D gameplay for research in vision and world models, neural graphics, gameplay agents, and other applications. The platform combines reusable environment and character assets with Unreal Engine plu...
 
 
-### 📄 Reproducing INP-Former: Reconstructing Intrinsic Normal Prototypes for Industrial Anomaly Detection
-* **arXiv ID**: [`2611.01230v1`](https://arxiv.org/abs/2611.01230v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Yunfei Liang, Juan Pablo Osorio Rivera
-* **Abstract**: We reproduce the central claims of INP-Former, a reconstruction-based method for multi-class industrial anomaly detection. INP-Former extracts Intrinsic Normal Prototypes (INPs) from each test image and uses them to guide a decoder that reconstructs normal features, without a stored memory bank. Usi...
+### 📄 Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning
+* **arXiv ID**: [`2611.03602v1`](https://arxiv.org/abs/2611.03602v1) | **Categories**: `cs.CV`
+* **Authors**: Tengfei Liu, Yang Shi, Yuran Wang, Yuqi Tang
+* **Abstract**: Multimodal large language models (MLLMs) can generate detailed video captions, yet they may overemphasize minor details while overlooking essential context and key events. We argue that not all visual evidence deserves equal attention, as the importance of visual information depends on the content o...
 
 
 

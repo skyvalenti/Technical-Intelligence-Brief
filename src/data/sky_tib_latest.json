@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-03 03:20 UTC",
+  "generated_at": "2026-11-03 13:45 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,82 +229,92 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.01295v1",
-      "title": "[Re] Pure Noise to the Rescue of Insufficient Data",
+      "arxiv_id": "2611.03647v1",
+      "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
       "categories": [
+        "cs.RO",
+        "cs.AI",
         "cs.CV",
-        "cs.LG"
+        "cs.LG",
+        "eess.SY"
       ],
-      "summary": "We examine the main claims of Zada, Benou, and Irani (2021), which states that in an image classification task with imbalanced training data, (i) using pure noise to augment minority-class images encourages generalization by improving minority-class accuracy. This method is paired with (ii) a new ba...",
+      "summary": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduce Environment-Aware Retargeting (EAR), which combi...",
       "authors": [
-        "Seungjae Ryan Lee",
-        "Seungmin Brian Lee"
+        "Jason Jingzhou Liu",
+        "Tony Tao",
+        "Deepak Pathak",
+        "Ruslan Salakhutdinov"
       ],
-      "url": "https://arxiv.org/abs/2611.01295v1",
-      "published_date": "2026-10-31"
+      "url": "https://arxiv.org/abs/2611.03647v1",
+      "published_date": "2026-11-02"
     },
     {
-      "arxiv_id": "2611.01283v1",
-      "title": "DriftingPlanner: Drifting Generative Models for One-Step Trajectory Planning in End-to-End Autonomous Driving",
+      "arxiv_id": "2611.03648v1",
+      "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
       "categories": [
+        "cs.RO",
+        "cs.AI",
         "cs.CV",
-        "cs.RO"
+        "cs.LG",
+        "eess.SY"
       ],
-      "summary": "End-to-end planners decode the ego trajectory either by coordinate regression, which is fast but blends plausible maneuvers into one trajectory that may follow none of them, or by diffusion and flow matching, which model the trajectory distribution but need several inference steps. Drifting models m...",
+      "summary": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capabilities of the comple...",
       "authors": [
-        "Ziming Liu",
-        "Yizhan Qu",
-        "Leichen Wang",
-        "Hao Sun"
+        "Tony Tao",
+        "Jason Jingzhou Liu",
+        "Ruslan Salakhutdinov",
+        "Deepak Pathak"
       ],
-      "url": "https://arxiv.org/abs/2611.01283v1",
-      "published_date": "2026-10-31"
+      "url": "https://arxiv.org/abs/2611.03648v1",
+      "published_date": "2026-11-02"
     },
     {
-      "arxiv_id": "2611.01263v1",
-      "title": "StreamClarify: Proactive Clarification for Grounded Streaming Video Question Answering",
+      "arxiv_id": "2611.03646v1",
+      "title": "EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Streaming video question answering (QA) requires real-time reasoning over continuous video streams under strict latency and active-context budgets. Current streaming vision-language models (VLMs) often give confident yet ungrounded answers when queries are ambiguous or have false premises, or when r...",
+      "summary": "Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations. However, existing benchmarks remain limited in action atomicity, temporal precision, and hand-action association. We ...",
       "authors": [
-        "Zhuchen Shao",
-        "Bo Chen",
-        "Klara Nahrstedt"
+        "Yujiao Shen",
+        "Jiahe Song",
+        "Haitian Li",
+        "Jingkang Yang"
       ],
-      "url": "https://arxiv.org/abs/2611.01263v1",
-      "published_date": "2026-10-31"
+      "url": "https://arxiv.org/abs/2611.03646v1",
+      "published_date": "2026-11-02"
     },
     {
-      "arxiv_id": "2611.01252v1",
-      "title": "Context-Shielded Backdoor Attack against Large Vision-Language Models",
+      "arxiv_id": "2611.03626v1",
+      "title": "Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Large vision-language models (LVLMs) routinely use inference-time visual-token compression to prune hundreds of patch tokens down to a compact budget. Existing LVLM backdoors fire whenever a triggered image appears, whereas prior deployment-triggered attacks activate only when model weights are quan...",
+      "summary": "We present Isekai3D Synthetic Data Generation (SDG), a platform for simulating and capturing synthetic 3D gameplay for research in vision and world models, neural graphics, gameplay agents, and other applications. The platform combines reusable environment and character assets with Unreal Engine plu...",
       "authors": [
-        "Zhifang Zhang",
-        "Qiang Huang",
-        "Chenpeng Wang",
-        "Weitong Chen"
+        "Rafal Karp",
+        "Gene Liu",
+        "Shih-Hsin Li",
+        "Eric Courtemanche"
       ],
-      "url": "https://arxiv.org/abs/2611.01252v1",
-      "published_date": "2026-10-31"
+      "url": "https://arxiv.org/abs/2611.03626v1",
+      "published_date": "2026-11-02"
     },
     {
-      "arxiv_id": "2611.01230v1",
-      "title": "Reproducing INP-Former: Reconstructing Intrinsic Normal Prototypes for Industrial Anomaly Detection",
+      "arxiv_id": "2611.03602v1",
+      "title": "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
       "categories": [
-        "cs.CV",
-        "cs.LG"
+        "cs.CV"
       ],
-      "summary": "We reproduce the central claims of INP-Former, a reconstruction-based method for multi-class industrial anomaly detection. INP-Former extracts Intrinsic Normal Prototypes (INPs) from each test image and uses them to guide a decoder that reconstructs normal features, without a stored memory bank. Usi...",
+      "summary": "Multimodal large language models (MLLMs) can generate detailed video captions, yet they may overemphasize minor details while overlooking essential context and key events. We argue that not all visual evidence deserves equal attention, as the importance of visual information depends on the content o...",
       "authors": [
-        "Yunfei Liang",
-        "Juan Pablo Osorio Rivera"
+        "Tengfei Liu",
+        "Yang Shi",
+        "Yuran Wang",
+        "Yuqi Tang"
       ],
-      "url": "https://arxiv.org/abs/2611.01230v1",
-      "published_date": "2026-10-31"
+      "url": "https://arxiv.org/abs/2611.03602v1",
+      "published_date": "2026-11-02"
     }
   ]
 }
