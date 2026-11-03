@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-02 15:29 UTC`  
+> **Generated Timestamp**: `2026-11-03 03:20 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning
-* **arXiv ID**: [`2610.42152v1`](https://arxiv.org/abs/2610.42152v1) | **Categories**: `cs.CV, cs.HC, eess.IV, eess.SP`
-* **Authors**: Nattakorn Kittisut, Roy M. Gabriel, Marly van Assen, Mohammadreza Zandehshahvar
-* **Abstract**: Radiologists' visual attention can supervise medical image learning, but how reader panel composition affects its value remains untested. We evaluated GazeRIB (Gaze-guided Radiologist-Informed Blackout), which masks unviewed regions during training and uses unmasked images at inference. Eight expert...
+### 📄 [Re] Pure Noise to the Rescue of Insufficient Data
+* **arXiv ID**: [`2611.01295v1`](https://arxiv.org/abs/2611.01295v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Seungjae Ryan Lee, Seungmin Brian Lee
+* **Abstract**: We examine the main claims of Zada, Benou, and Irani (2021), which states that in an image classification task with imbalanced training data, (i) using pure noise to augment minority-class images encourages generalization by improving minority-class accuracy. This method is paired with (ii) a new ba...
 
 
-### 📄 Latent Reasoning in Continuous Space for Unified Multimodal Models
-* **arXiv ID**: [`2610.42149v1`](https://arxiv.org/abs/2610.42149v1) | **Categories**: `cs.CV, cs.CL, cs.LG`
-* **Authors**: Byungwoo Jeon, Yoonwoo Jeong, Hyunseok Lee, Minsu Cho
-* **Abstract**: Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit t...
+### 📄 DriftingPlanner: Drifting Generative Models for One-Step Trajectory Planning in End-to-End Autonomous Driving
+* **arXiv ID**: [`2611.01283v1`](https://arxiv.org/abs/2611.01283v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Ziming Liu, Yizhan Qu, Leichen Wang, Hao Sun
+* **Abstract**: End-to-end planners decode the ego trajectory either by coordinate regression, which is fast but blends plausible maneuvers into one trajectory that may follow none of them, or by diffusion and flow matching, which model the trajectory distribution but need several inference steps. Drifting models m...
 
 
-### 📄 SemEllipsoid: Semantic-aware Shape Abstraction with Ellipsoid
-* **arXiv ID**: [`2610.42145v1`](https://arxiv.org/abs/2610.42145v1) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: Kuankuan Cheng, Haocheng Yuan, Changjian Li
-* **Abstract**: Representing 3D shapes using a set of primitives - known as shape abstraction - is an actively studied problem in computer graphics with wide applications in shape understanding, analysis, and simulation due to the compactness and computational efficiency of the primitive-based representation. Prior...
+### 📄 StreamClarify: Proactive Clarification for Grounded Streaming Video Question Answering
+* **arXiv ID**: [`2611.01263v1`](https://arxiv.org/abs/2611.01263v1) | **Categories**: `cs.CV`
+* **Authors**: Zhuchen Shao, Bo Chen, Klara Nahrstedt
+* **Abstract**: Streaming video question answering (QA) requires real-time reasoning over continuous video streams under strict latency and active-context budgets. Current streaming vision-language models (VLMs) often give confident yet ungrounded answers when queries are ambiguous or have false premises, or when r...
 
 
-### 📄 RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
-* **arXiv ID**: [`2610.42141v1`](https://arxiv.org/abs/2610.42141v1) | **Categories**: `cs.RO, cs.AI, cs.CV`
-* **Authors**: Shengguang Wu, Suning Huang, Cherie Ho, Ria Doshi
-* **Abstract**: Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that h...
+### 📄 Context-Shielded Backdoor Attack against Large Vision-Language Models
+* **arXiv ID**: [`2611.01252v1`](https://arxiv.org/abs/2611.01252v1) | **Categories**: `cs.CV`
+* **Authors**: Zhifang Zhang, Qiang Huang, Chenpeng Wang, Weitong Chen
+* **Abstract**: Large vision-language models (LVLMs) routinely use inference-time visual-token compression to prune hundreds of patch tokens down to a compact budget. Existing LVLM backdoors fire whenever a triggered image appears, whereas prior deployment-triggered attacks activate only when model weights are quan...
 
 
-### 📄 ReLift: Dense 3D Tracking as Lifted Trajectory Repair
-* **arXiv ID**: [`2610.42136v1`](https://arxiv.org/abs/2610.42136v1) | **Categories**: `cs.CV`
-* **Authors**: Assaf Singer, Maroun Khriesh, Noam Rotstein, Yoni Kasten
-* **Abstract**: Dense 3D tracking from monocular video requires establishing point correspondences over time, estimating their depth, and inferring their trajectories during occlusion. Existing methods typically learn these tasks jointly, a demanding objective given the scarcity of 4D supervision. We show that stro...
+### 📄 Reproducing INP-Former: Reconstructing Intrinsic Normal Prototypes for Industrial Anomaly Detection
+* **arXiv ID**: [`2611.01230v1`](https://arxiv.org/abs/2611.01230v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Yunfei Liang, Juan Pablo Osorio Rivera
+* **Abstract**: We reproduce the central claims of INP-Former, a reconstruction-based method for multi-class industrial anomaly detection. INP-Former extracts Intrinsic Normal Prototypes (INPs) from each test image and uses them to guide a decoder that reconstructs normal features, without a stored memory bank. Usi...
 
 
 

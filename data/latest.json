@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-02 15:29 UTC",
+  "generated_at": "2026-11-03 03:20 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,91 +229,82 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2610.42152v1",
-      "title": "GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning",
+      "arxiv_id": "2611.01295v1",
+      "title": "[Re] Pure Noise to the Rescue of Insufficient Data",
       "categories": [
         "cs.CV",
-        "cs.HC",
-        "eess.IV",
-        "eess.SP"
-      ],
-      "summary": "Radiologists' visual attention can supervise medical image learning, but how reader panel composition affects its value remains untested. We evaluated GazeRIB (Gaze-guided Radiologist-Informed Blackout), which masks unviewed regions during training and uses unmasked images at inference. Eight expert...",
-      "authors": [
-        "Nattakorn Kittisut",
-        "Roy M. Gabriel",
-        "Marly van Assen",
-        "Mohammadreza Zandehshahvar"
-      ],
-      "url": "https://arxiv.org/abs/2610.42152v1",
-      "published_date": "2026-10-30"
-    },
-    {
-      "arxiv_id": "2610.42149v1",
-      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
-      "categories": [
-        "cs.CV",
-        "cs.CL",
         "cs.LG"
       ],
-      "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit t...",
+      "summary": "We examine the main claims of Zada, Benou, and Irani (2021), which states that in an image classification task with imbalanced training data, (i) using pure noise to augment minority-class images encourages generalization by improving minority-class accuracy. This method is paired with (ii) a new ba...",
       "authors": [
-        "Byungwoo Jeon",
-        "Yoonwoo Jeong",
-        "Hyunseok Lee",
-        "Minsu Cho"
+        "Seungjae Ryan Lee",
+        "Seungmin Brian Lee"
       ],
-      "url": "https://arxiv.org/abs/2610.42149v1",
-      "published_date": "2026-10-30"
+      "url": "https://arxiv.org/abs/2611.01295v1",
+      "published_date": "2026-10-31"
     },
     {
-      "arxiv_id": "2610.42145v1",
-      "title": "SemEllipsoid: Semantic-aware Shape Abstraction with Ellipsoid",
+      "arxiv_id": "2611.01283v1",
+      "title": "DriftingPlanner: Drifting Generative Models for One-Step Trajectory Planning in End-to-End Autonomous Driving",
       "categories": [
-        "cs.GR",
-        "cs.CV"
+        "cs.CV",
+        "cs.RO"
       ],
-      "summary": "Representing 3D shapes using a set of primitives - known as shape abstraction - is an actively studied problem in computer graphics with wide applications in shape understanding, analysis, and simulation due to the compactness and computational efficiency of the primitive-based representation. Prior...",
+      "summary": "End-to-end planners decode the ego trajectory either by coordinate regression, which is fast but blends plausible maneuvers into one trajectory that may follow none of them, or by diffusion and flow matching, which model the trajectory distribution but need several inference steps. Drifting models m...",
       "authors": [
-        "Kuankuan Cheng",
-        "Haocheng Yuan",
-        "Changjian Li"
+        "Ziming Liu",
+        "Yizhan Qu",
+        "Leichen Wang",
+        "Hao Sun"
       ],
-      "url": "https://arxiv.org/abs/2610.42145v1",
-      "published_date": "2026-10-30"
+      "url": "https://arxiv.org/abs/2611.01283v1",
+      "published_date": "2026-10-31"
     },
     {
-      "arxiv_id": "2610.42141v1",
-      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "summary": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that h...",
-      "authors": [
-        "Shengguang Wu",
-        "Suning Huang",
-        "Cherie Ho",
-        "Ria Doshi"
-      ],
-      "url": "https://arxiv.org/abs/2610.42141v1",
-      "published_date": "2026-10-30"
-    },
-    {
-      "arxiv_id": "2610.42136v1",
-      "title": "ReLift: Dense 3D Tracking as Lifted Trajectory Repair",
+      "arxiv_id": "2611.01263v1",
+      "title": "StreamClarify: Proactive Clarification for Grounded Streaming Video Question Answering",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Dense 3D tracking from monocular video requires establishing point correspondences over time, estimating their depth, and inferring their trajectories during occlusion. Existing methods typically learn these tasks jointly, a demanding objective given the scarcity of 4D supervision. We show that stro...",
+      "summary": "Streaming video question answering (QA) requires real-time reasoning over continuous video streams under strict latency and active-context budgets. Current streaming vision-language models (VLMs) often give confident yet ungrounded answers when queries are ambiguous or have false premises, or when r...",
       "authors": [
-        "Assaf Singer",
-        "Maroun Khriesh",
-        "Noam Rotstein",
-        "Yoni Kasten"
+        "Zhuchen Shao",
+        "Bo Chen",
+        "Klara Nahrstedt"
       ],
-      "url": "https://arxiv.org/abs/2610.42136v1",
-      "published_date": "2026-10-30"
+      "url": "https://arxiv.org/abs/2611.01263v1",
+      "published_date": "2026-10-31"
+    },
+    {
+      "arxiv_id": "2611.01252v1",
+      "title": "Context-Shielded Backdoor Attack against Large Vision-Language Models",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Large vision-language models (LVLMs) routinely use inference-time visual-token compression to prune hundreds of patch tokens down to a compact budget. Existing LVLM backdoors fire whenever a triggered image appears, whereas prior deployment-triggered attacks activate only when model weights are quan...",
+      "authors": [
+        "Zhifang Zhang",
+        "Qiang Huang",
+        "Chenpeng Wang",
+        "Weitong Chen"
+      ],
+      "url": "https://arxiv.org/abs/2611.01252v1",
+      "published_date": "2026-10-31"
+    },
+    {
+      "arxiv_id": "2611.01230v1",
+      "title": "Reproducing INP-Former: Reconstructing Intrinsic Normal Prototypes for Industrial Anomaly Detection",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "summary": "We reproduce the central claims of INP-Former, a reconstruction-based method for multi-class industrial anomaly detection. INP-Former extracts Intrinsic Normal Prototypes (INPs) from each test image and uses them to guide a decoder that reconstructs normal features, without a stored memory bank. Usi...",
+      "authors": [
+        "Yunfei Liang",
+        "Juan Pablo Osorio Rivera"
+      ],
+      "url": "https://arxiv.org/abs/2611.01230v1",
+      "published_date": "2026-10-31"
     }
   ]
 }
