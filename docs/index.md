@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-04 01:56 UTC`  
+> **Generated Timestamp**: `2026-11-04 13:54 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations
-* **arXiv ID**: [`2611.03647v1`](https://arxiv.org/abs/2611.03647v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.LG, eess.SY`
-* **Authors**: Jason Jingzhou Liu, Tony Tao, Deepak Pathak, Ruslan Salakhutdinov
-* **Abstract**: Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduce Environment-Aware Retargeting (EAR), which combi...
+### 📄 DreamX: Video Diffusion Model is a Universal Latent Action Learner
+* **arXiv ID**: [`2611.05377v1`](https://arxiv.org/abs/2611.05377v1) | **Categories**: `cs.CV, cs.AI, cs.RO`
+* **Authors**: Jisoo Kim, Chaehyun Kim, Junsu Kim, Jiho Park
+* **Abstract**: Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations of...
 
 
-### 📄 Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
-* **arXiv ID**: [`2611.03648v1`](https://arxiv.org/abs/2611.03648v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.LG, eess.SY`
-* **Authors**: Tony Tao, Jason Jingzhou Liu, Ruslan Salakhutdinov, Deepak Pathak
-* **Abstract**: General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capabilities of the comple...
+### 📄 Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments
+* **arXiv ID**: [`2611.05361v1`](https://arxiv.org/abs/2611.05361v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Zhipeng Zhong, Matthew Coombes, Cunjia Liu
+* **Abstract**: Reliable evaluation of visual 3D reconstruction and depth estimation in vegetation-rich outdoor environments is limited by the scarcity of geometric ground-truth data and the cost of complete scanner surveys. We present a LiDARbased reference-generation pipeline for evaluating the zero-shot performa...
 
 
-### 📄 EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos
-* **arXiv ID**: [`2611.03646v1`](https://arxiv.org/abs/2611.03646v1) | **Categories**: `cs.CV`
-* **Authors**: Yujiao Shen, Jiahe Song, Haitian Li, Jingkang Yang
-* **Abstract**: Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations. However, existing benchmarks remain limited in action atomicity, temporal precision, and hand-action association. We ...
+### 📄 GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs
+* **arXiv ID**: [`2611.05359v1`](https://arxiv.org/abs/2611.05359v1) | **Categories**: `cs.CV`
+* **Authors**: Qi Yang, Yingzhan Xu, Kai Zhang, Li Zhang
+* **Abstract**: This paper presents GSCV++, a lightweight pipeline for 3D {G}aussian {S}platting (GS) sequences {C}ompression with standard {V}ideo codecs. To meet the requirements of low-complexity and hardware compatibility from the industry, GSCV++ jointly improves preprocessing, 3D-to-2D mapping, and practical ...
 
 
-### 📄 Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data
-* **arXiv ID**: [`2611.03626v1`](https://arxiv.org/abs/2611.03626v1) | **Categories**: `cs.CV`
-* **Authors**: Rafal Karp, Gene Liu, Shih-Hsin Li, Eric Courtemanche
-* **Abstract**: We present Isekai3D Synthetic Data Generation (SDG), a platform for simulating and capturing synthetic 3D gameplay for research in vision and world models, neural graphics, gameplay agents, and other applications. The platform combines reusable environment and character assets with Unreal Engine plu...
+### 📄 OpenBrain: An Auditable Generated-Label Release for Whole-Brain MRI Parcellation
+* **arXiv ID**: [`2611.05348v1`](https://arxiv.org/abs/2611.05348v1) | **Categories**: `cs.CV`
+* **Authors**: Qizhen Lan, Yu-Chun Hsu, Yuxiang Wei, Lijing Zhu
+* **Abstract**: Automatic tools can now generate whole-brain MRI parcellations at cohort scale, but generated-label releases often provide little evidence about which cases are reliable enough to reuse. We introduce OpenBrain, a confidence-aware release of 35,838 provenance-verified OpenNeuro T1w cases from 607 sou...
 
 
-### 📄 Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning
-* **arXiv ID**: [`2611.03602v1`](https://arxiv.org/abs/2611.03602v1) | **Categories**: `cs.CV`
-* **Authors**: Tengfei Liu, Yang Shi, Yuran Wang, Yuqi Tang
-* **Abstract**: Multimodal large language models (MLLMs) can generate detailed video captions, yet they may overemphasize minor details while overlooking essential context and key events. We argue that not all visual evidence deserves equal attention, as the importance of visual information depends on the content o...
+### 📄 Wonder 4: A Mixture-of-Experts Recipe for Image Quality Enhancement
+* **arXiv ID**: [`2611.05294v1`](https://arxiv.org/abs/2611.05294v1) | **Categories**: `cs.CV`
+* **Authors**: Yunan Wu, Bin Sun, Partha Acharjee, Xiaoyu Wang
+* **Abstract**: A real photograph is often blurry, grainy, compressed, scratched, and low-resolution at the same time. Each defect has its own severity and its own place in the image. The corrections for these defects conflict with each other. Exist- ing models describe the whole image with one description, so they...
 
 
 

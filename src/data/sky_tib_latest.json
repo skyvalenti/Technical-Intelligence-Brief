@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-04 01:56 UTC",
+  "generated_at": "2026-11-04 13:54 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,92 +229,86 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.03647v1",
-      "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+      "arxiv_id": "2611.05377v1",
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
       "categories": [
-        "cs.RO",
-        "cs.AI",
         "cs.CV",
-        "cs.LG",
-        "eess.SY"
-      ],
-      "summary": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduce Environment-Aware Retargeting (EAR), which combi...",
-      "authors": [
-        "Jason Jingzhou Liu",
-        "Tony Tao",
-        "Deepak Pathak",
-        "Ruslan Salakhutdinov"
-      ],
-      "url": "https://arxiv.org/abs/2611.03647v1",
-      "published_date": "2026-11-02"
-    },
-    {
-      "arxiv_id": "2611.03648v1",
-      "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
-      "categories": [
-        "cs.RO",
         "cs.AI",
+        "cs.RO"
+      ],
+      "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations of...",
+      "authors": [
+        "Jisoo Kim",
+        "Chaehyun Kim",
+        "Junsu Kim",
+        "Jiho Park"
+      ],
+      "url": "https://arxiv.org/abs/2611.05377v1",
+      "published_date": "2026-11-03"
+    },
+    {
+      "arxiv_id": "2611.05361v1",
+      "title": "Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments",
+      "categories": [
         "cs.CV",
-        "cs.LG",
-        "eess.SY"
+        "cs.RO"
       ],
-      "summary": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capabilities of the comple...",
+      "summary": "Reliable evaluation of visual 3D reconstruction and depth estimation in vegetation-rich outdoor environments is limited by the scarcity of geometric ground-truth data and the cost of complete scanner surveys. We present a LiDARbased reference-generation pipeline for evaluating the zero-shot performa...",
       "authors": [
-        "Tony Tao",
-        "Jason Jingzhou Liu",
-        "Ruslan Salakhutdinov",
-        "Deepak Pathak"
+        "Zhipeng Zhong",
+        "Matthew Coombes",
+        "Cunjia Liu"
       ],
-      "url": "https://arxiv.org/abs/2611.03648v1",
-      "published_date": "2026-11-02"
+      "url": "https://arxiv.org/abs/2611.05361v1",
+      "published_date": "2026-11-03"
     },
     {
-      "arxiv_id": "2611.03646v1",
-      "title": "EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos",
+      "arxiv_id": "2611.05359v1",
+      "title": "GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Learning from human data offers a scalable path toward embodied intelligence, yet it requires models to accurately understand fine-grained human actions from egocentric observations. However, existing benchmarks remain limited in action atomicity, temporal precision, and hand-action association. We ...",
+      "summary": "This paper presents GSCV++, a lightweight pipeline for 3D {G}aussian {S}platting (GS) sequences {C}ompression with standard {V}ideo codecs. To meet the requirements of low-complexity and hardware compatibility from the industry, GSCV++ jointly improves preprocessing, 3D-to-2D mapping, and practical ...",
       "authors": [
-        "Yujiao Shen",
-        "Jiahe Song",
-        "Haitian Li",
-        "Jingkang Yang"
+        "Qi Yang",
+        "Yingzhan Xu",
+        "Kai Zhang",
+        "Li Zhang"
       ],
-      "url": "https://arxiv.org/abs/2611.03646v1",
-      "published_date": "2026-11-02"
+      "url": "https://arxiv.org/abs/2611.05359v1",
+      "published_date": "2026-11-03"
     },
     {
-      "arxiv_id": "2611.03626v1",
-      "title": "Isekai3D SDG: A Platform for Diverse Synthetic Gameplay Visual Data",
+      "arxiv_id": "2611.05348v1",
+      "title": "OpenBrain: An Auditable Generated-Label Release for Whole-Brain MRI Parcellation",
       "categories": [
         "cs.CV"
       ],
-      "summary": "We present Isekai3D Synthetic Data Generation (SDG), a platform for simulating and capturing synthetic 3D gameplay for research in vision and world models, neural graphics, gameplay agents, and other applications. The platform combines reusable environment and character assets with Unreal Engine plu...",
+      "summary": "Automatic tools can now generate whole-brain MRI parcellations at cohort scale, but generated-label releases often provide little evidence about which cases are reliable enough to reuse. We introduce OpenBrain, a confidence-aware release of 35,838 provenance-verified OpenNeuro T1w cases from 607 sou...",
       "authors": [
-        "Rafal Karp",
-        "Gene Liu",
-        "Shih-Hsin Li",
-        "Eric Courtemanche"
+        "Qizhen Lan",
+        "Yu-Chun Hsu",
+        "Yuxiang Wei",
+        "Lijing Zhu"
       ],
-      "url": "https://arxiv.org/abs/2611.03626v1",
-      "published_date": "2026-11-02"
+      "url": "https://arxiv.org/abs/2611.05348v1",
+      "published_date": "2026-11-03"
     },
     {
-      "arxiv_id": "2611.03602v1",
-      "title": "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
+      "arxiv_id": "2611.05294v1",
+      "title": "Wonder 4: A Mixture-of-Experts Recipe for Image Quality Enhancement",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Multimodal large language models (MLLMs) can generate detailed video captions, yet they may overemphasize minor details while overlooking essential context and key events. We argue that not all visual evidence deserves equal attention, as the importance of visual information depends on the content o...",
+      "summary": "A real photograph is often blurry, grainy, compressed, scratched, and low-resolution at the same time. Each defect has its own severity and its own place in the image. The corrections for these defects conflict with each other. Exist- ing models describe the whole image with one description, so they...",
       "authors": [
-        "Tengfei Liu",
-        "Yang Shi",
-        "Yuran Wang",
-        "Yuqi Tang"
+        "Yunan Wu",
+        "Bin Sun",
+        "Partha Acharjee",
+        "Xiaoyu Wang"
       ],
-      "url": "https://arxiv.org/abs/2611.03602v1",
-      "published_date": "2026-11-02"
+      "url": "https://arxiv.org/abs/2611.05294v1",
+      "published_date": "2026-11-03"
     }
   ]
 }
