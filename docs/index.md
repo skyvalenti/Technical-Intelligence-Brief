@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-05 02:01 UTC`  
+> **Generated Timestamp**: `2026-11-05 14:09 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 DreamX: Video Diffusion Model is a Universal Latent Action Learner
-* **arXiv ID**: [`2611.05377v1`](https://arxiv.org/abs/2611.05377v1) | **Categories**: `cs.CV, cs.AI, cs.RO`
-* **Authors**: Jisoo Kim, Chaehyun Kim, Junsu Kim, Jiho Park
-* **Abstract**: Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations of...
+### 📄 From Pixels to Actions - Towards Native Vision-Language-Action Policies
+* **arXiv ID**: [`2611.06918v1`](https://arxiv.org/abs/2611.06918v1) | **Categories**: `cs.CV`
+* **Authors**: Weichen Fan, Haiwen Diao, Penghao Wu, Siyuan Hu
+* **Abstract**: Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, ...
 
 
-### 📄 Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments
-* **arXiv ID**: [`2611.05361v1`](https://arxiv.org/abs/2611.05361v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Zhipeng Zhong, Matthew Coombes, Cunjia Liu
-* **Abstract**: Reliable evaluation of visual 3D reconstruction and depth estimation in vegetation-rich outdoor environments is limited by the scarcity of geometric ground-truth data and the cost of complete scanner surveys. We present a LiDARbased reference-generation pipeline for evaluating the zero-shot performa...
+### 📄 Perceptive Humanoid Motion from Simulation
+* **arXiv ID**: [`2611.06908v1`](https://arxiv.org/abs/2611.06908v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.LG`
+* **Authors**: Siyuan Hu, Abulikemu Abuduweili, Yue Meng, Shipeng Liu
+* **Abstract**: Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data ex...
 
 
-### 📄 GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs
-* **arXiv ID**: [`2611.05359v1`](https://arxiv.org/abs/2611.05359v1) | **Categories**: `cs.CV`
-* **Authors**: Qi Yang, Yingzhan Xu, Kai Zhang, Li Zhang
-* **Abstract**: This paper presents GSCV++, a lightweight pipeline for 3D {G}aussian {S}platting (GS) sequences {C}ompression with standard {V}ideo codecs. To meet the requirements of low-complexity and hardware compatibility from the industry, GSCV++ jointly improves preprocessing, 3D-to-2D mapping, and practical ...
+### 📄 Motion-guided Contrastive Regularization For Latent World Models
+* **arXiv ID**: [`2611.06901v1`](https://arxiv.org/abs/2611.06901v1) | **Categories**: `cs.CV`
+* **Authors**: Yiwen Chen, Qiqi Hou, Jisoo Jeong, Yinhao Zhu
+* **Abstract**: JEPA-style world models learn action-conditioned latent dynamics without reconstructing observations, but distributional regularization alone does not ensure that their representations preserve information needed for control. We identify static collapse, a failure mode in which the encoder preserves...
 
 
-### 📄 OpenBrain: An Auditable Generated-Label Release for Whole-Brain MRI Parcellation
-* **arXiv ID**: [`2611.05348v1`](https://arxiv.org/abs/2611.05348v1) | **Categories**: `cs.CV`
-* **Authors**: Qizhen Lan, Yu-Chun Hsu, Yuxiang Wei, Lijing Zhu
-* **Abstract**: Automatic tools can now generate whole-brain MRI parcellations at cohort scale, but generated-label releases often provide little evidence about which cases are reliable enough to reuse. We introduce OpenBrain, a confidence-aware release of 35,838 provenance-verified OpenNeuro T1w cases from 607 sou...
+### 📄 Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues
+* **arXiv ID**: [`2611.06899v1`](https://arxiv.org/abs/2611.06899v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Chibueze Praise Onyenweaku, Toyibat Adele, Sikirulahi Opeyemi Abdulkareem, Obed Honour Eje
+* **Abstract**: Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployment settings rarely have. We show that occlusion can be read off two distance estimates a camera-only...
 
 
-### 📄 Wonder 4: A Mixture-of-Experts Recipe for Image Quality Enhancement
-* **arXiv ID**: [`2611.05294v1`](https://arxiv.org/abs/2611.05294v1) | **Categories**: `cs.CV`
-* **Authors**: Yunan Wu, Bin Sun, Partha Acharjee, Xiaoyu Wang
-* **Abstract**: A real photograph is often blurry, grainy, compressed, scratched, and low-resolution at the same time. Each defect has its own severity and its own place in the image. The corrections for these defects conflict with each other. Exist- ing models describe the whole image with one description, so they...
+### 📄 Procedural Adversarial Learning
+* **arXiv ID**: [`2611.06890v1`](https://arxiv.org/abs/2611.06890v1) | **Categories**: `cs.CV`
+* **Authors**: Jack Nugent, Jia Deng
+* **Abstract**: For many computer vision tasks, neural networks can be trained to produce a low average error, yet they still fail on seemingly simple scenes. Reducing these failures requires first finding them, but they may not be in a fixed dataset. We study procedural adversarial learning (PAL), a framework of m...
 
 
 
