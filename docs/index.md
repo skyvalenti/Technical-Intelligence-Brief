@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-06 02:00 UTC`  
+> **Generated Timestamp**: `2026-11-06 13:51 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 From Pixels to Actions - Towards Native Vision-Language-Action Policies
-* **arXiv ID**: [`2611.06918v1`](https://arxiv.org/abs/2611.06918v1) | **Categories**: `cs.CV`
-* **Authors**: Weichen Fan, Haiwen Diao, Penghao Wu, Siyuan Hu
-* **Abstract**: Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, ...
+### 📄 Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI
+* **arXiv ID**: [`2611.08486v1`](https://arxiv.org/abs/2611.08486v1) | **Categories**: `cs.CV`
+* **Authors**: Xiaoqi Zhao, Youwei Pang, Kailai Zhou
+* **Abstract**: Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospect...
 
 
-### 📄 Perceptive Humanoid Motion from Simulation
-* **arXiv ID**: [`2611.06908v1`](https://arxiv.org/abs/2611.06908v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.LG`
-* **Authors**: Siyuan Hu, Abulikemu Abuduweili, Yue Meng, Shipeng Liu
-* **Abstract**: Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data ex...
+### 📄 Where and Why is Grounded Reasoning Useful?
+* **arXiv ID**: [`2611.08485v1`](https://arxiv.org/abs/2611.08485v1) | **Categories**: `cs.CV`
+* **Authors**: David Yan, Le Xue, Forrest Huang, Qiuyi Zhang
+* **Abstract**: Grounded reasoning, where a model outputs text coordinates of relevant locations in chain-of-thought reasoning, is a common strategy for solving complex visual reasoning problems. However, the benefits and limitations of grounded reasoning are understudied. We study where and why grounded reasoning ...
 
 
-### 📄 Motion-guided Contrastive Regularization For Latent World Models
-* **arXiv ID**: [`2611.06901v1`](https://arxiv.org/abs/2611.06901v1) | **Categories**: `cs.CV`
-* **Authors**: Yiwen Chen, Qiqi Hou, Jisoo Jeong, Yinhao Zhu
-* **Abstract**: JEPA-style world models learn action-conditioned latent dynamics without reconstructing observations, but distributional regularization alone does not ensure that their representations preserve information needed for control. We identify static collapse, a failure mode in which the encoder preserves...
+### 📄 EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling
+* **arXiv ID**: [`2611.08477v1`](https://arxiv.org/abs/2611.08477v1) | **Categories**: `cs.CV`
+* **Authors**: Yanlin Jin, Bowen Yang, Cheng Zhang, Yifan Yang
+* **Abstract**: Modern video models possess strong visual priors, yet do not natively represent human action in metric 3D space. We present EgoGeneralist, which adapts pretrained video generators to unify action-conditioned egocentric video generation, pose estimation, and joint action-video generation. Our role-ad...
 
 
-### 📄 Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues
-* **arXiv ID**: [`2611.06899v1`](https://arxiv.org/abs/2611.06899v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Chibueze Praise Onyenweaku, Toyibat Adele, Sikirulahi Opeyemi Abdulkareem, Obed Honour Eje
-* **Abstract**: Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployment settings rarely have. We show that occlusion can be read off two distance estimates a camera-only...
+### 📄 VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
+* **arXiv ID**: [`2611.08449v1`](https://arxiv.org/abs/2611.08449v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Yu-Cheng Chou, Shihao Wang, Jin Huang, Chi-Pin Huang
+* **Abstract**: Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one co...
 
 
-### 📄 Procedural Adversarial Learning
-* **arXiv ID**: [`2611.06890v1`](https://arxiv.org/abs/2611.06890v1) | **Categories**: `cs.CV`
-* **Authors**: Jack Nugent, Jia Deng
-* **Abstract**: For many computer vision tasks, neural networks can be trained to produce a low average error, yet they still fail on seemingly simple scenes. Reducing these failures requires first finding them, but they may not be in a fixed dataset. We study procedural adversarial learning (PAL), a framework of m...
+### 📄 Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception
+* **arXiv ID**: [`2611.08441v1`](https://arxiv.org/abs/2611.08441v1) | **Categories**: `cs.CV, eess.IV`
+* **Authors**: Hongsen Cao, Chia-Yen Chiang, Mona Jaber, Meihui Wang
+* **Abstract**: Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics nor multi-model detection pipelines scale to continuous monitoring of perceived safety along a route. We present an edge-assisted crowdsensin...
 
 
 
