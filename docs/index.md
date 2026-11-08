@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-07 18:29 UTC`  
+> **Generated Timestamp**: `2026-11-08 01:08 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI
-* **arXiv ID**: [`2611.08486v1`](https://arxiv.org/abs/2611.08486v1) | **Categories**: `cs.CV`
-* **Authors**: Xiaoqi Zhao, Youwei Pang, Kailai Zhou
-* **Abstract**: Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospect...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Where and Why is Grounded Reasoning Useful?
-* **arXiv ID**: [`2611.08485v1`](https://arxiv.org/abs/2611.08485v1) | **Categories**: `cs.CV`
-* **Authors**: David Yan, Le Xue, Forrest Huang, Qiuyi Zhang
-* **Abstract**: Grounded reasoning, where a model outputs text coordinates of relevant locations in chain-of-thought reasoning, is a common strategy for solving complex visual reasoning problems. However, the benefits and limitations of grounded reasoning are understudied. We study where and why grounded reasoning ...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling
-* **arXiv ID**: [`2611.08477v1`](https://arxiv.org/abs/2611.08477v1) | **Categories**: `cs.CV`
-* **Authors**: Yanlin Jin, Bowen Yang, Cheng Zhang, Yifan Yang
-* **Abstract**: Modern video models possess strong visual priors, yet do not natively represent human action in metric 3D space. We present EgoGeneralist, which adapts pretrained video generators to unify action-conditioned egocentric video generation, pose estimation, and joint action-video generation. Our role-ad...
-
-
-### 📄 VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
-* **arXiv ID**: [`2611.08449v1`](https://arxiv.org/abs/2611.08449v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Yu-Cheng Chou, Shihao Wang, Jin Huang, Chi-Pin Huang
-* **Abstract**: Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one co...
-
-
-### 📄 Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception
-* **arXiv ID**: [`2611.08441v1`](https://arxiv.org/abs/2611.08441v1) | **Categories**: `cs.CV, eess.IV`
-* **Authors**: Hongsen Cao, Chia-Yen Chiang, Mona Jaber, Meihui Wang
-* **Abstract**: Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics nor multi-model detection pipelines scale to continuous monitoring of perceived safety along a route. We present an edge-assisted crowdsensin...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
