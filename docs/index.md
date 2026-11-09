@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-09 01:28 UTC`  
+> **Generated Timestamp**: `2026-11-09 15:27 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI
-* **arXiv ID**: [`2611.08486v1`](https://arxiv.org/abs/2611.08486v1) | **Categories**: `cs.CV`
-* **Authors**: Xiaoqi Zhao, Youwei Pang, Kailai Zhou
-* **Abstract**: Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospect...
+### 📄 Video-Coder: Reinforcing Agentic Coding for Video Generation
+* **arXiv ID**: [`2611.09894v1`](https://arxiv.org/abs/2611.09894v1) | **Categories**: `cs.CV`
+* **Authors**: Chaoyang Wang, Sicheng Gao, Junan Hu, Kunyang Li
+* **Abstract**: Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Code...
 
 
-### 📄 Where and Why is Grounded Reasoning Useful?
-* **arXiv ID**: [`2611.08485v1`](https://arxiv.org/abs/2611.08485v1) | **Categories**: `cs.CV`
-* **Authors**: David Yan, Le Xue, Forrest Huang, Qiuyi Zhang
-* **Abstract**: Grounded reasoning, where a model outputs text coordinates of relevant locations in chain-of-thought reasoning, is a common strategy for solving complex visual reasoning problems. However, the benefits and limitations of grounded reasoning are understudied. We study where and why grounded reasoning ...
+### 📄 On Agentic Manipulation Policies
+* **arXiv ID**: [`2611.09892v1`](https://arxiv.org/abs/2611.09892v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.LG`
+* **Authors**: Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji, Jesse T. Gonzalez
+* **Abstract**: Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze age...
 
 
-### 📄 EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling
-* **arXiv ID**: [`2611.08477v1`](https://arxiv.org/abs/2611.08477v1) | **Categories**: `cs.CV`
-* **Authors**: Yanlin Jin, Bowen Yang, Cheng Zhang, Yifan Yang
-* **Abstract**: Modern video models possess strong visual priors, yet do not natively represent human action in metric 3D space. We present EgoGeneralist, which adapts pretrained video generators to unify action-conditioned egocentric video generation, pose estimation, and joint action-video generation. Our role-ad...
+### 📄 FlowMoP: Stochastic Multi-Person Motion Prediction
+* **arXiv ID**: [`2611.09882v1`](https://arxiv.org/abs/2611.09882v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Aadya Agrawal, Ho Kei Cheng, Alexander Schwing
+* **Abstract**: Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods p...
 
 
-### 📄 VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding
-* **arXiv ID**: [`2611.08449v1`](https://arxiv.org/abs/2611.08449v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Yu-Cheng Chou, Shihao Wang, Jin Huang, Chi-Pin Huang
-* **Abstract**: Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one co...
+### 📄 ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations
+* **arXiv ID**: [`2611.09880v1`](https://arxiv.org/abs/2611.09880v1) | **Categories**: `cs.CV`
+* **Authors**: Aaron Sun, Yachan Liu, Ping Yang, Peng Bai
+* **Abstract**: Zeolites are an important class of porous crystalline materials with broad applications in gas storage, separations, and catalysis. Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying materials optimized for a target application remain...
 
 
-### 📄 Edge-Assisted Crowdsensing for Explainable Cyclist Safety Perception
-* **arXiv ID**: [`2611.08441v1`](https://arxiv.org/abs/2611.08441v1) | **Categories**: `cs.CV, eess.IV`
-* **Authors**: Hongsen Cao, Chia-Yen Chiang, Mona Jaber, Meihui Wang
-* **Abstract**: Cyclist fatality rates remain high despite policy support for active travel, and autonomous vehicles add complexity to mixed traffic. Neither crash statistics nor multi-model detection pipelines scale to continuous monitoring of perceived safety along a route. We present an edge-assisted crowdsensin...
+### 📄 Graded convolutional networks: scale invariance without the scale and robustness to unknown blur
+* **arXiv ID**: [`2611.09878v1`](https://arxiv.org/abs/2611.09878v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Tanush Shaska
+* **Abstract**: The Gaussian jet of an image is a graded vector space: a dilation by $λ$ multiplies derivatives of order $k$ by $λ^{-k}$. Local graded convolutions are exactly homogeneous differential operators, and a local feature is dilation-invariant if and only if it factors through the scale-normalized jet or,...
 
 
 
