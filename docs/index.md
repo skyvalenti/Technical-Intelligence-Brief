@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-09 15:56 UTC`  
+> **Generated Timestamp**: `2026-11-10 03:58 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Video-Coder: Reinforcing Agentic Coding for Video Generation
-* **arXiv ID**: [`2611.09894v1`](https://arxiv.org/abs/2611.09894v1) | **Categories**: `cs.CV`
-* **Authors**: Chaoyang Wang, Sicheng Gao, Junan Hu, Kunyang Li
-* **Abstract**: Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Code...
+### 📄 Semantic Synthesis over Brute-Force Search: LLM-Guided Transformation Design for Efficient Learning
+* **arXiv ID**: [`2611.10940v1`](https://arxiv.org/abs/2611.10940v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Usha Shrestha, Radu Timofte, Dmitry Ignatov
+* **Abstract**: Data transformation pipelines shape the training distribution in computer vision, but designing them is a computationally expensive problem. We investigate whether large language models can enable efficient discovery by synthesizing executable transformation programs outside predefined augmentation ...
 
 
-### 📄 On Agentic Manipulation Policies
-* **arXiv ID**: [`2611.09892v1`](https://arxiv.org/abs/2611.09892v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.LG`
-* **Authors**: Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji, Jesse T. Gonzalez
-* **Abstract**: Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze age...
+### 📄 Remembering to Reason: Structured Memory for Scene and Workflow Understanding in Robot-Assisted Surgery
+* **arXiv ID**: [`2611.10917v1`](https://arxiv.org/abs/2611.10917v1) | **Categories**: `cs.CV`
+* **Authors**: Zhiran Zhang, Hu Wang, Yichen Wu, Yutong Xie
+* **Abstract**: Surgical video understanding is an important foundation for intelligent assistance in robot-assisted surgery. Similar surgical views can reflect different actions or procedural stages. Interpreting these views requires access to earlier observations, yet frame-centric prompting leaves this history u...
 
 
-### 📄 FlowMoP: Stochastic Multi-Person Motion Prediction
-* **arXiv ID**: [`2611.09882v1`](https://arxiv.org/abs/2611.09882v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Aadya Agrawal, Ho Kei Cheng, Alexander Schwing
-* **Abstract**: Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods p...
+### 📄 Beyond Real or Fake: A Dual-Channel Authenticity and Reasoning Protocol for Photographic Assessment
+* **arXiv ID**: [`2611.10908v1`](https://arxiv.org/abs/2611.10908v1) | **Categories**: `cs.CV`
+* **Authors**: Xiaoxiao Li, Ruinan Jin, Lili Meng, Miaosen Wang
+* **Abstract**: Forensic verification has converged on a binary "real vs. fake" label that confates fully synthetic, tampered, and AI-retouched images despite their very different consequences. We argue that GenAI manipulations decompose along two complementary channels: a camera channel of sensor fingerprints (des...
 
 
-### 📄 ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations
-* **arXiv ID**: [`2611.09880v1`](https://arxiv.org/abs/2611.09880v1) | **Categories**: `cs.CV`
-* **Authors**: Aaron Sun, Yachan Liu, Ping Yang, Peng Bai
-* **Abstract**: Zeolites are an important class of porous crystalline materials with broad applications in gas storage, separations, and catalysis. Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying materials optimized for a target application remain...
+### 📄 REDiff-AD: No Training and No Target Masks for Industrial Anomaly Image Generation via Diversity-Driven In-Context MMDiT
+* **arXiv ID**: [`2611.10875v1`](https://arxiv.org/abs/2611.10875v1) | **Categories**: `cs.CV`
+* **Authors**: Chih-Yu Tsai, Chih-Heng Chang, Jian-Jiun Ding
+* **Abstract**: Industrial anomaly detection is challenged by the scarcity and diversity of real defects, leaving insufficient anomalous data to effectively train downstream models. Existing anomaly generation methods often require product-specific fine-tuning, target mask annotation, or costly procedures to achiev...
 
 
-### 📄 Graded convolutional networks: scale invariance without the scale and robustness to unknown blur
-* **arXiv ID**: [`2611.09878v1`](https://arxiv.org/abs/2611.09878v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Tanush Shaska
-* **Abstract**: The Gaussian jet of an image is a graded vector space: a dilation by $λ$ multiplies derivatives of order $k$ by $λ^{-k}$. Local graded convolutions are exactly homogeneous differential operators, and a local feature is dilation-invariant if and only if it factors through the scale-normalized jet or,...
+### 📄 Interactive Person Retrieval with On-the-Fly Visual Feedback
+* **arXiv ID**: [`2611.10869v1`](https://arxiv.org/abs/2611.10869v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Lyucheng Qian, John Yuehan Zhang, Pingyu Wang
+* **Abstract**: Traditional text-based person retrieval (TPR) assumes that a witness provides a complete description at once, whereas interactive person retrieval (Inter-PR) refines a partial description through question-answer exchanges. In this setting, the questioner inspects retrieved candidates to decide what ...
 
 
 
