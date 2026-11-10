@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-10 03:58 UTC`  
+> **Generated Timestamp**: `2026-11-10 14:28 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Semantic Synthesis over Brute-Force Search: LLM-Guided Transformation Design for Efficient Learning
-* **arXiv ID**: [`2611.10940v1`](https://arxiv.org/abs/2611.10940v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Usha Shrestha, Radu Timofte, Dmitry Ignatov
-* **Abstract**: Data transformation pipelines shape the training distribution in computer vision, but designing them is a computationally expensive problem. We investigate whether large language models can enable efficient discovery by synthesizing executable transformation programs outside predefined augmentation ...
+### 📄 Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning
+* **arXiv ID**: [`2611.12886v1`](https://arxiv.org/abs/2611.12886v1) | **Categories**: `cs.CV`
+* **Authors**: Haozhi Yuan, Handong Li, Yifan Zhang, Qianshan Wei
+* **Abstract**: Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the ev...
 
 
-### 📄 Remembering to Reason: Structured Memory for Scene and Workflow Understanding in Robot-Assisted Surgery
-* **arXiv ID**: [`2611.10917v1`](https://arxiv.org/abs/2611.10917v1) | **Categories**: `cs.CV`
-* **Authors**: Zhiran Zhang, Hu Wang, Yichen Wu, Yutong Xie
-* **Abstract**: Surgical video understanding is an important foundation for intelligent assistance in robot-assisted surgery. Similar surgical views can reflect different actions or procedural stages. Interpreting these views requires access to earlier observations, yet frame-centric prompting leaves this history u...
+### 📄 World In-Context Learning for Agentic Robot Manipulation
+* **arXiv ID**: [`2611.12885v1`](https://arxiv.org/abs/2611.12885v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Heng Fang, Zehui Guo, Yuehan Zhang, Mingyang Du
+* **Abstract**: Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the wor...
 
 
-### 📄 Beyond Real or Fake: A Dual-Channel Authenticity and Reasoning Protocol for Photographic Assessment
-* **arXiv ID**: [`2611.10908v1`](https://arxiv.org/abs/2611.10908v1) | **Categories**: `cs.CV`
-* **Authors**: Xiaoxiao Li, Ruinan Jin, Lili Meng, Miaosen Wang
-* **Abstract**: Forensic verification has converged on a binary "real vs. fake" label that confates fully synthetic, tampered, and AI-retouched images despite their very different consequences. We argue that GenAI manipulations decompose along two complementary channels: a camera channel of sensor fingerprints (des...
+### 📄 Guiding Data Allocation for Robust Subpopulation Generalization
+* **arXiv ID**: [`2611.12884v1`](https://arxiv.org/abs/2611.12884v1) | **Categories**: `cs.LG, cs.CV`
+* **Authors**: Zhaoying Pan, Yipei Wang, Shenyu Lu, Xiaoqian Wang
+* **Abstract**: Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced subgroup proportions, but full balance can be costly, infeasible, and not always necessary. In this ...
 
 
-### 📄 REDiff-AD: No Training and No Target Masks for Industrial Anomaly Image Generation via Diversity-Driven In-Context MMDiT
-* **arXiv ID**: [`2611.10875v1`](https://arxiv.org/abs/2611.10875v1) | **Categories**: `cs.CV`
-* **Authors**: Chih-Yu Tsai, Chih-Heng Chang, Jian-Jiun Ding
-* **Abstract**: Industrial anomaly detection is challenged by the scarcity and diversity of real defects, leaving insufficient anomalous data to effectively train downstream models. Existing anomaly generation methods often require product-specific fine-tuning, target mask annotation, or costly procedures to achiev...
+### 📄 Beyond Modality Preference: Controlling Multimodal Arbitration under Modality Conflict in MLLMs
+* **arXiv ID**: [`2611.12883v1`](https://arxiv.org/abs/2611.12883v1) | **Categories**: `cs.CV`
+* **Authors**: Zhaoying Pan, Shenyu Lu, Jun Hui Wong, Junyi Chai
+* **Abstract**: Multimodal large language models (MLLMs) integrate information across modalities, but become unreliable when those modalities disagree. Under conflicting inputs, MLLMs may favor modalities that are not the most reliable for the task, thus motivating inference-time control of modality arbitration. We...
 
 
-### 📄 Interactive Person Retrieval with On-the-Fly Visual Feedback
-* **arXiv ID**: [`2611.10869v1`](https://arxiv.org/abs/2611.10869v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Lyucheng Qian, John Yuehan Zhang, Pingyu Wang
-* **Abstract**: Traditional text-based person retrieval (TPR) assumes that a witness provides a complete description at once, whereas interactive person retrieval (Inter-PR) refines a partial description through question-answer exchanges. In this setting, the questioner inspects retrieved candidates to decide what ...
+### 📄 Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos
+* **arXiv ID**: [`2611.12879v1`](https://arxiv.org/abs/2611.12879v1) | **Categories**: `cs.CV`
+* **Authors**: Rustin Soraki, Matthew Wallingford, Ryan Aby, Brandon Chee
+* **Abstract**: To interact with an object, we need to anticipate both how it will move and how our hands should move with it. Human videos capture these relationships across everyday activities, offering a natural source for learning to predict future interactions. Learning from them requires recovering motion fro...
 
 
 

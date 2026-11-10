@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-10 03:58 UTC",
+  "generated_at": "2026-11-10 14:28 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,83 +229,86 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.10940v1",
-      "title": "Semantic Synthesis over Brute-Force Search: LLM-Guided Transformation Design for Efficient Learning",
+      "arxiv_id": "2611.12886v1",
+      "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the ev...",
+      "authors": [
+        "Haozhi Yuan",
+        "Handong Li",
+        "Yifan Zhang",
+        "Qianshan Wei"
+      ],
+      "url": "https://arxiv.org/abs/2611.12886v1",
+      "published_date": "2026-11-09"
+    },
+    {
+      "arxiv_id": "2611.12885v1",
+      "title": "World In-Context Learning for Agentic Robot Manipulation",
       "categories": [
         "cs.CV",
-        "cs.AI"
+        "cs.RO"
       ],
-      "summary": "Data transformation pipelines shape the training distribution in computer vision, but designing them is a computationally expensive problem. We investigate whether large language models can enable efficient discovery by synthesizing executable transformation programs outside predefined augmentation ...",
+      "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the wor...",
       "authors": [
-        "Usha Shrestha",
-        "Radu Timofte",
-        "Dmitry Ignatov"
+        "Heng Fang",
+        "Zehui Guo",
+        "Yuehan Zhang",
+        "Mingyang Du"
       ],
-      "url": "https://arxiv.org/abs/2611.10940v1",
-      "published_date": "2026-11-07"
+      "url": "https://arxiv.org/abs/2611.12885v1",
+      "published_date": "2026-11-09"
     },
     {
-      "arxiv_id": "2611.10917v1",
-      "title": "Remembering to Reason: Structured Memory for Scene and Workflow Understanding in Robot-Assisted Surgery",
+      "arxiv_id": "2611.12884v1",
+      "title": "Guiding Data Allocation for Robust Subpopulation Generalization",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "summary": "Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced subgroup proportions, but full balance can be costly, infeasible, and not always necessary. In this ...",
+      "authors": [
+        "Zhaoying Pan",
+        "Yipei Wang",
+        "Shenyu Lu",
+        "Xiaoqian Wang"
+      ],
+      "url": "https://arxiv.org/abs/2611.12884v1",
+      "published_date": "2026-11-09"
+    },
+    {
+      "arxiv_id": "2611.12883v1",
+      "title": "Beyond Modality Preference: Controlling Multimodal Arbitration under Modality Conflict in MLLMs",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Surgical video understanding is an important foundation for intelligent assistance in robot-assisted surgery. Similar surgical views can reflect different actions or procedural stages. Interpreting these views requires access to earlier observations, yet frame-centric prompting leaves this history u...",
+      "summary": "Multimodal large language models (MLLMs) integrate information across modalities, but become unreliable when those modalities disagree. Under conflicting inputs, MLLMs may favor modalities that are not the most reliable for the task, thus motivating inference-time control of modality arbitration. We...",
       "authors": [
-        "Zhiran Zhang",
-        "Hu Wang",
-        "Yichen Wu",
-        "Yutong Xie"
+        "Zhaoying Pan",
+        "Shenyu Lu",
+        "Jun Hui Wong",
+        "Junyi Chai"
       ],
-      "url": "https://arxiv.org/abs/2611.10917v1",
-      "published_date": "2026-11-07"
+      "url": "https://arxiv.org/abs/2611.12883v1",
+      "published_date": "2026-11-09"
     },
     {
-      "arxiv_id": "2611.10908v1",
-      "title": "Beyond Real or Fake: A Dual-Channel Authenticity and Reasoning Protocol for Photographic Assessment",
+      "arxiv_id": "2611.12879v1",
+      "title": "Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Forensic verification has converged on a binary \"real vs. fake\" label that confates fully synthetic, tampered, and AI-retouched images despite their very different consequences. We argue that GenAI manipulations decompose along two complementary channels: a camera channel of sensor fingerprints (des...",
+      "summary": "To interact with an object, we need to anticipate both how it will move and how our hands should move with it. Human videos capture these relationships across everyday activities, offering a natural source for learning to predict future interactions. Learning from them requires recovering motion fro...",
       "authors": [
-        "Xiaoxiao Li",
-        "Ruinan Jin",
-        "Lili Meng",
-        "Miaosen Wang"
+        "Rustin Soraki",
+        "Matthew Wallingford",
+        "Ryan Aby",
+        "Brandon Chee"
       ],
-      "url": "https://arxiv.org/abs/2611.10908v1",
-      "published_date": "2026-11-07"
-    },
-    {
-      "arxiv_id": "2611.10875v1",
-      "title": "REDiff-AD: No Training and No Target Masks for Industrial Anomaly Image Generation via Diversity-Driven In-Context MMDiT",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Industrial anomaly detection is challenged by the scarcity and diversity of real defects, leaving insufficient anomalous data to effectively train downstream models. Existing anomaly generation methods often require product-specific fine-tuning, target mask annotation, or costly procedures to achiev...",
-      "authors": [
-        "Chih-Yu Tsai",
-        "Chih-Heng Chang",
-        "Jian-Jiun Ding"
-      ],
-      "url": "https://arxiv.org/abs/2611.10875v1",
-      "published_date": "2026-11-07"
-    },
-    {
-      "arxiv_id": "2611.10869v1",
-      "title": "Interactive Person Retrieval with On-the-Fly Visual Feedback",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Traditional text-based person retrieval (TPR) assumes that a witness provides a complete description at once, whereas interactive person retrieval (Inter-PR) refines a partial description through question-answer exchanges. In this setting, the questioner inspects retrieved candidates to decide what ...",
-      "authors": [
-        "Lyucheng Qian",
-        "John Yuehan Zhang",
-        "Pingyu Wang"
-      ],
-      "url": "https://arxiv.org/abs/2611.10869v1",
-      "published_date": "2026-11-07"
+      "url": "https://arxiv.org/abs/2611.12879v1",
+      "published_date": "2026-11-09"
     }
   ]
 }
