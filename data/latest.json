@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-11 01:44 UTC",
+  "generated_at": "2026-11-11 13:42 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,86 +229,86 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.12886v1",
-      "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the ev...",
-      "authors": [
-        "Haozhi Yuan",
-        "Handong Li",
-        "Yifan Zhang",
-        "Qianshan Wei"
-      ],
-      "url": "https://arxiv.org/abs/2611.12886v1",
-      "published_date": "2026-11-09"
-    },
-    {
-      "arxiv_id": "2611.12885v1",
-      "title": "World In-Context Learning for Agentic Robot Manipulation",
+      "arxiv_id": "2611.14519v1",
+      "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
       "categories": [
         "cs.CV",
-        "cs.RO"
+        "cs.AI"
       ],
-      "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the wor...",
+      "summary": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whos...",
       "authors": [
-        "Heng Fang",
-        "Zehui Guo",
-        "Yuehan Zhang",
-        "Mingyang Du"
+        "Emre Kutlusan",
+        "Yongmin Li"
       ],
-      "url": "https://arxiv.org/abs/2611.12885v1",
-      "published_date": "2026-11-09"
+      "url": "https://arxiv.org/abs/2611.14519v1",
+      "published_date": "2026-11-10"
     },
     {
-      "arxiv_id": "2611.12884v1",
-      "title": "Guiding Data Allocation for Robust Subpopulation Generalization",
+      "arxiv_id": "2611.14518v1",
+      "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
       "categories": [
-        "cs.LG",
-        "cs.CV"
+        "cs.CV",
+        "cs.AI"
       ],
-      "summary": "Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced subgroup proportions, but full balance can be costly, infeasible, and not always necessary. In this ...",
+      "summary": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and th...",
       "authors": [
-        "Zhaoying Pan",
-        "Yipei Wang",
-        "Shenyu Lu",
-        "Xiaoqian Wang"
+        "Sheethal Bhat",
+        "Bogdan Georgescu",
+        "Awais Mansoor",
+        "Florin C. Ghesu"
       ],
-      "url": "https://arxiv.org/abs/2611.12884v1",
-      "published_date": "2026-11-09"
+      "url": "https://arxiv.org/abs/2611.14518v1",
+      "published_date": "2026-11-10"
     },
     {
-      "arxiv_id": "2611.12883v1",
-      "title": "Beyond Modality Preference: Controlling Multimodal Arbitration under Modality Conflict in MLLMs",
+      "arxiv_id": "2611.14498v1",
+      "title": "Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "q-bio.NC"
       ],
-      "summary": "Multimodal large language models (MLLMs) integrate information across modalities, but become unreliable when those modalities disagree. Under conflicting inputs, MLLMs may favor modalities that are not the most reliable for the task, thus motivating inference-time control of modality arbitration. We...",
+      "summary": "Biological visual systems compute reliably under tight metabolic and wiring constraints, whereas artificial vision systems consume far more energy and can be sensitive to adversarial perturbations. Whether networks with brain-like wiring are more robust at lower computational cost is unclear. We add...",
       "authors": [
-        "Zhaoying Pan",
-        "Shenyu Lu",
-        "Jun Hui Wong",
-        "Junyi Chai"
+        "Alexandre Garcia-Duran",
+        "Alejandro Rodriguez-Garcia",
+        "Manuel Molano-Mazón",
+        "Alexandre Hyafil"
       ],
-      "url": "https://arxiv.org/abs/2611.12883v1",
-      "published_date": "2026-11-09"
+      "url": "https://arxiv.org/abs/2611.14498v1",
+      "published_date": "2026-11-10"
     },
     {
-      "arxiv_id": "2611.12879v1",
-      "title": "Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos",
+      "arxiv_id": "2611.14496v1",
+      "title": "RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval",
       "categories": [
         "cs.CV"
       ],
-      "summary": "To interact with an object, we need to anticipate both how it will move and how our hands should move with it. Human videos capture these relationships across everyday activities, offering a natural source for learning to predict future interactions. Learning from them requires recovering motion fro...",
+      "summary": "Cross-sensor remote sensing image retrieval aims to find scenes with the same content across heterogeneous sensors, such as SAR and optical or panchromatic (PAN) and multispectral (MS) imagery, without manual labels. Existing self-supervised methods either reconstruct sensor-specific pixel detail, a...",
       "authors": [
-        "Rustin Soraki",
-        "Matthew Wallingford",
-        "Ryan Aby",
-        "Brandon Chee"
+        "Tanishq Rachamalla",
+        "Srishti Kaushik",
+        "Muhammad Attique Khan",
+        "Gustau Camps-Valls"
       ],
-      "url": "https://arxiv.org/abs/2611.12879v1",
-      "published_date": "2026-11-09"
+      "url": "https://arxiv.org/abs/2611.14496v1",
+      "published_date": "2026-11-10"
+    },
+    {
+      "arxiv_id": "2611.14483v1",
+      "title": "Mechanistic Interpretability Needs a Logic of Inference",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "summary": "Neural networks are increasingly studied not merely as predictive systems, but as complex systems whose internal computations are themselves objects of scientific inquiry. Recent progress in mechanistic interpretability (MI) has made it possible to identify neurons, features, circuits, population st...",
+      "authors": [
+        "Zhimin Hu",
+        "Chen Jiang",
+        "Hanbo Xie",
+        "N. Apurva Ratan Murty"
+      ],
+      "url": "https://arxiv.org/abs/2611.14483v1",
+      "published_date": "2026-11-10"
     }
   ]
 }

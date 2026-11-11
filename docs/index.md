@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-11 01:44 UTC`  
+> **Generated Timestamp**: `2026-11-11 13:42 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning
-* **arXiv ID**: [`2611.12886v1`](https://arxiv.org/abs/2611.12886v1) | **Categories**: `cs.CV`
-* **Authors**: Haozhi Yuan, Handong Li, Yifan Zhang, Qianshan Wei
-* **Abstract**: Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the ev...
+### 📄 Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training
+* **arXiv ID**: [`2611.14519v1`](https://arxiv.org/abs/2611.14519v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Emre Kutlusan, Yongmin Li
+* **Abstract**: Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whos...
 
 
-### 📄 World In-Context Learning for Agentic Robot Manipulation
-* **arXiv ID**: [`2611.12885v1`](https://arxiv.org/abs/2611.12885v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Heng Fang, Zehui Guo, Yuehan Zhang, Mingyang Du
-* **Abstract**: Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the wor...
+### 📄 Toward Foundation Detection Models via Example-Based Grounding in EM-DETR
+* **arXiv ID**: [`2611.14518v1`](https://arxiv.org/abs/2611.14518v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Sheethal Bhat, Bogdan Georgescu, Awais Mansoor, Florin C. Ghesu
+* **Abstract**: DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and th...
 
 
-### 📄 Guiding Data Allocation for Robust Subpopulation Generalization
-* **arXiv ID**: [`2611.12884v1`](https://arxiv.org/abs/2611.12884v1) | **Categories**: `cs.LG, cs.CV`
-* **Authors**: Zhaoying Pan, Yipei Wang, Shenyu Lu, Xiaoqian Wang
-* **Abstract**: Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced subgroup proportions, but full balance can be costly, infeasible, and not always necessary. In this ...
+### 📄 Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion
+* **arXiv ID**: [`2611.14498v1`](https://arxiv.org/abs/2611.14498v1) | **Categories**: `cs.CV, q-bio.NC`
+* **Authors**: Alexandre Garcia-Duran, Alejandro Rodriguez-Garcia, Manuel Molano-Mazón, Alexandre Hyafil
+* **Abstract**: Biological visual systems compute reliably under tight metabolic and wiring constraints, whereas artificial vision systems consume far more energy and can be sensitive to adversarial perturbations. Whether networks with brain-like wiring are more robust at lower computational cost is unclear. We add...
 
 
-### 📄 Beyond Modality Preference: Controlling Multimodal Arbitration under Modality Conflict in MLLMs
-* **arXiv ID**: [`2611.12883v1`](https://arxiv.org/abs/2611.12883v1) | **Categories**: `cs.CV`
-* **Authors**: Zhaoying Pan, Shenyu Lu, Jun Hui Wong, Junyi Chai
-* **Abstract**: Multimodal large language models (MLLMs) integrate information across modalities, but become unreliable when those modalities disagree. Under conflicting inputs, MLLMs may favor modalities that are not the most reliable for the task, thus motivating inference-time control of modality arbitration. We...
+### 📄 RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval
+* **arXiv ID**: [`2611.14496v1`](https://arxiv.org/abs/2611.14496v1) | **Categories**: `cs.CV`
+* **Authors**: Tanishq Rachamalla, Srishti Kaushik, Muhammad Attique Khan, Gustau Camps-Valls
+* **Abstract**: Cross-sensor remote sensing image retrieval aims to find scenes with the same content across heterogeneous sensors, such as SAR and optical or panchromatic (PAN) and multispectral (MS) imagery, without manual labels. Existing self-supervised methods either reconstruct sensor-specific pixel detail, a...
 
 
-### 📄 Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos
-* **arXiv ID**: [`2611.12879v1`](https://arxiv.org/abs/2611.12879v1) | **Categories**: `cs.CV`
-* **Authors**: Rustin Soraki, Matthew Wallingford, Ryan Aby, Brandon Chee
-* **Abstract**: To interact with an object, we need to anticipate both how it will move and how our hands should move with it. Human videos capture these relationships across everyday activities, offering a natural source for learning to predict future interactions. Learning from them requires recovering motion fro...
+### 📄 Mechanistic Interpretability Needs a Logic of Inference
+* **arXiv ID**: [`2611.14483v1`](https://arxiv.org/abs/2611.14483v1) | **Categories**: `cs.CL, cs.CV`
+* **Authors**: Zhimin Hu, Chen Jiang, Hanbo Xie, N. Apurva Ratan Murty
+* **Abstract**: Neural networks are increasingly studied not merely as predictive systems, but as complex systems whose internal computations are themselves objects of scientific inquiry. Recent progress in mechanistic interpretability (MI) has made it possible to identify neurons, features, circuits, population st...
 
 
 
