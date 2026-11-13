@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-13 02:26 UTC",
+  "generated_at": "2026-11-13 14:03 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,84 +229,85 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.15044v1",
-      "title": "Estimating Image Creativity",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.HC",
-        "cs.LG"
-      ],
-      "summary": "What makes an image creative? Although this may seem like a highly subjective decision, research in psychology suggests that creativity may be based on a set of fundamental creativity dimensions such as novelty, surprise, and arousal. A deeper understanding of image creativity can benefit both resea...",
-      "authors": [
-        "Nisan Chhetri",
-        "Christopher G. Healey",
-        "Sina Baghbanijam"
-      ],
-      "url": "https://arxiv.org/abs/2611.15044v1",
-      "published_date": "2026-11-11"
-    },
-    {
-      "arxiv_id": "2611.15041v1",
-      "title": "AROMA: Adaptive Representation-Oriented Multimodal Actuation for Vision-Language Model Control",
-      "categories": [
-        "cs.LG",
-        "cs.CL",
-        "cs.CV"
-      ],
-      "summary": "Mechanistic localization does not by itself yield usable control: causal sensitivity may occupy little activation energy, an accurate local direction may fail at finite scale, and a reachable numeral target may be wrong. We introduce AROMA (Adaptive Representation-Oriented Multimodal Actuation), a f...",
-      "authors": [
-        "Zhaoning Zhang"
-      ],
-      "url": "https://arxiv.org/abs/2611.15041v1",
-      "published_date": "2026-11-11"
-    },
-    {
-      "arxiv_id": "2611.15039v1",
-      "title": "Back to the Question: Tracing Visual Distraction Through Text Tokens",
+      "arxiv_id": "2611.17336v1",
+      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
       "categories": [
         "cs.CV"
       ],
-      "summary": "The visual world is cluttered: robust vision-language reasoning requires ignoring irrelevant information. Yet vision-language models (VLMs) can suffer substantial accuracy losses when answering questions about a target image with distractors present. Existing mitigations focus on selecting relevant ...",
+      "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of fr...",
       "authors": [
-        "Marie Amale Huynh",
-        "Regev Cohen",
-        "Serena Yeung-Levy",
-        "Sivan Doveh"
+        "Yanke Song",
+        "Shuo Chen",
+        "Chris Rockwell",
+        "Guande He"
       ],
-      "url": "https://arxiv.org/abs/2611.15039v1",
-      "published_date": "2026-11-11"
+      "url": "https://arxiv.org/abs/2611.17336v1",
+      "published_date": "2026-11-12"
     },
     {
-      "arxiv_id": "2611.15025v1",
-      "title": "Federated Class Incremental Learning: A Pseudo Feature Based Approach Without Exemplars",
+      "arxiv_id": "2611.17334v1",
+      "title": "Unbundling Multimodal Vision Encoding",
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
-      "summary": "Federated learning often assumes that data is fixed in advance, which is unrealistic in many real-world scenarios where new data continuously arrives, causing catastrophic forgetting. To address this challenge, we propose FCLPF (Federated Class Incremental Learning with Pseudo Features), a method th...",
+      "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior f...",
       "authors": [
-        "Min Kyoon Yoo",
-        "Yu Rang Park"
+        "Ellis Brown",
+        "Chris Hoang",
+        "Shengyi Qian",
+        "Shang-Wen Li"
       ],
-      "url": "https://arxiv.org/abs/2611.15025v1",
-      "published_date": "2026-11-11"
+      "url": "https://arxiv.org/abs/2611.17334v1",
+      "published_date": "2026-11-12"
     },
     {
-      "arxiv_id": "2611.14993v1",
-      "title": "Validation of a Facial-Video Digital Hydration Biomarker Score for Tracking Hydration State Transitions in a Real-World Fasting Model",
+      "arxiv_id": "2611.17331v1",
+      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Hydration influences physiology and daily function, yet repeated practical measurement in everyday settings remains limited. We present initial real-world evidence that a facial-video lifestyle digital biomarker score can track the direction of hydration state transitions. Using Ramadan fasting as a...",
+      "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking ...",
       "authors": [
-        "Yudara Kularathne",
-        "D. M. J. Prathapa",
-        "Thanveer Ahamed",
-        "Janindu Athukorala"
+        "Chin-Yang Lin",
+        "Ryo Hachiuma",
+        "Jaesung Choe",
+        "Min-Hung Chen"
       ],
-      "url": "https://arxiv.org/abs/2611.14993v1",
-      "published_date": "2026-11-11"
+      "url": "https://arxiv.org/abs/2611.17331v1",
+      "published_date": "2026-11-12"
+    },
+    {
+      "arxiv_id": "2611.17330v1",
+      "title": "ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "summary": "Vision language navigation (VLN) is very challenging for Unmanned Aerial Vehicles (UAVs) since small errors in 3D motion prediction can lead to navigation errors and collisions. Unable to fathom execution outcomes in 3D environments, existing methods often struggle to predict accurate navigation way...",
+      "authors": [
+        "Guangyuan Sui",
+        "Yunzhong Hou",
+        "Chi Harold Liu"
+      ],
+      "url": "https://arxiv.org/abs/2611.17330v1",
+      "published_date": "2026-11-12"
+    },
+    {
+      "arxiv_id": "2611.17324v1",
+      "title": "K2V: Generative Keyframing For Physically Plausible Video Generation",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Video diffusion models are able to generate samples with high-quality appearance and textural qualities. However, content produced by these methods is known to exhibit significant physical errors. This is because, in a classical video generation setting, all physical reasoning must take place simult...",
+      "authors": [
+        "Felix O'Mahony",
+        "Daniel Olmeda Reino",
+        "Roberto Cipolla",
+        "Ayush Tewari"
+      ],
+      "url": "https://arxiv.org/abs/2611.17324v1",
+      "published_date": "2026-11-12"
     }
   ]
 }

@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-13 02:26 UTC`  
+> **Generated Timestamp**: `2026-11-13 14:03 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Estimating Image Creativity
-* **arXiv ID**: [`2611.15044v1`](https://arxiv.org/abs/2611.15044v1) | **Categories**: `cs.CV, cs.AI, cs.HC, cs.LG`
-* **Authors**: Nisan Chhetri, Christopher G. Healey, Sina Baghbanijam
-* **Abstract**: What makes an image creative? Although this may seem like a highly subjective decision, research in psychology suggests that creativity may be based on a set of fundamental creativity dimensions such as novelty, surprise, and arousal. A deeper understanding of image creativity can benefit both resea...
+### 📄 Back to Pixels: Lifting Latent Video Diffusion into Pixel Space
+* **arXiv ID**: [`2611.17336v1`](https://arxiv.org/abs/2611.17336v1) | **Categories**: `cs.CV`
+* **Authors**: Yanke Song, Shuo Chen, Chris Rockwell, Guande He
+* **Abstract**: Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of fr...
 
 
-### 📄 AROMA: Adaptive Representation-Oriented Multimodal Actuation for Vision-Language Model Control
-* **arXiv ID**: [`2611.15041v1`](https://arxiv.org/abs/2611.15041v1) | **Categories**: `cs.LG, cs.CL, cs.CV`
-* **Authors**: Zhaoning Zhang
-* **Abstract**: Mechanistic localization does not by itself yield usable control: causal sensitivity may occupy little activation energy, an accurate local direction may fail at finite scale, and a reachable numeral target may be wrong. We introduce AROMA (Adaptive Representation-Oriented Multimodal Actuation), a f...
+### 📄 Unbundling Multimodal Vision Encoding
+* **arXiv ID**: [`2611.17334v1`](https://arxiv.org/abs/2611.17334v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Ellis Brown, Chris Hoang, Shengyi Qian, Shang-Wen Li
+* **Abstract**: How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior f...
 
 
-### 📄 Back to the Question: Tracing Visual Distraction Through Text Tokens
-* **arXiv ID**: [`2611.15039v1`](https://arxiv.org/abs/2611.15039v1) | **Categories**: `cs.CV`
-* **Authors**: Marie Amale Huynh, Regev Cohen, Serena Yeung-Levy, Sivan Doveh
-* **Abstract**: The visual world is cluttered: robust vision-language reasoning requires ignoring irrelevant information. Yet vision-language models (VLMs) can suffer substantial accuracy losses when answering questions about a target image with distractors present. Existing mitigations focus on selecting relevant ...
+### 📄 TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models
+* **arXiv ID**: [`2611.17331v1`](https://arxiv.org/abs/2611.17331v1) | **Categories**: `cs.CV`
+* **Authors**: Chin-Yang Lin, Ryo Hachiuma, Jaesung Choe, Min-Hung Chen
+* **Abstract**: Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking ...
 
 
-### 📄 Federated Class Incremental Learning: A Pseudo Feature Based Approach Without Exemplars
-* **arXiv ID**: [`2611.15025v1`](https://arxiv.org/abs/2611.15025v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Min Kyoon Yoo, Yu Rang Park
-* **Abstract**: Federated learning often assumes that data is fixed in advance, which is unrealistic in many real-world scenarios where new data continuously arrives, causing catastrophic forgetting. To address this challenge, we propose FCLPF (Federated Class Incremental Learning with Pseudo Features), a method th...
+### 📄 ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation
+* **arXiv ID**: [`2611.17330v1`](https://arxiv.org/abs/2611.17330v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Guangyuan Sui, Yunzhong Hou, Chi Harold Liu
+* **Abstract**: Vision language navigation (VLN) is very challenging for Unmanned Aerial Vehicles (UAVs) since small errors in 3D motion prediction can lead to navigation errors and collisions. Unable to fathom execution outcomes in 3D environments, existing methods often struggle to predict accurate navigation way...
 
 
-### 📄 Validation of a Facial-Video Digital Hydration Biomarker Score for Tracking Hydration State Transitions in a Real-World Fasting Model
-* **arXiv ID**: [`2611.14993v1`](https://arxiv.org/abs/2611.14993v1) | **Categories**: `cs.CV`
-* **Authors**: Yudara Kularathne, D. M. J. Prathapa, Thanveer Ahamed, Janindu Athukorala
-* **Abstract**: Hydration influences physiology and daily function, yet repeated practical measurement in everyday settings remains limited. We present initial real-world evidence that a facial-video lifestyle digital biomarker score can track the direction of hydration state transitions. Using Ramadan fasting as a...
+### 📄 K2V: Generative Keyframing For Physically Plausible Video Generation
+* **arXiv ID**: [`2611.17324v1`](https://arxiv.org/abs/2611.17324v1) | **Categories**: `cs.CV`
+* **Authors**: Felix O'Mahony, Daniel Olmeda Reino, Roberto Cipolla, Ayush Tewari
+* **Abstract**: Video diffusion models are able to generate samples with high-quality appearance and textural qualities. However, content produced by these methods is known to exhibit significant physical errors. This is because, in a classical video generation setting, all physical reasoning must take place simult...
 
 
 
