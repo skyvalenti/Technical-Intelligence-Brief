@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-12 14:45 UTC",
+  "generated_at": "2026-11-13 02:26 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,86 +229,84 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.14519v1",
-      "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+      "arxiv_id": "2611.15044v1",
+      "title": "Estimating Image Creativity",
       "categories": [
         "cs.CV",
-        "cs.AI"
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
       ],
-      "summary": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whos...",
+      "summary": "What makes an image creative? Although this may seem like a highly subjective decision, research in psychology suggests that creativity may be based on a set of fundamental creativity dimensions such as novelty, surprise, and arousal. A deeper understanding of image creativity can benefit both resea...",
       "authors": [
-        "Emre Kutlusan",
-        "Yongmin Li"
+        "Nisan Chhetri",
+        "Christopher G. Healey",
+        "Sina Baghbanijam"
       ],
-      "url": "https://arxiv.org/abs/2611.14519v1",
-      "published_date": "2026-11-10"
+      "url": "https://arxiv.org/abs/2611.15044v1",
+      "published_date": "2026-11-11"
     },
     {
-      "arxiv_id": "2611.14518v1",
-      "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+      "arxiv_id": "2611.15041v1",
+      "title": "AROMA: Adaptive Representation-Oriented Multimodal Actuation for Vision-Language Model Control",
       "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and th...",
-      "authors": [
-        "Sheethal Bhat",
-        "Bogdan Georgescu",
-        "Awais Mansoor",
-        "Florin C. Ghesu"
-      ],
-      "url": "https://arxiv.org/abs/2611.14518v1",
-      "published_date": "2026-11-10"
-    },
-    {
-      "arxiv_id": "2611.14498v1",
-      "title": "Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion",
-      "categories": [
-        "cs.CV",
-        "q-bio.NC"
-      ],
-      "summary": "Biological visual systems compute reliably under tight metabolic and wiring constraints, whereas artificial vision systems consume far more energy and can be sensitive to adversarial perturbations. Whether networks with brain-like wiring are more robust at lower computational cost is unclear. We add...",
-      "authors": [
-        "Alexandre Garcia-Duran",
-        "Alejandro Rodriguez-Garcia",
-        "Manuel Molano-Mazón",
-        "Alexandre Hyafil"
-      ],
-      "url": "https://arxiv.org/abs/2611.14498v1",
-      "published_date": "2026-11-10"
-    },
-    {
-      "arxiv_id": "2611.14496v1",
-      "title": "RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Cross-sensor remote sensing image retrieval aims to find scenes with the same content across heterogeneous sensors, such as SAR and optical or panchromatic (PAN) and multispectral (MS) imagery, without manual labels. Existing self-supervised methods either reconstruct sensor-specific pixel detail, a...",
-      "authors": [
-        "Tanishq Rachamalla",
-        "Srishti Kaushik",
-        "Muhammad Attique Khan",
-        "Gustau Camps-Valls"
-      ],
-      "url": "https://arxiv.org/abs/2611.14496v1",
-      "published_date": "2026-11-10"
-    },
-    {
-      "arxiv_id": "2611.14483v1",
-      "title": "Mechanistic Interpretability Needs a Logic of Inference",
-      "categories": [
+        "cs.LG",
         "cs.CL",
         "cs.CV"
       ],
-      "summary": "Neural networks are increasingly studied not merely as predictive systems, but as complex systems whose internal computations are themselves objects of scientific inquiry. Recent progress in mechanistic interpretability (MI) has made it possible to identify neurons, features, circuits, population st...",
+      "summary": "Mechanistic localization does not by itself yield usable control: causal sensitivity may occupy little activation energy, an accurate local direction may fail at finite scale, and a reachable numeral target may be wrong. We introduce AROMA (Adaptive Representation-Oriented Multimodal Actuation), a f...",
       "authors": [
-        "Zhimin Hu",
-        "Chen Jiang",
-        "Hanbo Xie",
-        "N. Apurva Ratan Murty"
+        "Zhaoning Zhang"
       ],
-      "url": "https://arxiv.org/abs/2611.14483v1",
-      "published_date": "2026-11-10"
+      "url": "https://arxiv.org/abs/2611.15041v1",
+      "published_date": "2026-11-11"
+    },
+    {
+      "arxiv_id": "2611.15039v1",
+      "title": "Back to the Question: Tracing Visual Distraction Through Text Tokens",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "The visual world is cluttered: robust vision-language reasoning requires ignoring irrelevant information. Yet vision-language models (VLMs) can suffer substantial accuracy losses when answering questions about a target image with distractors present. Existing mitigations focus on selecting relevant ...",
+      "authors": [
+        "Marie Amale Huynh",
+        "Regev Cohen",
+        "Serena Yeung-Levy",
+        "Sivan Doveh"
+      ],
+      "url": "https://arxiv.org/abs/2611.15039v1",
+      "published_date": "2026-11-11"
+    },
+    {
+      "arxiv_id": "2611.15025v1",
+      "title": "Federated Class Incremental Learning: A Pseudo Feature Based Approach Without Exemplars",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "summary": "Federated learning often assumes that data is fixed in advance, which is unrealistic in many real-world scenarios where new data continuously arrives, causing catastrophic forgetting. To address this challenge, we propose FCLPF (Federated Class Incremental Learning with Pseudo Features), a method th...",
+      "authors": [
+        "Min Kyoon Yoo",
+        "Yu Rang Park"
+      ],
+      "url": "https://arxiv.org/abs/2611.15025v1",
+      "published_date": "2026-11-11"
+    },
+    {
+      "arxiv_id": "2611.14993v1",
+      "title": "Validation of a Facial-Video Digital Hydration Biomarker Score for Tracking Hydration State Transitions in a Real-World Fasting Model",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Hydration influences physiology and daily function, yet repeated practical measurement in everyday settings remains limited. We present initial real-world evidence that a facial-video lifestyle digital biomarker score can track the direction of hydration state transitions. Using Ramadan fasting as a...",
+      "authors": [
+        "Yudara Kularathne",
+        "D. M. J. Prathapa",
+        "Thanveer Ahamed",
+        "Janindu Athukorala"
+      ],
+      "url": "https://arxiv.org/abs/2611.14993v1",
+      "published_date": "2026-11-11"
     }
   ]
 }

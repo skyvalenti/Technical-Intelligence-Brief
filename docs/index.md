@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-12 14:45 UTC`  
+> **Generated Timestamp**: `2026-11-13 02:26 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training
-* **arXiv ID**: [`2611.14519v1`](https://arxiv.org/abs/2611.14519v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Emre Kutlusan, Yongmin Li
-* **Abstract**: Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whos...
+### 📄 Estimating Image Creativity
+* **arXiv ID**: [`2611.15044v1`](https://arxiv.org/abs/2611.15044v1) | **Categories**: `cs.CV, cs.AI, cs.HC, cs.LG`
+* **Authors**: Nisan Chhetri, Christopher G. Healey, Sina Baghbanijam
+* **Abstract**: What makes an image creative? Although this may seem like a highly subjective decision, research in psychology suggests that creativity may be based on a set of fundamental creativity dimensions such as novelty, surprise, and arousal. A deeper understanding of image creativity can benefit both resea...
 
 
-### 📄 Toward Foundation Detection Models via Example-Based Grounding in EM-DETR
-* **arXiv ID**: [`2611.14518v1`](https://arxiv.org/abs/2611.14518v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Sheethal Bhat, Bogdan Georgescu, Awais Mansoor, Florin C. Ghesu
-* **Abstract**: DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and th...
+### 📄 AROMA: Adaptive Representation-Oriented Multimodal Actuation for Vision-Language Model Control
+* **arXiv ID**: [`2611.15041v1`](https://arxiv.org/abs/2611.15041v1) | **Categories**: `cs.LG, cs.CL, cs.CV`
+* **Authors**: Zhaoning Zhang
+* **Abstract**: Mechanistic localization does not by itself yield usable control: causal sensitivity may occupy little activation energy, an accurate local direction may fail at finite scale, and a reachable numeral target may be wrong. We introduce AROMA (Adaptive Representation-Oriented Multimodal Actuation), a f...
 
 
-### 📄 Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion
-* **arXiv ID**: [`2611.14498v1`](https://arxiv.org/abs/2611.14498v1) | **Categories**: `cs.CV, q-bio.NC`
-* **Authors**: Alexandre Garcia-Duran, Alejandro Rodriguez-Garcia, Manuel Molano-Mazón, Alexandre Hyafil
-* **Abstract**: Biological visual systems compute reliably under tight metabolic and wiring constraints, whereas artificial vision systems consume far more energy and can be sensitive to adversarial perturbations. Whether networks with brain-like wiring are more robust at lower computational cost is unclear. We add...
+### 📄 Back to the Question: Tracing Visual Distraction Through Text Tokens
+* **arXiv ID**: [`2611.15039v1`](https://arxiv.org/abs/2611.15039v1) | **Categories**: `cs.CV`
+* **Authors**: Marie Amale Huynh, Regev Cohen, Serena Yeung-Levy, Sivan Doveh
+* **Abstract**: The visual world is cluttered: robust vision-language reasoning requires ignoring irrelevant information. Yet vision-language models (VLMs) can suffer substantial accuracy losses when answering questions about a target image with distractors present. Existing mitigations focus on selecting relevant ...
 
 
-### 📄 RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval
-* **arXiv ID**: [`2611.14496v1`](https://arxiv.org/abs/2611.14496v1) | **Categories**: `cs.CV`
-* **Authors**: Tanishq Rachamalla, Srishti Kaushik, Muhammad Attique Khan, Gustau Camps-Valls
-* **Abstract**: Cross-sensor remote sensing image retrieval aims to find scenes with the same content across heterogeneous sensors, such as SAR and optical or panchromatic (PAN) and multispectral (MS) imagery, without manual labels. Existing self-supervised methods either reconstruct sensor-specific pixel detail, a...
+### 📄 Federated Class Incremental Learning: A Pseudo Feature Based Approach Without Exemplars
+* **arXiv ID**: [`2611.15025v1`](https://arxiv.org/abs/2611.15025v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Min Kyoon Yoo, Yu Rang Park
+* **Abstract**: Federated learning often assumes that data is fixed in advance, which is unrealistic in many real-world scenarios where new data continuously arrives, causing catastrophic forgetting. To address this challenge, we propose FCLPF (Federated Class Incremental Learning with Pseudo Features), a method th...
 
 
-### 📄 Mechanistic Interpretability Needs a Logic of Inference
-* **arXiv ID**: [`2611.14483v1`](https://arxiv.org/abs/2611.14483v1) | **Categories**: `cs.CL, cs.CV`
-* **Authors**: Zhimin Hu, Chen Jiang, Hanbo Xie, N. Apurva Ratan Murty
-* **Abstract**: Neural networks are increasingly studied not merely as predictive systems, but as complex systems whose internal computations are themselves objects of scientific inquiry. Recent progress in mechanistic interpretability (MI) has made it possible to identify neurons, features, circuits, population st...
+### 📄 Validation of a Facial-Video Digital Hydration Biomarker Score for Tracking Hydration State Transitions in a Real-World Fasting Model
+* **arXiv ID**: [`2611.14993v1`](https://arxiv.org/abs/2611.14993v1) | **Categories**: `cs.CV`
+* **Authors**: Yudara Kularathne, D. M. J. Prathapa, Thanveer Ahamed, Janindu Athukorala
+* **Abstract**: Hydration influences physiology and daily function, yet repeated practical measurement in everyday settings remains limited. We present initial real-world evidence that a facial-video lifestyle digital biomarker score can track the direction of hydration state transitions. Using Ramadan fasting as a...
 
 
 
