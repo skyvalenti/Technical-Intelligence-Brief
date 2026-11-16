@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-16 01:36 UTC`  
+> **Generated Timestamp**: `2026-11-16 15:03 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations
+* **arXiv ID**: [`2611.18559v1`](https://arxiv.org/abs/2611.18559v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Genki Kinoshita, Ko Nishino
+* **Abstract**: Learning semantically meaningful human movement representations from 3D pose sequences is essential for human behavior modeling. Existing self-supervised methods derive supervision from artificial assumptions, e.g., invariance to augmentation within a certain range or recoverability of masked region...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 Restoring Diversity in Distilled Image and Video Generators by Probing Activations
+* **arXiv ID**: [`2611.18550v1`](https://arxiv.org/abs/2611.18550v1) | **Categories**: `cs.CV`
+* **Authors**: Furkan Horoz, Ozgur Kara, Kaan Oktay, Adil Kaan Akan
+* **Abstract**: Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing the internal representa...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 JVT: Just Video Transformer makes pixel-space video diffusion simple
+* **arXiv ID**: [`2611.18549v1`](https://arxiv.org/abs/2611.18549v1) | **Categories**: `cs.CV`
+* **Authors**: Jianjun Zhou, Hua Geng, Haoyu Guo
+* **Abstract**: Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencod...
+
+
+### 📄 Understanding Contextual Bias in Agricultural CNNs Through Hidden-Neuron Concept Induction
+* **arXiv ID**: [`2611.18530v1`](https://arxiv.org/abs/2611.18530v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Abhilekha Dalal, Avishek Das, Samatha Ereshi Akkamahadevi
+* **Abstract**: Convolutional Neural Networks (CNNs) can classify images using background-dominated patches that contain little or none of the target object, showing that they exploit contextual information. Previous studies detected this behavior through classification accuracy but say little about what CNN hidden...
+
+
+### 📄 EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation
+* **arXiv ID**: [`2611.18524v1`](https://arxiv.org/abs/2611.18524v1) | **Categories**: `cs.AR, cs.CV, cs.NE`
+* **Authors**: Amir Mohammad Khadem Hosseini, Sattar Mirzakuchaki
+* **Abstract**: Event-camera segmentation requires persistent neural state despite sparse input events, making memory organization a central constraint on embedded implementation. We present EventSpikeSeg, a mixed-signal architecture combining resident capacitor memory with shared analog processing in GF180MCU 180-...
 
 
 
