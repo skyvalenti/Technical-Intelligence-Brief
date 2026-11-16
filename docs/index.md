@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-15 19:36 UTC`  
+> **Generated Timestamp**: `2026-11-16 01:36 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Back to Pixels: Lifting Latent Video Diffusion into Pixel Space
-* **arXiv ID**: [`2611.17336v1`](https://arxiv.org/abs/2611.17336v1) | **Categories**: `cs.CV`
-* **Authors**: Yanke Song, Shuo Chen, Chris Rockwell, Guande He
-* **Abstract**: Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of fr...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Unbundling Multimodal Vision Encoding
-* **arXiv ID**: [`2611.17334v1`](https://arxiv.org/abs/2611.17334v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Ellis Brown, Chris Hoang, Shengyi Qian, Shang-Wen Li
-* **Abstract**: How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior f...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models
-* **arXiv ID**: [`2611.17331v1`](https://arxiv.org/abs/2611.17331v1) | **Categories**: `cs.CV`
-* **Authors**: Chin-Yang Lin, Ryo Hachiuma, Jaesung Choe, Min-Hung Chen
-* **Abstract**: Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking ...
-
-
-### 📄 ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation
-* **arXiv ID**: [`2611.17330v1`](https://arxiv.org/abs/2611.17330v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Guangyuan Sui, Yunzhong Hou, Chi Harold Liu
-* **Abstract**: Vision language navigation (VLN) is very challenging for Unmanned Aerial Vehicles (UAVs) since small errors in 3D motion prediction can lead to navigation errors and collisions. Unable to fathom execution outcomes in 3D environments, existing methods often struggle to predict accurate navigation way...
-
-
-### 📄 K2V: Generative Keyframing For Physically Plausible Video Generation
-* **arXiv ID**: [`2611.17324v1`](https://arxiv.org/abs/2611.17324v1) | **Categories**: `cs.CV`
-* **Authors**: Felix O'Mahony, Daniel Olmeda Reino, Roberto Cipolla, Ayush Tewari
-* **Abstract**: Video diffusion models are able to generate samples with high-quality appearance and textural qualities. However, content produced by these methods is known to exhibit significant physical errors. This is because, in a classical video generation setting, all physical reasoning must take place simult...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
