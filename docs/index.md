@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-16 15:30 UTC`  
+> **Generated Timestamp**: `2026-11-17 04:20 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations
-* **arXiv ID**: [`2611.18559v1`](https://arxiv.org/abs/2611.18559v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Genki Kinoshita, Ko Nishino
-* **Abstract**: Learning semantically meaningful human movement representations from 3D pose sequences is essential for human behavior modeling. Existing self-supervised methods derive supervision from artificial assumptions, e.g., invariance to augmentation within a certain range or recoverability of masked region...
+### 📄 Streaming across viewing conditions - The effect of viewing distance and display luminance on video quality
+* **arXiv ID**: [`2611.20226v1`](https://arxiv.org/abs/2611.20226v1) | **Categories**: `eess.IV, cs.CV, cs.MM`
+* **Authors**: Dounia Hammou, Lukáš Krasula, Christos G. Bampis, Zhi Li
+* **Abstract**: The visibility of streamed video distortions is affected by the user's display and viewing conditions, such as their display's luminance or the viewing distance. Distortions become less visible at lower luminance levels or farther viewing distances. However, most image and video quality metrics assu...
 
 
-### 📄 Restoring Diversity in Distilled Image and Video Generators by Probing Activations
-* **arXiv ID**: [`2611.18550v1`](https://arxiv.org/abs/2611.18550v1) | **Categories**: `cs.CV`
-* **Authors**: Furkan Horoz, Ozgur Kara, Kaan Oktay, Adil Kaan Akan
-* **Abstract**: Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing the internal representa...
+### 📄 Ocular Recognition: Interoperability, Multi-Resolution, and Spectrum Challenges
+* **arXiv ID**: [`2611.20219v1`](https://arxiv.org/abs/2611.20219v1) | **Categories**: `cs.CV`
+* **Authors**: Fabian Stockhardt, Juan E. Tapia, Christoph Busch
+* **Abstract**: Ocular recognition is typically developed under controlled acquisition conditions, limiting its use in semi-controlled and on-the-move scenarios. A key obstacle is the lack of representative data spanning real-world capture conditions. At a border checkpoint, for example, images may range from low-r...
 
 
-### 📄 JVT: Just Video Transformer makes pixel-space video diffusion simple
-* **arXiv ID**: [`2611.18549v1`](https://arxiv.org/abs/2611.18549v1) | **Categories**: `cs.CV`
-* **Authors**: Jianjun Zhou, Hua Geng, Haoyu Guo
-* **Abstract**: Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencod...
+### 📄 AstroPIE-53: Towards Understanding Failure Modes of Human Pose Estimation in Space
+* **arXiv ID**: [`2611.20207v1`](https://arxiv.org/abs/2611.20207v1) | **Categories**: `cs.CV`
+* **Authors**: Stephanie Käs, Marten Flaig, Lukas Woyke, Osmanalp Ömeroğlu
+* **Abstract**: Reliable monitoring of astronauts is essential for safety, situational awareness, and autonomous assistance in space missions. While modern computer vision enables accurate human detection and pose estimation on Earth, its robustness in space environments remains largely unquantified due to limited ...
 
 
-### 📄 Understanding Contextual Bias in Agricultural CNNs Through Hidden-Neuron Concept Induction
-* **arXiv ID**: [`2611.18530v1`](https://arxiv.org/abs/2611.18530v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Abhilekha Dalal, Avishek Das, Samatha Ereshi Akkamahadevi
-* **Abstract**: Convolutional Neural Networks (CNNs) can classify images using background-dominated patches that contain little or none of the target object, showing that they exploit contextual information. Previous studies detected this behavior through classification accuracy but say little about what CNN hidden...
+### 📄 Radar Panoptic Transformer: Semantic-Guided Mask Queries for Dynamic Scene Understanding
+* **arXiv ID**: [`2611.20203v1`](https://arxiv.org/abs/2611.20203v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Mayank Mayank, Bharanidhar Duraisamy, Rohit Mohan, Abhinav Valada
+* **Abstract**: Automotive radar provides long-range sensing and direct Doppler velocity measurements, but its sparse and non-uniformly sampled point clouds pose significant challenges for panoptic segmentation. Dynamic objects often yield only a few detections amid a dominant static background, providing limiting ...
 
 
-### 📄 EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation
-* **arXiv ID**: [`2611.18524v1`](https://arxiv.org/abs/2611.18524v1) | **Categories**: `cs.AR, cs.CV, cs.NE`
-* **Authors**: Amir Mohammad Khadem Hosseini, Sattar Mirzakuchaki
-* **Abstract**: Event-camera segmentation requires persistent neural state despite sparse input events, making memory organization a central constraint on embedded implementation. We present EventSpikeSeg, a mixed-signal architecture combining resident capacitor memory with shared analog processing in GF180MCU 180-...
+### 📄 DoF-Query Transformer for Adaptive Fusion of Egocentric Vision and Forearm HD-sEMG in Continuous Hand Kinematics
+* **arXiv ID**: [`2611.20196v1`](https://arxiv.org/abs/2611.20196v1) | **Categories**: `cs.CV, cs.HC, cs.LG`
+* **Authors**: Jiahang Liu, Wenbo Zhang, Junsong Wang, Zhenzhi Ying
+* **Abstract**: Continuous and accurate estimation of human hand kinematics is important not only for intuitive human-machine interaction, but also for capturing fine-grained human manipulation demonstrations that can provide action supervision for embodied-intelligence datasets and dexterous robot learning. Howeve...
 
 
 
