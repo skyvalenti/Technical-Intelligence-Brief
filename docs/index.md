@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-17 04:20 UTC`  
+> **Generated Timestamp**: `2026-11-17 15:37 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Streaming across viewing conditions - The effect of viewing distance and display luminance on video quality
-* **arXiv ID**: [`2611.20226v1`](https://arxiv.org/abs/2611.20226v1) | **Categories**: `eess.IV, cs.CV, cs.MM`
-* **Authors**: Dounia Hammou, Lukáš Krasula, Christos G. Bampis, Zhi Li
-* **Abstract**: The visibility of streamed video distortions is affected by the user's display and viewing conditions, such as their display's luminance or the viewing distance. Distortions become less visible at lower luminance levels or farther viewing distances. However, most image and video quality metrics assu...
+### 📄 ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization
+* **arXiv ID**: [`2611.21605v1`](https://arxiv.org/abs/2611.21605v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Huawei Lin, Jinting Liu, Tongyan Wang, Xuyang Chen
+* **Abstract**: Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward ...
 
 
-### 📄 Ocular Recognition: Interoperability, Multi-Resolution, and Spectrum Challenges
-* **arXiv ID**: [`2611.20219v1`](https://arxiv.org/abs/2611.20219v1) | **Categories**: `cs.CV`
-* **Authors**: Fabian Stockhardt, Juan E. Tapia, Christoph Busch
-* **Abstract**: Ocular recognition is typically developed under controlled acquisition conditions, limiting its use in semi-controlled and on-the-move scenarios. A key obstacle is the lack of representative data spanning real-world capture conditions. At a border checkpoint, for example, images may range from low-r...
+### 📄 FaceJev: Direct Visual Decisions for Face Forgery Detection
+* **arXiv ID**: [`2611.21604v1`](https://arxiv.org/abs/2611.21604v1) | **Categories**: `cs.CV`
+* **Authors**: Siran Peng, Tianshuo Zhang, Yibo Xue, Ajian Liu
+* **Abstract**: Face forgery detection methods often perform well on seen manipulations but generalize poorly to unseen ones. Multimodal Large Language Models (MLLMs) can recognize facial parts and assess their visual plausibility. Existing MLLM-based methods typically express these judgments through textual explan...
 
 
-### 📄 AstroPIE-53: Towards Understanding Failure Modes of Human Pose Estimation in Space
-* **arXiv ID**: [`2611.20207v1`](https://arxiv.org/abs/2611.20207v1) | **Categories**: `cs.CV`
-* **Authors**: Stephanie Käs, Marten Flaig, Lukas Woyke, Osmanalp Ömeroğlu
-* **Abstract**: Reliable monitoring of astronauts is essential for safety, situational awareness, and autonomous assistance in space missions. While modern computer vision enables accurate human detection and pose estimation on Earth, its robustness in space environments remains largely unquantified due to limited ...
+### 📄 How VLMs Plan What's Next
+* **arXiv ID**: [`2611.21600v1`](https://arxiv.org/abs/2611.21600v1) | **Categories**: `cs.CV, cs.CL, cs.LG`
+* **Authors**: Rohit Gandikota, Arnab Sen Sharma, Adam Belfki, David Bau
+* **Abstract**: When a vision-language model describes an image, it names one object at a time and it rarely repeats itself, yet how the model plans this order is far from obvious. We characterize the mechanism a VLM uses to decide where to look before it looks. The mechanism has four main parts. First, binding hea...
 
 
-### 📄 Radar Panoptic Transformer: Semantic-Guided Mask Queries for Dynamic Scene Understanding
-* **arXiv ID**: [`2611.20203v1`](https://arxiv.org/abs/2611.20203v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Mayank Mayank, Bharanidhar Duraisamy, Rohit Mohan, Abhinav Valada
-* **Abstract**: Automotive radar provides long-range sensing and direct Doppler velocity measurements, but its sparse and non-uniformly sampled point clouds pose significant challenges for panoptic segmentation. Dynamic objects often yield only a few detections amid a dominant static background, providing limiting ...
+### 📄 When Do Histology Foundation Models Need Geometric Test-Time Augmentation?
+* **arXiv ID**: [`2611.21565v1`](https://arxiv.org/abs/2611.21565v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Lars Chen, Valentino F. Foit, Dorry Segev, Michal Mankowski
+* **Abstract**: Test-time augmentation (TTA) aggregates model predictions across multiple transformed views of an input during inference. Because histology images lack a canonical orientation, $D_4$ TTA---pooling across the 8 rotations and reflections of a square---is a standard default in computational pathology. ...
 
 
-### 📄 DoF-Query Transformer for Adaptive Fusion of Egocentric Vision and Forearm HD-sEMG in Continuous Hand Kinematics
-* **arXiv ID**: [`2611.20196v1`](https://arxiv.org/abs/2611.20196v1) | **Categories**: `cs.CV, cs.HC, cs.LG`
-* **Authors**: Jiahang Liu, Wenbo Zhang, Junsong Wang, Zhenzhi Ying
-* **Abstract**: Continuous and accurate estimation of human hand kinematics is important not only for intuitive human-machine interaction, but also for capturing fine-grained human manipulation demonstrations that can provide action supervision for embodied-intelligence datasets and dexterous robot learning. Howeve...
+### 📄 Wildfire-SSR: Geolocation-Aware Multimodal Fusion for Structure-Level Wildfire Risk Assessment
+* **arXiv ID**: [`2611.21563v1`](https://arxiv.org/abs/2611.21563v1) | **Categories**: `cs.CV`
+* **Authors**: Yu-Hsuan Ho, Yiming Xiao, Hao-En Lai, Ali Mostafavi
+* **Abstract**: Structure-level wildfire vulnerability assessment is critical for reducing losses in wildland-urban interface communities, yet existing methods often fail to combine parcel-scale ignition pathways with community-scale geographic coverage. This study introduces Wildfire-SSR (Satellite and Street-view...
 
 
 
