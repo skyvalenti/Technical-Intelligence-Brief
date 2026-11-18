@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-17 15:37 UTC`  
+> **Generated Timestamp**: `2026-11-18 03:21 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization
-* **arXiv ID**: [`2611.21605v1`](https://arxiv.org/abs/2611.21605v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Huawei Lin, Jinting Liu, Tongyan Wang, Xuyang Chen
-* **Abstract**: Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward ...
+### 📄 Know When to Zoom: How Small Is Too Small for Vision-Language Models?
+* **arXiv ID**: [`2611.22709v1`](https://arxiv.org/abs/2611.22709v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Siddharth Vohra, Min Xu
+* **Abstract**: Online vision-language models often miss small details in large images, because the service shrinks the image, or rejects it, before the model ever sees it. A car 20 pixels wide in an 8000 by 6000 drone photo reaches Claude about 6 pixels wide, and OpenAI's default rejects the photo outright. We mea...
 
 
-### 📄 FaceJev: Direct Visual Decisions for Face Forgery Detection
-* **arXiv ID**: [`2611.21604v1`](https://arxiv.org/abs/2611.21604v1) | **Categories**: `cs.CV`
-* **Authors**: Siran Peng, Tianshuo Zhang, Yibo Xue, Ajian Liu
-* **Abstract**: Face forgery detection methods often perform well on seen manipulations but generalize poorly to unseen ones. Multimodal Large Language Models (MLLMs) can recognize facial parts and assess their visual plausibility. Existing MLLM-based methods typically express these judgments through textual explan...
+### 📄 Social Signal Bench: Evidence-Weighted Evaluation of Co-occurring Social Signals in Video and Audio
+* **arXiv ID**: [`2611.22704v1`](https://arxiv.org/abs/2611.22704v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Siddharth Ravi, Anders R. Bargum, Hugo Anselme, Patrizio Cugia di Sant'Orsola
+* **Abstract**: Recognizing social signals such as interest and hesitation requires interpreting context-dependent behaviors that may co-occur in conversation. Existing affective computing benchmarks rarely evaluate such co-occurring signals, and conventional multi-label F1 overlooks semantic relationships and anno...
 
 
-### 📄 How VLMs Plan What's Next
-* **arXiv ID**: [`2611.21600v1`](https://arxiv.org/abs/2611.21600v1) | **Categories**: `cs.CV, cs.CL, cs.LG`
-* **Authors**: Rohit Gandikota, Arnab Sen Sharma, Adam Belfki, David Bau
-* **Abstract**: When a vision-language model describes an image, it names one object at a time and it rarely repeats itself, yet how the model plans this order is far from obvious. We characterize the mechanism a VLM uses to decide where to look before it looks. The mechanism has four main parts. First, binding hea...
+### 📄 TANGO: Real-World Unregistered RGB-Guided Hyperspectral Super-Resolution with Two-Camera Acquisitions
+* **arXiv ID**: [`2611.22699v1`](https://arxiv.org/abs/2611.22699v1) | **Categories**: `cs.CV`
+* **Authors**: Matteo Kolyszko, Marco Buzzelli, Simone Bianco, Raimondo Schettini
+* **Abstract**: Unregistered hyperspectral image super-resolution aims to recover a high-resolution HSI from a low-resolution hyperspectral observation and an unregistered high-resolution RGB reference. Although recent methods have begun to address the geometric misalignment between the two modalities, their evalua...
 
 
-### 📄 When Do Histology Foundation Models Need Geometric Test-Time Augmentation?
-* **arXiv ID**: [`2611.21565v1`](https://arxiv.org/abs/2611.21565v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Lars Chen, Valentino F. Foit, Dorry Segev, Michal Mankowski
-* **Abstract**: Test-time augmentation (TTA) aggregates model predictions across multiple transformed views of an input during inference. Because histology images lack a canonical orientation, $D_4$ TTA---pooling across the 8 rotations and reflections of a square---is a standard default in computational pathology. ...
+### 📄 CascadeJEPA: Enhancing 3D Geometric Representations via Spatially Coupled Cascaded Prediction
+* **arXiv ID**: [`2611.22686v1`](https://arxiv.org/abs/2611.22686v1) | **Categories**: `cs.CV`
+* **Authors**: Kailai Zhou, Ziqi Chen, Xiaoning Xu, Yuefeng Wu
+* **Abstract**: Joint-Embedding Predictive Architectures (JEPAs) have emerged as a promising paradigm for predictive visual representation learning. However, our analysis of I-JEPA reveals a growing discrepancy between semantic and geometric learning: improved semantic recognition during pretraining is accompanied ...
 
 
-### 📄 Wildfire-SSR: Geolocation-Aware Multimodal Fusion for Structure-Level Wildfire Risk Assessment
-* **arXiv ID**: [`2611.21563v1`](https://arxiv.org/abs/2611.21563v1) | **Categories**: `cs.CV`
-* **Authors**: Yu-Hsuan Ho, Yiming Xiao, Hao-En Lai, Ali Mostafavi
-* **Abstract**: Structure-level wildfire vulnerability assessment is critical for reducing losses in wildland-urban interface communities, yet existing methods often fail to combine parcel-scale ignition pathways with community-scale geographic coverage. This study introduces Wildfire-SSR (Satellite and Street-view...
+### 📄 Classification of Tissues on MALDI-MSI Image Modality for Pancreatic Cancer Studies
+* **arXiv ID**: [`2611.22680v1`](https://arxiv.org/abs/2611.22680v1) | **Categories**: `cs.CV`
+* **Authors**: Abubakar Qahir, Jenny Benois-Pineau, Victoria Bourgeais, Fabien Baldacci
+* **Abstract**: Mass Spectrometry Imaging (MSI) spatially maps molecular distributions in tissue sections. Despite the availability of preprocessing tools for MSI data, building end-to-end workflows suitable for deep learning remains challenging. We have developed a fully automated pipeline for transformation of ra...
 
 
 

@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-17 15:37 UTC",
+  "generated_at": "2026-11-18 03:21 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,88 +229,84 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.21605v1",
-      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+      "arxiv_id": "2611.22709v1",
+      "title": "Know When to Zoom: How Small Is Too Small for Vision-Language Models?",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
-      "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward ...",
+      "summary": "Online vision-language models often miss small details in large images, because the service shrinks the image, or rejects it, before the model ever sees it. A car 20 pixels wide in an 8000 by 6000 drone photo reaches Claude about 6 pixels wide, and OpenAI's default rejects the photo outright. We mea...",
       "authors": [
-        "Huawei Lin",
-        "Jinting Liu",
-        "Tongyan Wang",
-        "Xuyang Chen"
+        "Siddharth Vohra",
+        "Min Xu"
       ],
-      "url": "https://arxiv.org/abs/2611.21605v1",
-      "published_date": "2026-11-16"
+      "url": "https://arxiv.org/abs/2611.22709v1",
+      "published_date": "2026-11-17"
     },
     {
-      "arxiv_id": "2611.21604v1",
-      "title": "FaceJev: Direct Visual Decisions for Face Forgery Detection",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Face forgery detection methods often perform well on seen manipulations but generalize poorly to unseen ones. Multimodal Large Language Models (MLLMs) can recognize facial parts and assess their visual plausibility. Existing MLLM-based methods typically express these judgments through textual explan...",
-      "authors": [
-        "Siran Peng",
-        "Tianshuo Zhang",
-        "Yibo Xue",
-        "Ajian Liu"
-      ],
-      "url": "https://arxiv.org/abs/2611.21604v1",
-      "published_date": "2026-11-16"
-    },
-    {
-      "arxiv_id": "2611.21600v1",
-      "title": "How VLMs Plan What's Next",
-      "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "summary": "When a vision-language model describes an image, it names one object at a time and it rarely repeats itself, yet how the model plans this order is far from obvious. We characterize the mechanism a VLM uses to decide where to look before it looks. The mechanism has four main parts. First, binding hea...",
-      "authors": [
-        "Rohit Gandikota",
-        "Arnab Sen Sharma",
-        "Adam Belfki",
-        "David Bau"
-      ],
-      "url": "https://arxiv.org/abs/2611.21600v1",
-      "published_date": "2026-11-16"
-    },
-    {
-      "arxiv_id": "2611.21565v1",
-      "title": "When Do Histology Foundation Models Need Geometric Test-Time Augmentation?",
+      "arxiv_id": "2611.22704v1",
+      "title": "Social Signal Bench: Evidence-Weighted Evaluation of Co-occurring Social Signals in Video and Audio",
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
-      "summary": "Test-time augmentation (TTA) aggregates model predictions across multiple transformed views of an input during inference. Because histology images lack a canonical orientation, $D_4$ TTA---pooling across the 8 rotations and reflections of a square---is a standard default in computational pathology. ...",
+      "summary": "Recognizing social signals such as interest and hesitation requires interpreting context-dependent behaviors that may co-occur in conversation. Existing affective computing benchmarks rarely evaluate such co-occurring signals, and conventional multi-label F1 overlooks semantic relationships and anno...",
       "authors": [
-        "Lars Chen",
-        "Valentino F. Foit",
-        "Dorry Segev",
-        "Michal Mankowski"
+        "Siddharth Ravi",
+        "Anders R. Bargum",
+        "Hugo Anselme",
+        "Patrizio Cugia di Sant'Orsola"
       ],
-      "url": "https://arxiv.org/abs/2611.21565v1",
-      "published_date": "2026-11-16"
+      "url": "https://arxiv.org/abs/2611.22704v1",
+      "published_date": "2026-11-17"
     },
     {
-      "arxiv_id": "2611.21563v1",
-      "title": "Wildfire-SSR: Geolocation-Aware Multimodal Fusion for Structure-Level Wildfire Risk Assessment",
+      "arxiv_id": "2611.22699v1",
+      "title": "TANGO: Real-World Unregistered RGB-Guided Hyperspectral Super-Resolution with Two-Camera Acquisitions",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Structure-level wildfire vulnerability assessment is critical for reducing losses in wildland-urban interface communities, yet existing methods often fail to combine parcel-scale ignition pathways with community-scale geographic coverage. This study introduces Wildfire-SSR (Satellite and Street-view...",
+      "summary": "Unregistered hyperspectral image super-resolution aims to recover a high-resolution HSI from a low-resolution hyperspectral observation and an unregistered high-resolution RGB reference. Although recent methods have begun to address the geometric misalignment between the two modalities, their evalua...",
       "authors": [
-        "Yu-Hsuan Ho",
-        "Yiming Xiao",
-        "Hao-En Lai",
-        "Ali Mostafavi"
+        "Matteo Kolyszko",
+        "Marco Buzzelli",
+        "Simone Bianco",
+        "Raimondo Schettini"
       ],
-      "url": "https://arxiv.org/abs/2611.21563v1",
-      "published_date": "2026-11-16"
+      "url": "https://arxiv.org/abs/2611.22699v1",
+      "published_date": "2026-11-17"
+    },
+    {
+      "arxiv_id": "2611.22686v1",
+      "title": "CascadeJEPA: Enhancing 3D Geometric Representations via Spatially Coupled Cascaded Prediction",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Joint-Embedding Predictive Architectures (JEPAs) have emerged as a promising paradigm for predictive visual representation learning. However, our analysis of I-JEPA reveals a growing discrepancy between semantic and geometric learning: improved semantic recognition during pretraining is accompanied ...",
+      "authors": [
+        "Kailai Zhou",
+        "Ziqi Chen",
+        "Xiaoning Xu",
+        "Yuefeng Wu"
+      ],
+      "url": "https://arxiv.org/abs/2611.22686v1",
+      "published_date": "2026-11-17"
+    },
+    {
+      "arxiv_id": "2611.22680v1",
+      "title": "Classification of Tissues on MALDI-MSI Image Modality for Pancreatic Cancer Studies",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Mass Spectrometry Imaging (MSI) spatially maps molecular distributions in tissue sections. Despite the availability of preprocessing tools for MSI data, building end-to-end workflows suitable for deep learning remains challenging. We have developed a fully automated pipeline for transformation of ra...",
+      "authors": [
+        "Abubakar Qahir",
+        "Jenny Benois-Pineau",
+        "Victoria Bourgeais",
+        "Fabien Baldacci"
+      ],
+      "url": "https://arxiv.org/abs/2611.22680v1",
+      "published_date": "2026-11-17"
     }
   ]
 }
