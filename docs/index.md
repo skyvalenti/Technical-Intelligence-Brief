@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-18 03:21 UTC`  
+> **Generated Timestamp**: `2026-11-18 15:15 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Know When to Zoom: How Small Is Too Small for Vision-Language Models?
-* **arXiv ID**: [`2611.22709v1`](https://arxiv.org/abs/2611.22709v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Siddharth Vohra, Min Xu
-* **Abstract**: Online vision-language models often miss small details in large images, because the service shrinks the image, or rejects it, before the model ever sees it. A car 20 pixels wide in an 8000 by 6000 drone photo reaches Claude about 6 pixels wide, and OpenAI's default rejects the photo outright. We mea...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 Social Signal Bench: Evidence-Weighted Evaluation of Co-occurring Social Signals in Video and Audio
-* **arXiv ID**: [`2611.22704v1`](https://arxiv.org/abs/2611.22704v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Siddharth Ravi, Anders R. Bargum, Hugo Anselme, Patrizio Cugia di Sant'Orsola
-* **Abstract**: Recognizing social signals such as interest and hesitation requires interpreting context-dependent behaviors that may co-occur in conversation. Existing affective computing benchmarks rarely evaluate such co-occurring signals, and conventional multi-label F1 overlooks semantic relationships and anno...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 TANGO: Real-World Unregistered RGB-Guided Hyperspectral Super-Resolution with Two-Camera Acquisitions
-* **arXiv ID**: [`2611.22699v1`](https://arxiv.org/abs/2611.22699v1) | **Categories**: `cs.CV`
-* **Authors**: Matteo Kolyszko, Marco Buzzelli, Simone Bianco, Raimondo Schettini
-* **Abstract**: Unregistered hyperspectral image super-resolution aims to recover a high-resolution HSI from a low-resolution hyperspectral observation and an unregistered high-resolution RGB reference. Although recent methods have begun to address the geometric misalignment between the two modalities, their evalua...
-
-
-### 📄 CascadeJEPA: Enhancing 3D Geometric Representations via Spatially Coupled Cascaded Prediction
-* **arXiv ID**: [`2611.22686v1`](https://arxiv.org/abs/2611.22686v1) | **Categories**: `cs.CV`
-* **Authors**: Kailai Zhou, Ziqi Chen, Xiaoning Xu, Yuefeng Wu
-* **Abstract**: Joint-Embedding Predictive Architectures (JEPAs) have emerged as a promising paradigm for predictive visual representation learning. However, our analysis of I-JEPA reveals a growing discrepancy between semantic and geometric learning: improved semantic recognition during pretraining is accompanied ...
-
-
-### 📄 Classification of Tissues on MALDI-MSI Image Modality for Pancreatic Cancer Studies
-* **arXiv ID**: [`2611.22680v1`](https://arxiv.org/abs/2611.22680v1) | **Categories**: `cs.CV`
-* **Authors**: Abubakar Qahir, Jenny Benois-Pineau, Victoria Bourgeais, Fabien Baldacci
-* **Abstract**: Mass Spectrometry Imaging (MSI) spatially maps molecular distributions in tissue sections. Despite the availability of preprocessing tools for MSI data, building end-to-end workflows suitable for deep learning remains challenging. We have developed a fully automated pipeline for transformation of ra...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 

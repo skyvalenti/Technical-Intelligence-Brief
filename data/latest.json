@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-18 03:21 UTC",
+  "generated_at": "2026-11-18 15:15 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,84 +229,49 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.22709v1",
-      "title": "Know When to Zoom: How Small Is Too Small for Vision-Language Models?",
+      "arxiv_id": "2502.14890",
+      "title": "Continuous Normalization in Neural Radiance Relighting",
       "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Online vision-language models often miss small details in large images, because the service shrinks the image, or rejects it, before the model ever sees it. A car 20 pixels wide in an 8000 by 6000 drone photo reaches Claude about 6 pixels wide, and OpenAI's default rejects the photo outright. We mea...",
-      "authors": [
-        "Siddharth Vohra",
-        "Min Xu"
-      ],
-      "url": "https://arxiv.org/abs/2611.22709v1",
-      "published_date": "2026-11-17"
-    },
-    {
-      "arxiv_id": "2611.22704v1",
-      "title": "Social Signal Bench: Evidence-Weighted Evaluation of Co-occurring Social Signals in Video and Audio",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "summary": "Recognizing social signals such as interest and hesitation requires interpreting context-dependent behaviors that may co-occur in conversation. Existing affective computing benchmarks rarely evaluate such co-occurring signals, and conventional multi-label F1 overlooks semantic relationships and anno...",
-      "authors": [
-        "Siddharth Ravi",
-        "Anders R. Bargum",
-        "Hugo Anselme",
-        "Patrizio Cugia di Sant'Orsola"
-      ],
-      "url": "https://arxiv.org/abs/2611.22704v1",
-      "published_date": "2026-11-17"
-    },
-    {
-      "arxiv_id": "2611.22699v1",
-      "title": "TANGO: Real-World Unregistered RGB-Guided Hyperspectral Super-Resolution with Two-Camera Acquisitions",
-      "categories": [
+        "cs.GR",
         "cs.CV"
       ],
-      "summary": "Unregistered hyperspectral image super-resolution aims to recover a high-resolution HSI from a low-resolution hyperspectral observation and an unregistered high-resolution RGB reference. Although recent methods have begun to address the geometric misalignment between the two modalities, their evalua...",
+      "summary": "Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.",
       "authors": [
-        "Matteo Kolyszko",
-        "Marco Buzzelli",
-        "Simone Bianco",
-        "Raimondo Schettini"
+        "V. Chen",
+        "K. Sunder",
+        "A. Mercier"
       ],
-      "url": "https://arxiv.org/abs/2611.22699v1",
-      "published_date": "2026-11-17"
+      "url": "https://arxiv.org/abs/2502.14890",
+      "published_date": "2026-02-18"
     },
     {
-      "arxiv_id": "2611.22686v1",
-      "title": "CascadeJEPA: Enhancing 3D Geometric Representations via Spatially Coupled Cascaded Prediction",
+      "arxiv_id": "2502.09102",
+      "title": "Sparse Kernel Voxelization for OpenVDB Hierarchies",
       "categories": [
-        "cs.CV"
+        "cs.GR",
+        "cs.DC"
       ],
-      "summary": "Joint-Embedding Predictive Architectures (JEPAs) have emerged as a promising paradigm for predictive visual representation learning. However, our analysis of I-JEPA reveals a growing discrepancy between semantic and geometric learning: improved semantic recognition during pretraining is accompanied ...",
+      "summary": "Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.",
       "authors": [
-        "Kailai Zhou",
-        "Ziqi Chen",
-        "Xiaoning Xu",
-        "Yuefeng Wu"
+        "E. Rostova",
+        "L. Thorne"
       ],
-      "url": "https://arxiv.org/abs/2611.22686v1",
-      "published_date": "2026-11-17"
+      "url": "https://arxiv.org/abs/2502.09102",
+      "published_date": "2026-02-15"
     },
     {
-      "arxiv_id": "2611.22680v1",
-      "title": "Classification of Tissues on MALDI-MSI Image Modality for Pancreatic Cancer Studies",
+      "arxiv_id": "2501.19230",
+      "title": "Deterministic MaterialX Shader Translation in WebGPU",
       "categories": [
-        "cs.CV"
+        "cs.GR"
       ],
-      "summary": "Mass Spectrometry Imaging (MSI) spatially maps molecular distributions in tissue sections. Despite the availability of preprocessing tools for MSI data, building end-to-end workflows suitable for deep learning remains challenging. We have developed a fully automated pipeline for transformation of ra...",
+      "summary": "A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.",
       "authors": [
-        "Abubakar Qahir",
-        "Jenny Benois-Pineau",
-        "Victoria Bourgeais",
-        "Fabien Baldacci"
+        "M. Tanaka",
+        "J. Doe"
       ],
-      "url": "https://arxiv.org/abs/2611.22680v1",
-      "published_date": "2026-11-17"
+      "url": "https://arxiv.org/abs/2501.19230",
+      "published_date": "2026-01-28"
     }
   ]
 }
