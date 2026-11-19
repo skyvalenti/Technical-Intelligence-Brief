@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-19 02:57 UTC`  
+> **Generated Timestamp**: `2026-11-19 15:22 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop
-* **arXiv ID**: [`2611.23855v1`](https://arxiv.org/abs/2611.23855v1) | **Categories**: `cs.AI, cs.CV, cs.RO`
-* **Authors**: Ghadi Nehme, Dahyun Nam, Akshay Govind Srinivasan, Faez Ahmed
-* **Abstract**: Can AI agents design robots that work in the real world? We introduce RoboBuilder, a benchmark in which coding agents co-design a robot's hardware and program from standard parts, motors and a custom 3D-printed part, and every design that passes in simulation is built and tested on a physical course...
+### 📄 UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation
+* **arXiv ID**: [`2611.24941v1`](https://arxiv.org/abs/2611.24941v1) | **Categories**: `cs.CV`
+* **Authors**: Jingzhi Bao, Xiaohe Ma, Hong Li, Yuanming Hu
+* **Abstract**: Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle...
 
 
-### 📄 ReflectScene:MLLM-Guided Closed-Loop Diffusion for 3D Indoor Scene Generation
-* **arXiv ID**: [`2611.23845v1`](https://arxiv.org/abs/2611.23845v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Jiawei Shen, Jie Feng, Junpeng Zhang, Guanbin Li
-* **Abstract**: Text-conditioned 3D indoor scene generation requires layouts satisfying geometric, functional, and semantic constraints. However, existing diffusion methods rely primarily on static textual conditions, limiting their ability to assess evolving scenes and translate semantic discrepancies into executa...
+### 📄 $Z$-sight: Unifying Vision-Language-Action and Latent World Modeling
+* **arXiv ID**: [`2611.24940v1`](https://arxiv.org/abs/2611.24940v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Junjie Ye, Yiqi Zhao, Muchen Xu, Celina Shiyu Wang
+* **Abstract**: We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent lat...
 
 
-### 📄 TOGBench: Benchmarking and Improving Tiny-Object Generation Fidelity in Aerial Imagery
-* **arXiv ID**: [`2611.23840v1`](https://arxiv.org/abs/2611.23840v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Chanhwi Jeong, Dongmin You, Seungwook Kim
-* **Abstract**: Advances in deep generative models now enable the synthesis of realistic imagery. However, aerial imagery is dominated by tiny objects, such as vehicles, ships, and aircraft, which occupy only a few pixels owing to the overhead, wide-area nature of aerial imaging. Existing generative models struggle...
+### 📄 Unified Law for Visual Tasks (The Four Laws of Computer Vision)
+* **arXiv ID**: [`2611.24917v1`](https://arxiv.org/abs/2611.24917v1) | **Categories**: `cs.CV`
+* **Authors**: Sen Fang, Yalin Feng, Yancheng Zhang, Yanxin Zhang
+* **Abstract**: In this paper, we propose a Unified Law for Visual Tasks, which could be further divided into Four Laws of Computer Vision, with the goal of enabling a single framework or method to uniformly train on and perform nearly all visual tasks. Our starting point is an inspiration and hypothesis: if the wo...
 
 
-### 📄 Mapping the Design Space of Feature Sampling for Optical Flow
-* **arXiv ID**: [`2611.23822v1`](https://arxiv.org/abs/2611.23822v1) | **Categories**: `cs.CV`
-* **Authors**: Liping Zhang
-* **Abstract**: The computation of correlation features is crucial for optical flow estimation. Existing methods (e.g., RAFT) perform fixed-radius lookups on a cost volume, yielding a set of correlation features for each position; alternatively, WAFT performs single-point feature indexing, yielding one correlation ...
+### 📄 PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration
+* **arXiv ID**: [`2611.24915v1`](https://arxiv.org/abs/2611.24915v1) | **Categories**: `cs.CV`
+* **Authors**: Zhaocheng Yu, Kui Jiang, Jing Cao, Yiang Chen
+* **Abstract**: Agentic image restoration composes operations to handle mixed degradations, yet its toolbox often requires storing multiple restoration networks. We propose PrismRestore, which constructs a compact bank of callable restoration actions from a single frozen all-in-one model. Our approach builds on tas...
 
 
-### 📄 SWIFT: Slow World, Instant Freshness, and Timely Action for Asynchronous Autonomous Driving
-* **arXiv ID**: [`2611.23813v1`](https://arxiv.org/abs/2611.23813v1) | **Categories**: `cs.CV`
-* **Authors**: Jiazhe Wang, Tianyi Yang, Ruihang Li, Fan Lu
-* **Abstract**: Driving scenes keep changing during model computation, making both observation freshness and action-delivery time central to world-action planning. To retain rich generative world priors in autonomous driving without stalling real-time control, we present SWIFT (Slow World, Instant Freshness, and Ti...
+### 📄 ShadowTransfer: A Geographic Transfer Benchmark for Overhead Shadow Detection
+* **arXiv ID**: [`2611.24904v1`](https://arxiv.org/abs/2611.24904v1) | **Categories**: `cs.CV`
+* **Authors**: Shagun Mittal, Raymond A. Yeh, Satish Ukkusuri
+* **Abstract**: Overhead aerial imagery feeds dense-prediction pipelines that are routinely trained in one geographic region and deployed in another, yet no benchmark measures how shadow detection models transfer across regions. Existing overhead shadow datasets either lack a geographic transfer protocol or rely on...
 
 
 

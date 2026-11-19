@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-19 02:57 UTC",
+  "generated_at": "2026-11-19 15:22 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,83 +229,83 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.23855v1",
-      "title": "RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop",
-      "categories": [
-        "cs.AI",
-        "cs.CV",
-        "cs.RO"
-      ],
-      "summary": "Can AI agents design robots that work in the real world? We introduce RoboBuilder, a benchmark in which coding agents co-design a robot's hardware and program from standard parts, motors and a custom 3D-printed part, and every design that passes in simulation is built and tested on a physical course...",
-      "authors": [
-        "Ghadi Nehme",
-        "Dahyun Nam",
-        "Akshay Govind Srinivasan",
-        "Faez Ahmed"
-      ],
-      "url": "https://arxiv.org/abs/2611.23855v1",
-      "published_date": "2026-11-18"
-    },
-    {
-      "arxiv_id": "2611.23845v1",
-      "title": "ReflectScene:MLLM-Guided Closed-Loop Diffusion for 3D Indoor Scene Generation",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Text-conditioned 3D indoor scene generation requires layouts satisfying geometric, functional, and semantic constraints. However, existing diffusion methods rely primarily on static textual conditions, limiting their ability to assess evolving scenes and translate semantic discrepancies into executa...",
-      "authors": [
-        "Jiawei Shen",
-        "Jie Feng",
-        "Junpeng Zhang",
-        "Guanbin Li"
-      ],
-      "url": "https://arxiv.org/abs/2611.23845v1",
-      "published_date": "2026-11-18"
-    },
-    {
-      "arxiv_id": "2611.23840v1",
-      "title": "TOGBench: Benchmarking and Improving Tiny-Object Generation Fidelity in Aerial Imagery",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Advances in deep generative models now enable the synthesis of realistic imagery. However, aerial imagery is dominated by tiny objects, such as vehicles, ships, and aircraft, which occupy only a few pixels owing to the overhead, wide-area nature of aerial imaging. Existing generative models struggle...",
-      "authors": [
-        "Chanhwi Jeong",
-        "Dongmin You",
-        "Seungwook Kim"
-      ],
-      "url": "https://arxiv.org/abs/2611.23840v1",
-      "published_date": "2026-11-18"
-    },
-    {
-      "arxiv_id": "2611.23822v1",
-      "title": "Mapping the Design Space of Feature Sampling for Optical Flow",
+      "arxiv_id": "2611.24941v1",
+      "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
       "categories": [
         "cs.CV"
       ],
-      "summary": "The computation of correlation features is crucial for optical flow estimation. Existing methods (e.g., RAFT) perform fixed-radius lookups on a cost volume, yielding a set of correlation features for each position; alternatively, WAFT performs single-point feature indexing, yielding one correlation ...",
+      "summary": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle...",
       "authors": [
-        "Liping Zhang"
+        "Jingzhi Bao",
+        "Xiaohe Ma",
+        "Hong Li",
+        "Yuanming Hu"
       ],
-      "url": "https://arxiv.org/abs/2611.23822v1",
+      "url": "https://arxiv.org/abs/2611.24941v1",
       "published_date": "2026-11-18"
     },
     {
-      "arxiv_id": "2611.23813v1",
-      "title": "SWIFT: Slow World, Instant Freshness, and Timely Action for Asynchronous Autonomous Driving",
+      "arxiv_id": "2611.24940v1",
+      "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "summary": "We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent lat...",
+      "authors": [
+        "Junjie Ye",
+        "Yiqi Zhao",
+        "Muchen Xu",
+        "Celina Shiyu Wang"
+      ],
+      "url": "https://arxiv.org/abs/2611.24940v1",
+      "published_date": "2026-11-18"
+    },
+    {
+      "arxiv_id": "2611.24917v1",
+      "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Driving scenes keep changing during model computation, making both observation freshness and action-delivery time central to world-action planning. To retain rich generative world priors in autonomous driving without stalling real-time control, we present SWIFT (Slow World, Instant Freshness, and Ti...",
+      "summary": "In this paper, we propose a Unified Law for Visual Tasks, which could be further divided into Four Laws of Computer Vision, with the goal of enabling a single framework or method to uniformly train on and perform nearly all visual tasks. Our starting point is an inspiration and hypothesis: if the wo...",
       "authors": [
-        "Jiazhe Wang",
-        "Tianyi Yang",
-        "Ruihang Li",
-        "Fan Lu"
+        "Sen Fang",
+        "Yalin Feng",
+        "Yancheng Zhang",
+        "Yanxin Zhang"
       ],
-      "url": "https://arxiv.org/abs/2611.23813v1",
+      "url": "https://arxiv.org/abs/2611.24917v1",
+      "published_date": "2026-11-18"
+    },
+    {
+      "arxiv_id": "2611.24915v1",
+      "title": "PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Agentic image restoration composes operations to handle mixed degradations, yet its toolbox often requires storing multiple restoration networks. We propose PrismRestore, which constructs a compact bank of callable restoration actions from a single frozen all-in-one model. Our approach builds on tas...",
+      "authors": [
+        "Zhaocheng Yu",
+        "Kui Jiang",
+        "Jing Cao",
+        "Yiang Chen"
+      ],
+      "url": "https://arxiv.org/abs/2611.24915v1",
+      "published_date": "2026-11-18"
+    },
+    {
+      "arxiv_id": "2611.24904v1",
+      "title": "ShadowTransfer: A Geographic Transfer Benchmark for Overhead Shadow Detection",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Overhead aerial imagery feeds dense-prediction pipelines that are routinely trained in one geographic region and deployed in another, yet no benchmark measures how shadow detection models transfer across regions. Existing overhead shadow datasets either lack a geographic transfer protocol or rely on...",
+      "authors": [
+        "Shagun Mittal",
+        "Raymond A. Yeh",
+        "Satish Ukkusuri"
+      ],
+      "url": "https://arxiv.org/abs/2611.24904v1",
       "published_date": "2026-11-18"
     }
   ]
