@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-18 15:15 UTC`  
+> **Generated Timestamp**: `2026-11-19 02:57 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,22 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Continuous Normalization in Neural Radiance Relighting
-* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
-* **Authors**: V. Chen, K. Sunder, A. Mercier
-* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
+### 📄 RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop
+* **arXiv ID**: [`2611.23855v1`](https://arxiv.org/abs/2611.23855v1) | **Categories**: `cs.AI, cs.CV, cs.RO`
+* **Authors**: Ghadi Nehme, Dahyun Nam, Akshay Govind Srinivasan, Faez Ahmed
+* **Abstract**: Can AI agents design robots that work in the real world? We introduce RoboBuilder, a benchmark in which coding agents co-design a robot's hardware and program from standard parts, motors and a custom 3D-printed part, and every design that passes in simulation is built and tested on a physical course...
 
 
-### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
-* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
-* **Authors**: E. Rostova, L. Thorne
-* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
+### 📄 ReflectScene:MLLM-Guided Closed-Loop Diffusion for 3D Indoor Scene Generation
+* **arXiv ID**: [`2611.23845v1`](https://arxiv.org/abs/2611.23845v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Jiawei Shen, Jie Feng, Junpeng Zhang, Guanbin Li
+* **Abstract**: Text-conditioned 3D indoor scene generation requires layouts satisfying geometric, functional, and semantic constraints. However, existing diffusion methods rely primarily on static textual conditions, limiting their ability to assess evolving scenes and translate semantic discrepancies into executa...
 
 
-### 📄 Deterministic MaterialX Shader Translation in WebGPU
-* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
-* **Authors**: M. Tanaka, J. Doe
-* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
+### 📄 TOGBench: Benchmarking and Improving Tiny-Object Generation Fidelity in Aerial Imagery
+* **arXiv ID**: [`2611.23840v1`](https://arxiv.org/abs/2611.23840v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Chanhwi Jeong, Dongmin You, Seungwook Kim
+* **Abstract**: Advances in deep generative models now enable the synthesis of realistic imagery. However, aerial imagery is dominated by tiny objects, such as vehicles, ships, and aircraft, which occupy only a few pixels owing to the overhead, wide-area nature of aerial imaging. Existing generative models struggle...
+
+
+### 📄 Mapping the Design Space of Feature Sampling for Optical Flow
+* **arXiv ID**: [`2611.23822v1`](https://arxiv.org/abs/2611.23822v1) | **Categories**: `cs.CV`
+* **Authors**: Liping Zhang
+* **Abstract**: The computation of correlation features is crucial for optical flow estimation. Existing methods (e.g., RAFT) perform fixed-radius lookups on a cost volume, yielding a set of correlation features for each position; alternatively, WAFT performs single-point feature indexing, yielding one correlation ...
+
+
+### 📄 SWIFT: Slow World, Instant Freshness, and Timely Action for Asynchronous Autonomous Driving
+* **arXiv ID**: [`2611.23813v1`](https://arxiv.org/abs/2611.23813v1) | **Categories**: `cs.CV`
+* **Authors**: Jiazhe Wang, Tianyi Yang, Ruihang Li, Fan Lu
+* **Abstract**: Driving scenes keep changing during model computation, making both observation freshness and action-delivery time central to world-action planning. To retain rich generative world priors in autonomous driving without stalling real-time control, we present SWIFT (Slow World, Instant Freshness, and Ti...
 
 
 
