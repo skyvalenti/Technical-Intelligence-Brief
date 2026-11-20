@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-19 15:22 UTC`  
+> **Generated Timestamp**: `2026-11-20 02:52 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation
-* **arXiv ID**: [`2611.24941v1`](https://arxiv.org/abs/2611.24941v1) | **Categories**: `cs.CV`
-* **Authors**: Jingzhi Bao, Xiaohe Ma, Hong Li, Yuanming Hu
-* **Abstract**: Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle...
+### 📄 TAP: Tapping the Discriminative Potential of Frozen Representations for Class-Incremental Learning
+* **arXiv ID**: [`2611.25478v1`](https://arxiv.org/abs/2611.25478v1) | **Categories**: `cs.CV`
+* **Authors**: Zihao Wang, Yu-Wei Zhan, Xiao-Qian Liu, Zhen-Duo Chen
+* **Abstract**: Pre-trained models provide transferable representations for class-incremental learning (CIL). However, sequentially adapting these representations introduces optimization costs and may disrupt old-class feature structure. This motivates us to explore whether the discriminative potential of these rep...
 
 
-### 📄 $Z$-sight: Unifying Vision-Language-Action and Latent World Modeling
-* **arXiv ID**: [`2611.24940v1`](https://arxiv.org/abs/2611.24940v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Junjie Ye, Yiqi Zhao, Muchen Xu, Celina Shiyu Wang
-* **Abstract**: We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent lat...
+### 📄 SegAnyFruit: Learning Generalizable and Edge Deployable Fruit Instance Segmentation at Scale
+* **arXiv ID**: [`2611.25475v1`](https://arxiv.org/abs/2611.25475v1) | **Categories**: `cs.CV`
+* **Authors**: Yanan Wang, Yuzheng wang, Yibin Ying, Zhenghao Fei
+* **Abstract**: Deploying fruit instance segmentation in real agricultural settings requires generalizing across unseen species, orchards, and imaging conditions under strict onboard compute and annotation budgets. We introduce SegAnyFruit (SAF), a data construction and progressive training framework that distills ...
 
 
-### 📄 Unified Law for Visual Tasks (The Four Laws of Computer Vision)
-* **arXiv ID**: [`2611.24917v1`](https://arxiv.org/abs/2611.24917v1) | **Categories**: `cs.CV`
-* **Authors**: Sen Fang, Yalin Feng, Yancheng Zhang, Yanxin Zhang
-* **Abstract**: In this paper, we propose a Unified Law for Visual Tasks, which could be further divided into Four Laws of Computer Vision, with the goal of enabling a single framework or method to uniformly train on and perform nearly all visual tasks. Our starting point is an inspiration and hypothesis: if the wo...
+### 📄 TuringPAI: A Foundation for On-Device Physical AI
+* **arXiv ID**: [`2611.25474v1`](https://arxiv.org/abs/2611.25474v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Qiman Wu, Hanlin Chen, Yuhua Wei, Mingyuan Wang
+* **Abstract**: Physical AI requires models that understand spatial relationships and dynamic environments and translate observations into actions under limited onboard compute. We present TuringPAI, a family of models for on-device Physical AI comprising TuringPAI-VL for shared vision-language understanding, Turin...
 
 
-### 📄 PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration
-* **arXiv ID**: [`2611.24915v1`](https://arxiv.org/abs/2611.24915v1) | **Categories**: `cs.CV`
-* **Authors**: Zhaocheng Yu, Kui Jiang, Jing Cao, Yiang Chen
-* **Abstract**: Agentic image restoration composes operations to handle mixed degradations, yet its toolbox often requires storing multiple restoration networks. We propose PrismRestore, which constructs a compact bank of callable restoration actions from a single frozen all-in-one model. Our approach builds on tas...
+### 📄 A Wolf in Sheep's Pixels: Visual Camouflage Attacks via HDR Gain Maps
+* **arXiv ID**: [`2611.25469v1`](https://arxiv.org/abs/2611.25469v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Qi Shen, Yujia Gong, Yue Zhao, Tong Liu
+* **Abstract**: An image can pass automated safety checks while showing harmful content to its human viewer. We introduce DRJanus, a visual camouflage attack that exploits the gap between standard dynamic range (SDR) processing and high dynamic range (HDR) display. Automated systems often read only an image's SDR b...
 
 
-### 📄 ShadowTransfer: A Geographic Transfer Benchmark for Overhead Shadow Detection
-* **arXiv ID**: [`2611.24904v1`](https://arxiv.org/abs/2611.24904v1) | **Categories**: `cs.CV`
-* **Authors**: Shagun Mittal, Raymond A. Yeh, Satish Ukkusuri
-* **Abstract**: Overhead aerial imagery feeds dense-prediction pipelines that are routinely trained in one geographic region and deployed in another, yet no benchmark measures how shadow detection models transfer across regions. Existing overhead shadow datasets either lack a geographic transfer protocol or rely on...
+### 📄 ActMem: From Latent Memory Reasoning to Grounded Robotic Action
+* **arXiv ID**: [`2611.25461v1`](https://arxiv.org/abs/2611.25461v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Linfeng Dong, Jianwei Niu, Jiuyi Zhao, Ruibing Feng
+* **Abstract**: Vision-Language-Action (VLA) models have shown promising results in real-world long-horizon manipulation, where memory plays a crucial role.   However, existing memory-augmented VLAs either retrieve past observations without reasoning about what they imply, or reason over the full   history in a sha...
 
 
 

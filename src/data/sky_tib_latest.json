@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-19 15:22 UTC",
+  "generated_at": "2026-11-20 02:52 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,84 +229,87 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.24941v1",
-      "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
+      "arxiv_id": "2611.25478v1",
+      "title": "TAP: Tapping the Discriminative Potential of Frozen Representations for Class-Incremental Learning",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle...",
+      "summary": "Pre-trained models provide transferable representations for class-incremental learning (CIL). However, sequentially adapting these representations introduces optimization costs and may disrupt old-class feature structure. This motivates us to explore whether the discriminative potential of these rep...",
       "authors": [
-        "Jingzhi Bao",
-        "Xiaohe Ma",
-        "Hong Li",
-        "Yuanming Hu"
+        "Zihao Wang",
+        "Yu-Wei Zhan",
+        "Xiao-Qian Liu",
+        "Zhen-Duo Chen"
       ],
-      "url": "https://arxiv.org/abs/2611.24941v1",
-      "published_date": "2026-11-18"
+      "url": "https://arxiv.org/abs/2611.25478v1",
+      "published_date": "2026-11-19"
     },
     {
-      "arxiv_id": "2611.24940v1",
-      "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling",
+      "arxiv_id": "2611.25475v1",
+      "title": "SegAnyFruit: Learning Generalizable and Edge Deployable Fruit Instance Segmentation at Scale",
       "categories": [
-        "cs.RO",
         "cs.CV"
       ],
-      "summary": "We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the heavy cost of video generators. Recent lat...",
+      "summary": "Deploying fruit instance segmentation in real agricultural settings requires generalizing across unseen species, orchards, and imaging conditions under strict onboard compute and annotation budgets. We introduce SegAnyFruit (SAF), a data construction and progressive training framework that distills ...",
       "authors": [
-        "Junjie Ye",
-        "Yiqi Zhao",
-        "Muchen Xu",
-        "Celina Shiyu Wang"
+        "Yanan Wang",
+        "Yuzheng wang",
+        "Yibin Ying",
+        "Zhenghao Fei"
       ],
-      "url": "https://arxiv.org/abs/2611.24940v1",
-      "published_date": "2026-11-18"
+      "url": "https://arxiv.org/abs/2611.25475v1",
+      "published_date": "2026-11-19"
     },
     {
-      "arxiv_id": "2611.24917v1",
-      "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
+      "arxiv_id": "2611.25474v1",
+      "title": "TuringPAI: A Foundation for On-Device Physical AI",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.RO"
       ],
-      "summary": "In this paper, we propose a Unified Law for Visual Tasks, which could be further divided into Four Laws of Computer Vision, with the goal of enabling a single framework or method to uniformly train on and perform nearly all visual tasks. Our starting point is an inspiration and hypothesis: if the wo...",
+      "summary": "Physical AI requires models that understand spatial relationships and dynamic environments and translate observations into actions under limited onboard compute. We present TuringPAI, a family of models for on-device Physical AI comprising TuringPAI-VL for shared vision-language understanding, Turin...",
       "authors": [
-        "Sen Fang",
-        "Yalin Feng",
-        "Yancheng Zhang",
-        "Yanxin Zhang"
+        "Qiman Wu",
+        "Hanlin Chen",
+        "Yuhua Wei",
+        "Mingyuan Wang"
       ],
-      "url": "https://arxiv.org/abs/2611.24917v1",
-      "published_date": "2026-11-18"
+      "url": "https://arxiv.org/abs/2611.25474v1",
+      "published_date": "2026-11-19"
     },
     {
-      "arxiv_id": "2611.24915v1",
-      "title": "PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration",
+      "arxiv_id": "2611.25469v1",
+      "title": "A Wolf in Sheep's Pixels: Visual Camouflage Attacks via HDR Gain Maps",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.AI"
       ],
-      "summary": "Agentic image restoration composes operations to handle mixed degradations, yet its toolbox often requires storing multiple restoration networks. We propose PrismRestore, which constructs a compact bank of callable restoration actions from a single frozen all-in-one model. Our approach builds on tas...",
+      "summary": "An image can pass automated safety checks while showing harmful content to its human viewer. We introduce DRJanus, a visual camouflage attack that exploits the gap between standard dynamic range (SDR) processing and high dynamic range (HDR) display. Automated systems often read only an image's SDR b...",
       "authors": [
-        "Zhaocheng Yu",
-        "Kui Jiang",
-        "Jing Cao",
-        "Yiang Chen"
+        "Qi Shen",
+        "Yujia Gong",
+        "Yue Zhao",
+        "Tong Liu"
       ],
-      "url": "https://arxiv.org/abs/2611.24915v1",
-      "published_date": "2026-11-18"
+      "url": "https://arxiv.org/abs/2611.25469v1",
+      "published_date": "2026-11-19"
     },
     {
-      "arxiv_id": "2611.24904v1",
-      "title": "ShadowTransfer: A Geographic Transfer Benchmark for Overhead Shadow Detection",
+      "arxiv_id": "2611.25461v1",
+      "title": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action",
       "categories": [
-        "cs.CV"
+        "cs.CV",
+        "cs.LG"
       ],
-      "summary": "Overhead aerial imagery feeds dense-prediction pipelines that are routinely trained in one geographic region and deployed in another, yet no benchmark measures how shadow detection models transfer across regions. Existing overhead shadow datasets either lack a geographic transfer protocol or rely on...",
+      "summary": "Vision-Language-Action (VLA) models have shown promising results in real-world long-horizon manipulation, where memory plays a crucial role.   However, existing memory-augmented VLAs either retrieve past observations without reasoning about what they imply, or reason over the full   history in a sha...",
       "authors": [
-        "Shagun Mittal",
-        "Raymond A. Yeh",
-        "Satish Ukkusuri"
+        "Linfeng Dong",
+        "Jianwei Niu",
+        "Jiuyi Zhao",
+        "Ruibing Feng"
       ],
-      "url": "https://arxiv.org/abs/2611.24904v1",
-      "published_date": "2026-11-18"
+      "url": "https://arxiv.org/abs/2611.25461v1",
+      "published_date": "2026-11-19"
     }
   ]
 }
