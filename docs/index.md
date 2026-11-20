@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-20 02:52 UTC`  
+> **Generated Timestamp**: `2026-11-20 14:59 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 TAP: Tapping the Discriminative Potential of Frozen Representations for Class-Incremental Learning
-* **arXiv ID**: [`2611.25478v1`](https://arxiv.org/abs/2611.25478v1) | **Categories**: `cs.CV`
-* **Authors**: Zihao Wang, Yu-Wei Zhan, Xiao-Qian Liu, Zhen-Duo Chen
-* **Abstract**: Pre-trained models provide transferable representations for class-incremental learning (CIL). However, sequentially adapting these representations introduces optimization costs and may disrupt old-class feature structure. This motivates us to explore whether the discriminative potential of these rep...
+### 📄 Posterior Matching Distillation
+* **arXiv ID**: [`2611.26629v1`](https://arxiv.org/abs/2611.26629v1) | **Categories**: `cs.CV`
+* **Authors**: Hidir Yesiltepe, Julius Berner, Arash Vahdat, Pinar Yanardag
+* **Abstract**: Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reve...
 
 
-### 📄 SegAnyFruit: Learning Generalizable and Edge Deployable Fruit Instance Segmentation at Scale
-* **arXiv ID**: [`2611.25475v1`](https://arxiv.org/abs/2611.25475v1) | **Categories**: `cs.CV`
-* **Authors**: Yanan Wang, Yuzheng wang, Yibin Ying, Zhenghao Fei
-* **Abstract**: Deploying fruit instance segmentation in real agricultural settings requires generalizing across unseen species, orchards, and imaging conditions under strict onboard compute and annotation budgets. We introduce SegAnyFruit (SAF), a data construction and progressive training framework that distills ...
+### 📄 RL Post-Training in Diffusion Transformers Is Activation Steering
+* **arXiv ID**: [`2611.26627v1`](https://arxiv.org/abs/2611.26627v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Tuna Han Salih Meral, Kaan Oktay, Alec Helbling, Atakan Kara
+* **Abstract**: Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that...
 
 
-### 📄 TuringPAI: A Foundation for On-Device Physical AI
-* **arXiv ID**: [`2611.25474v1`](https://arxiv.org/abs/2611.25474v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Qiman Wu, Hanlin Chen, Yuhua Wei, Mingyuan Wang
-* **Abstract**: Physical AI requires models that understand spatial relationships and dynamic environments and translate observations into actions under limited onboard compute. We present TuringPAI, a family of models for on-device Physical AI comprising TuringPAI-VL for shared vision-language understanding, Turin...
+### 📄 PlayCraft: Designing Engaging Games from Agent Play Experience
+* **arXiv ID**: [`2611.26624v1`](https://arxiv.org/abs/2611.26624v1) | **Categories**: `cs.AI, cs.CV`
+* **Authors**: Weihao Cheng
+* **Abstract**: Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its...
 
 
-### 📄 A Wolf in Sheep's Pixels: Visual Camouflage Attacks via HDR Gain Maps
-* **arXiv ID**: [`2611.25469v1`](https://arxiv.org/abs/2611.25469v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Qi Shen, Yujia Gong, Yue Zhao, Tong Liu
-* **Abstract**: An image can pass automated safety checks while showing harmful content to its human viewer. We introduce DRJanus, a visual camouflage attack that exploits the gap between standard dynamic range (SDR) processing and high dynamic range (HDR) display. Automated systems often read only an image's SDR b...
+### 📄 One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning
+* **arXiv ID**: [`2611.26617v1`](https://arxiv.org/abs/2611.26617v1) | **Categories**: `cs.CV, cs.AI, cs.LG, cs.RO`
+* **Authors**: Yuxin Jiang, Wenqiang Sun, Jiaqi Li, Yuchao Gu
+* **Abstract**: Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for...
 
 
-### 📄 ActMem: From Latent Memory Reasoning to Grounded Robotic Action
-* **arXiv ID**: [`2611.25461v1`](https://arxiv.org/abs/2611.25461v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Linfeng Dong, Jianwei Niu, Jiuyi Zhao, Ruibing Feng
-* **Abstract**: Vision-Language-Action (VLA) models have shown promising results in real-world long-horizon manipulation, where memory plays a crucial role.   However, existing memory-augmented VLAs either retrieve past observations without reasoning about what they imply, or reason over the full   history in a sha...
+### 📄 ScaleWorld: High-Resolution World Generation through Shared Prediction and Refinement
+* **arXiv ID**: [`2611.26615v1`](https://arxiv.org/abs/2611.26615v1) | **Categories**: `cs.CV`
+* **Authors**: Yansong Qu, Wesker Zheng, Quanjian Song, Zhiyuan Zhang
+* **Abstract**: High-resolution generation enables video world models to render fine-grained scene structures and textures, but directly generating high-resolution video incurs substantial computational and memory costs. We present ScaleWorld, a causal video model that unifies low-resolution world prediction and hi...
 
 
 
