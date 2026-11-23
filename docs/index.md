@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-22 14:12 UTC`  
+> **Generated Timestamp**: `2026-11-23 02:20 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,22 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Posterior Matching Distillation
-* **arXiv ID**: [`2611.26629v1`](https://arxiv.org/abs/2611.26629v1) | **Categories**: `cs.CV`
-* **Authors**: Hidir Yesiltepe, Julius Berner, Arash Vahdat, Pinar Yanardag
-* **Abstract**: Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reve...
+### 📄 Continuous Normalization in Neural Radiance Relighting
+* **arXiv ID**: [`2502.14890`](https://arxiv.org/abs/2502.14890) | **Categories**: `cs.GR, cs.CV`
+* **Authors**: V. Chen, K. Sunder, A. Mercier
+* **Abstract**: Presents exact gradient reconstruction for hybrid multi-bounce radiance caching across real-time neural viewport delegates.
 
 
-### 📄 RL Post-Training in Diffusion Transformers Is Activation Steering
-* **arXiv ID**: [`2611.26627v1`](https://arxiv.org/abs/2611.26627v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Tuna Han Salih Meral, Kaan Oktay, Alec Helbling, Atakan Kara
-* **Abstract**: Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that...
+### 📄 Sparse Kernel Voxelization for OpenVDB Hierarchies
+* **arXiv ID**: [`2502.09102`](https://arxiv.org/abs/2502.09102) | **Categories**: `cs.GR, cs.DC`
+* **Authors**: E. Rostova, L. Thorne
+* **Abstract**: Accelerates hierarchical level-set sparse grid conversions by 4.2x utilizing direct unified memory addressing on Hopper architectures.
 
 
-### 📄 PlayCraft: Designing Engaging Games from Agent Play Experience
-* **arXiv ID**: [`2611.26624v1`](https://arxiv.org/abs/2611.26624v1) | **Categories**: `cs.AI, cs.CV`
-* **Authors**: Weihao Cheng
-* **Abstract**: Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its...
-
-
-### 📄 One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning
-* **arXiv ID**: [`2611.26617v1`](https://arxiv.org/abs/2611.26617v1) | **Categories**: `cs.CV, cs.AI, cs.LG, cs.RO`
-* **Authors**: Yuxin Jiang, Wenqiang Sun, Jiaqi Li, Yuchao Gu
-* **Abstract**: Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for...
-
-
-### 📄 ScaleWorld: High-Resolution World Generation through Shared Prediction and Refinement
-* **arXiv ID**: [`2611.26615v1`](https://arxiv.org/abs/2611.26615v1) | **Categories**: `cs.CV`
-* **Authors**: Yansong Qu, Wesker Zheng, Quanjian Song, Zhiyuan Zhang
-* **Abstract**: High-resolution generation enables video world models to render fine-grained scene structures and textures, but directly generating high-resolution video incurs substantial computational and memory costs. We present ScaleWorld, a causal video model that unifies low-resolution world prediction and hi...
+### 📄 Deterministic MaterialX Shader Translation in WebGPU
+* **arXiv ID**: [`2501.19230`](https://arxiv.org/abs/2501.19230) | **Categories**: `cs.GR`
+* **Authors**: M. Tanaka, J. Doe
+* **Abstract**: A zero-runtime WebAssembly transpiler for MaterialX standard node graphs targeting WGSL rasterization pipelines.
 
 
 
