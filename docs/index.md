@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-23 17:53 UTC`  
+> **Generated Timestamp**: `2026-11-24 05:45 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Non-penetrating World Models
-* **arXiv ID**: [`2611.27963v1`](https://arxiv.org/abs/2611.27963v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Yuhang Dai, Yinwei Wu, Ziyue Lin, Han Ji
-* **Abstract**: We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can ...
+### 📄 STAR: Structure-Aware Temporal Action Recovery for Point Supervised Temporal Action Localization
+* **arXiv ID**: [`2611.30354v1`](https://arxiv.org/abs/2611.30354v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Yawar Rehman, Min Young Kim
+* **Abstract**: Point supervised temporal action localization is becoming the need of time in this era of ever growing and non-stop video data. Existing method mainly rely on snippet level action response to generate pseudo labels. However, these labels often suffer from boundary ambiguity, over extended proposals,...
 
 
-### 📄 DiTraR: Diverse Scorers and Transcript-Guided Re-ranking for Video Corpus Moment Retrieval
-* **arXiv ID**: [`2611.27931v1`](https://arxiv.org/abs/2611.27931v1) | **Categories**: `cs.CV, cs.IR`
-* **Authors**: Mohammad Alijanpour Shalmani, Alale Rezvani Boroujeni, Ali Amini
-* **Abstract**: Video corpus moment retrieval asks a system to find, in a large collection of untrimmed videos with subtitles, the video and the time interval that a natural-language query describes. We find that most top-ranked errors of a strong corpus-level scorer come from choosing the wrong video, not from imp...
+### 📄 NNS-GS: Non-Local Neural Scattering for Relightable Gaussian Splatting
+* **arXiv ID**: [`2611.30351v1`](https://arxiv.org/abs/2611.30351v1) | **Categories**: `cs.CV`
+* **Authors**: Shiyu Liang, Yang Gao, Lili Wang, Aimin Hao
+* **Abstract**: Creating relightable 3D assets of translucent objects is challenging because changing the illumination at one surface location can affect the appearance elsewhere through subsurface scattering. Existing Gaussian-based scattering models typically predict scattering from local features, making this de...
 
 
-### 📄 ESSI: Computationally Efficient Semantic Search for Sparse Autoencoder Concepts
-* **arXiv ID**: [`2611.27921v1`](https://arxiv.org/abs/2611.27921v1) | **Categories**: `cs.CV`
-* **Authors**: James Baker
-* **Abstract**: Sparse autoencoders (SAEs) decompose diffusion model activations into interpretable features, but steering a model with them requires identifying which features map to a given semantic concept, if any. Existing methods for this concept to feature task are expensive, relying on grid searches or repea...
+### 📄 SceneCast: Learning Indoor Scene Synthesis from Curated Synthetic Videos with LLM Reward
+* **arXiv ID**: [`2611.30345v1`](https://arxiv.org/abs/2611.30345v1) | **Categories**: `cs.CV`
+* **Authors**: Ziyang Zong, Canming Xia, Haoran Xu, Guang Tan
+* **Abstract**: 3D indoor scene synthesis requires generating objects to form a complete and coherent scene. Existing approaches rely heavily on manually annotated datasets, leading to high costs and limited generalization. We present SceneCast, an annotation-free framework that trains on large-scale, unlabeled vid...
 
 
-### 📄 Augmentation of cardiovascular flow measurements with generative diffusion models
-* **arXiv ID**: [`2611.27917v1`](https://arxiv.org/abs/2611.27917v1) | **Categories**: `physics.flu-dyn, cs.CV`
-* **Authors**: Fabio Guglietta, Tianyi Li, Francesco Viola, Luca Biferale
-* **Abstract**: Cardiovascular imaging offers several ways to measure blood flow, but each provides an incomplete, resolution-limited, or noisy view of the underlying dynamics. Reconstructing the missing information is inherently ambiguous because several flow fields may be compatible with the same observation. Her...
+### 📄 Shift by Analogy for Compositional Zero-Shot Learning
+* **arXiv ID**: [`2611.30342v1`](https://arxiv.org/abs/2611.30342v1) | **Categories**: `cs.CV`
+* **Authors**: Zanwu Liu, Bo Li, Guanglin Niu
+* **Abstract**: Compositional zero-shot learning recognizes attribute-object pairs absent from training. An unseen pair has a semantic description but lacks an observed visual reference. We propose Shift by Analogy (SBA) to make unseen compositions visually seen through a shift-then-match process. Its core add-subt...
 
 
-### 📄 StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning
-* **arXiv ID**: [`2611.27915v1`](https://arxiv.org/abs/2611.27915v1) | **Categories**: `cs.CV, cs.AI, cs.RO`
-* **Authors**: Chi Yan, Guoyang Zhao, Wentao Yuan, Yixiao Ge
-* **Abstract**: Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints...
+### 📄 AirVT-15k: A Query-Diverse UAV Video-Text Dataset and Query-Adaptive Evidence Alignment Network for Retrieval
+* **arXiv ID**: [`2611.30339v1`](https://arxiv.org/abs/2611.30339v1) | **Categories**: `cs.CV`
+* **Authors**: Xi Chen, Xu Chen, Xiangyang Jia, Ting Gan
+* **Abstract**: Unmanned aerial vehicle video-text retrieval (UAV-TVR) requires matching language to both scene context and subtle object changes. A harbor-layout query relies on global scene context, whereas a departing-vessel query requires local functional cues and motion states. Existing benchmarks provide dive...
 
 
 
