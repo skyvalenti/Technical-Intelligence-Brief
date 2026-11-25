@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-25 04:48 UTC",
+  "generated_at": "2026-11-25 16:54 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,81 +229,90 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.32971v1",
-      "title": "Teaching Time Without Losing General Retrieval: Adapting Multimodal Embeddings for Time-Sensitive Video Retrieval",
+      "arxiv_id": "2611.33158v1",
+      "title": "OmniAct: One Policy, One Million Embodiments",
       "categories": [
-        "cs.CV"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
       ],
-      "summary": "In text-to-video retrieval, MLLM-based embedding models do well when the text describes the scene (general retrieval), but poorly when it describes actions and their direction (time-sensitive retrieval). TARA, a pioneering work, fine-tunes such a model on text triplets with temporal hard negatives; ...",
+      "summary": "A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not necessarily capture how dif...",
       "authors": [
-        "Toya Oyama",
-        "Rainer Lienhart",
-        "Shin'ichi Satoh"
+        "Xiang Fan",
+        "Yuheng Wang",
+        "Jiayuan Yan",
+        "Bohan Fang"
       ],
-      "url": "https://arxiv.org/abs/2611.32971v1",
+      "url": "https://arxiv.org/abs/2611.33158v1",
       "published_date": "2026-11-24"
     },
     {
-      "arxiv_id": "2611.32970v1",
-      "title": "FocusAnchor: Zero-Shot Metric Depth by Anchoring a Depth Foundation Prior to Focus Cues",
+      "arxiv_id": "2611.33157v1",
+      "title": "PointX: Multi-View Consistent Intrinsics by Querying Surface Points",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Existing depth-from-focus methods can struggle with weak focus cues, new cameras, or fewer focal slices. We present FocusAnchor, a recurrent model that uses focus-volume lookups to refine metric depth and repeatedly aligns a relative depth prior from a frozen foundation model to the current depth es...",
+      "summary": "The appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. Recovering these intrinsics from images is ambiguous, and methods that predict them per pixel give the same surface point a differ...",
       "authors": [
-        "Ashkan Ganj",
-        "Hang Su",
-        "Tian Guo"
+        "Miguel Farinha",
+        "Sam Sartor",
+        "Iliyan Georgiev",
+        "Giuseppe Vecchio"
       ],
-      "url": "https://arxiv.org/abs/2611.32970v1",
+      "url": "https://arxiv.org/abs/2611.33157v1",
       "published_date": "2026-11-24"
     },
     {
-      "arxiv_id": "2611.32967v1",
-      "title": "VidForce: Predicting Force-Aware Articulation by Observing Humans",
+      "arxiv_id": "2611.33153v1",
+      "title": "DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning",
       "categories": [
         "cs.CV",
-        "cs.RO"
+        "cs.CL",
+        "cs.MM",
+        "cs.SD"
       ],
-      "summary": "People can anticipate how an object moves and the effort an interaction may require by watching others. How can embodied agents acquire this understanding from video? Force measurements provide direct sensory supervision, but require specialized equipment and remain limited in quantity. We introduce...",
+      "summary": "We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks ...",
       "authors": [
-        "Rafay Mohiuddin",
-        "Jiaqi Chen",
-        "Marc Pollefeys",
-        "Hermann Blum"
+        "Binfei Ji",
+        "Zhiwen Cao",
+        "Anqi Yang",
+        "Prem Seetharaman"
       ],
-      "url": "https://arxiv.org/abs/2611.32967v1",
+      "url": "https://arxiv.org/abs/2611.33153v1",
       "published_date": "2026-11-24"
     },
     {
-      "arxiv_id": "2611.32964v1",
-      "title": "Benchmarking Evidence Sufficiency in Vision-Language Models for Autonomous Driving",
+      "arxiv_id": "2611.33151v1",
+      "title": "BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles",
       "categories": [
         "cs.CV",
-        "cs.AI"
+        "cs.LG"
       ],
-      "summary": "Reliable driving VLMs must do more than answer correctly or localize relevant scene actors: they must determine whether the available visual evidence is sufficient to support an answer. Existing evaluations largely treat grounding and answerability as separate measurements, making it difficult to di...",
+      "summary": "The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that...",
       "authors": [
-        "Nhat Ha Nguyen",
-        "Sudipta Chowdhury",
-        "Lokesh Das"
+        "Yuwei Yang",
+        "Xiaoxiao Sun",
+        "Alejandro Lozano",
+        "Yuan-Sen Ting"
       ],
-      "url": "https://arxiv.org/abs/2611.32964v1",
+      "url": "https://arxiv.org/abs/2611.33151v1",
       "published_date": "2026-11-24"
     },
     {
-      "arxiv_id": "2611.32952v1",
-      "title": "FedTumor-IoMT: Federated Learning-Aided Brain Tumor Diagnosis on Resource-Constrained Edge IoMT Devices",
+      "arxiv_id": "2611.33147v1",
+      "title": "One Take, Many Cameras: Audio-Grounded Shot Synthesis for Dialogue Re-Cinematography",
       "categories": [
         "cs.CV"
       ],
-      "summary": "Joint brain tumor segmentation and classification models are computationally intensive, limiting their training on resource-constrained edge platforms and restricting privacy-preserving Federated Learning FL in the Internet of Medical Things IoMT. Existing approaches either perform both tasks on GPU...",
+      "summary": "Creating a dialogue scene typically requires cutting between multiple views (e.g., close-ups, medium shots, and over-the-shoulder shots) of the actors. Yet capturing such coverage is costly and in many settings unavailable. We study dialogue re-cinematography: synthesizing additional shots from a si...",
       "authors": [
-        "Pranshu Jena",
-        "Prajnyajit Mohanty",
-        "Umesh C. Pati"
+        "Anthony Chen",
+        "Naomi Ken Korem",
+        "Matan Ben-Yosef",
+        "Tavi Halperin"
       ],
-      "url": "https://arxiv.org/abs/2611.32952v1",
+      "url": "https://arxiv.org/abs/2611.33147v1",
       "published_date": "2026-11-24"
     }
   ]

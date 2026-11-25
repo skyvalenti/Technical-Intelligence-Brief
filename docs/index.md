@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-25 04:48 UTC`  
+> **Generated Timestamp**: `2026-11-25 16:54 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Teaching Time Without Losing General Retrieval: Adapting Multimodal Embeddings for Time-Sensitive Video Retrieval
-* **arXiv ID**: [`2611.32971v1`](https://arxiv.org/abs/2611.32971v1) | **Categories**: `cs.CV`
-* **Authors**: Toya Oyama, Rainer Lienhart, Shin'ichi Satoh
-* **Abstract**: In text-to-video retrieval, MLLM-based embedding models do well when the text describes the scene (general retrieval), but poorly when it describes actions and their direction (time-sensitive retrieval). TARA, a pioneering work, fine-tunes such a model on text triplets with temporal hard negatives; ...
+### 📄 OmniAct: One Policy, One Million Embodiments
+* **arXiv ID**: [`2611.33158v1`](https://arxiv.org/abs/2611.33158v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.LG`
+* **Authors**: Xiang Fan, Yuheng Wang, Jiayuan Yan, Bohan Fang
+* **Abstract**: A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not necessarily capture how dif...
 
 
-### 📄 FocusAnchor: Zero-Shot Metric Depth by Anchoring a Depth Foundation Prior to Focus Cues
-* **arXiv ID**: [`2611.32970v1`](https://arxiv.org/abs/2611.32970v1) | **Categories**: `cs.CV`
-* **Authors**: Ashkan Ganj, Hang Su, Tian Guo
-* **Abstract**: Existing depth-from-focus methods can struggle with weak focus cues, new cameras, or fewer focal slices. We present FocusAnchor, a recurrent model that uses focus-volume lookups to refine metric depth and repeatedly aligns a relative depth prior from a frozen foundation model to the current depth es...
+### 📄 PointX: Multi-View Consistent Intrinsics by Querying Surface Points
+* **arXiv ID**: [`2611.33157v1`](https://arxiv.org/abs/2611.33157v1) | **Categories**: `cs.CV`
+* **Authors**: Miguel Farinha, Sam Sartor, Iliyan Georgiev, Giuseppe Vecchio
+* **Abstract**: The appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. Recovering these intrinsics from images is ambiguous, and methods that predict them per pixel give the same surface point a differ...
 
 
-### 📄 VidForce: Predicting Force-Aware Articulation by Observing Humans
-* **arXiv ID**: [`2611.32967v1`](https://arxiv.org/abs/2611.32967v1) | **Categories**: `cs.CV, cs.RO`
-* **Authors**: Rafay Mohiuddin, Jiaqi Chen, Marc Pollefeys, Hermann Blum
-* **Abstract**: People can anticipate how an object moves and the effort an interaction may require by watching others. How can embodied agents acquire this understanding from video? Force measurements provide direct sensory supervision, but require specialized equipment and remain limited in quantity. We introduce...
+### 📄 DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning
+* **arXiv ID**: [`2611.33153v1`](https://arxiv.org/abs/2611.33153v1) | **Categories**: `cs.CV, cs.CL, cs.MM, cs.SD`
+* **Authors**: Binfei Ji, Zhiwen Cao, Anqi Yang, Prem Seetharaman
+* **Abstract**: We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks ...
 
 
-### 📄 Benchmarking Evidence Sufficiency in Vision-Language Models for Autonomous Driving
-* **arXiv ID**: [`2611.32964v1`](https://arxiv.org/abs/2611.32964v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Nhat Ha Nguyen, Sudipta Chowdhury, Lokesh Das
-* **Abstract**: Reliable driving VLMs must do more than answer correctly or localize relevant scene actors: they must determine whether the available visual evidence is sufficient to support an answer. Existing evaluations largely treat grounding and answerability as separate measurements, making it difficult to di...
+### 📄 BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles
+* **arXiv ID**: [`2611.33151v1`](https://arxiv.org/abs/2611.33151v1) | **Categories**: `cs.CV, cs.LG`
+* **Authors**: Yuwei Yang, Xiaoxiao Sun, Alejandro Lozano, Yuan-Sen Ting
+* **Abstract**: The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that...
 
 
-### 📄 FedTumor-IoMT: Federated Learning-Aided Brain Tumor Diagnosis on Resource-Constrained Edge IoMT Devices
-* **arXiv ID**: [`2611.32952v1`](https://arxiv.org/abs/2611.32952v1) | **Categories**: `cs.CV`
-* **Authors**: Pranshu Jena, Prajnyajit Mohanty, Umesh C. Pati
-* **Abstract**: Joint brain tumor segmentation and classification models are computationally intensive, limiting their training on resource-constrained edge platforms and restricting privacy-preserving Federated Learning FL in the Internet of Medical Things IoMT. Existing approaches either perform both tasks on GPU...
+### 📄 One Take, Many Cameras: Audio-Grounded Shot Synthesis for Dialogue Re-Cinematography
+* **arXiv ID**: [`2611.33147v1`](https://arxiv.org/abs/2611.33147v1) | **Categories**: `cs.CV`
+* **Authors**: Anthony Chen, Naomi Ken Korem, Matan Ben-Yosef, Tavi Halperin
+* **Abstract**: Creating a dialogue scene typically requires cutting between multiple views (e.g., close-ups, medium shots, and over-the-shoulder shots) of the actors. Yet capturing such coverage is costly and in many settings unavailable. We study dialogue re-cinematography: synthesizing additional shots from a si...
 
 
 
