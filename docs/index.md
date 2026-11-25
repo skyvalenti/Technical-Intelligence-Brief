@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-24 17:05 UTC`  
+> **Generated Timestamp**: `2026-11-25 04:48 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action
-* **arXiv ID**: [`2611.31240v1`](https://arxiv.org/abs/2611.31240v1) | **Categories**: `cs.CV, cs.LG, cs.RO`
-* **Authors**: Seongchan Kim, Soowon Son, Sangoh Kim, Hyunah Ko
-* **Abstract**: Reasoning vision-language-action (VLA) models for autonomous driving use chain-of-thought (CoT) reasoning to guide action generation, but incur substantial memory and computational costs. We study structured pruning for these models, focusing on preserving both scene understanding and trajectory pre...
+### 📄 Teaching Time Without Losing General Retrieval: Adapting Multimodal Embeddings for Time-Sensitive Video Retrieval
+* **arXiv ID**: [`2611.32971v1`](https://arxiv.org/abs/2611.32971v1) | **Categories**: `cs.CV`
+* **Authors**: Toya Oyama, Rainer Lienhart, Shin'ichi Satoh
+* **Abstract**: In text-to-video retrieval, MLLM-based embedding models do well when the text describes the scene (general retrieval), but poorly when it describes actions and their direction (time-sensitive retrieval). TARA, a pioneering work, fine-tunes such a model on text triplets with temporal hard negatives; ...
 
 
-### 📄 Lyris: Layout-Guided Long Video Generation with Persistent 3D Memory
-* **arXiv ID**: [`2611.31239v1`](https://arxiv.org/abs/2611.31239v1) | **Categories**: `cs.CV`
-* **Authors**: Chen Wang, Jiahui Huang, Riccardo de Lutio, Alex Trevithick
-* **Abstract**: Exploring a scene from as little as a single photo requires generating a long, camera-controlled walkthrough that extends far beyond what was captured, yet remains consistent upon return. Memory-based video generation methods preserve what they have already seen, but have no anchor beyond it, where ...
+### 📄 FocusAnchor: Zero-Shot Metric Depth by Anchoring a Depth Foundation Prior to Focus Cues
+* **arXiv ID**: [`2611.32970v1`](https://arxiv.org/abs/2611.32970v1) | **Categories**: `cs.CV`
+* **Authors**: Ashkan Ganj, Hang Su, Tian Guo
+* **Abstract**: Existing depth-from-focus methods can struggle with weak focus cues, new cameras, or fewer focal slices. We present FocusAnchor, a recurrent model that uses focus-volume lookups to refine metric depth and repeatedly aligns a relative depth prior from a frozen foundation model to the current depth es...
 
 
-### 📄 Modern Self-Supervised Vision Transformers Are Pareidolic
-* **arXiv ID**: [`2611.31238v1`](https://arxiv.org/abs/2611.31238v1) | **Categories**: `cs.CV`
-* **Authors**: Zihang Lin, Huaiyuan Qin, Liangli Zhen, Qing Guo
-* **Abstract**: In human perception, pareidolia is the tendency to perceive a meaningful pattern, such as a face, in a random or ambiguous stimulus.We find a similar phenomenon in modern self-supervised Vision Transformers (ViTs): on white noise, which contains neither objects nor spatial structure, a few direction...
+### 📄 VidForce: Predicting Force-Aware Articulation by Observing Humans
+* **arXiv ID**: [`2611.32967v1`](https://arxiv.org/abs/2611.32967v1) | **Categories**: `cs.CV, cs.RO`
+* **Authors**: Rafay Mohiuddin, Jiaqi Chen, Marc Pollefeys, Hermann Blum
+* **Abstract**: People can anticipate how an object moves and the effort an interaction may require by watching others. How can embodied agents acquire this understanding from video? Force measurements provide direct sensory supervision, but require specialized equipment and remain limited in quantity. We introduce...
 
 
-### 📄 Let Vision-Language Models Generate Images through Their Representations
-* **arXiv ID**: [`2611.31237v1`](https://arxiv.org/abs/2611.31237v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: JB Kim, Byungwoo Jeon, Kyungmin Lee, Hyeonmo Kang
-* **Abstract**: Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this...
+### 📄 Benchmarking Evidence Sufficiency in Vision-Language Models for Autonomous Driving
+* **arXiv ID**: [`2611.32964v1`](https://arxiv.org/abs/2611.32964v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Nhat Ha Nguyen, Sudipta Chowdhury, Lokesh Das
+* **Abstract**: Reliable driving VLMs must do more than answer correctly or localize relevant scene actors: they must determine whether the available visual evidence is sufficient to support an answer. Existing evaluations largely treat grounding and answerability as separate measurements, making it difficult to di...
 
 
-### 📄 TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming
-* **arXiv ID**: [`2611.31233v1`](https://arxiv.org/abs/2611.31233v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Hani Alomari, Md Atabuzzaman, Chris Thomas
-* **Abstract**: CLIP-style dual encoders map images and text through two separate towers into a shared embedding space, where the two modalities occupy distinct regions separated by a modality gap. Retrieval fails when wrong matches, or hard negatives, outrank the correct one, and the gap is the usual suspect. Yet ...
+### 📄 FedTumor-IoMT: Federated Learning-Aided Brain Tumor Diagnosis on Resource-Constrained Edge IoMT Devices
+* **arXiv ID**: [`2611.32952v1`](https://arxiv.org/abs/2611.32952v1) | **Categories**: `cs.CV`
+* **Authors**: Pranshu Jena, Prajnyajit Mohanty, Umesh C. Pati
+* **Abstract**: Joint brain tumor segmentation and classification models are computationally intensive, limiting their training on resource-constrained edge platforms and restricting privacy-preserving Federated Learning FL in the Internet of Medical Things IoMT. Existing approaches either perform both tasks on GPU...
 
 
 
