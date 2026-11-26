@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-25 16:54 UTC",
+  "generated_at": "2026-11-26 03:58 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,91 +229,88 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.33158v1",
-      "title": "OmniAct: One Policy, One Million Embodiments",
+      "arxiv_id": "2611.34292v1",
+      "title": "WebVibe: Multimodal Interactive Website Generation via Reverse Synthesis and Visual Self-Distillation",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "Although multimodal large language models translate single screenshots into static HTML, generating interactive functional websites from design specifications still struggles with multi-page routing and stateful widget transitions. Examining existing training pipelines reveals two bottlenecks: (1) i...",
+      "authors": [
+        "Tianxiang Jiang",
+        "Sheng Xia",
+        "Yilin Long",
+        "Kanghui Tian"
+      ],
+      "url": "https://arxiv.org/abs/2611.34292v1",
+      "published_date": "2026-11-25"
+    },
+    {
+      "arxiv_id": "2611.34290v1",
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference up...",
+      "authors": [
+        "Modi Jin",
+        "Xuying Zhang",
+        "Yijing Guo",
+        "Haoran Li"
+      ],
+      "url": "https://arxiv.org/abs/2611.34290v1",
+      "published_date": "2026-11-25"
+    },
+    {
+      "arxiv_id": "2611.34288v1",
+      "title": "Rehearse in 3D, Render in 2D: Physically Consistent and Editable Robot World Models",
       "categories": [
         "cs.RO",
-        "cs.AI",
-        "cs.CV",
-        "cs.LG"
+        "cs.CV"
       ],
-      "summary": "A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not necessarily capture how dif...",
+      "summary": "Embodied world models aim to predict future interactions that are both visually realistic and physically consistent. Yet explicit 3D motion prediction alone does not guarantee that object structure and contact relationships are preserved. Beyond motion prediction, 3D representations provide an expli...",
       "authors": [
-        "Xiang Fan",
-        "Yuheng Wang",
-        "Jiayuan Yan",
-        "Bohan Fang"
+        "Guangyu Liu",
+        "Hanzhang Wang",
+        "Huijia Zhang",
+        "Hanbei Zhan"
       ],
-      "url": "https://arxiv.org/abs/2611.33158v1",
-      "published_date": "2026-11-24"
+      "url": "https://arxiv.org/abs/2611.34288v1",
+      "published_date": "2026-11-25"
     },
     {
-      "arxiv_id": "2611.33157v1",
-      "title": "PointX: Multi-View Consistent Intrinsics by Querying Surface Points",
+      "arxiv_id": "2611.34284v1",
+      "title": "ReMeDi: Single-Image PBR Material Estimation via Reparameterization between Metal and Dielectric Hypotheses",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "summary": "Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metalness, which we call t...",
+      "authors": [
+        "Fan Fei",
+        "Xin Huang",
+        "Yixin Zhu",
+        "Jiawei Lu"
+      ],
+      "url": "https://arxiv.org/abs/2611.34284v1",
+      "published_date": "2026-11-25"
+    },
+    {
+      "arxiv_id": "2611.34279v1",
+      "title": "Semantic State Reading for Joint Image-Semantic Diffusion Transformers",
       "categories": [
         "cs.CV"
       ],
-      "summary": "The appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. Recovering these intrinsics from images is ambiguous, and methods that predict them per pixel give the same surface point a differ...",
+      "summary": "Pretrained visual representations improve diffusion-transformer training, yet exploiting both global context and local spatial structure requires deciding which semantic states to model and how to access them. We introduce Semantic State Reading (SSR), which jointly denoises image latents, a global ...",
       "authors": [
-        "Miguel Farinha",
-        "Sam Sartor",
-        "Iliyan Georgiev",
-        "Giuseppe Vecchio"
+        "Guanxi Lai",
+        "Zixuan Li",
+        "Zhiwei Li",
+        "Qi Li"
       ],
-      "url": "https://arxiv.org/abs/2611.33157v1",
-      "published_date": "2026-11-24"
-    },
-    {
-      "arxiv_id": "2611.33153v1",
-      "title": "DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning",
-      "categories": [
-        "cs.CV",
-        "cs.CL",
-        "cs.MM",
-        "cs.SD"
-      ],
-      "summary": "We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks ...",
-      "authors": [
-        "Binfei Ji",
-        "Zhiwen Cao",
-        "Anqi Yang",
-        "Prem Seetharaman"
-      ],
-      "url": "https://arxiv.org/abs/2611.33153v1",
-      "published_date": "2026-11-24"
-    },
-    {
-      "arxiv_id": "2611.33151v1",
-      "title": "BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "summary": "The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that...",
-      "authors": [
-        "Yuwei Yang",
-        "Xiaoxiao Sun",
-        "Alejandro Lozano",
-        "Yuan-Sen Ting"
-      ],
-      "url": "https://arxiv.org/abs/2611.33151v1",
-      "published_date": "2026-11-24"
-    },
-    {
-      "arxiv_id": "2611.33147v1",
-      "title": "One Take, Many Cameras: Audio-Grounded Shot Synthesis for Dialogue Re-Cinematography",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Creating a dialogue scene typically requires cutting between multiple views (e.g., close-ups, medium shots, and over-the-shoulder shots) of the actors. Yet capturing such coverage is costly and in many settings unavailable. We study dialogue re-cinematography: synthesizing additional shots from a si...",
-      "authors": [
-        "Anthony Chen",
-        "Naomi Ken Korem",
-        "Matan Ben-Yosef",
-        "Tavi Halperin"
-      ],
-      "url": "https://arxiv.org/abs/2611.33147v1",
-      "published_date": "2026-11-24"
+      "url": "https://arxiv.org/abs/2611.34279v1",
+      "published_date": "2026-11-25"
     }
   ]
 }

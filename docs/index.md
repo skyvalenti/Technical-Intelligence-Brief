@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-25 16:54 UTC`  
+> **Generated Timestamp**: `2026-11-26 03:58 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 OmniAct: One Policy, One Million Embodiments
-* **arXiv ID**: [`2611.33158v1`](https://arxiv.org/abs/2611.33158v1) | **Categories**: `cs.RO, cs.AI, cs.CV, cs.LG`
-* **Authors**: Xiang Fan, Yuheng Wang, Jiayuan Yan, Bohan Fang
-* **Abstract**: A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not necessarily capture how dif...
+### 📄 WebVibe: Multimodal Interactive Website Generation via Reverse Synthesis and Visual Self-Distillation
+* **arXiv ID**: [`2611.34292v1`](https://arxiv.org/abs/2611.34292v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Tianxiang Jiang, Sheng Xia, Yilin Long, Kanghui Tian
+* **Abstract**: Although multimodal large language models translate single screenshots into static HTML, generating interactive functional websites from design specifications still struggles with multi-page routing and stateful widget transitions. Examining existing training pipelines reveals two bottlenecks: (1) i...
 
 
-### 📄 PointX: Multi-View Consistent Intrinsics by Querying Surface Points
-* **arXiv ID**: [`2611.33157v1`](https://arxiv.org/abs/2611.33157v1) | **Categories**: `cs.CV`
-* **Authors**: Miguel Farinha, Sam Sartor, Iliyan Georgiev, Giuseppe Vecchio
-* **Abstract**: The appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. Recovering these intrinsics from images is ambiguous, and methods that predict them per pixel give the same surface point a differ...
+### 📄 StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation
+* **arXiv ID**: [`2611.34290v1`](https://arxiv.org/abs/2611.34290v1) | **Categories**: `cs.CV, cs.AI`
+* **Authors**: Modi Jin, Xuying Zhang, Yijing Guo, Haoran Li
+* **Abstract**: Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference up...
 
 
-### 📄 DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning
-* **arXiv ID**: [`2611.33153v1`](https://arxiv.org/abs/2611.33153v1) | **Categories**: `cs.CV, cs.CL, cs.MM, cs.SD`
-* **Authors**: Binfei Ji, Zhiwen Cao, Anqi Yang, Prem Seetharaman
-* **Abstract**: We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks ...
+### 📄 Rehearse in 3D, Render in 2D: Physically Consistent and Editable Robot World Models
+* **arXiv ID**: [`2611.34288v1`](https://arxiv.org/abs/2611.34288v1) | **Categories**: `cs.RO, cs.CV`
+* **Authors**: Guangyu Liu, Hanzhang Wang, Huijia Zhang, Hanbei Zhan
+* **Abstract**: Embodied world models aim to predict future interactions that are both visually realistic and physically consistent. Yet explicit 3D motion prediction alone does not guarantee that object structure and contact relationships are preserved. Beyond motion prediction, 3D representations provide an expli...
 
 
-### 📄 BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles
-* **arXiv ID**: [`2611.33151v1`](https://arxiv.org/abs/2611.33151v1) | **Categories**: `cs.CV, cs.LG`
-* **Authors**: Yuwei Yang, Xiaoxiao Sun, Alejandro Lozano, Yuan-Sen Ting
-* **Abstract**: The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that...
+### 📄 ReMeDi: Single-Image PBR Material Estimation via Reparameterization between Metal and Dielectric Hypotheses
+* **arXiv ID**: [`2611.34284v1`](https://arxiv.org/abs/2611.34284v1) | **Categories**: `cs.CV, cs.GR`
+* **Authors**: Fan Fei, Xin Huang, Yixin Zhu, Jiawei Lu
+* **Abstract**: Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metalness, which we call t...
 
 
-### 📄 One Take, Many Cameras: Audio-Grounded Shot Synthesis for Dialogue Re-Cinematography
-* **arXiv ID**: [`2611.33147v1`](https://arxiv.org/abs/2611.33147v1) | **Categories**: `cs.CV`
-* **Authors**: Anthony Chen, Naomi Ken Korem, Matan Ben-Yosef, Tavi Halperin
-* **Abstract**: Creating a dialogue scene typically requires cutting between multiple views (e.g., close-ups, medium shots, and over-the-shoulder shots) of the actors. Yet capturing such coverage is costly and in many settings unavailable. We study dialogue re-cinematography: synthesizing additional shots from a si...
+### 📄 Semantic State Reading for Joint Image-Semantic Diffusion Transformers
+* **arXiv ID**: [`2611.34279v1`](https://arxiv.org/abs/2611.34279v1) | **Categories**: `cs.CV`
+* **Authors**: Guanxi Lai, Zixuan Li, Zhiwei Li, Qi Li
+* **Abstract**: Pretrained visual representations improve diffusion-transformer training, yet exploiting both global context and local spatial structure requires deciding which semantic states to model and how to access them. We introduce Semantic State Reading (SSR), which jointly denoises image latents, a global ...
 
 
 
