@@ -23,7 +23,7 @@ An automated, schema-validated intelligence ingestion engine tracking 3D platfor
 
 > **Dispatch ID**: `SKY-TIB-2026-08-23-0942Z`  
 > **Sector**: `3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES`  
-> **Generated Timestamp**: `2026-11-26 03:58 UTC`  
+> **Generated Timestamp**: `2026-11-26 16:31 UTC`  
 > **Validation Status**: `Active / Nominal Baseline`
 
 ---
@@ -100,34 +100,34 @@ MoonRay ASWF v1.0 MaterialX deployment integrates with ERC-721/ERC-6551 3D asset
 ## 5. Academic Research & Open Lineages
 
 
-### 📄 WebVibe: Multimodal Interactive Website Generation via Reverse Synthesis and Visual Self-Distillation
-* **arXiv ID**: [`2611.34292v1`](https://arxiv.org/abs/2611.34292v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Tianxiang Jiang, Sheng Xia, Yilin Long, Kanghui Tian
-* **Abstract**: Although multimodal large language models translate single screenshots into static HTML, generating interactive functional websites from design specifications still struggles with multi-page routing and stateful widget transitions. Examining existing training pipelines reveals two bottlenecks: (1) i...
+### 📄 AnyCam: Anything Can Represent Camera for Video Generation
+* **arXiv ID**: [`2611.34944v1`](https://arxiv.org/abs/2611.34944v1) | **Categories**: `cs.CV`
+* **Authors**: Weijie Lyu, Zhixin Shu, Yuntian Ke, Ming-Hsuan Yang
+* **Abstract**: Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult. Existing methods condition either on camera parameters, which are scale-ambiguou...
 
 
-### 📄 StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation
-* **arXiv ID**: [`2611.34290v1`](https://arxiv.org/abs/2611.34290v1) | **Categories**: `cs.CV, cs.AI`
-* **Authors**: Modi Jin, Xuying Zhang, Yijing Guo, Haoran Li
-* **Abstract**: Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference up...
+### 📄 Tracking Any Point with Agentic Visual Reasoning
+* **arXiv ID**: [`2611.34943v1`](https://arxiv.org/abs/2611.34943v1) | **Categories**: `cs.CV`
+* **Authors**: Xuweiyi Chen, Jin Yao, Linzhan Mou, Lei Gong
+* **Abstract**: A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of th...
 
 
-### 📄 Rehearse in 3D, Render in 2D: Physically Consistent and Editable Robot World Models
-* **arXiv ID**: [`2611.34288v1`](https://arxiv.org/abs/2611.34288v1) | **Categories**: `cs.RO, cs.CV`
-* **Authors**: Guangyu Liu, Hanzhang Wang, Huijia Zhang, Hanbei Zhan
-* **Abstract**: Embodied world models aim to predict future interactions that are both visually realistic and physically consistent. Yet explicit 3D motion prediction alone does not guarantee that object structure and contact relationships are preserved. Beyond motion prediction, 3D representations provide an expli...
+### 📄 Improving and Expanding Video Editing Capabilities Without Videos
+* **arXiv ID**: [`2611.34941v1`](https://arxiv.org/abs/2611.34941v1) | **Categories**: `cs.CV`
+* **Authors**: Ji Xie, Yanhao Jia, Xiangpeng Yang, Martin Q. Ma
+* **Abstract**: Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We intr...
 
 
-### 📄 ReMeDi: Single-Image PBR Material Estimation via Reparameterization between Metal and Dielectric Hypotheses
-* **arXiv ID**: [`2611.34284v1`](https://arxiv.org/abs/2611.34284v1) | **Categories**: `cs.CV, cs.GR`
-* **Authors**: Fan Fei, Xin Huang, Yixin Zhu, Jiawei Lu
-* **Abstract**: Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metalness, which we call t...
+### 📄 LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies
+* **arXiv ID**: [`2611.34940v1`](https://arxiv.org/abs/2611.34940v1) | **Categories**: `cs.CV`
+* **Authors**: Yipengjing Sun, Chenyang Wang, Boyao Zhou, Jiapeng Zhu
+* **Abstract**: We present LuxAvatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait. To achieve both 3D controllability and complex facial light transport, we factorize avatar synthesis into an animatable 3D intrinsic Gaussian proxy and a causal autoregressive ne...
 
 
-### 📄 Semantic State Reading for Joint Image-Semantic Diffusion Transformers
-* **arXiv ID**: [`2611.34279v1`](https://arxiv.org/abs/2611.34279v1) | **Categories**: `cs.CV`
-* **Authors**: Guanxi Lai, Zixuan Li, Zhiwei Li, Qi Li
-* **Abstract**: Pretrained visual representations improve diffusion-transformer training, yet exploiting both global context and local spatial structure requires deciding which semantic states to model and how to access them. We introduce Semantic State Reading (SSR), which jointly denoises image latents, a global ...
+### 📄 A Mesh for Every Moment
+* **arXiv ID**: [`2611.34939v1`](https://arxiv.org/abs/2611.34939v1) | **Categories**: `cs.CV, cs.GR`
+* **Authors**: Roy Or-El, Jeong Joon Park, Ira Kemelmacher-Shlizerman
+* **Abstract**: We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented...
 
 
 

@@ -3,7 +3,7 @@
   "cadence": "Daily Intelligence Run (3x UTC)",
   "status": "Active / Nominal Baseline",
   "sector": "3D PLATFORMS / SCIENTIFIC COMPUTING / GRAPHICS PIPELINES",
-  "generated_at": "2026-11-26 03:58 UTC",
+  "generated_at": "2026-11-26 16:31 UTC",
   "metrics": {
     "sev_1": {
       "level": "SEV-1: NOMINAL",
@@ -229,87 +229,83 @@
   ],
   "arxiv_research": [
     {
-      "arxiv_id": "2611.34292v1",
-      "title": "WebVibe: Multimodal Interactive Website Generation via Reverse Synthesis and Visual Self-Distillation",
+      "arxiv_id": "2611.34944v1",
+      "title": "AnyCam: Anything Can Represent Camera for Video Generation",
       "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Although multimodal large language models translate single screenshots into static HTML, generating interactive functional websites from design specifications still struggles with multi-page routing and stateful widget transitions. Examining existing training pipelines reveals two bottlenecks: (1) i...",
-      "authors": [
-        "Tianxiang Jiang",
-        "Sheng Xia",
-        "Yilin Long",
-        "Kanghui Tian"
-      ],
-      "url": "https://arxiv.org/abs/2611.34292v1",
-      "published_date": "2026-11-25"
-    },
-    {
-      "arxiv_id": "2611.34290v1",
-      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference up...",
-      "authors": [
-        "Modi Jin",
-        "Xuying Zhang",
-        "Yijing Guo",
-        "Haoran Li"
-      ],
-      "url": "https://arxiv.org/abs/2611.34290v1",
-      "published_date": "2026-11-25"
-    },
-    {
-      "arxiv_id": "2611.34288v1",
-      "title": "Rehearse in 3D, Render in 2D: Physically Consistent and Editable Robot World Models",
-      "categories": [
-        "cs.RO",
         "cs.CV"
       ],
-      "summary": "Embodied world models aim to predict future interactions that are both visually realistic and physically consistent. Yet explicit 3D motion prediction alone does not guarantee that object structure and contact relationships are preserved. Beyond motion prediction, 3D representations provide an expli...",
+      "summary": "Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult. Existing methods condition either on camera parameters, which are scale-ambiguou...",
       "authors": [
-        "Guangyu Liu",
-        "Hanzhang Wang",
-        "Huijia Zhang",
-        "Hanbei Zhan"
+        "Weijie Lyu",
+        "Zhixin Shu",
+        "Yuntian Ke",
+        "Ming-Hsuan Yang"
       ],
-      "url": "https://arxiv.org/abs/2611.34288v1",
+      "url": "https://arxiv.org/abs/2611.34944v1",
       "published_date": "2026-11-25"
     },
     {
-      "arxiv_id": "2611.34284v1",
-      "title": "ReMeDi: Single-Image PBR Material Estimation via Reparameterization between Metal and Dielectric Hypotheses",
+      "arxiv_id": "2611.34943v1",
+      "title": "Tracking Any Point with Agentic Visual Reasoning",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of th...",
+      "authors": [
+        "Xuweiyi Chen",
+        "Jin Yao",
+        "Linzhan Mou",
+        "Lei Gong"
+      ],
+      "url": "https://arxiv.org/abs/2611.34943v1",
+      "published_date": "2026-11-25"
+    },
+    {
+      "arxiv_id": "2611.34941v1",
+      "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We intr...",
+      "authors": [
+        "Ji Xie",
+        "Yanhao Jia",
+        "Xiangpeng Yang",
+        "Martin Q. Ma"
+      ],
+      "url": "https://arxiv.org/abs/2611.34941v1",
+      "published_date": "2026-11-25"
+    },
+    {
+      "arxiv_id": "2611.34940v1",
+      "title": "LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "We present LuxAvatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait. To achieve both 3D controllability and complex facial light transport, we factorize avatar synthesis into an animatable 3D intrinsic Gaussian proxy and a causal autoregressive ne...",
+      "authors": [
+        "Yipengjing Sun",
+        "Chenyang Wang",
+        "Boyao Zhou",
+        "Jiapeng Zhu"
+      ],
+      "url": "https://arxiv.org/abs/2611.34940v1",
+      "published_date": "2026-11-25"
+    },
+    {
+      "arxiv_id": "2611.34939v1",
+      "title": "A Mesh for Every Moment",
       "categories": [
         "cs.CV",
         "cs.GR"
       ],
-      "summary": "Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metalness, which we call t...",
+      "summary": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented...",
       "authors": [
-        "Fan Fei",
-        "Xin Huang",
-        "Yixin Zhu",
-        "Jiawei Lu"
+        "Roy Or-El",
+        "Jeong Joon Park",
+        "Ira Kemelmacher-Shlizerman"
       ],
-      "url": "https://arxiv.org/abs/2611.34284v1",
-      "published_date": "2026-11-25"
-    },
-    {
-      "arxiv_id": "2611.34279v1",
-      "title": "Semantic State Reading for Joint Image-Semantic Diffusion Transformers",
-      "categories": [
-        "cs.CV"
-      ],
-      "summary": "Pretrained visual representations improve diffusion-transformer training, yet exploiting both global context and local spatial structure requires deciding which semantic states to model and how to access them. We introduce Semantic State Reading (SSR), which jointly denoises image latents, a global ...",
-      "authors": [
-        "Guanxi Lai",
-        "Zixuan Li",
-        "Zhiwei Li",
-        "Qi Li"
-      ],
-      "url": "https://arxiv.org/abs/2611.34279v1",
+      "url": "https://arxiv.org/abs/2611.34939v1",
       "published_date": "2026-11-25"
     }
   ]
